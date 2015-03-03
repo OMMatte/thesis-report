@@ -5,18 +5,17 @@
 \usepackage[latin1]{inputenc}
 \usepackage[swedish,english]{babel}
 \usepackage{modifications}
-\title{Lorem ipsum dolor sit amet, sed diam nonummy nibh eui
-       mod tincidunt ut laoreet dol}
+\title{Agile Development in a Solo Environment}
 
 \subtitle{Duis autem vel eum iruire dolor in hendrerit in
           vulputate velit esse molestie consequat, vel illum
           dolore eu feugiat null}
 \foreigntitle{Lorem ipsum dolor sit amet, sed diam nonummy nibh eui
               mod tincidunt ut laoreet dol}
-\author{Namn Namnet}
-\date{November 2003}
-\blurb{Master's Thesis at NADA\\Supervisor: Tjoho\\Examiner: Tjohej}
-\trita{TRITA xxx yyyy-nn}
+\author{Mathias Lindblom}
+\date{June 2015}
+\blurb{Master's Thesis at KTH Royal Institute of Technology\\Computer Science and Communication (CSC)\\Supervisor: Sten Andersson\\Examiner: Olle Bälter}
+ \trita{}
 \begin{document}
 \frontmatter
 \pagestyle{empty}
@@ -54,193 +53,137 @@ inceptos hymenaeos.
 \tableofcontents*
 \mainmatter
 \pagestyle{newchap}
+
+
 \chapter{Introduction}
+This chapter will initially go through the problem statement and goals of the report. It will also show the motivation and estimated value of the entire report. The last section will outline the structure of the rest of the report.
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris
-purus. Fusce tempor. Nulla facilisi. Sed at turpis. Phasellus eu
-ipsum. Nam porttitor laoreet nulla. Phasellus massa massa, auctor
-rutrum, vehicula ut, porttitor a, massa. Pellentesque fringilla. Duis
-nibh risus, venenatis ac, tempor sed, vestibulum at, tellus. Class
-aptent taciti sociosqu ad litora torquent per conubia nostra, per
-inceptos hymenaeos. Aliquam ligula lectus, volutpat in, rutrum sit
-amet, ultrices at, elit. Aenean consequat facilisis sapien. Nulla
-auctor, wisi vel semper ornare, augue augue facilisis turpis, a
-laoreet quam libero quis erat. Vestibulum sagittis. Duis blandit
-laoreet tortor. Nulla mattis. Morbi eget turpis. Praesent mi. Nunc
-enim leo, blandit ut, sagittis at, pharetra sit amet, dui. Praesent
-porta tortor a ligula rutrum dapibus.
+\section{Problem Statement}
+\noindent
+\newline
+The hypothesis being tested is:
 
-Integer pellentesque, orci consequat suscipit pharetra, sem eros
-tempor orci, non ultricies massa justo vitae nunc. Nunc sagittis.
-Vestibulum egestas quam at eros. Curabitur consectetuer, magna vel
-gravida varius, tortor augue congue tellus, quis gravida nulla risus
-nec diam. Aliquam commodo dapibus risus. Vestibulum lacinia lectus sed
-nisl. Sed libero purus, tincidunt non, sagittis nec, sodales quis,
-nulla. Sed tortor tortor, viverra et, hendrerit eu, accumsan
-sollicitudin, mi. Suspendisse potenti. Maecenas non wisi sed urna
-mollis dignissim. Aenean at ligula. Vestibulum porta. Donec mauris.
-Donec scelerisque rutrum elit. Aenean ultrices, eros vel sollicitudin
-semper, dui lacus hendrerit metus, id ultricies arcu arcu id mi. In
-eget sapien sed lorem cursus eleifend.
+\begin{itemize}
+\item There are agile development methods and strategies suitable for small development groups consisting of as little as one person.
+\end{itemize}
 
-\part{Important Results}
+The question regarding how this hypothesis can be tested is quite hard. It is obvious that agile development strategies can be used in small groups or when working solo, hence the word \underline{\emph{suitable}}. However the word is ambiguous but it also should be given vagueness of the evaluation methods. It is important to realize that what is being evaluated is very complicated for explained reasons and to test the hypothesis one would have to conduct a rather large study, preferably both quantitative and qualitative, over a long period of time. In reality, the results of this thesis will give indications rather than answers and could be used in a research of larger scope that justifies the topic.
 
-\chapter{First One}
+\section{Goals}
+The main goal of the thesis is as follows:
 
-Aliquam et ante. Vivamus ultricies, neque eget iaculis interdum, lacus
-quam hendrerit sapien, vel posuere justo nulla vitae arcu. Morbi
-magna. Aliquam erat volutpat. Aenean mattis consequat nibh. Donec
-lobortis sapien a enim. Cras mattis ultricies mi. Quisque venenatis.
-Phasellus risus justo, vulputate non, tristique in, tristique vel,
-neque. Phasellus pretium, dui nec dapibus laoreet, ligula enim laoreet
-eros, tempus interdum massa turpis quis dolor. Etiam ultricies
-condimentum neque. Maecenas pellentesque. Duis tortor. Aliquam ac
-dolor. Vestibulum nisl. Nunc facilisis tincidunt mi. Morbi feugiat
-velit vitae velit. Suspendisse potenti. Maecenas eget ante. Maecenas
-blandit, urna at varius lacinia, lorem purus ullamcorper risus, non
-pretium arcu libero at odio.
+\begin{itemize}
+\item Produce an agile development plan or agile strategies suitable for a single developer up to small teams consisting of only a few people.
+\end{itemize}
+\noindent
+Secondary goals:
 
-\section{Preliminaries}
+\begin{itemize}
+\item Theoretical comparison of popular agile development methods such as for example Scrum, XP, Kanban etc. 
+\item Overall clarification of agile terms and thinking/reasoning. For example differentiate Agile from Lean.
+\end{itemize}
 
-Vestibulum dolor dolor, interdum eu, iaculis scelerisque, auctor at,
-mi. Nullam ut erat quis sem bibendum dignissim. Vestibulum volutpat
-nisl in tortor. Etiam pretium nulla et elit. Integer tortor. Ut metus
-ligula, egestas non, ornare vel, bibendum eu, urna. Pellentesque
-rutrum dui vel orci. Aliquam lacus lacus, varius a, sodales vitae,
-egestas a, purus. Integer varius venenatis odio. Pellentesque dui
-mauris, lacinia in, placerat lobortis, tempor ac, lectus.
+\section{Motivation \& Value}
+Agile software development can be seen as a trend in today's computer industry and the actual concept of the method changes every year, which is quite appropriate given what the methodology advocates. The method mainly targets advanced systems and encourage continuous improvement and rapid changes to new customer demands. The development process revolves around having collaboration between self-organizing and cross-functional teams with focus on communication together with a iterative development process. However the information available regarding how-to practically establish an agile development process in small companies with small projects is limited. The available literature usually give hints on where to start but focuses heavily on the full blown methods and leaves it up to the reader to decide what is practically possible for their limited sized development group or company.
 
-\subsection{Remarks}
+\section{Thesis Report Outline}
 
-Sed lobortis neque non mauris. Maecenas rhoncus tempor justo. Nunc vel
-diam at dolor luctus tincidunt. Ut egestas. Aliquam eu turpis eu nisl
-ultricies sollicitudin. Donec erat odio, fermentum id, malesuada id,
-viverra vitae, lorem. Morbi scelerisque sagittis enim. Donec non ante
-sed neque dictum consectetuer. Etiam bibendum odio quis est. Quisque
-mollis magna et odio. Nunc nulla. Suspendisse magna felis, tincidunt
-in, blandit non, tempus vel, orci.
+\chapter{Background}
 
-\subsection{Definitions}
 
-Sed laoreet tellus in massa. Fusce egestas dapibus wisi. Pellentesque
-sit amet nulla. Donec dignissim rutrum urna. Integer et mi at urna
-viverra vestibulum. Nullam justo tortor, vulputate nec, porta non,
-consequat ac, lectus. Sed ligula. Nullam tristique. Nullam pulvinar.
-Morbi at elit et lacus tristique nonummy. Vivamus nunc ante, imperdiet
-at, luctus non, aliquam a, neque. In interdum sapien et wisi.
-Curabitur ipsum justo, consequat eget, viverra eu, porta vel, lacus.
-Suspendisse potenti. Proin wisi. In tristique neque at ipsum.
-Phasellus ac justo eu nibh faucibus lobortis. Vestibulum lorem.
+\section{The Development of Development Methodologies}
 
-Duis blandit est id diam. Sed aliquet semper arcu. Curabitur sed eros
-ut neque eleifend sagittis. Cras lacinia, nisl a sagittis scelerisque,
-nibh risus varius pede, ac interdum lacus lorem quis quam. Mauris sit
-amet orci a ligula porttitor nonummy. Aliquam malesuada turpis at diam
-semper vestibulum. Phasellus ullamcorper. Aenean ultrices lacus a diam
-lobortis posuere. Duis porttitor euismod turpis. Ut sem nulla, porta
-vel, lacinia eget, rutrum non, justo. Phasellus risus sem, placerat
-at, sodales ac, viverra vitae, magna. Fusce non magna. Mauris varius
-vestibulum eros. Nullam nec quam in tortor ultrices varius. Nulla
-tempus lectus ut tortor.
 
-Ut vestibulum diam in lacus. Aenean vestibulum bibendum dolor.
-Praesent in wisi. Aenean ornare faucibus orci. Donec mattis magna et
-dui. Nullam vestibulum lobortis nibh. Etiam ultrices lorem nec est.
-Duis ut nisl. Vivamus risus. Pellentesque habitant morbi tristique
-senectus et netus et malesuada fames ac turpis egestas. Suspendisse
-sagittis, dolor eget ullamcorper elementum, sem erat sagittis dolor,
-sit amet tincidunt quam neque consectetuer quam. Maecenas at quam.
-Etiam gravida. Sed nec enim. Fusce pulvinar. In pede metus, lobortis
-a, ullamcorper quis, commodo vitae, turpis. Maecenas sed mi sit amet
-odio suscipit ornare. Phasellus pede arcu, elementum sed, elementum
-eu, viverra et, ligula. Aliquam metus nisl, convallis et, ultrices
-vel, consequat quis, felis. Aenean gravida euismod urna.
+\section{Agile Development}
 
-\section{The Main Theorem}
+\subsection{The Agile Manifesto \& Principles}
+The Agile Alliance is an organization formed by a group of computer industry experts that in 2001. They decided to come together in order to form general development values in order to improve the software development process for companies around the world \cite{key1} \cite{key2}. The result was The Agile Manifesto that states the following:
 
-Aliquam quis nibh quis justo elementum viverra. Vestibulum ipsum.
-Integer sit amet urna id lorem condimentum pretium. Nam adipiscing
-lobortis purus. Donec at libero id augue interdum vulputate. Curabitur
-imperdiet suscipit metus. Curabitur ac quam sed lacus accumsan
-posuere. Quisque pharetra mi sit amet enim. Curabitur quis elit. Lorem
-ipsum dolor sit amet, consectetuer adipiscing elit. Sed ultricies
-aliquet lorem. Proin posuere tincidunt diam. Donec quis orci non leo
-elementum nonummy. Donec urna lectus, fringilla at, tempus id, auctor
-a, wisi. Pellentesque habitant morbi tristique senectus et netus et
-malesuada fames ac turpis egestas. Suspendisse blandit. Nam wisi.
-Phasellus egestas lacus ut lorem. Suspendisse sapien. Fusce non dolor
-ac odio tempus placerat.
+\begin{itemize}
+\item \textbf{Individuals and interactions} over processes and tools.
+\item \textbf{Working software} over comprehensive documentation.
+\item \textbf{Customer collaboration} over contract negotiation.
+\item \textbf{Responding to change} over following a plan.
+\end{itemize}
 
-\subsection{Problem Statement}
+Using the values stated by The Agile Manifesto, 12 principles were created that act as the characteristics for agile practices \cite{key1}. These are the principles:
 
-Suspendisse id mauris a justo venenatis feugiat. Quisque volutpat,
-ligula et fermentum volutpat, lectus magna tincidunt urna, a dignissim
-augue sem eu ipsum. Aliquam vitae pede. Sed ullamcorper faucibus erat.
-Aenean vehicula augue at dui. Donec adipiscing aliquet ligula. Sed sed
-libero at enim ornare molestie. Suspendisse tristique sodales wisi. In
-sit amet orci. In hac habitasse platea dictumst. Cras pede. Ut elit.
+\begin{enumerate}
+\item Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+\item Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+\item Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+\item Business people and developers must work together daily throughout the project.
+\item Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+\item The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+\item Working software is the primary measure of progress.
+\item Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+\item Continuous attention to technical excellence and good design enhances agility.
+\item Simplicity--the art of maximizing the amount of work not done--is essential.
+\item The best architectures, requirements, and designs emerge from self-organizing teams.
+\item At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+\end{enumerate}
 
-Morbi eu augue. Praesent in dui. Pellentesque habitant morbi tristique
-senectus et netus et malesuada fames ac turpis egestas. Phasellus
-felis. Morbi eleifend sagittis quam. Mauris imperdiet purus vel arcu.
-Proin quis risus. Cum sociis natoque penatibus et magnis dis
-parturient montes, nascetur ridiculus mus. Mauris massa justo, iaculis
-nec, commodo suscipit, faucibus at, nunc. Phasellus libero risus,
-ultrices eu, congue eu, sollicitudin et, tortor. Integer ante turpis,
-malesuada vel, sagittis nec, porta ut, dolor. Integer ultricies
-blandit odio. Praesent et leo sit amet ipsum nonummy sodales.
+The group that wrote The Agile Manifesto consisted of the following people: Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Stewier, Jeff Sutherland, Dave Thomas \cite{key1} \cite{key2}.
 
-\subsection{The Proof}
+\subsection{Misconceptions}
 
-Suspendisse aliquam fringilla tortor. Nullam lacinia rutrum orci. Cras
-pellentesque iaculis ligula. Fusce elit enim, nonummy ut, fermentum
-sed, nonummy a, nunc. Suspendisse potenti. Nunc tortor dolor, eleifend
-non, aliquam sit amet, vestibulum id, erat. Curabitur imperdiet.
-Quisque in velit. Etiam a urna sed turpis scelerisque tempor. Praesent
-in dolor eget massa congue aliquet. Praesent magna lacus, dictum a,
-accumsan a, sollicitudin vel, nibh. Phasellus accumsan porta tortor.
-Curabitur mauris. Quisque ut wisi. Sed aliquet molestie mi. Quisque ut
-magna. Vivamus rhoncus urna in libero.
+\section{Agile vs Waterfall}
 
-Nullam tristique tempus neque. Nunc ac tortor lobortis felis nonummy
-lacinia. Pellentesque vestibulum facilisis quam. Aliquam aliquam,
-lorem eget elementum euismod, urna dui rutrum libero, a imperdiet erat
-augue ut ipsum. Morbi gravida turpis ut sapien. Aliquam ante sapien,
-ultricies at, vulputate non, ullamcorper quis, dolor. Quisque velit
-turpis, consectetuer vitae, facilisis feugiat, volutpat eget, nunc.
-Quisque quis ipsum in diam elementum vulputate. Donec convallis sapien
-ut tellus. Cras dictum turpis nec sem. Nunc augue. Aliquam nunc
-tortor, semper vel, aliquam at, tempus ut, risus. Mauris feugiat nunc
-id justo. Nunc ullamcorper magna vel urna. Morbi rutrum massa non
-sapien. Fusce purus. Cras magna. In condimentum augue ac libero. Nulla
-lacinia vulputate leo. Mauris lobortis molestie turpis.
+\section{Agile vs Lean}
 
-Pellentesque neque odio, ornare a, hendrerit ac, vestibulum sit amet,
-tortor. Vestibulum ante ipsum primis in faucibus orci luctus et
-ultrices posuere cubilia Curae; Phasellus malesuada porta sem. Nunc
-wisi neque, lobortis at, consequat sit amet, pulvinar eget, mauris.
-Aliquam egestas, arcu ut tristique tempus, urna lorem pulvinar nisl,
-at auctor lectus sem ut felis. Duis hendrerit, mi et varius venenatis,
-nibh libero blandit mauris, bibendum pellentesque sapien dolor quis
-velit. Vivamus nec augue ut velit eleifend accumsan. Fusce euismod.
-Phasellus volutpat. Donec sollicitudin. Donec non mi eu lorem suscipit
-tincidunt. Suspendisse vehicula. Integer iaculis diam ac quam.
-Pellentesque velit mi, pulvinar eget, suscipit sed, rhoncus ut,
-tortor. Etiam ultricies, wisi non ornare rutrum, ipsum nunc posuere
-leo, vitae blandit est enim eu massa. Nulla sed felis vel nunc
-eleifend venenatis. Sed non purus. Aliquam enim. Nulla neque massa,
-elementum sit amet, rhoncus vel, rhoncus in, leo.
+\section{Agile Methodologies}
 
-In convallis pellentesque quam. Fusce venenatis neque id justo.
-Aliquam felis. Nullam vitae eros. Sed sit amet lorem. Vestibulum
-elementum purus in nunc. Phasellus nec libero non ipsum ultrices
-porttitor. Vestibulum ante ipsum primis in faucibus orci luctus et
-ultrices posuere cubilia Curae; Praesent quis elit sed eros bibendum
-tempor. Suspendisse tempor congue nisl. Nam a est. Aliquam erat
-volutpat. Quisque tincidunt. Donec egestas dapibus diam. Aenean ante
-mi, vulputate vitae, adipiscing in, fermentum luctus, wisi. In nibh
-mauris, ultricies a, fermentum eget, faucibus pharetra, neque. Cras
-consectetuer congue ipsum. Nulla eu metus. Sed at turpis.
+\subsection{Scrum}
+
+\subsection{Dynamic Systems Development Method (DSDM)}
+
+\subsection{Extreme Programming (XP)}
+
+\subsection{Kanban}
+
+\subsection{Scrum ban}
+
+
+\chapter{Method}
+The method is divided in two main parts. The first section describes the theoretical evaluation of agile methodologies. The second part describes the project that has been developed using a few selected agile strategies.
+
+\section{Theoretical Evaluation of Methodologies}
+
+\subsection{Agile Methodology Point System} 
+
+\section{Practical Evaluation of Agile Project}
+
+\subsection{Project Description}
+The actual project, to be developed using agile strategies, is a private initiative from Per-Arne Forsberg who has 25 years of successful international experience and knowledge in managing technically skilled units, products and projects around the world at Ericsson. Having been involved and engaged in change management, using the latest Lean and Agile methodology.The project is developing a dynamic, scalable and robust interactive tutoring framework prototype for pre-academic students. Assisting students today according to the ?old school? is social but also ineffective since it is usually one to one communication or one to a few in a geographical location (you have to meet at pre-determined location at pre-determined times, like classrooms). The long term goal is to assist in communication between students and teachers (tutors willing to help out with their knowledge from their preferred location) in Sweden and in turn combat the negative (knowledge) grade curve that can be seen around the country (according to international studies, PISA). In short the idea is to create a interactive website that can be used for many to many type of communication between students and teachers. An exact specification of the project does not exist in order to encourage the agile development process.
+
+\subsection{Chosen Methodology and/or Strategy}
+
+
+\chapter{Results}
+
+
+\section{Theoretical}
+
+\subsection{Point System}
+
+\section{Practical}
+
+\subsection{Project}
+
+\subsection{Developer \& Product Owner Experience}
+
+
+\chapter{Discussion}
+
+
+\section{Result Critique}
+
+\section{Conclusions}
+
+\subsection{Developers Thoughts}
+
+\section{Future Work} 
+
 
 \appendix
 \addappheadtotoc
@@ -254,4 +197,19 @@ And here is a figure
 \end{figure}
 
 that we refer to here: \ref{RDF_4}
+
+\begin{thebibliography}{56}
+
+\bibitem{key1}
+Martin C. Robert, Martin Micah,
+\emph{Agile Principles, Patterns, and Practices in C\#}.
+Prentice Hall, Massachusetts,
+2nd edition,
+2006.
+
+\bibitem{key2}
+http://www.agilealliance.org
+
+\end{thebibliography}
+
 \end{document}

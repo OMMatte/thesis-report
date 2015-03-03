@@ -4,13 +4,40 @@
 \select@language {swedish}
 \select@language {english}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}
-\contentsline {part}{\partnumberline {I}Important Results}{3}
-\contentsline {chapter}{\chapternumberline {2}First One}{5}
-\contentsline {section}{\numberline {2.1}Preliminaries}{5}
-\contentsline {subsection}{\numberline {2.1.1}Remarks}{5}
-\contentsline {subsection}{\numberline {2.1.2}Definitions}{6}
-\contentsline {section}{\numberline {2.2}The Main Theorem}{6}
-\contentsline {subsection}{\numberline {2.2.1}Problem Statement}{7}
-\contentsline {subsection}{\numberline {2.2.2}The Proof}{7}
-\contentsline {chapter}{Appendices}{8}
-\contentsline {appendix}{\chapternumberline {A}RDF}{9}
+\contentsline {section}{\numberline {1.1}Problem Statement}{1}
+\contentsline {section}{\numberline {1.2}Goals}{1}
+\contentsline {section}{\numberline {1.3}Motivation \& Value}{2}
+\contentsline {section}{\numberline {1.4}Thesis Report Outline}{2}
+\contentsline {chapter}{\chapternumberline {2}Background}{3}
+\contentsline {section}{\numberline {2.1}The Development of Development Methodologies}{3}
+\contentsline {section}{\numberline {2.2}Agile Development}{3}
+\contentsline {subsection}{\numberline {2.2.1}The Agile Manifesto \& Principles}{3}
+\contentsline {subsection}{\numberline {2.2.2}Misconceptions}{4}
+\contentsline {section}{\numberline {2.3}Agile vs Waterfall}{4}
+\contentsline {section}{\numberline {2.4}Agile vs Lean}{4}
+\contentsline {section}{\numberline {2.5}Agile Methodologies}{4}
+\contentsline {subsection}{\numberline {2.5.1}Scrum}{4}
+\contentsline {subsection}{\numberline {2.5.2}Dynamic Systems Development Method (DSDM)}{4}
+\contentsline {subsection}{\numberline {2.5.3}Extreme Programming (XP)}{4}
+\contentsline {subsection}{\numberline {2.5.4}Kanban}{4}
+\contentsline {subsection}{\numberline {2.5.5}Scrum ban}{4}
+\contentsline {chapter}{\chapternumberline {3}Method}{5}
+\contentsline {section}{\numberline {3.1}Theoretical Evaluation of Methodologies}{5}
+\contentsline {subsection}{\numberline {3.1.1}Agile Methodology Point System}{5}
+\contentsline {section}{\numberline {3.2}Practical Evaluation of Agile Project}{5}
+\contentsline {subsection}{\numberline {3.2.1}Project Description}{5}
+\contentsline {subsection}{\numberline {3.2.2}Chosen Methodology and/or Strategy}{5}
+\contentsline {chapter}{\chapternumberline {4}Results}{7}
+\contentsline {section}{\numberline {4.1}Theoretical}{7}
+\contentsline {subsection}{\numberline {4.1.1}Point System}{7}
+\contentsline {section}{\numberline {4.2}Practical}{7}
+\contentsline {subsection}{\numberline {4.2.1}Project}{7}
+\contentsline {subsection}{\numberline {4.2.2}Developer \& Product Owner Experience}{7}
+\contentsline {chapter}{\chapternumberline {5}Discussion}{9}
+\contentsline {section}{\numberline {5.1}Result Critique}{9}
+\contentsline {section}{\numberline {5.2}Conclusions}{9}
+\contentsline {subsection}{\numberline {5.2.1}Developers Thoughts}{9}
+\contentsline {section}{\numberline {5.3}Future Work}{9}
+\contentsline {chapter}{Appendices}{9}
+\contentsline {appendix}{\chapternumberline {A}RDF}{11}
+\contentsline {chapter}{Bibliography}{13}
