@@ -40,43 +40,54 @@
 \contentsline {subsection}{\numberline {3.3.1}Fine-Scale Feedback}{11}{subsection.3.3.1}
 \contentsline {subsubsection}{Pair Programming}{11}{section*.12}
 \contentsline {subsubsection}{Planning Game}{11}{section*.13}
-\contentsline {subsubsection}{Test-Driven Development}{11}{section*.14}
-\contentsline {subsubsection}{Whole Team}{11}{section*.15}
-\contentsline {subsection}{\numberline {3.3.2}Continuous Process}{11}{subsection.3.3.2}
-\contentsline {subsubsection}{Continuous Integration)}{11}{section*.16}
-\contentsline {subsubsection}{Refactoring}{11}{section*.17}
-\contentsline {subsubsection}{Small Releases}{11}{section*.18}
-\contentsline {subsection}{\numberline {3.3.3}Shared Understanding}{11}{subsection.3.3.3}
-\contentsline {subsubsection}{Coding Standards}{11}{section*.19}
-\contentsline {subsubsection}{Collective Code Ownership}{11}{section*.20}
-\contentsline {subsubsection}{Simple Design}{11}{section*.21}
-\contentsline {subsubsection}{System Metaphor}{11}{section*.22}
-\contentsline {subsection}{\numberline {3.3.4}Programmer Welfare}{11}{subsection.3.3.4}
-\contentsline {subsubsection}{Sustainable Pace}{11}{section*.23}
-\contentsline {section}{\numberline {3.4}Kanban}{11}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Visualize}{11}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Limit Work-in-Progress}{11}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Manage Flow}{11}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Make Process Policies Explicit}{11}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Implement Feedback Mechanisms}{11}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}Improve Collaboratively \& Evolve Experimentally}{11}{subsection.3.4.6}
-\contentsline {chapter}{\chapternumberline {4}Method}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}Theoretical Evaluation of Methodologies}{13}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Agile Methodology Point System}{13}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Practical Evaluation of Agile Project}{13}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Project Description}{13}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Chosen Methodology and/or Strategy}{13}{subsection.4.2.2}
-\contentsline {chapter}{\chapternumberline {5}Results}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}Theoretical}{15}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Point System}{15}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Practical}{15}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Project}{15}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Developer \& Product Owner Experience}{15}{subsection.5.2.2}
-\contentsline {chapter}{\chapternumberline {6}Discussion}{17}{chapter.6}
-\contentsline {section}{\numberline {6.1}Result Critique}{17}{section.6.1}
-\contentsline {section}{\numberline {6.2}Conclusions}{17}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Developers Thoughts}{17}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Future Work}{17}{section.6.3}
-\contentsline {chapter}{Appendices}{21}{section*.28}
-\contentsline {appendix}{\chapternumberline {A}RDF}{23}{appendix.A}
-\contentsline {chapter}{Bibliography}{25}{section*.30}
+\contentsline {subsubsection}{Test-Driven Development}{12}{section*.14}
+\contentsline {subsubsection}{Whole Team}{12}{section*.15}
+\contentsline {subsection}{\numberline {3.3.2}Continuous Process}{13}{subsection.3.3.2}
+\contentsline {subsubsection}{Continuous Integration)}{13}{section*.16}
+\contentsline {subsubsection}{Refactoring}{13}{section*.17}
+\contentsline {subsubsection}{Small Releases}{14}{section*.18}
+\contentsline {subsection}{\numberline {3.3.3}Shared Understanding}{14}{subsection.3.3.3}
+\contentsline {subsubsection}{Coding Standards}{14}{section*.19}
+\contentsline {subsubsection}{Collective Code Ownership}{15}{section*.20}
+\contentsline {subsubsection}{Simple Design}{15}{section*.21}
+\contentsline {subsubsection}{System Metaphor}{15}{section*.22}
+\contentsline {subsection}{\numberline {3.3.4}Programmer Welfare}{16}{subsection.3.3.4}
+\contentsline {subsubsection}{Sustainable Pace}{16}{section*.23}
+\contentsline {section}{\numberline {3.4}Crystal Clear}{17}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Frequent Delivery}{17}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Reflective Improvement}{17}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Osmotic Communication}{18}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Personal Safety}{18}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Focus}{19}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}Easy Access to Expert Users}{20}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}Technical Environment with Automated Tests, Configuration Management \& Frequent Integration}{20}{subsection.3.4.7}
+\contentsline {subsection}{\numberline {3.4.8}Summary}{21}{subsection.3.4.8}
+\contentsline {section}{\numberline {3.5}Kanban}{22}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Visualize}{22}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Limit Work-in-Progress}{22}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Manage Flow}{22}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Make Process Policies Explicit}{22}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Implement Feedback Mechanisms}{22}{subsection.3.5.5}
+\contentsline {subsection}{\numberline {3.5.6}Improve Collaboratively \& Evolve Experimentally}{22}{subsection.3.5.6}
+\contentsline {chapter}{\chapternumberline {4}Method}{23}{chapter.4}
+\contentsline {section}{\numberline {4.1}Theoretical Evaluation of Methodologies}{23}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Agile Methodology Point System}{23}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Practical Evaluation of Agile Project}{23}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Project Description}{23}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Chosen Methodology and/or Strategy}{23}{subsection.4.2.2}
+\contentsline {chapter}{\chapternumberline {5}Results}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Theoretical}{25}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Point System}{25}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Practical}{25}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Project}{25}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Developer \& Product Owner Experience}{25}{subsection.5.2.2}
+\contentsline {chapter}{\chapternumberline {6}Discussion}{27}{chapter.6}
+\contentsline {section}{\numberline {6.1}Result Critique}{27}{section.6.1}
+\contentsline {section}{\numberline {6.2}Conclusions}{27}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Developers Thoughts}{27}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Future Work}{27}{section.6.3}
+\contentsline {chapter}{\chapternumberline {7}\translate {Glossary}}{29}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}\translate {Acronyms}}{31}{chapter.8}
+\contentsline {chapter}{Appendices}{31}{section*.26}
+\contentsline {appendix}{\chapternumberline {A}RDF}{33}{appendix.A}
+\contentsline {chapter}{Bibliography}{35}{section*.28}

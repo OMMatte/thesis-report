@@ -6,49 +6,28 @@
 \BOOKMARK [0][-]{chapter.2}{Agile Development}{}% 6
 \BOOKMARK [1][-]{section.2.1}{Abstraction \046 Components}{chapter.2}% 7
 \BOOKMARK [1][-]{section.2.2}{The Agile Manifesto}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.2.1}{Individuals and Interactions over Processes and Tools}{section.2.2}% 9
-\BOOKMARK [2][-]{subsection.2.2.2}{Working Software over Comprehensive Documentation}{section.2.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.3}{Customer Collaboration over Contract Negotiation}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.4}{Responding to Change over Following a Plan}{section.2.2}% 12
-\BOOKMARK [1][-]{section.2.3}{The Agile Principles}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.4}{Misconceptions}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.5}{Agile vs Waterfall}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.6}{Agile vs Lean}{chapter.2}% 16
-\BOOKMARK [0][-]{chapter.3}{Agile Methodologies}{}% 17
-\BOOKMARK [1][-]{section.3.1}{Scrum}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.1.1}{Roles}{section.3.1}% 19
-\BOOKMARK [2][-]{subsection.3.1.2}{Events}{section.3.1}% 20
-\BOOKMARK [2][-]{subsection.3.1.3}{Artifacts}{section.3.1}% 21
-\BOOKMARK [1][-]{section.3.2}{Dynamic Systems Development Method \(DSDM\)}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.3}{Extreme Programming \(XP\)}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.3.1}{Fine-Scale Feedback}{section.3.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.2}{Continuous Process}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.3}{Shared Understanding}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.4}{Programmer Welfare}{section.3.3}% 27
-\BOOKMARK [1][-]{section.3.4}{Kanban}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.4.1}{Visualize}{section.3.4}% 29
-\BOOKMARK [2][-]{subsection.3.4.2}{Limit Work-in-Progress}{section.3.4}% 30
-\BOOKMARK [2][-]{subsection.3.4.3}{Manage Flow}{section.3.4}% 31
-\BOOKMARK [2][-]{subsection.3.4.4}{Make Process Policies Explicit}{section.3.4}% 32
-\BOOKMARK [2][-]{subsection.3.4.5}{Implement Feedback Mechanisms}{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.6}{Improve Collaboratively \046 Evolve Experimentally}{section.3.4}% 34
-\BOOKMARK [0][-]{chapter.4}{Method}{}% 35
-\BOOKMARK [1][-]{section.4.1}{Theoretical Evaluation of Methodologies}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.1.1}{Agile Methodology Point System}{section.4.1}% 37
-\BOOKMARK [1][-]{section.4.2}{Practical Evaluation of Agile Project}{chapter.4}% 38
-\BOOKMARK [2][-]{subsection.4.2.1}{Project Description}{section.4.2}% 39
-\BOOKMARK [2][-]{subsection.4.2.2}{Chosen Methodology and/or Strategy}{section.4.2}% 40
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 41
-\BOOKMARK [1][-]{section.5.1}{Theoretical}{chapter.5}% 42
-\BOOKMARK [2][-]{subsection.5.1.1}{Point System}{section.5.1}% 43
-\BOOKMARK [1][-]{section.5.2}{Practical}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.2.1}{Project}{section.5.2}% 45
-\BOOKMARK [2][-]{subsection.5.2.2}{Developer \046 Product Owner Experience}{section.5.2}% 46
-\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 47
-\BOOKMARK [1][-]{section.6.1}{Result Critique}{chapter.6}% 48
-\BOOKMARK [1][-]{section.6.2}{Conclusions}{chapter.6}% 49
-\BOOKMARK [2][-]{subsection.6.2.1}{Developers Thoughts}{section.6.2}% 50
-\BOOKMARK [1][-]{section.6.3}{Future Work}{chapter.6}% 51
-\BOOKMARK [0][-]{section*.28}{Appendices}{}% 52
-\BOOKMARK [0][-]{appendix.A}{RDF}{}% 53
-\BOOKMARK [0][-]{section*.30}{Bibliography}{}% 54
+\BOOKMARK [1][-]{section.2.3}{The Agile Principles}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.4}{Misconceptions}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.5}{Agile vs Waterfall}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.6}{Agile vs Lean}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Agile Methodologies}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Scrum}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Dynamic Systems Development Method \(DSDM\)}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.3}{Extreme Programming \(XP\)}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.4}{Crystal Clear}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.5}{Kanban}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Method}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Theoretical Evaluation of Methodologies}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Practical Evaluation of Agile Project}{chapter.4}% 21
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 22
+\BOOKMARK [1][-]{section.5.1}{Theoretical}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.2}{Practical}{chapter.5}% 24
+\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 25
+\BOOKMARK [1][-]{section.6.1}{Result Critique}{chapter.6}% 26
+\BOOKMARK [1][-]{section.6.2}{Conclusions}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.3}{Future Work}{chapter.6}% 28
+\BOOKMARK [0][-]{chapter.7}{Glossary}{}% 29
+\BOOKMARK [0][-]{chapter.8}{Acronyms}{}% 30
+\BOOKMARK [0][-]{section*.26}{Appendices}{}% 31
+\BOOKMARK [0][-]{appendix.A}{RDF}{}% 32
+\BOOKMARK [0][-]{section*.28}{Bibliography}{}% 33
