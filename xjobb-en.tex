@@ -34,10 +34,12 @@
 
 
 
+
 % Acronyms
 \newglossaryentry{xp}{type=\acronymtype, name={XP}, description={Extreme Programming}, first={Extreme
 Programming (XP)\glsadd{xpg}}, see=[Glossary:]{xpg}}
 \newacronym{tdd}{TTD}{test-driven development}
+\newacronym{gui}{GUI}{graphical user interface}
 
 
 
@@ -222,30 +224,60 @@ Up to this point the ideology, that is agile development, have been described. I
 The methodologies can be vast in their documentation and this report does not seek to explain each methodology in their deepest details. That would simply require to much work and be overwhelming for the readers. For the interested reader, each methodology will have recommended further reading in its introduction. One thing that every agile methodology has is a set of practices that explain the most important components. Some methodologies don't refer to them as practices but they all seek to explain the core of the methodology similar to how the agile principles, in \fullref{sec:agile_principles},  relate to agile development. It was therefor suitable to use them as the base for this reports overview of the methodologies in order to ensure that the description and comparisons are based on somewhat equal grounds. Each methodology section will end with short summarize of the practices.
 
 \section{Scrum}
+
+If nothing else is stated or referenced, the information about the practices of Scrum are taken from scrum.org \cite{key15}
+
 \subsection{Roles}
+There are three distinct roles in Scrum. The \emph{Product Owner}, \emph{Development Team} and \emph{Scrum Master}. It is the cooperation and relation between these roles that make up Scrum.
+
 \subsubsection{Product Owner}
+The product owner is a single person. He/she is responsible of maximizing the work conducted by the \emph{Development Team} which in turn means responsibility to maximize the product value. The practial priority is managing the \emph{Product Backlog}. The managing of the backlog means taking care of the following;
+
+\begin{itemize}
+\item Ensuring that the \emph{Product Backlog} items have clear and distinct descriptions.
+\item The ordering of backlog items to maximize value and reaching goals.
+\item Optimization the value of the work by the \emph{Development Team}.
+\item Making the \emph{Product Backlog} visible, transparent, clear to all project members and include information about the upcoming tasks.
+\item Having the \emph{Development Team} on a satisfactory level of understanding of the items in the \emph{Product Backlog}
+\end{itemize}
+
+Depending on the size of the project and company. The product owner may choose to distribute some of tasks to other people such as the development team. However, the product owner is always the accountable person for the above tasks.
+
 \subsubsection{Development Team}
+
 \subsubsection{Scrum Master}
+
+
 \subsection{Events}
+
 \subsubsection{Sprint}
+
 \subsubsection{Meetings}
+
 \subsubsection{Extensions}
+
+
 \subsection{Artifacts}
+
 \subsubsection{Product backlog}
+
 \subsubsection{Sprint backlog}
+
 \subsubsection{Product Increment}
+
 \subsubsection{Sprint Burndown chart}
+
 \subsubsection{Release burndown chart}
 
 \section{Dynamic Systems Development Method (DSDM)}
 
 \section{Extreme Programming (XP)}
 \glsreset{xp}
-Kent Beck is the founder of \gls{xp}. He is also one of the members of the Agile Alliance that you can read about at \fullref{sec:manifesto}. \gls{xp} was conceived shortly before the creation of the Agile Alliance. In 2000, just a year before the Agile Alliance surfaced, the first book about \gls{xp} called \emph{Extreme Programming Explained: Embrace Change} was published by Kent \cite{key14}. For this reason, when reading early literature about \gls{xp} their is no mentioning of the term \emph{agile}, which is  not that strange since at the time, the term did not exist. However more published articles and books have surfaced after the year of 2001 that have incorporated the agile ideology, such as the second edition of Kent's first book realized in 2005 \cite{key14}. This means that \gls{xp} 
+Kent Beck is the founder of \gls{xp}. He is also one of the members of the Agile Alliance that you can read about at \fullref{sec:manifesto}. \gls{xp} was conceived shortly before the creation of the Agile Alliance. In 2000, just a year before the Agile Alliance surfaced, the first book about \gls{xp} called \emph{Extreme Programming Explained: Embrace Change} was published by Kent \cite{key14}. For this reason, when reading early literature about \gls{xp} their is no mentioning of the term \emph{agile}, which is  not that strange since at the time, the term did not exist. However more published articles and books have surfaced after the year of 2001 that have incorporated the agile ideology, such as the second edition of Kent's first book realized in 2005 \cite{key14}.
 
 Unlike Scrum, \gls{xp} is mostly about the developers and helping them be as efficient as possible. It does not talk much about the overall business outside the development team. All though if you read further about \gls{xp} you will find business related information but it is not at all in focus \cite{key14}. \gls{xp} is usually referred to a lightweight methodology however the word \emph{lightweight} means more than just skipping business related topics. It is also called lightweight because it promotes removing baggage for the developers by letting them focus on the current task at hand \cite{key14}. For example, a core idea in \gls{xp} is small fact based short term planning instead of extensive speculation based long term planning \cite{key14}. This just happens to be one of the absolute core ideas in agile development as well. 
 
-\gls{xp} put focus on team work, feedback and code quality. The term extreme comes from the idea that it takes a few ordinary development practices and impose them to an extreme \cite{key14}. Originally \gls{xp} was designed for small to medium sized teams but has over time grown to incorporate large teams as well. There are a total of 12 main practices in \gls{xp} that will be shortly described in the following sections. The practices have been divided in sub categories called \emph{Fine-Scale Feedback}, \emph{Continues Process}, \emph{Shared Understanding} and \emph{Programmer Welfare}. There are several corollary practices as well that talk more about the business and goes even further into coding details. To read about this and much more, the second edition of \emph{Extreme Programming Explained: Embrace Change} is recommended \cite{key14}.
+\gls{xp} put focus on team work, feedback and code quality. The term extreme comes from the idea that it takes a few ordinary development practices and impose them to an extreme \cite{key14}. Originally \gls{xp} was designed for small to medium sized teams but has over time grown to incorporate large teams as well. There are a total of 12 main practices in \gls{xp} that will be shortly described in the following sections. The practices have been divided in categories called \emph{Fine-Scale Feedback}, \emph{Continues Process}, \emph{Shared Understanding} and \emph{Programmer Welfare}. There are several corollary practices as well that talk more about the business and goes even further into coding details. To read about this and much more, the second edition of \emph{Extreme Programming Explained: Embrace Change} is recommended \cite{key14}.
 
 \subsection{Fine-Scale Feedback}
 The following practices describes how the members of the team develop their software with feedback in focus. It goes through the basics of how they work in pairs and always using \gls{tdd} to guide them. It also describes the relations between business people and developers.
@@ -310,7 +342,7 @@ The following practices  are about giving the developers a team feeling and shar
 \emph{Pair Programming} describes how knowledge can be spread swiftly by routinely changing programming partner. For this to work well it is important to have a coding standard so that the programmers don't spend time on understanding others syntax. Without a coding standard, whenever a programmer starts working on someone else's work, he/she might feel the need to format or even refactor the code. When setting a coding standard it is important with proper communication so that every developer feels comfortable with standard and voluntarily wants to uphold it \cite{key13}. There is really no reason not to have a coding standard since it will make the software easier to understand which indirectly increases code quality.  
 
 \subsubsection{Collective Code Ownership}
-There will always be developers with different specialities. The common way of just working on ones speciality means being more locked to that speciality. \gls{xp} instead seeks to minimize this specially difference between the members. Both \emph{Pair Programming} and \emph{Coding Standards} works to even out the specialities between team members. Everybody can choose to work on any part of the software such as on the database, the gui or the server. As a \gls{xp} developer you are not confined to a specialty and assistance should always be given to those who seek to broaden their expertise by coding on unfamiliar parts of the software \cite{key1}. This is to increase motivation, reduce risks by spreading knowledge and aid the personal development of the developers.
+There will always be developers with different specialities. The common way of just working on ones speciality means being more locked to that speciality. \gls{xp} instead seeks to minimize this specially difference between the members. Both \emph{Pair Programming} and \emph{Coding Standards} works to even out the specialities between team members. Everybody can choose to work on any part of the software such as on the database, the \gls{gui} or the server. As a \gls{xp} developer you are not confined to a specialty and assistance should always be given to those who seek to broaden their expertise by coding on unfamiliar parts of the software \cite{key1}. This is to increase motivation, reduce risks by spreading knowledge and aid the personal development of the developers.
 
 \subsubsection{Simple Design}
 \gls{xp} seeks to keep it simple and expressive as stated by \emph{Refactoring}. The infrastructure is not in place when developing according to \gls{xp}, the infrastructure gets created when it is currently needed. There are three so called mantras that an \gls{xp} developer follows regarding simple design:
@@ -532,6 +564,9 @@ the Case for Pair Programming," IEEE Software, JulyAug. 2000.
 
 \bibitem{key14}
 \url{http://ptgmedia.pearsoncmg.com/images/9780321278654/samplepages/9780321278654.pdf}
+
+\bibitem{key15}
+\url{http://www.scrumguides.org/scrum-guide.html}
 
 
 
