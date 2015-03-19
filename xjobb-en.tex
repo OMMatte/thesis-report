@@ -13,6 +13,14 @@
 \newcommand*{\fullref}[1]{\hyperref[{#1}]{\autoref*{#1} \nameref*{#1}}} % One single link
 \renewcommand*{\glsdisplayfirst}[4]{#1#4*} % Glossary first entry
 
+\newcommand*{\captionsource}[2]{%
+  \caption[{#1}]{%
+    #1%
+    \\\hspace{\linewidth}%
+    \textbf{Source:} #2%
+  }%
+}
+
 \makeglossaries
 
 % Epigraph
@@ -23,23 +31,23 @@
 \setlength{\epigraphwidth}{.7\textwidth}
 
 % Glossary
-\newglossaryentry{xpg}{name={XP},
-    description={Extreme Programming (XP) is an agile development methodology where the developers usually works in pairs}}
 \newglossaryentry{rpi}{name={runaway process inflation}, description={Runaway inflation is a very rapid inflation (decrease of money value). Runaway process inflation is a term sometimes used within agile development to describe rapidly growing development processes}}
 \newglossaryentry{td}{name={technical dept}, description={Technical dept (also called design dept or code dept), is a metaphor primarily used in software development referring to the consequences of poor system design. The dept builds up as you for example introduce bugs and so called spaghetti code that has to be fixed in the future, as in repaying your dept}}
 \newglossaryentry{ev}{name={Early Victory}, description={A strategy commonly referenced to in agile development that refers to the sociological benefits of showing early and frequent results, such as increasing morale and trust \cite{key6}}}
 \newglossaryentry{osmosis}{name={osmosis}, description={The movement of a liquid, sometimes gas, through a plasma membrane (which is a sort of filer) which over time results in a balancing from high concentration areas to low for the molecules that are able to pass through the plasma membrane}}
 \newglossaryentry{es}{name={executive sponsor}, description={Also referred to as the project sponsor. Executive sponsor is a role in project management that is responsible to the business/company for the success of a project}}
 \newglossaryentry{git}{name={Git}, description={Git is a popular distributed revision control system mainly used for software development.}}
+\newglossaryentry{jitg}{name={JIT}, description={Just-in-time is a production strategy that seeks to improve the return on investment for a business by reducing in-process inventory and associated carrying costs. In simpler terms, reducing the stock up of inventory items in a process chain.}}
 
 
 
 
 % Acronyms
-\newglossaryentry{xp}{type=\acronymtype, name={XP}, description={Extreme Programming}, first={Extreme
-Programming (XP)\glsadd{xpg}}, see=[Glossary:]{xpg}}
+\newglossaryentry{jit}{type=\acronymtype, name={JIT}, description={just-in-time}, first={just-in-time (JIT)\glsadd{jitg}}, see=[Glossary:]{jitg}}
 \newacronym{tdd}{TTD}{test-driven development}
 \newacronym{gui}{GUI}{graphical user interface}
+\newacronym{wip}{WIP}{work-in-progress}
+\newacronym{xp}{XP}{Extreme Programming}
 
 
 
@@ -227,6 +235,14 @@ The methodologies can be vast in their documentation and this report does not se
 
 If nothing else is stated or referenced, the information about the practices of Scrum are taken from scrum.org \cite{key15}
 
+\begin{figure}[h]
+  
+  \centering
+    \includegraphics[width=1.0\textwidth]{img/how_scrum_works.png}
+    \captionsource{Image showing an abstract view of how Scrum works, including different several practices including the three different roles.}{Scruminc, \url{http://www.scruminc.com}}
+    \label{fig:scrum}
+\end{figure}
+
 \subsection{Roles}
 There are three distinct roles in Scrum. The \emph{Product Owner}, \emph{Development Team} and \emph{Scrum Master}. It is the cooperation and relation between these roles that make up Scrum.
 
@@ -316,7 +332,7 @@ These practices describes the cycles such as sprints and release plans for the p
 For those that frequently work with multiple people using \gls{git}, \emph{Continuous Integration} will sound familiar. Each programmer should integrate their work several times a day. If you are lucky (or fast), you are first and simply check in your work. If you are not so lucky, you have to merge the changes. In other words, \gls{xp} teams use nonblocking source control \cite{key1}. This means that every developer can work on any part of the system, simultaneously with the other developers. It is important that each system tests and acceptance tests are run before anything is checked in. If something is broken, the developer fixes it before checking in the changes. 
 
 \subsubsection{Refactoring}
-\epigraph{Refactoring is not a backup practice when quality ensuring practices fail. Refactoring is a quality ensuring practice.}{\textsc{Mathias Lindblom}}
+\epigraph{Refactoring is not a backup practice when quality ensuring practices fail. Refactoring is a quality ensuring practice.}
 
 Sometimes it can be hard to convince non-programmers the benefits of refactoring. The main reason is that feature wise, nothing is added. At most some optimization might be noticeable. Refactoring is about changing the foundation of the software. It is to make adding new features a simpler task. Code duplication is a sign that refactoring is needed. When developers choose bad practices simply because they see no other way of implementing something, factoring is needed. When changing code affects unrelated code sections, refactoring is needed. However the idea is not to code poorly, fix it with refactoring and continue. Most developers knows that coming to a situation where refactoring is advisable is pretty much unavoidable, the important thing is not to add fuel to the flames. \emph{Pair Programming} for instance seeks to diminish the need of refactoring and make sure quality is ensured \cite{key13}.
 
@@ -445,13 +461,45 @@ Crystal Clear has a clear focus on working and social environment. Five of the s
 
 
 \section{Kanban}
-\subsection{Visualize}
-\subsection{Limit Work-in-Progress}
-\subsection{Manage Flow}
-\subsection{Make Process Policies Explicit}
-\subsection{Implement Feedback Mechanisms}
-\subsection{Improve Collaboratively \& Evolve Experimentally}
+When reading about Kanban it can get quite confusing. This is because Kanban is originally a lean scheduling system for \gls{jit} production developed by Taiichi Ohno at Toyota in 1953 \cite{key16} \cite{key17}. It is still used today within manufacturing but the ideas have been taken and modified to fit software development. The confusing part is that this software development version of Kanban is called Kanban. If not clearly stated otherwise, future referencing to \emph{Kanban} in the report refers to the software development version of Kanban. A out of the blue fun fact is that "kan-ban" is Japanese for "signal card" \cite{16}. Some arguments regarding Kanban is about weather it is more of a lean or more of an agile methodology. The easy answer to this is to simply ignore the question since lean and agile methodologies don't go against each other nor have strict or precise definitions. One thing most can agree on is that Kanban is both lean and agile to some extent.
 
+As David J. Andersson stated in his first book about Kanban, the methodology is lightweight and does not have a clear formal definition in order to promote changes and modifications \cite{16}. This has led to several alternative methodologies, that build upon the original, popping up such as Kanban Ace and LKU Kanban. For these reasons, it is not that strange that the core practices can vary slightly in both numbers and definition. Depending on where you read you might find three or seven practices. For this report the chosen core practices are taken partly from the book \emph{Kanban: Successful Evolutionary Change for Your Technology Business} by David J. Andersson \cite{key16} and partly from the overall consensus from various resources available online.
+
+
+\begin{figure}[h]
+  
+  \centering
+    \includegraphics[width=1.0\textwidth]{img/kanban_board.png}
+    \captionsource{Image showing the basics of a kanban board. The cards move from left to right. The number under each category represent the \gls{wip} limit. }{Pawel Brodzinski, \url{http://brodzinski.com/}}
+    \label{fig:kanban_board}
+\end{figure}
+
+
+
+\subsection{Visualize}
+This practice is about visualizing workflow. To have transparency between developers, managers and anyone else connected to a project. The standard way of doing this is using a so called kanban board with cards, see Figure \ref{fig:kanban_board}. This board can either be a physical board with sticky notes, or a virtual board. This board is a visual control system for all the tasks within a project \cite{key16}. The board allows for self-organizing by just pulling a new available card after finishing a task instead of waiting for a superior to supply the tasks.
+
+The cards are not only meant to simply hold programming tasks. They are meant to represent some customer value. Therefor the design of the cards is important in order for the developers to make easier decisions on what to work on next \cite{key16}. There are no exact rules on what information the cards should hold but a title, description, estimated size and some estimated value number is a good start.
+
+\subsection{Limit Work-in-Progress}
+Limiting \gls{wip} is about having a limit at each step in the product chain, shown in Figure \ref{fig:kanban_board}, that corresponds to the amount of tasks allowed in that step. A simple \gls{wip} limit is having it equal to the amount of available working people at each step. When deciding the \gls{wip} limit, all members from from the stake holders to the developers should take part and form an agreement \cite{key16}. 
+
+The \gls{wip} limit is important for several reasons. It shows when a pull from one step can be made to the next, it ensures focus on one or a few tasks at a time, it keeps the workload balanced and avoids stock piling of items at some middle step in the product chain. The most important benefit is that it gives the development team a limit to rely on and fall back to when put under to much stress, especially if everyone participated and formed a consensus when choosing the limit for the \gls{wip}. 
+
+\subsection{Manage Flow}
+In Kanban the workflow or task flow is central so it makes sense having a practice focus on how to manage and improve it. In order to improve the workflow one must first be able to measure it somehow. Otherwise when changes are made, how do we know that it was an improvement? Some things are easier to measure and improve such as items stock piling at a certain step. An easy fix would be to add more manpower to that particular step. Some software such as \emph{Kanbanery} offer automatic tools for measuring that can give useful information about how changes affect the workflow \cite{key18}. Something important to stress out is that the more precise the estimated complexities and values for the cards/tasks the easier it gets to analyze the workflow.
+
+\subsection{Make Process Policies Explicit}
+In the practice \emph{Visualize} it was mentioned the importance of having a clear design on the cards of the kanban board. This practice is about just that. Without clear rules and a common understanding of how the card system works the discussions becomes subjective and emotional instead of factual \cite{key19}. Having the process policies explicit makes them easier to understand and therefor easier to use. They help choices regarding the process become more rational and empirical and the team have an easier time reaching consensus simply because everyone is working from the same policy configuration \cite{key19}.
+
+
+\subsection{Improve Collaboratively}
+\epigraph{If you are not continually improving, but you are doing all of the other parts of the Kanban method, you are missing the point. It's a little like the concept of ?doing? agile but not being agile.
+. \cite{key19}}{\textsc{Matthew Powell}}
+
+This practice is more social and less practically oriented then the other. When reading about Kanban you sometimes stumble upon the word \emph{Kaizen} meaning continuous improvement. \emph{Kaizen culture} is also often mentioned that talks about empowering the workforce and encourage them to "do the right thing". Kaizen culture promotes high levels of collaborations and freedom to self-organize work \cite{key16}. It is about putting the company and business first and this requires lots of trust which Simon Sinek talk about in his TED Talk about leadership \cite{key7}.
+
+Kanban promotes using a scientific approach when trying to introduce new changes. That means to evaluate a situation, suggest suitable change, predict the outcome, observe the results and compare with the prediction and previous results. If the team or business have a kaizan culture together with using the scientific approach then that can lead to spontaneously and regular local improvements to the process \cite{key16}.
 
 \chapter{Method}
 The method is divided in two main parts. The first section describes the theoretical evaluation of agile methodologies. The second part describes the project that has been developed using a few selected agile strategies.
@@ -568,6 +616,17 @@ the Case for Pair Programming," IEEE Software, JulyAug. 2000.
 \bibitem{key15}
 \url{http://www.scrumguides.org/scrum-guide.html}
 
+\bibitem{key16}
+\url{http://www.scrumsense.com/wp-content/uploads/2010/02/KanbanManuscript-dja-rev1_07_2.pdf}
+
+\bibitem{key17}
+\url{http://en.wikipedia.org/wiki/Kanban}
+
+\bibitem{key18}
+\url{https://kanbanery.com/ebook/GettingStartedWithKanban.pdf}
+
+\bibitem{key19}
+\url{http://www.everydaykanban.com/what-is-kanban/}
 
 
 \end{thebibliography}
