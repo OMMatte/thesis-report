@@ -21,6 +21,17 @@
   }%
 }
 
+\def\mypart#1#2{% 
+\par\newpage\clearpage % Page break 
+\vspace*{5cm} % Vertical shift 
+\refstepcounter{part}% Next part 
+{\centering \textbf{\Huge Part \thepart}\par}% 
+\vspace{1cm}% Vertical shift 
+{\centering \textbf{\Huge #1}\par}% 
+\vspace{2cm}% Vertical shift % Some text 
+#2 
+\vfill\pagebreak %
+}
 \makeglossaries
 
 % Epigraph
@@ -136,6 +147,7 @@ Agile software development can be seen as a trend in today's computer industry a
 
 \section{Thesis Report Outline}
 
+\mypart{Background} {The following chapters forms the base for the theoretical and practical part of this reports study. The first chapter explains agile development as a concept and its core ideas. The second chapter explains some of the most common agile methodologies, by mainly going through their practices.}
 
 \chapter{Agile Development}
 \label{sec:agile_development}
@@ -235,13 +247,13 @@ The methodologies can be vast in their documentation and this report does not se
 
 If nothing else is stated or referenced, the information about the practices of Scrum are taken from scrum.org \cite{key15}
 
-\begin{figure}[h]
+% \begin{figure}[h]
   
-  \centering
-    \includegraphics[width=1.0\textwidth]{img/how_scrum_works.png}
-    \captionsource{Image showing an abstract view of how Scrum works, including different several practices including the three different roles.}{Scruminc, \url{http://www.scruminc.com}}
-    \label{fig:scrum}
-\end{figure}
+%  \centering
+ %   \includegraphics[width=1.0\textwidth]{img/how_scrum_works.png}
+ %   \captionsource{Image showing an abstract view of how Scrum works, including different several practices including the three different roles.}{Scruminc, \url{http://www.scruminc.com}}
+ %   \label{fig:scrum}
+% \end{figure}
 
 \subsection{Roles}
 There are three distinct roles in Scrum. The \emph{Product Owner}, \emph{Development Team} and \emph{Scrum Master}. It is the cooperation and relation between these roles that make up Scrum.
@@ -501,8 +513,7 @@ This practice is more social and less practically oriented then the other. When 
 
 Kanban promotes using a scientific approach when trying to introduce new changes. That means to evaluate a situation, suggest suitable change, predict the outcome, observe the results and compare with the prediction and previous results. If the team or business have a kaizan culture together with using the scientific approach then that can lead to spontaneously and regular local improvements to the process \cite{key16}.
 
-\chapter{Method}
-The method is divided in two main parts. The first section describes the theoretical evaluation of agile methodologies. The second part describes the project that has been developed using a few selected agile strategies.
+\mypart{Method}{The method is divided in two main parts. The first section describes the theoretical evaluation of agile methodologies. The second part describes the project that has been developed using a few selected agile strategies.}
 
 \section{Theoretical Evaluation of Methodologies}
 
