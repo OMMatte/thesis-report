@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {2.5}Agile vs Waterfall}{10}{section.2.5}
 \contentsline {section}{\numberline {2.6}Agile vs Lean}{10}{section.2.6}
 \contentsline {chapter}{\chapternumberline {3}Agile Methodologies}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Scrum}{11}{section.3.1}
+\contentsline {section}{\numberline {3.1}Scrum}{12}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Roles}{12}{subsection.3.1.1}
 \contentsline {subsubsection}{Product Owner}{12}{section*.1}
 \contentsline {subsubsection}{Development Team}{13}{section*.2}
