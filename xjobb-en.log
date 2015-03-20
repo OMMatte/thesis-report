@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  20 MAR 2015 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  20 MAR 2015 16:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1072,26 +1072,28 @@ l.61 ...erline {3.4.5}Focus}{22}{subsection.3.4.5}
                    \relax 
 l.113 \pagestyle
                 {newchap} [6]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 126.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 131.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1
+) [2] [3
 
-
-] [2] [3
+] [4
 
 ]
-[4
-
-] [5]
-<img/agile_development_abstraction.png, id=389, 431.9337pt x 282.3348pt>
+[5] <img/agile_development_abstraction.png, id=387, 431.9337pt x 282.3348pt>
 File: img/agile_development_abstraction.png Graphic file (type png)
 
 <use img/agile_development_abstraction.png>
 Package pdftex.def Info: img/agile_development_abstraction.png used on input li
-ne 165.
+ne 161.
 (pdftex.def)             Requested size: 396.0pt x 258.85938pt.
  [6 <./img/agile_development_abstraction.png>] [7] [8] [9] [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1111,38 +1113,38 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
 [23]
-Overfull \hbox (31.11084pt too wide) in paragraph at lines 467--469
+Overfull \hbox (31.11084pt too wide) in paragraph at lines 463--465
 \T1/lmr/m/n/10.95 Frequent in-te-gra-tion leads to eas-ier to de-tec-tion of bu
 gs and also fewer bugs/problems
  []
 
 
-LaTeX Warning: Citation `16' on page 24 undefined on input line 478.
+LaTeX Warning: Citation `16' on page 24 undefined on input line 474.
 
 [24]
 
-LaTeX Warning: Citation `16' on page 25 undefined on input line 480.
+LaTeX Warning: Citation `16' on page 25 undefined on input line 476.
 
-<img/kanban_board.png, id=637, 360.59718pt x 161.85469pt>
+<img/kanban_board.png, id=636, 360.59718pt x 161.85469pt>
 File: img/kanban_board.png Graphic file (type png)
 
 <use img/kanban_board.png>
-Package pdftex.def Info: img/kanban_board.png used on input line 486.
+Package pdftex.def Info: img/kanban_board.png used on input line 482.
 (pdftex.def)             Requested size: 396.0pt x 177.74432pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 487.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 483.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 487.
+(Font)              <9> on input line 483.
  [25 <./img/kanban_board.png>] [26] [27] [28
 
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 524.
+(hyperref)                than one, level fixed on input line 520.
 
 [29
 
@@ -1185,31 +1187,31 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 bibitemlist
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--605
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
 [][][]$\T1/lmtt/m/n/10.95 http : / / users . dcc . uchile . cl / ~nbaloian / cc
 1001-[]03 / ejercicios /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
+Underfull \hbox (badness 10000) in paragraph at lines 606--607
 [][][]$\T1/lmtt/m/n/10.95 http : / / www . ted . com / talks / simon _ sinek _ 
 why _ good _ leaders _ make _ you _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 632--633
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
 [][][]$\T1/lmtt/m/n/10.95 http : / / repo . hackerzvoice . net / depot _ madcha
 t / coding / xp /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 635--636
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
 [][][]$\T1/lmtt/m/n/10.95 http : / / ptgmedia . pearsoncmg . com / images / 978
 0321278654 / samplepages /
  []
 
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 641--642
+Underfull \hbox (badness 10000) in paragraph at lines 637--638
 [][][]$\T1/lmtt/m/n/10.95 http : / / www . scrumsense . com / wp-[]content / up
 loads / 2010 / 02 /
  []
@@ -1218,26 +1220,32 @@ loads / 2010 / 02 /
 \tf@toc=\write8
 \openout8 = `xjobb-en.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 655.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 655.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 651.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 651.
  (./xjobb-en.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 655.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 655.
-Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
-(rerunfilecheck)             Checksum: B78580056E513A6FFABA80CBFC278E38;4209.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 651.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 651.
 
+
+Package rerunfilecheck Warning: File `xjobb-en.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `xjobb-en.out':
+(rerunfilecheck)             Before: B78580056E513A6FFABA80CBFC278E38;4209
+(rerunfilecheck)             After:  D1DB1B13CF538B180B1EC1052DFDFBAA;4267.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 15025 strings out of 493117
- 217987 string characters out of 6135432
+ 15026 strings out of 493117
+ 217998 string characters out of 6135432
  385854 words of memory out of 5000000
  18016 multiletter control sequences out of 15000+600000
  92835 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,13n,49p,1773b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,13n,49p,1773b,640s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{glo:jitg} has been referenced but does not exist,
  replaced by a fixed one
 
@@ -1265,13 +1273,13 @@ placed by a fixed one
 pdfTeX warning (dest): name{glo:tdd} has been referenced but does not exist, re
 placed by a fixed one
 
+pdfTeX warning (dest): name{glo:xp} has been referenced but does not exist, rep
+laced by a fixed one
+
 pdfTeX warning (dest): name{glo:rpi} has been referenced but does not exist, re
 placed by a fixed one
 
 pdfTeX warning (dest): name{glo:td} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{glo:xp} has been referenced but does not exist, rep
 laced by a fixed one
 
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
@@ -1288,10 +1296,10 @@ ype1/public/lm/lmss12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
 c/lm/lmssbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lms
 sdc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on xjobb-en.pdf (54 pages, 698545 bytes).
+Output written on xjobb-en.pdf (54 pages, 698188 bytes).
 PDF statistics:
- 912 PDF objects out of 1000 (max. 8388607)
- 827 compressed objects within 9 object streams
- 195 named destinations out of 1000 (max. 500000)
+ 911 PDF objects out of 1000 (max. 8388607)
+ 826 compressed objects within 9 object streams
+ 196 named destinations out of 1000 (max. 500000)
  512 words of extra memory for PDF output out of 10000 (max. 10000000)
 
