@@ -68,24 +68,23 @@
 \contentsline {subsection}{\numberline {3.5.3}Manage Flow}{26}{subsection.3.5.3}
 \contentsline {subsection}{\numberline {3.5.4}Make Process Policies Explicit}{26}{subsection.3.5.4}
 \contentsline {subsection}{\numberline {3.5.5}Improve Collaboratively}{27}{subsection.3.5.5}
-\contentsline {section}{\numberline {3.6}Theoretical Evaluation of Methodologies}{29}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Agile Methodology Point System}{29}{subsection.3.6.1}
-\contentsline {section}{\numberline {3.7}Practical Evaluation of Agile Project}{29}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Project Description}{29}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}Chosen Methodology and/or Strategy}{29}{subsection.3.7.2}
-\contentsline {chapter}{\chapternumberline {4}Results}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Theoretical}{31}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Point System}{31}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Practical}{31}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Project}{31}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Developer \& Product Owner Experience}{31}{subsection.4.2.2}
-\contentsline {chapter}{\chapternumberline {5}Discussion}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}Result Critique}{33}{section.5.1}
-\contentsline {section}{\numberline {5.2}Conclusions}{33}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Developers Thoughts}{33}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Future Work}{33}{section.5.3}
-\contentsline {chapter}{\chapternumberline {6}\translate {Glossary}}{35}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}\translate {Acronyms}}{37}{chapter.7}
-\contentsline {chapter}{Appendices}{37}{section*.26}
-\contentsline {appendix}{\chapternumberline {A}RDF}{39}{appendix.A}
-\contentsline {chapter}{Bibliography}{41}{section*.28}
+\contentsline {chapter}{\chapternumberline {4}Theoretical Evaluation of Methodologies}{29}{chapter.4}
+\contentsline {subsection}{\numberline {4.0.6}Agile Methodology Point System}{29}{subsection.4.0.6}
+\contentsline {section}{\numberline {4.1}Practical Evaluation of Agile Project}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Project Description}{29}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Chosen Methodology and/or Strategy}{29}{subsection.4.1.2}
+\contentsline {chapter}{\chapternumberline {5}Theoretical}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Point System}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2}Practical}{31}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Project}{31}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Developer \& Product Owner Experience}{31}{subsection.5.2.2}
+\contentsline {chapter}{\chapternumberline {6}Discussion}{33}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Conclusions}{35}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Report Critique}{37}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Developers Thoughts}{39}{chapter.9}
+\contentsline {section}{\numberline {9.1}Future Work}{39}{section.9.1}
+\contentsline {chapter}{\chapternumberline {10}\translate {Glossary}}{41}{chapter.10}
+\contentsline {chapter}{\chapternumberline {11}\translate {Acronyms}}{43}{chapter.11}
+\contentsline {chapter}{Appendices}{43}{section*.26}
+\contentsline {appendix}{\chapternumberline {A}RDF}{45}{appendix.A}
+\contentsline {chapter}{Bibliography}{47}{section*.28}
