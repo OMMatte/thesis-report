@@ -49,12 +49,14 @@
 \newglossaryentry{es}{name={executive sponsor}, description={Also referred to as the project sponsor. Executive sponsor is a role in project management that is responsible to the business/company for the success of a project}}
 \newglossaryentry{git}{name={Git}, description={Git is a popular distributed revision control system mainly used for software development.}}
 \newglossaryentry{jitg}{name={JIT}, description={Just-in-time is a production strategy that seeks to improve the return on investment for a business by reducing in-process inventory and associated carrying costs. In simpler terms, reducing the stock up of inventory items in a process chain.}}
+\newglossaryentry{roig}{name={ROI}, description={Return on investment means the benefits, or return, for the investor resiling from an investment of some resource. High ROI}}
 
 
 
 
 % Acronyms
 \newglossaryentry{jit}{type=\acronymtype, name={JIT}, description={just-in-time}, first={just-in-time (JIT)\glsadd{jitg}}, see=[Glossary:]{jitg}}
+\newglossaryentry{roi}{type=\acronymtype, name={ROI}, description={return-on-investment}, first={jreturn-on-investment (ROI)\glsadd{roig}}, see=[Glossary:]{roig}}
 \newacronym{tdd}{TTD}{test-driven development}
 \newacronym{gui}{GUI}{graphical user interface}
 \newacronym{wip}{WIP}{work-in-progress}
@@ -153,7 +155,7 @@ Most developers have experienced the nightmare of working on a project and slowl
 \section{Abstraction \& Components}
 It is common that agile development is directly compared to the waterfall model which is strange given how they situate on different abstraction levels. The waterfall model is a software development methodology just like Scrum. Agile development on the other hand is not a followable methodology by itself. It is more of an ideology or perhaps a collection of methodologies. So how is it even possible to compare the two of them? The answer is that people are comparing the waterfall model to some popular agile methodology like Scrum or just some common practices like sprints and pair programming, indirectly claiming that these elements represent agile development as a whole. This leads to confusion and unfair comparisons. So before continuing reading about agile development it is a good idea to get a better understanding of the components that make up agile development. 
 
-In Figure \ref{fig:agile_abstraction}, agile development have been dividid into 4 different abstraction levels. First we have the ideology that consist of the core ideas such as the agile manifesto and principles. Secondly we have the methodologies and strategies that try to fulfill all or some of the agile principles or mentalities. The third abstraction are the practices that make up the methodologies. These practices can be similar to the agile principles but they are more practically applicable and at a much lower abstraction level. Each practice tries to satisfy one or several of the agile principles. Lastly, at the forth abstraction level, we have the actual tools that are needed to make the practices a reality. These tools can be very simple such as a physical room for meeting practices or more advanced such as xUnit for test-driven development.
+In Figure \ref{fig:agile_abstraction}, agile development have been dividid into 4 different abstraction levels. First we have the ideology that consist of the core ideas such as The Agile Manifesto and principles. Secondly we have the methodologies and strategies that try to fulfill all or some of the agile principles or mentalities. The third abstraction are the practices that make up the methodologies. These practices can be similar to the agile principles but they are more practically applicable and at a much lower abstraction level. Each practice tries to satisfy one or several of the agile principles. Lastly, at the forth abstraction level, we have the actual tools that are needed to make the practices a reality. These tools can be very simple such as a physical room for meeting practices or more advanced such as xUnit for test-driven development.
 
 \begin{figure}[h]
   
@@ -177,7 +179,7 @@ The Agile Alliance is an organization formed by a group of computer industry exp
 \item \textbf{Responding to change} over following a plan.
 \end{itemize}
 
-The group that wrote The Agile Manifesto consisted of the following people: Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Stewier, Jeff Sutherland, Dave Thomas \cite{key1} \cite{key2}.
+The group that wrote The Agile Manifesto consisted of the following people: Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, Dave Thomas \cite{key1} \cite{key2}. Several of these people are the authors of the literature used in this report, this is especially true for \fullref{sec:agile_methodologies}.
 
 The following four subsections will give a short explanation for each of the statements of The Agile Manifesto that stands as the highest abstraction or the core that is agile development.
 
@@ -235,6 +237,7 @@ It is sort of a dictatorship vs democracy, dictatorship works but not well enoug
 \section{Agile vs Lean}
 
 \chapter{Agile Methodologies}
+\label{sec:agile_methodologies}
 Up to this point the ideology, that is agile development, have been described. In this chapter the more common methodologies that try to adapt these ideas and mentalities will be brought up. Moreover, the methodologies described here will contain more practically applicable agile practices. What is important to note is that every agile methodology is subject to change. Most authors and advocates of the agile methodologies encourages changes in the methodology itself to suit your development team and/or company. This means that the descriptions of the methodologies can look more or less different depending on the source, especially when they have been written years apart. Another reason is that some parts of a methodology can be vague resulting in different interpretations. However this does not necessarily mean that some descriptions of the practices are wrong. The vagueness can be seen as a way of encouraging changes and alternative implementations of the methodologies which the authors advocates.
 
 The methodologies can be vast in their documentation and this report does not seek to explain each methodology in their deepest details. That would simply require to much work and be overwhelming for the readers. For the interested reader, each methodology will have recommended further reading in its introduction. One thing that every agile methodology has in common is a set of practices that explain the most important components. Some methodologies refer to them as properties but they all seek to explain the core of the methodology similar to how the agile principles, in \fullref{sec:agile_principles},  relate to agile development. It was therefor suitable to use them as the base for this reports overview of the methodologies in order to ensure that the description and comparisons are based on somewhat equal grounds. Each methodology section will end with short summarize of the practices.
@@ -243,7 +246,7 @@ A warning to the readers is that going through every practice of all four method
 
 \section{Scrum}
 
-If nothing else is stated or referenced, the information about the practices of Scrum are taken from scrum.org \cite{key15}
+The information regarding the practices of Scrum is mainly taken from the book \emph{Agile Project Management with Scrum} by Ken Schwaber together with updated information from \url{www.scrumguides.org} \cite{key21} \cite{key15}. Ken Schwaber is one of the authors of The Agile Manifesto.
 
 % \begin{figure}[h]
   
@@ -257,7 +260,7 @@ If nothing else is stated or referenced, the information about the practices of 
 There are three distinct roles in Scrum. The \emph{Product Owner}, \emph{Development Team} and \emph{Scrum Master}. It is the cooperation and relation between these roles that make up Scrum.
 
 \subsubsection{Product Owner}
-The product owner is a single person. He/she is responsible of maximizing the work conducted by the \emph{Development Team} which in turn means responsibility to maximize the product value. The practial priority is managing the \emph{Product Backlog}. The managing of the backlog means taking care of the following;
+The product owner is a single person. He/she is responsible of maximizing the work conducted by the \emph{Development Team} which in turn means responsibility to maximize the product value. The practical priority is managing the \emph{Product Backlog}. The managing of the backlog means taking care of the following;
 
 \begin{itemize}
 \item Ensuring that the \emph{Product Backlog} items have clear and distinct descriptions.
@@ -267,12 +270,35 @@ The product owner is a single person. He/she is responsible of maximizing the wo
 \item Having the \emph{Development Team} on a satisfactory level of understanding of the items in the \emph{Product Backlog}
 \end{itemize}
 
-Depending on the size of the project and company. The product owner may choose to distribute some of tasks to other people such as the development team. However, the product owner is always the accountable person for the above tasks.
+Depending on the size of the project and company. The product owner may choose to distribute some of tasks to other people such as the development team. However, the product owner is always the accountable person for the above tasks \cite{key15}.
 
 \subsubsection{Development Team}
+In Scrum the development team are in charge of delivering working software, as one might expect. They are in a large sense self governed and chooses how they want to work, within some limits of course. 
+The development team can be summarized with these characteristics:
+
+\begin{itemize}
+\item Self-organizing. The development team alone chooses how they want to turn the items in the \emph{Product Backlog} into functionality.  
+\item Cross-functional. The team should encompass all necessary skills to work with everything in the \emph{Product Backlog}.
+\item No titles within the group. Everyone is simply a developer.
+\item No sub-teams. Just like there are no titles for the members, there can be no sub-teams such as a testing team.
+\item All for one, one for all. Members might have specialized knowledge giving them natural areas of focus but the development team should be accountable as a whole.
+\end{itemize}
+
+It is recommended that each development team consist of 3-9 members \cite{key15}. The reason being that too few developers limits the interaction and the team are more likely to have skill constraints. To many members lead to too much complexity that can make coordination between the members difficult. 
 
 \subsubsection{Scrum Master}
+Deciding as a company to use a methodology and once explaining how the methodology works to all employees does not mean that the company will be developing according to that methodology. This is where the Scrum master comes in. The Scrum master is in charge of keeping the Scrum wheel turning. He/she makes sure that the \emph{Product Owner} and \emph{Development Team} are collaborating and generally doing what they are supposed to do. The following is a short summarization of the responsibilities of the Scrum master:
 
+\begin{itemize}
+\item Remove barriers regarding development so that the \emph{Product Owner} is free to directly drive development forward.
+\item Teach the \emph{Product Owner} how to maximize \gls{roi} in order to meet his/her milestones using Scrum. 
+\item Improve the quality of life for the \emph{Development Team} by empowering them and encouraging creativity.
+\item Assist the \emph{Development Team} in increasing productivity in any way possible.
+\item Ensure that each increment of functionality is potentially shippable by improving engineering practices and tools.
+\item Give transparency to the \emph{Development Team's} work progress for all parties and ensure it is up-to-date. 
+\end{itemize}
+
+The position of the Scrum master is normally filled by the project manager \cite{key21}. Ken Schwaber indicates in his book,\emph{Agile Project Management with Scrum}, that a Scrum master should be a leader figure and never act as a regular boss \cite{key21}. 
 
 \subsection{Events}
 
@@ -644,6 +670,12 @@ the Case for Pair Programming," IEEE Software, JulyAug. 2000.
 
 \bibitem{key19}
 \url{http://www.everydaykanban.com/what-is-kanban/}
+
+\bibitem{key20}
+\url{https://www.google.se/books?hl=sv&lr=&id=6O5tAgAAQBAJ&oi=fnd&pg=PR3&dq=scrum&ots=1FXoZqQl5Z&sig=oAaGuCqYT8GOPb3L4u6kqIoWYH8&redir_esc=y#v=onepage&q=jeff%20sutherland&f=false} %About combining xp with scrum
+
+\bibitem{key21}
+\url{https://www.google.se/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCUQFjAA&url=http%3A%2F%2Fxa.yimg.com%2Fkq%2Fgroups%2F19611210%2F134287803%2Fname%2FAgile&ei=MXsRVeqRMeHXyQOJtoCoDA&usg=AFQjCNEBuHLF_m23E8qOTsBJvOtetCxukw&sig2=J3vpAfBnP0Mhms92bnycIA&bvm=bv.89184060,d.bGQ&cad=rja}
 
 
 \end{thebibliography}
