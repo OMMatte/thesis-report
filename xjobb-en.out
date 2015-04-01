@@ -20,44 +20,43 @@
 \BOOKMARK [2][-]{subsection.3.1.1}{Roles}{section.3.1}% 20
 \BOOKMARK [2][-]{subsection.3.1.2}{Events}{section.3.1}% 21
 \BOOKMARK [2][-]{subsection.3.1.3}{Artifacts}{section.3.1}% 22
-\BOOKMARK [1][-]{section.3.2}{Dynamic Systems Development Method \(DSDM\)}{chapter.3}% 23
-\BOOKMARK [1][-]{section.3.3}{Extreme Programming \(XP\)}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.3.1}{Fine-Scale Feedback}{section.3.3}% 25
-\BOOKMARK [2][-]{subsection.3.3.2}{Continuous Process}{section.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.3.3}{Shared Understanding}{section.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.4}{Programmer Welfare}{section.3.3}% 28
-\BOOKMARK [1][-]{section.3.4}{Crystal Clear}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.4.1}{Frequent Delivery}{section.3.4}% 30
-\BOOKMARK [2][-]{subsection.3.4.2}{Reflective Improvement}{section.3.4}% 31
-\BOOKMARK [2][-]{subsection.3.4.3}{Osmotic Communication}{section.3.4}% 32
-\BOOKMARK [2][-]{subsection.3.4.4}{Personal Safety}{section.3.4}% 33
-\BOOKMARK [2][-]{subsection.3.4.5}{Focus}{section.3.4}% 34
-\BOOKMARK [2][-]{subsection.3.4.6}{Easy Access to Expert Users}{section.3.4}% 35
-\BOOKMARK [2][-]{subsection.3.4.7}{Technical Environment with Automated Tests, Configuration Management \046 Frequent Integration}{section.3.4}% 36
-\BOOKMARK [2][-]{subsection.3.4.8}{Summary}{section.3.4}% 37
-\BOOKMARK [1][-]{section.3.5}{Kanban}{chapter.3}% 38
-\BOOKMARK [2][-]{subsection.3.5.1}{Visualize}{section.3.5}% 39
-\BOOKMARK [2][-]{subsection.3.5.2}{Limit Work-in-Progress}{section.3.5}% 40
-\BOOKMARK [2][-]{subsection.3.5.3}{Manage Flow}{section.3.5}% 41
-\BOOKMARK [2][-]{subsection.3.5.4}{Make Process Policies Explicit}{section.3.5}% 42
-\BOOKMARK [2][-]{subsection.3.5.5}{Improve Collaboratively}{section.3.5}% 43
-\BOOKMARK [0][-]{chapter.4}{Theoretical Evaluation of Methodologies}{}% 44
-\BOOKMARK [1][-]{subsection.4.0.6}{Agile Methodology Point System}{chapter.4}% 45
-\BOOKMARK [1][-]{section.4.1}{Practical Evaluation of Agile Project}{chapter.4}% 46
-\BOOKMARK [2][-]{subsection.4.1.1}{Project Description}{section.4.1}% 47
-\BOOKMARK [2][-]{subsection.4.1.2}{Chosen Methodology and/or Strategy}{section.4.1}% 48
-\BOOKMARK [0][-]{chapter.5}{Theoretical}{}% 49
-\BOOKMARK [1][-]{section.5.1}{Point System}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.2}{Practical}{chapter.5}% 51
-\BOOKMARK [2][-]{subsection.5.2.1}{Project}{section.5.2}% 52
-\BOOKMARK [2][-]{subsection.5.2.2}{Developer \046 Product Owner Experience}{section.5.2}% 53
-\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 54
-\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 55
-\BOOKMARK [0][-]{chapter.8}{Report Critique}{}% 56
-\BOOKMARK [0][-]{chapter.9}{Developers Thoughts}{}% 57
-\BOOKMARK [1][-]{section.9.1}{Future Work}{chapter.9}% 58
-\BOOKMARK [0][-]{chapter.10}{Glossary}{}% 59
-\BOOKMARK [0][-]{chapter.11}{Acronyms}{}% 60
-\BOOKMARK [0][-]{section*.26}{Appendices}{}% 61
-\BOOKMARK [0][-]{appendix.A}{RDF}{}% 62
-\BOOKMARK [0][-]{section*.28}{Bibliography}{}% 63
+\BOOKMARK [1][-]{section.3.2}{Extreme Programming \(XP\)}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{Fine-Scale Feedback}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{Continuous Process}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.3}{Shared Understanding}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.4}{Programmer Welfare}{section.3.2}% 27
+\BOOKMARK [1][-]{section.3.3}{Crystal Clear}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.3.1}{Frequent Delivery}{section.3.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.2}{Reflective Improvement}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.3}{Osmotic Communication}{section.3.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.4}{Personal Safety}{section.3.3}% 32
+\BOOKMARK [2][-]{subsection.3.3.5}{Focus}{section.3.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.6}{Easy Access to Expert Users}{section.3.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.7}{Technical Environment with Automated Tests, Configuration Management \046 Frequent Integration}{section.3.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.8}{Summary}{section.3.3}% 36
+\BOOKMARK [1][-]{section.3.4}{Kanban}{chapter.3}% 37
+\BOOKMARK [2][-]{subsection.3.4.1}{Visualize}{section.3.4}% 38
+\BOOKMARK [2][-]{subsection.3.4.2}{Limit Work-in-Progress}{section.3.4}% 39
+\BOOKMARK [2][-]{subsection.3.4.3}{Manage Flow}{section.3.4}% 40
+\BOOKMARK [2][-]{subsection.3.4.4}{Make Process Policies Explicit}{section.3.4}% 41
+\BOOKMARK [2][-]{subsection.3.4.5}{Improve Collaboratively}{section.3.4}% 42
+\BOOKMARK [0][-]{chapter.4}{Theoretical Evaluation of Methodologies}{}% 43
+\BOOKMARK [1][-]{subsection.4.0.6}{Agile Methodology Point System}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.1}{Practical Evaluation of Agile Project}{chapter.4}% 45
+\BOOKMARK [2][-]{subsection.4.1.1}{Project Description}{section.4.1}% 46
+\BOOKMARK [2][-]{subsection.4.1.2}{Chosen Methodology and/or Strategy}{section.4.1}% 47
+\BOOKMARK [0][-]{chapter.5}{Theoretical}{}% 48
+\BOOKMARK [1][-]{section.5.1}{Point System}{chapter.5}% 49
+\BOOKMARK [1][-]{section.5.2}{Practical}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.2.1}{Project}{section.5.2}% 51
+\BOOKMARK [2][-]{subsection.5.2.2}{Developer \046 Product Owner Experience}{section.5.2}% 52
+\BOOKMARK [0][-]{chapter.6}{Discussion}{}% 53
+\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 54
+\BOOKMARK [0][-]{chapter.8}{Report Critique}{}% 55
+\BOOKMARK [0][-]{chapter.9}{Developers Thoughts}{}% 56
+\BOOKMARK [1][-]{section.9.1}{Future Work}{chapter.9}% 57
+\BOOKMARK [0][-]{chapter.10}{Glossary}{}% 58
+\BOOKMARK [0][-]{chapter.11}{Acronyms}{}% 59
+\BOOKMARK [0][-]{section*.26}{Appendices}{}% 60
+\BOOKMARK [0][-]{appendix.A}{RDF}{}% 61
+\BOOKMARK [0][-]{section*.28}{Bibliography}{}% 62

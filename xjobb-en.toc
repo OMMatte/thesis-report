@@ -26,49 +26,48 @@
 \contentsline {subsubsection}{Product Owner}{12}{section*.1}
 \contentsline {subsubsection}{Development Team}{13}{section*.2}
 \contentsline {subsubsection}{Scrum Master}{14}{section*.3}
-\contentsline {subsection}{\numberline {3.1.2}Events}{14}{subsection.3.1.2}
-\contentsline {subsubsection}{Sprint}{14}{section*.4}
-\contentsline {subsubsection}{Sprint Planning}{14}{section*.5}
+\contentsline {subsection}{\numberline {3.1.2}Events}{15}{subsection.3.1.2}
+\contentsline {subsubsection}{Sprint}{15}{section*.4}
+\contentsline {subsubsection}{Sprint Planning}{15}{section*.5}
 \contentsline {subsubsection}{Daily Scrum}{15}{section*.6}
 \contentsline {subsubsection}{Sprint Review}{15}{section*.7}
-\contentsline {subsubsection}{Sprint Retrospective}{15}{section*.8}
+\contentsline {subsubsection}{Sprint Retrospective}{16}{section*.8}
 \contentsline {subsection}{\numberline {3.1.3}Artifacts}{16}{subsection.3.1.3}
 \contentsline {subsubsection}{Product Backlog}{16}{section*.9}
 \contentsline {subsubsection}{Sprint Backlog}{16}{section*.10}
 \contentsline {subsubsection}{Product Increment}{16}{section*.11}
-\contentsline {section}{\numberline {3.2}Dynamic Systems Development Method (DSDM)}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}Extreme Programming (XP)}{16}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Fine-Scale Feedback}{17}{subsection.3.3.1}
-\contentsline {subsubsection}{Pair Programming}{17}{section*.12}
-\contentsline {subsubsection}{Planning Game}{17}{section*.13}
+\contentsline {section}{\numberline {3.2}Extreme Programming (XP)}{17}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Fine-Scale Feedback}{17}{subsection.3.2.1}
+\contentsline {subsubsection}{Pair Programming}{18}{section*.12}
+\contentsline {subsubsection}{Planning Game}{18}{section*.13}
 \contentsline {subsubsection}{Test-Driven Development}{18}{section*.14}
-\contentsline {subsubsection}{Whole Team}{18}{section*.15}
-\contentsline {subsection}{\numberline {3.3.2}Continuous Process}{18}{subsection.3.3.2}
-\contentsline {subsubsection}{Continuous Integration)}{18}{section*.16}
-\contentsline {subsubsection}{Refactoring}{19}{section*.17}
-\contentsline {subsubsection}{Small Releases}{19}{section*.18}
-\contentsline {subsection}{\numberline {3.3.3}Shared Understanding}{20}{subsection.3.3.3}
-\contentsline {subsubsection}{Coding Standards}{20}{section*.19}
-\contentsline {subsubsection}{Collective Code Ownership}{20}{section*.20}
+\contentsline {subsubsection}{Whole Team}{19}{section*.15}
+\contentsline {subsection}{\numberline {3.2.2}Continuous Process}{19}{subsection.3.2.2}
+\contentsline {subsubsection}{Continuous Integration)}{19}{section*.16}
+\contentsline {subsubsection}{Refactoring}{20}{section*.17}
+\contentsline {subsubsection}{Small Releases}{20}{section*.18}
+\contentsline {subsection}{\numberline {3.2.3}Shared Understanding}{21}{subsection.3.2.3}
+\contentsline {subsubsection}{Coding Standards}{21}{section*.19}
+\contentsline {subsubsection}{Collective Code Ownership}{21}{section*.20}
 \contentsline {subsubsection}{Simple Design}{21}{section*.21}
-\contentsline {subsubsection}{System Metaphor}{21}{section*.22}
-\contentsline {subsection}{\numberline {3.3.4}Programmer Welfare}{22}{subsection.3.3.4}
-\contentsline {subsubsection}{Sustainable Pace}{22}{section*.23}
-\contentsline {section}{\numberline {3.4}Crystal Clear}{22}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Frequent Delivery}{23}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Reflective Improvement}{23}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Osmotic Communication}{24}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Personal Safety}{24}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Focus}{25}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}Easy Access to Expert Users}{25}{subsection.3.4.6}
-\contentsline {subsection}{\numberline {3.4.7}Technical Environment with Automated Tests, Configuration Management \& Frequent Integration}{26}{subsection.3.4.7}
-\contentsline {subsection}{\numberline {3.4.8}Summary}{27}{subsection.3.4.8}
-\contentsline {section}{\numberline {3.5}Kanban}{27}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Visualize}{28}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Limit Work-in-Progress}{29}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Manage Flow}{29}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Make Process Policies Explicit}{29}{subsection.3.5.4}
-\contentsline {subsection}{\numberline {3.5.5}Improve Collaboratively}{29}{subsection.3.5.5}
+\contentsline {subsubsection}{System Metaphor}{22}{section*.22}
+\contentsline {subsection}{\numberline {3.2.4}Programmer Welfare}{23}{subsection.3.2.4}
+\contentsline {subsubsection}{Sustainable Pace}{23}{section*.23}
+\contentsline {section}{\numberline {3.3}Crystal Clear}{23}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Frequent Delivery}{24}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Reflective Improvement}{24}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Osmotic Communication}{24}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Personal Safety}{25}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Focus}{25}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Easy Access to Expert Users}{26}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}Technical Environment with Automated Tests, Configuration Management \& Frequent Integration}{27}{subsection.3.3.7}
+\contentsline {subsection}{\numberline {3.3.8}Summary}{28}{subsection.3.3.8}
+\contentsline {section}{\numberline {3.4}Kanban}{28}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Visualize}{29}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Limit Work-in-Progress}{29}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Manage Flow}{30}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Make Process Policies Explicit}{30}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Improve Collaboratively}{30}{subsection.3.4.5}
 \contentsline {chapter}{\chapternumberline {4}Theoretical Evaluation of Methodologies}{33}{chapter.4}
 \contentsline {subsection}{\numberline {4.0.6}Agile Methodology Point System}{33}{subsection.4.0.6}
 \contentsline {section}{\numberline {4.1}Practical Evaluation of Agile Project}{33}{section.4.1}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  25 MAR 2015 19:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  1 APR 2015 11:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1002,7 +1002,7 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 84.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<kth_svv_comp_science_comm.pdf, id=257, 410.53375pt x 468.75125pt>
+<kth_svv_comp_science_comm.pdf, id=253, 410.53375pt x 468.75125pt>
 File: kth_svv_comp_science_comm.pdf Graphic file (type pdf)
 
 <use kth_svv_comp_science_comm.pdf>
@@ -1063,7 +1063,7 @@ l.112 \clearpage
 ame{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 ...4.4}Personal Safety}{24}{subsection.3.4.4}
+l.61 ...erline {3.3.5}Focus}{25}{subsection.3.3.5}
                                                    [5
 
 ])pdfTeX warning (ext4): destination with the same identifier (name{page.}) has
@@ -1088,7 +1088,7 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ] [4
 
 ]
-[5] <img/agile_development_abstraction.png, id=391, 431.9337pt x 282.3348pt>
+[5] <img/agile_development_abstraction.png, id=386, 431.9337pt x 282.3348pt>
 File: img/agile_development_abstraction.png Graphic file (type png)
 
 <use img/agile_development_abstraction.png>
@@ -1096,65 +1096,74 @@ Package pdftex.def Info: img/agile_development_abstraction.png used on input li
 ne 163.
 (pdftex.def)             Requested size: 396.0pt x 258.85938pt.
  [6 <./img/agile_development_abstraction.png>] [7] [8] [9] [10]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 249.
-
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11
 
 ]
-<img/how_scrum_works.png, id=463, 5297.7925pt x 3795.17876pt>
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 252.
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<img/how_scrum_works.png, id=460, 5297.7925pt x 3795.17876pt>
 File: img/how_scrum_works.png Graphic file (type png)
 
 <use img/how_scrum_works.png>
-Package pdftex.def Info: img/how_scrum_works.png used on input line 254.
+Package pdftex.def Info: img/how_scrum_works.png used on input line 257.
 (pdftex.def)             Requested size: 396.0pt x 283.64166pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 255.
- [12 <./img/how_scrum_works.png>] [13] [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(Font)              <9> on input line 258.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] [13 <./img/how_scrum_works.png>] [14]
+Underfull \vbox (badness 2435) has occurred while \output is active []
 
  [15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[16]
+Underfull \vbox (badness 1292) has occurred while \output is active []
 
- [16]
-[17] [18] [19] [20] [21] [22] [23]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24]
-[25] [26]
-Overfull \hbox (31.11084pt too wide) in paragraph at lines 490--492
+ [17]
+[18] [19] [20] [21] [22] [23] [24] [25] [26]
+Overfull \hbox (31.11084pt too wide) in paragraph at lines 497--499
 \T1/lmr/m/n/10.95 Frequent in-te-gra-tion leads to eas-ier to de-tec-tion of bu
 gs and also fewer bugs/problems
  []
 
+[27]
 
-LaTeX Warning: Citation `16' on page 27 undefined on input line 501.
+LaTeX Warning: Citation `16' on page 28 undefined on input line 508.
 
 
-LaTeX Warning: Citation `16' on page 27 undefined on input line 503.
+LaTeX Warning: Citation `16' on page 28 undefined on input line 510.
 
-[27] <img/kanban_board.png, id=681, 360.59718pt x 161.85469pt>
+<img/kanban_board.png, id=676, 360.59718pt x 161.85469pt>
 File: img/kanban_board.png Graphic file (type png)
 
 <use img/kanban_board.png>
-Package pdftex.def Info: img/kanban_board.png used on input line 509.
+Package pdftex.def Info: img/kanban_board.png used on input line 516.
 (pdftex.def)             Requested size: 396.0pt x 177.74432pt.
- [28 <./img/kanban_board.png>] [29] [30] [31
 
-]
-[32
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 4467) has occurred while \output is active []
+
+ [28]
+[29 <./img/kanban_board.png>] [30] [31] [32
 
 ]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 547.
+(hyperref)                than one, level fixed on input line 554.
 
-[33] [34
+[33
+
+] [34
 
 ] [35
 
@@ -1166,9 +1175,13 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 ] [39] [40
 
-] [41] [42
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (./xjobb-en.gls [43] [44
+ [41]
+[42] (./xjobb-en.gls [43
+
+] [44
 
 ]
 
@@ -1193,67 +1206,67 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ]
 bibitemlist
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--628
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
 [][][]$\T1/lmtt/m/n/10.95 http : / / users . dcc . uchile . cl / ~nbaloian / cc
 1001-[]03 / ejercicios /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--634
+Underfull \hbox (badness 10000) in paragraph at lines 640--641
 [][][]$\T1/lmtt/m/n/10.95 http : / / www . ted . com / talks / simon _ sinek _ 
 why _ good _ leaders _ make _ you _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--656
+Underfull \hbox (badness 10000) in paragraph at lines 662--663
 [][][]$\T1/lmtt/m/n/10.95 http : / / repo . hackerzvoice . net / depot _ madcha
 t / coding / xp /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--659
+Underfull \hbox (badness 10000) in paragraph at lines 665--666
 [][][]$\T1/lmtt/m/n/10.95 http : / / ptgmedia . pearsoncmg . com / images / 978
 0321278654 / samplepages /
  []
 
 [51]
-Underfull \hbox (badness 10000) in paragraph at lines 664--665
+Underfull \hbox (badness 10000) in paragraph at lines 671--672
 [][][]$\T1/lmtt/m/n/10.95 http : / / www . scrumsense . com / wp-[]content / up
 loads / 2010 / 02 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--677
+Underfull \hbox (badness 10000) in paragraph at lines 683--684
 [][][]$\T1/lmtt/m/n/10.95 https : / / www . google . se / books ? hl = sv & lr 
 = &id = 6O5tAgAAQBAJ & oi = fnd &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--677
+Underfull \hbox (badness 10000) in paragraph at lines 683--684
 \T1/lmtt/m/n/10.95 pg = PR3 & dq = scrum & ots = 1FXoZqQl5Z & sig = oAaGuCqYT8G
 OPb3L4u6kqIoWYH8 &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
 [][][]$\T1/lmtt/m/n/10.95 https : / / www . google . se / url ? sa = t & rct = 
 j & q = &esrc = s & source =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
 \T1/lmtt/m/n/10.95 web & cd = 1 & ved = 0CCUQFjAA & url = http % 3A % 2F % 2Fxa
  . yimg . com %
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
 \T1/lmtt/m/n/10.95 2Fkq % 2Fgroups % 2F19611210 % 2F134287803 % 2Fname % 2FAgil
 e & ei =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--680
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
 \T1/lmtt/m/n/10.95 MXsRVeqRMeHXyQOJtoCoDA & usg = AFQjCNEBuHLF _ m23E8qOTsBJvOt
 etCxukw &
  []
@@ -1262,26 +1275,23 @@ etCxukw &
 \tf@toc=\write8
 \openout8 = `xjobb-en.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 684.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 684.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 691.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 691.
  (./xjobb-en.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 684.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 684.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 691.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 691.
 Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
-(rerunfilecheck)             Checksum: D1DB1B13CF538B180B1EC1052DFDFBAA;4267.
+(rerunfilecheck)             Checksum: C9148FA72D274BBCC62AC97F4BF10575;4177.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 15104 strings out of 493117
- 219142 string characters out of 6135432
- 386933 words of memory out of 5000000
- 18085 multiletter control sequences out of 15000+600000
+ 15102 strings out of 493117
+ 219118 string characters out of 6135432
+ 387933 words of memory out of 5000000
+ 18084 multiletter control sequences out of 15000+600000
  92835 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,13n,49p,1773b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1338,10 +1348,10 @@ ype1/public/lm/lmss12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
 c/lm/lmssbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lms
 sdc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on xjobb-en.pdf (58 pages, 1748611 bytes).
+Output written on xjobb-en.pdf (58 pages, 1752331 bytes).
 PDF statistics:
- 966 PDF objects out of 1000 (max. 8388607)
- 874 compressed objects within 9 object streams
- 204 named destinations out of 1000 (max. 500000)
- 525 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 964 PDF objects out of 1000 (max. 8388607)
+ 872 compressed objects within 9 object streams
+ 203 named destinations out of 1000 (max. 500000)
+ 517 words of extra memory for PDF output out of 10000 (max. 10000000)
 
