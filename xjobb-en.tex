@@ -155,20 +155,17 @@ Secondary goals:
 Most developers have experienced the nightmare of working on a project and slowly witness the increasing number of bugs, errors and time when adding new functionality. In order to combat this disheartening scenario, developers created constraints and routines around their activity, forming a development process based on prior mistakes. However big development projects can be complex and even though experienced based constraints helps, at some point the problems reappear. The solution for this was to keep adding more constraints and routines. So the development process grows and grows and until the process itself has become so cumbersome and advanced that it creates the problems it was designed to prevent, which is to avoid \gls{td} and increase efficiency\cite{key1}. This so called \gls{rpi} was common among big companies around the millennium shift and at the time it was a growing negative trend \cite{key1}. This issue, that software teams around the world experienced, was observed by a few industry experts calling themselves the Agile Alliance who sought to fight it \cite{key1}.  The ideas that make up agile development were not new at the time but it was the Agile Alliance that formulated the underlying concepts that make up agile development. Read more about this at \fullref{sec:manifesto}.
 
 \section{Abstraction \& Components}
-It is common that agile development is directly compared to the waterfall model which is strange given how they situate on different abstraction levels. The waterfall model is a software development methodology just like Scrum. Agile development on the other hand is not a followable methodology by itself. It is more of an ideology or perhaps a collection of methodologies. So how is it even possible to compare the two of them? The answer is that people are comparing the waterfall model to some popular agile methodology like Scrum or just some common practices like sprints and pair programming, indirectly claiming that these elements represent agile development as a whole. This leads to confusion and unfair comparisons. So before continuing reading about agile development it is a good idea to get a better understanding of the components that make up agile development. 
+\label{sec:abstraction_components}
+It is common that agile development is directly compared to the waterfall model which is strange given how they situate on different abstraction levels. The waterfall model is a software development methodology just like Scrum. Agile development on the other hand is not a followable methodology by itself. It is more of an ideology or perhaps a collection of methodologies. So how is it even possible to compare the two of them? The answer is that people are comparing the waterfall model to some popular agile methodology like Scrum or just some common practices like sprints and standup meetings, indirectly claiming that these elements represent agile development as a whole. This leads to confusion and unfair comparisons. So before continuing reading about agile development it is a good idea to get a better understanding of the components that make up agile development. 
 
-In Figure \ref{fig:agile_abstraction}, agile development have been dividid into 4 different abstraction levels. First we have the ideology that consist of the core ideas such as The Agile Manifesto and principles. Secondly we have the methodologies and strategies that try to fulfill all or some of the agile principles or mentalities. The third abstraction are the practices that make up the methodologies. These practices can be similar to the agile principles but they are more practically applicable and at a much lower abstraction level. Each practice tries to satisfy one or several of the agile principles. Lastly, at the forth abstraction level, we have the actual tools that are needed to make the practices a reality. These tools can be very simple such as a physical room for meeting practices or more advanced such as xUnit for test-driven development.
+In Figure \ref{fig:agile_abstraction}, agile development have been dividid into four different abstraction levels. First we have the ideology that consist of the core ideas such as The Agile Manifesto and principles. Secondly we have the methodologies and strategies that try to fulfill all or some of the agile principles or mentalities. The third abstraction are the practices that make up the methodologies. These practices can be similar to the agile principles but they are more practically applicable and at a much lower abstraction level. Each practice tries to satisfy one or several of the agile principles. Lastly, at the forth abstraction level, we have the actual tools that are needed to make the practices a reality. These tools can be very simple such as a physical room for meeting practices or more advanced such as xUnit for test-driven development.
 
 \begin{figure}[h]
-  
   \centering
     \includegraphics[width=1.0\textwidth]{img/agile_development_abstraction.png}
     \caption{Agile development divided in four different abstraction levels and how the example elements within them correlate to each other.}
     \label{fig:agile_abstraction}
 \end{figure}
-
-
-
 
 \section{The Agile Manifesto}
 \label{sec:manifesto}
@@ -230,11 +227,23 @@ Using the values stated by The Agile Manifesto, 12 principles were created that 
 \end{enumerate}
 
 
-\section{Misconceptions}
-Skeptics to agile development sometimes claim that agile development is just a trend, a so called fad. However the arguments are similar to the time when people claimed the world wide web to be a youthful trend. It is a sort of straw man argument based on that it is new and popular and will soon disappear, just like trends. 
-It is sort of a dictatorship vs democracy, dictatorship works but not well enough. And for a democracy to work the people need to be onboard. 
+%\section{Misconceptions}
+%Skeptics to agile development sometimes claim that agile development is just a trend, a so called fad. However the %arguments are similar to the time when people claimed the world wide web to be a youthful trend. It is a sort of straw man %argument based on that it is new and popular and will soon disappear, just like trends. 
+%It is sort of a dictatorship vs democracy, dictatorship works but not well enough. And for a democracy to work the people %need to be onboard. 
 
 \section{Agile vs Waterfall}
+This section will a short illustrative and abstract view of the difference between agile development and the more established software development methodology called the waterfall model. As explained in \fullref{sec:abstraction_components}, one should be careful doing detailed comparisons between agile development and other methodologies since agile development is a bundle of methodologies.
+
+As seen in Figure \ref{fig:agile_waterfall}, the waterfall model takes one logical project step and finishes it before starting the next step, like sequential waterfalls that moves the project from one logical plane to the next. Each team work on different projects at any given time and each team work on one part of the project chain. Which means that the implementation team does not care about design for example. In Figure \ref{fig:agile_waterfall}, when the design team is finished with project 2 it gives the project to the implementation team and waits for a new project to arrive from the planning team. 
+
+In agile development, the project does not normally move from one distinct team to another. Instead, one team holds a project until it is completely finished before starting work on another project. For a team to be able to hold a project from start to finish it is vital that entire team incorporates all necessary skills within a project, which normally is done through so called cross-functional teams that are often mentioned within agile development. If another project starts, another cross-functional team is assigned that project. 
+
+ \begin{figure}[h]
+  \centering
+    \includegraphics[width=1.0\textwidth]{img/agile_waterfall.png}
+    \caption{Simplified abstract image showing the difference between the waterfall model and agile development. The image portrays how projects move forward in an arbitrary timeline through difference phases. P1 to P5 stands for Project 1 to Project 5.}
+    \label{fig:agile_waterfall}
+ \end{figure}
 
 \section{Agile vs Lean}
 When you read about different software development methodologies they can sometimes be referred to as \emph{lean}, sometimes \emph{agile} and sometimes times \emph{lean and agile}. Often without explanation of what specific parts makes the methodology lean and what makes it agile which can be very confusing. To understand the confusion it is best to give a short explanation of what lean development means:
@@ -262,10 +271,6 @@ So by looking at the principles it is safe to say that the lean and agile ideolo
 What is important to note is that agile and lean do not go against each other. This means that methodologies trying to adopt these ideas do not have to be either agile or lean but can in fact be both, with perhaps a focus towards one of them. This chapter will end with a suitable long quote from one of the authors of the agile manifesto.
 
 \epigraph{So as you can see, lean and agile are deeply intertwined in the software world. You can't really talk about them being alternatives, if you are doing agile you are doing lean and vice-versa. Agile was always meant as a very broad concept, a core set of values and principles that was shared by processes that look superficially different. You don't do agile or lean you do agile and lean. The only question is how explicitly you use ideas that draw directly from lean manufacturing.}{\textsc{Martin Fowler} \cite{key24}} 
-
-
-
-
 
 
 \chapter{Agile Methodologies}
@@ -336,6 +341,7 @@ Deciding as a company to use a methodology and once explaining how the methodolo
 The position of the Scrum master is normally filled by the project manager \cite{key21}. Ken Schwaber indicates in his book,\emph{Agile Project Management with Scrum}, that a Scrum master should be a leader figure and never act as a regular boss \cite{key21}. 
 
 \subsection{Events}
+In scrum there are five so called events. However the first event called Sprint is the most important one and all the other events are basically a part of the Sprint.
 
 \subsubsection{Sprint}
 As seen in Figure \ref{fig:scrum} the sprint is very central in Scrum. The sprint is a short period of time, usually a couple of weeks up to a month \cite{key21}. As soon as one sprint ends, another starts. The sprint is about dividing the entire project into small iterations. The length of a sprint should be small enough to avoid complexity but large enough to avoid to much project overhead. The following four practices are all parts of the sprint and describes more in detail what the sprint is about, which can all be seen in Figure \ref{fig:scrum}.
@@ -350,6 +356,7 @@ The spring review is held close to the end of a sprint. The entire scrum team sh
 The spring retrospective should take place before the \emph{Sprint Planning} but after the spring review. Once again the entire scrum team is present, but without the stakeholders. This meeting should take about three hours \emph{key21}. The focus of this meeting is to improve the work process during a sprint. The team reflects about things like tools, relationships, processes and anything else that can improve the workflow of the team and sprint.
 
 \subsection{Artifacts}
+The three artifacts are the most basic parts in Scrum that are worked on during the different events.
 
 \subsubsection{Product Backlog}
 The Product Backlog is the dynamic requirements list in Scrum. It is a item list comprising of anything that can add any form of value to the product. Typical items in a Product Backlog are new features, bugs, enhancements and functions. Each Product Backlog item also has certain attributes such as a description, priority order, complexity estimate and value estimate. 
