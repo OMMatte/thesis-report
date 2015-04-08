@@ -61,6 +61,8 @@
 \newacronym{gui}{GUI}{graphical user interface}
 \newacronym{wip}{WIP}{work-in-progress}
 \newacronym{xp}{XP}{Extreme Programming}
+\newacronym{lsd}{LSD}{lean software development}
+\newacronym{lpd}{LPD}{lean product development}
 
 
 
@@ -150,7 +152,7 @@ Secondary goals:
 \chapter{Agile Development}
 \label{sec:agile_development}
 
-Most developers have experienced the nightmare of working on a project and slowly witness the increasing number of bugs, errors and time when adding new functionality. In order to combat this disheartening scenario, developers created constraints and routines around their activity, forming a development process based on prior mistakes. However big development projects can be complex and even though experienced based constraints helps, at some point the problems reappear. The solution for this was to keep adding more constraints and routines. So the development process grows and grows and until the process itself has become so cumbersome and advanced that it creates the problems it was designed to prevent, which is to avoid \gls{td} and increase efficiency\cite{key1}. This so called \gls{rpi} was common among big companies around the millennium shift and at the time it was a growing negative trend \cite{key1}. This issue, that software teams around the world experienced, was observed by a few industry experts calling themselves the Agile Alliance who sought to fight it \cite{key1}. The ideas that make up agile development were not new at the time but it was the Agile Alliance that formulated the underlying concepts that make up agile development. Read more about this at \fullref{sec:manifesto}.
+Most developers have experienced the nightmare of working on a project and slowly witness the increasing number of bugs, errors and time when adding new functionality. In order to combat this disheartening scenario, developers created constraints and routines around their activity, forming a development process based on prior mistakes. However big development projects can be complex and even though experienced based constraints helps, at some point the problems reappear. The solution for this was to keep adding more constraints and routines. So the development process grows and grows and until the process itself has become so cumbersome and advanced that it creates the problems it was designed to prevent, which is to avoid \gls{td} and increase efficiency\cite{key1}. This so called \gls{rpi} was common among big companies around the millennium shift and at the time it was a growing negative trend \cite{key1}. This issue, that software teams around the world experienced, was observed by a few industry experts calling themselves the Agile Alliance who sought to fight it \cite{key1}.  The ideas that make up agile development were not new at the time but it was the Agile Alliance that formulated the underlying concepts that make up agile development. Read more about this at \fullref{sec:manifesto}.
 
 \section{Abstraction \& Components}
 It is common that agile development is directly compared to the waterfall model which is strange given how they situate on different abstraction levels. The waterfall model is a software development methodology just like Scrum. Agile development on the other hand is not a followable methodology by itself. It is more of an ideology or perhaps a collection of methodologies. So how is it even possible to compare the two of them? The answer is that people are comparing the waterfall model to some popular agile methodology like Scrum or just some common practices like sprints and pair programming, indirectly claiming that these elements represent agile development as a whole. This leads to confusion and unfair comparisons. So before continuing reading about agile development it is a good idea to get a better understanding of the components that make up agile development. 
@@ -170,7 +172,7 @@ In Figure \ref{fig:agile_abstraction}, agile development have been dividid into 
 
 \section{The Agile Manifesto}
 \label{sec:manifesto}
-The Agile Alliance is an organization formed by a group of computer industry experts in 2001. They decided to come together in order to form general development values in order to improve the software development process for companies around the world \cite{key1} \cite{key2}. The result was The Agile Manifesto that states the following:
+The Agile Alliance is an organization formed by a group of computer industry experts in 2001. They decided to come together to form general development values in order to improve the software development process for companies around the world and to give an alternative to the popular heavyweight methodologies \cite{key1} \cite{key2}. The result was The Agile Manifesto that states the following:
 
 \begin{itemize}
 \item \textbf{Individuals and interactions} over processes and tools.
@@ -229,12 +231,42 @@ Using the values stated by The Agile Manifesto, 12 principles were created that 
 
 
 \section{Misconceptions}
-Skeptics to agile development sometimes claim that agile development is just a trend, a so called fad. However the arguments are similar to the time when people claimed the world wide web to be just some youthful trend. It is a sort of straw man argument based on that it is new and popular, just like trends are. 
+Skeptics to agile development sometimes claim that agile development is just a trend, a so called fad. However the arguments are similar to the time when people claimed the world wide web to be a youthful trend. It is a sort of straw man argument based on that it is new and popular and will soon disappear, just like trends. 
 It is sort of a dictatorship vs democracy, dictatorship works but not well enough. And for a democracy to work the people need to be onboard. 
 
 \section{Agile vs Waterfall}
 
 \section{Agile vs Lean}
+When you read about different software development methodologies they can sometimes be referred to as \emph{lean}, sometimes \emph{agile} and sometimes times \emph{lean and agile}. Often without explanation of what specific parts makes the methodology lean and what makes it agile which can be very confusing. To understand the confusion it is best to give a short explanation of what lean development means:
+\begin{description}
+\item[Lean] \hfill \\
+\gls{lpd}, or Lean manufacturing, dates back to the mid 20th century. The history of \gls{lpd} begins with Toyota that sought to improve manufacturing efficiency, quality and flexibility. One way to achieve this, according to \gls{lpd}, is to have the entire chain from design to full assembly at one physical place \cite{key22}. This is comparable to how agile development promotes having short iterations where all parts of the software development chain is incorporated. 
+
+\gls{lsd} is simply the adaptation of \gls{lpd} to the software industry that originates from the book  \emph{Lean Software Development: An Agile Toolkit} by Mary Poppendieck and Tom Poppendieck \cite{key23}. Like with agile development, \gls{lsd} has a few principles that gives a good overview of what the methodology or ideology is about:
+
+\begin{enumerate}
+\item Eliminate waste
+\item Amplify learning
+\item Decide as late as possible
+\item Deliver as fast as possible
+\item Empower the team
+\item Build integrity in
+\item See the whole
+\end{enumerate}
+\end{description}
+ 
+Note that \gls{lsd} has just over half the amount of principles compared to agile development. Without going into detail for each specific principle we can see that several of the lean principles have similarities to the agile principles. L1 says to remove waste while A1 says to maximize value. L2 is hidden in several of the agile principles. L3 is about delaying decisions as late as possible to make the best informed decision which is a simplified version of A2. L4 and A3 both talks about fast delivery. L5 is basically what A5 states.
+
+So by looking at the principles it is safe to say that the lean and agile ideologies have several similarities. They both talk about adaptive planning, empowering the people, fast delivery, continuous improvement etcetera. The differences lies in focus and scope that becomes more apparent when reading literature about them. \gls{lsd} focuses on minimizing waste and streamlining workflow while agile development focuses on adaptivity and communication. \gls{lsd} reaches a higher range than agile software development by going all the way to talk about costumer vision, staffing and maintenance while agile development has a more strict focus on the project development phase. 
+
+What is important to note is that agile and lean do not go against each other. This means that methodologies trying to adopt these ideas do not have to be either agile or lean but can in fact be both, with perhaps a focus towards one of them. This chapter will end with a suitable long quote from one of the authors of the agile manifesto.
+
+\epigraph{So as you can see, lean and agile are deeply intertwined in the software world. You can't really talk about them being alternatives, if you are doing agile you are doing lean and vice-versa. Agile was always meant as a very broad concept, a core set of values and principles that was shared by processes that look superficially different. You don't do agile or lean you do agile and lean. The only question is how explicitly you use ideas that draw directly from lean manufacturing.}{\textsc{Martin Fowler} \cite{key24}} 
+
+
+
+
+
 
 \chapter{Agile Methodologies}
 \label{sec:agile_methodologies}
@@ -685,6 +717,16 @@ the Case for Pair Programming," IEEE Software, JulyAug. 2000.
 \bibitem{key21}
 \url{https://www.google.se/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCUQFjAA&url=http%3A%2F%2Fxa.yimg.com%2Fkq%2Fgroups%2F19611210%2F134287803%2Fname%2FAgile&ei=MXsRVeqRMeHXyQOJtoCoDA&usg=AFQjCNEBuHLF_m23E8qOTsBJvOtetCxukw&sig2=J3vpAfBnP0Mhms92bnycIA&bvm=bv.89184060,d.bGQ&cad=rja}
 
+\bibitem{key22}
+2. J. Womack, D. Jones, and D. Roos, The Machine
+That Changed the World: The Story of
+Lean Production, Simon \& Schuster, 2007
+
+\bibitem{key23}
+http://ptgmedia.pearsoncmg.com/images/9780321150783/samplepages/0321150783.pdf
+
+\bibitem{key24}
+http://martinfowler.com/bliki/AgileVersusLean.html
 
 \end{thebibliography}
 
