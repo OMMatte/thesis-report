@@ -25,21 +25,21 @@
 \contentsline {subsubsection}{Product Owner}{14}{section*.1}
 \contentsline {subsubsection}{Development Team}{15}{section*.2}
 \contentsline {subsubsection}{Scrum Master}{16}{section*.3}
-\contentsline {subsection}{\numberline {3.1.2}Events}{16}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Events}{17}{subsection.3.1.2}
 \contentsline {subsubsection}{Sprint}{17}{section*.4}
 \contentsline {subsubsection}{Sprint Planning}{17}{section*.5}
 \contentsline {subsubsection}{Daily Scrum}{17}{section*.6}
 \contentsline {subsubsection}{Sprint Review}{17}{section*.7}
-\contentsline {subsubsection}{Sprint Retrospective}{17}{section*.8}
+\contentsline {subsubsection}{Sprint Retrospective}{18}{section*.8}
 \contentsline {subsection}{\numberline {3.1.3}Artifacts}{18}{subsection.3.1.3}
 \contentsline {subsubsection}{Product Backlog}{18}{section*.9}
 \contentsline {subsubsection}{Sprint Backlog}{18}{section*.10}
-\contentsline {subsubsection}{Product Increment}{18}{section*.11}
+\contentsline {subsubsection}{Product Increment}{19}{section*.11}
 \contentsline {section}{\numberline {3.2}Extreme Programming (XP)}{19}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Fine-Scale Feedback}{19}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Fine-Scale Feedback}{20}{subsection.3.2.1}
 \contentsline {subsubsection}{Pair Programming}{20}{section*.12}
 \contentsline {subsubsection}{Planning Game}{20}{section*.13}
-\contentsline {subsubsection}{Test-Driven Development}{20}{section*.14}
+\contentsline {subsubsection}{Test-Driven Development}{21}{section*.14}
 \contentsline {subsubsection}{Whole Team}{21}{section*.15}
 \contentsline {subsection}{\numberline {3.2.2}Continuous Process}{21}{subsection.3.2.2}
 \contentsline {subsubsection}{Continuous Integration)}{21}{section*.16}
@@ -48,22 +48,22 @@
 \contentsline {subsection}{\numberline {3.2.3}Shared Understanding}{23}{subsection.3.2.3}
 \contentsline {subsubsection}{Coding Standards}{23}{section*.19}
 \contentsline {subsubsection}{Collective Code Ownership}{23}{section*.20}
-\contentsline {subsubsection}{Simple Design}{23}{section*.21}
+\contentsline {subsubsection}{Simple Design}{24}{section*.21}
 \contentsline {subsubsection}{System Metaphor}{24}{section*.22}
 \contentsline {subsection}{\numberline {3.2.4}Programmer Welfare}{25}{subsection.3.2.4}
 \contentsline {subsubsection}{Sustainable Pace}{25}{section*.23}
 \contentsline {section}{\numberline {3.3}Crystal Clear}{25}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Frequent Delivery}{26}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Reflective Improvement}{26}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Osmotic Communication}{26}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Osmotic Communication}{27}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Personal Safety}{27}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Focus}{27}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.5}Focus}{28}{subsection.3.3.5}
 \contentsline {subsection}{\numberline {3.3.6}Easy Access to Expert Users}{28}{subsection.3.3.6}
 \contentsline {subsection}{\numberline {3.3.7}Technical Environment with Automated Tests, Configuration Management \& Frequent Integration}{29}{subsection.3.3.7}
 \contentsline {subsection}{\numberline {3.3.8}Summary}{30}{subsection.3.3.8}
 \contentsline {section}{\numberline {3.4}Kanban}{30}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Visualize}{31}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Limit Work-in-Progress}{31}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Limit Work-in-Progress}{32}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Manage Flow}{32}{subsection.3.4.3}
 \contentsline {subsection}{\numberline {3.4.4}Make Process Policies Explicit}{32}{subsection.3.4.4}
 \contentsline {subsection}{\numberline {3.4.5}Improve Collaboratively}{32}{subsection.3.4.5}
