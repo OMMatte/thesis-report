@@ -56,7 +56,7 @@
 
 % Acronyms
 \newglossaryentry{jit}{type=\acronymtype, name={JIT}, description={just-in-time}, first={just-in-time (JIT)\glsadd{jitg}}, see=[Glossary:]{jitg}}
-\newglossaryentry{roi}{type=\acronymtype, name={ROI}, description={return-on-investment}, first={jreturn-on-investment (ROI)\glsadd{roig}}, see=[Glossary:]{roig}}
+\newglossaryentry{roi}{type=\acronymtype, name={ROI}, description={return-on-investment}, first={return-on-investment (ROI)\glsadd{roig}}, see=[Glossary:]{roig}}
 \newacronym{tdd}{TTD}{test-driven development}
 \newacronym{gui}{GUI}{graphical user interface}
 \newacronym{wip}{WIP}{work-in-progress}
@@ -283,7 +283,7 @@ What is important to note is that agile and lean do not go against each other. T
 \label{sec:agile_methodologies}
 Up to this point the ideology, that is agile development, has been described. In this chapter the more common methodologies that try to adapt these ideas and mentalities will be brought up. Moreover, the methodologies described here will contain more practically applicable agile practices. What is important to note is that every agile methodology is subject to change. Most authors and advocates of the agile methodologies encourages changes in the methodology itself to suit your development team and/or company. This means that the descriptions of the methodologies can look more or less different depending on the source, especially when they have been written years apart. Another reason is that some parts of a methodology can be vague resulting in different interpretations. However this does not necessarily mean that some descriptions of the practices are wrong. The vagueness can be seen as a way of encouraging changes and alternative implementations of the methodologies which the authors advocates.
 
-The methodologies can be vast in their documentation and this report does not seek to explain each methodology in their deepest details. That would simply require to much work and be overwhelming for the readers. For the interested reader, each methodology will have recommended further reading in its introduction.
+The methodologies can be vast in their documentation and this report does not seek to explain each methodology in their deepest details. That would simply require too much work and be overwhelming for the readers. For the interested reader, each methodology will have recommended further reading in its introduction.
 
 One thing that every agile methodology has in common is a set of practices that explain the most important components. Some methodologies refer to them as properties but they all seek to explain the core of the methodology similar to how the agile principles, in \fullref{sec:agile_principles},  relate to agile development. It was therefor suitable to use them as the base for this reports overview of the methodologies in order to ensure that the description and comparisons are based on somewhat equal grounds.
 
@@ -291,8 +291,8 @@ A warning to the readers is that going through every practice of all four method
 
 \section{Scrum}
 Scrum is one of the most known and used agile methodologies today. Scrum was originally codeveloped during the early 1990s by two of the soon-to-be authors of The Agile Manifesto, Jeff Sutherland and Ken Scwaber \cite{key21}. Several other mentionable people, such as Mike Beedle, have further contributed to the development of Scrum. Since the agile methodology Scrum was conceived just a few years before The Agile Manifesto and by several of the authors, it is perhaps not that shocking that people sometimes wrongfully put an equality mark between agile development and Scrum.
-%Kanske ta bort stycket under
-Scrum is sometimes described as a framework. This is a suitable term since it has a clear structure on most aspects of a software development process, see Figure \ref{fig:scrum}, while avoiding describing the full details for each individual part in the process chain. Scrum has distinct roles, which are part of the practices described, with heavy interaction and communication in between them. Scrum goes against the traditional predictive way of developing and instead has a more empirical approach. What this means is that Scrum assumes that problems and challenges can't be foreseen in software development. Therefor focus lies maximizing the development teams ability to deliver quickly and respond to changing requirements.
+
+Scrum goes against the traditional predictive way of developing and instead has a more empirical approach. What this means is that Scrum assumes that problems and challenges can't be foreseen in software development. Therefor focus lies maximizing the Development Team's ability to deliver quickly and respond to changing requirements.
 
 The information regarding the practices of Scrum is mainly taken from the book \emph{Agile Project Management with Scrum} by Ken Schwaber, one of the authors of The Agile Manifesto, together with updated information from \url{www.scrumguides.org} \cite{key21} \cite{key15}.
 
@@ -305,63 +305,63 @@ The information regarding the practices of Scrum is mainly taken from the book \
  \end{figure}
 
 \subsection{Roles}
-There are three distinct roles in Scrum. The \emph{Product Owner}, \emph{Development Team} and \emph{Scrum Master}. It is the cooperation and relation between these roles that make up Scrum. The scrum team consists of every member within these three roles.
+There are three distinct roles in Scrum. The Product Owner, Development Team and Scrum Master. The cooperation and relation between these roles is a key component in Scrum. The Scrum team consists of every member within these three roles.
 
 \subsubsection{Product Owner}
-The product owner is a single person. He/she is responsible of maximizing the work conducted by the \emph{Development Team} which in turn means responsibility to maximize the product value. The practical priority is managing the \emph{Product Backlog}. The managing of the backlog means taking care of the following;
+The Product Owner is a single person. He/she is responsible of maximizing the work conducted by the Development Team which in turn means responsibility to maximize the product value. The practical priority is managing the Product Backlog. The managing of the backlog means taking care of the following:
 
 \begin{itemize}
-\item Ensuring that the \emph{Product Backlog} items have clear and distinct descriptions.
+\item Ensuring that the Product Backlog items have clear and distinct descriptions.
 \item The ordering of backlog items to maximize value and reaching goals.
-\item Optimization the value of the work by the \emph{Development Team}.
-\item Making the \emph{Product Backlog} visible, transparent, clear to all project members and include information about the upcoming tasks.
-\item Having the \emph{Development Team} on a satisfactory level of understanding of the items in the \emph{Product Backlog}
+\item Optimization the value of the work by the Development Team.
+\item Making the Product Backlog visible, transparent, clear to all project members and include information about upcoming tasks.
+\item Having the Development Team on a satisfactory level of understanding of the items in the Product Backlog.
 \end{itemize}
 
-Depending on the size of the project and company. The product owner may choose to distribute some of tasks to other people such as the development team. However, the product owner is always the accountable person for the above tasks \cite{key15}.
+Depending on the size of the project and company. The Product Owner may choose to distribute some of the tasks to other people such as the Development Team. However, the Product Owner is always the accountable person for the above tasks \cite{key15}.
 
 \subsubsection{Development Team}
-In Scrum the development team are in charge of delivering working software, as one might expect. They are in a large sense self governed and chooses how they want to work, within some limits of course. 
-The development team can be summarized with these characteristics:
+In Scrum the Development Team are in charge of delivering working software, as one might expect. They are in a large sense self governed and chooses how they want to work, with some guidelines of course. 
+The Development Team can be summarized with these characteristics:
 
 \begin{itemize}
-\item Self-organizing. The development team alone chooses how they want to turn the items in the \emph{Product Backlog} into functionality.  
-\item Cross-functional. The team should encompass all necessary skills to work with everything in the \emph{Product Backlog}.
+\item Self-organizing. The Development Team alone chooses how they want to turn the items in the Product Backlog into functionality.  
+\item Cross-functional. The team should encompass all necessary skills to work with everything in the Product Backlog.
 \item No titles within the group. Everyone is simply a developer.
-\item No sub-teams. Just like there are no titles for the members, there can be no sub-teams such as a testing team.
-\item All for one, one for all. Members might have specialized knowledge giving them natural areas of focus but the development team should be accountable as a whole.
+\item No sub-teams. Just like there are no titles for the members, there can be no sub-teams such as a testing team. Not to be confused with multiple teams which is allowed and common in big projects.
+\item All for one, one for all. Members might have specialized knowledge giving them natural areas of focus but the Development Team should always be accountable as a whole and never rely on individual expertise.
 \end{itemize}
 
-It is recommended that each development team consist of 3-9 members \cite{key15}. The reason being that too few developers limits the interaction and the team are more likely to have skill constraints. To many members lead to too much complexity that can make coordination between the members difficult. 
+It is recommended that any Development Team consists of 3-9 members \cite{key15}. The reason being that too few developers limits the interaction and the team are more likely to have skill constraints. To many members lead to too much complexity that can make coordination between the members difficult.
 
 \subsubsection{Scrum Master}
-Deciding as a company to use a methodology and once explaining how the methodology works to all employees does not mean that the company will be developing according to that methodology. This is where the Scrum master comes in. The Scrum master is in charge of keeping the Scrum wheel turning. He/she makes sure that the \emph{Product Owner} and \emph{Development Team} are collaborating and generally doing what they are supposed to do. The following is a short summarization of the responsibilities of the Scrum master:
+Deciding as a company to use a methodology and then explaining how the methodology works to all employees does not mean that the company will be developing according to that methodology. This is where the Scrum Master comes in. The Scrum Master is in charge of keeping the Scrum wheels turning. He/she makes sure that the Product Owner and Development Team are collaborating and generally doing what they are supposed to do. The following is a summarization of the responsibilities of the Scrum Master:
 
 \begin{itemize}
-\item Remove barriers regarding development so that the \emph{Product Owner} is free to directly drive development forward.
-\item Teach the \emph{Product Owner} how to maximize \gls{roi} in order to meet his/her milestones using Scrum. 
-\item Improve the quality of life for the \emph{Development Team} by empowering them and encouraging creativity.
-\item Assist the \emph{Development Team} in increasing productivity in any way possible.
+\item Remove barriers regarding development so that the Product Owner is free to directly drive development forward.
+\item Teach the Product Owner how to maximize \gls{roi} in order to meet his/her milestones using Scrum. 
+\item Improve the quality of life for the Development Team by empowering them and encouraging creativity.
+\item Assist the Development Team in increasing productivity in any way possible.
 \item Ensure that each increment of functionality is potentially shippable by improving engineering practices and tools.
-\item Give transparency to the \emph{Development Team's} work progress for all parties and ensure it is up-to-date. 
+\item Give transparency to the Development Team's work progress for all parties and ensure it is up-to-date. 
 \end{itemize}
 
-The position of the Scrum master is normally filled by the project manager \cite{key21}. Ken Schwaber indicates in his book,\emph{Agile Project Management with Scrum}, that a Scrum master should be a leader figure and never act as a regular boss \cite{key21}. 
+The position of the Scrum Scrum Master is normally filled by the project manager. Ken Schwaber indicates in his book, \emph{Agile Project Management with Scrum}, that a Scrum Master should be a leader figure and never act as a regular boss \cite{key21}. 
 
 \subsection{Events}
-In scrum there are five so called events. However the first event called Sprint is the most important one and all the other events are basically a part of the Sprint.
+In Scrum there are five so called events. However the first event called Sprint is the most important one and all the other events are basically a part of the Sprint.
 
 \subsubsection{Sprint}
-As seen in Figure \ref{fig:scrum} the sprint is very central in Scrum. The sprint is a short period of time, usually a couple of weeks up to a month \cite{key21}. As soon as one sprint ends, another starts. The sprint is about dividing the entire project into small iterations. The length of a sprint should be small enough to avoid complexity but large enough to avoid to much project overhead. The following four practices are all parts of the sprint and describes more in detail what the sprint is about, which can all be seen in Figure \ref{fig:scrum}.
+As seen in Figure \ref{fig:scrum} the Sprint is very central in Scrum. The Sprint is a short period of time, usually a couple of weeks up to a month \cite{key21}. As soon as one Sprint ends, another starts. The Sprint is about dividing the entire project into small iterations. The length of a Sprint should be small enough to avoid complexity but large enough to avoid too much project overhead. The following four practices are all parts of the Sprint and describes more in detail what the Sprint is about.
 
 \subsubsection{Sprint Planning}
-Each newly starting sprint is initialized with a sprint planning. The entire scrum team should be present during this planning. The \emph{Product Owner} brings up the \emph{Product Backlog} and its priorities. These are discussed by all parts and the \emph{Development Team} goes through what will be achievable for the next sprint. So to summarize the planning is about deciding what should be done and what can be done for the coming sprint. The meeting usually has a time limit of 8 hours \cite{key21}.
+Each newly starting Sprint is initialized with a Sprint Planning. The entire Scrum team should be present during this planning. The Product Owner brings up the Product Backlog and its priorities. These are discussed by all parts and the Development Team goes through what will be achievable for the next Sprint. So to summarize the planning is about deciding what should be done and what can be done for the coming Sprint. The meeting usually has a time limit of 8 hours \cite{key21}.
 \subsubsection{Daily Scrum}
-Also referred to as daily standup as seen in \ref{fig:scrum}. This is something that the \emph{Development Team} does every day and should take around 15 minutes \cite{key21}. They do this to synchronize and coordinate their work efforts. There are three important questions to be answered during this meeting which are: What work have each member done since the last daily scrum? What is everyone planning on doing before the next daily scrum? What hinders exist that stand in the way of the team meeting the current sprint goals? It is the \emph{Scrum Master's} job to enforce that the daily scrum takes place and that it is only the members of the \emph{Development Team} that participate \cite{key15} \cite{key21}.
+Also referred to as daily standup as seen in Figure \ref{fig:scrum}. This is something that the Development Team does every day and should take around 15 minutes \cite{key21}. They do this to synchronize and coordinate their work efforts. There are three important questions to be answered during this meeting which are: What work have each member done since the last Daily Scrum? What is everyone planning on doing before the next Daily Scrum? What hinders exist that stand in the way of the team meeting the current Sprint goals? It is the Scrum Master's job to enforce that the Daily Scrum takes place and that it is only the members of the Development Team that participate \cite{key15} \cite{key21}.
 \subsubsection{Sprint Review}
-The spring review is held close to the end of a sprint. The entire scrum team should be present and if possible the stakeholders as well. This is supposed to be an informal meeting where the added functionality from the sprint is shown. The \emph{Development Team} shows what they have done and the \emph{Product Owner} shows what has happened to the \emph{Backlog}. The idea is to have a revised \emph{Product Backlog} at the end that can be used for the next Sprint \emph{key15}. The durations of this meeting is usually limited to four hours \cite{key21}.
+The Sprint Review is held close to the end of a Sprint. The entire Scrum team should be present and if possible the stakeholders as well. This is supposed to be an informal meeting where the added functionality from the latest Sprint is shown. The Development Team shows what they have done and the Product Owner shows what has happened to the Backlog. The idea is to have a revised Product Backlog at the end that can be used for the next Sprint. The durations of this meeting is usually limited to four hours \cite{key21}.
 \subsubsection{Sprint Retrospective}
-The spring retrospective should take place before the \emph{Sprint Planning} but after the spring review. Once again the entire scrum team is present, but without the stakeholders. This meeting should take about three hours \emph{key21}. The focus of this meeting is to improve the work process during a sprint. The team reflects about things like tools, relationships, processes and anything else that can improve the workflow of the team and sprint.
+The Sprint Retrospective should take place after the Sprint Review but before the upcoming Sprint Planning. Once again the entire Scrum team is present, but without the stakeholders. This meeting should take about three hours \cite{key21}. The focus of this meeting is to improve the work process during a Sprint. The team reflects about things like tools, relationships, processes and anything else that can improve the workflow of the team and next Sprint.
 
 \subsection{Artifacts}
 The three artifacts are the most basic parts in Scrum that are worked on during the different events.
@@ -369,13 +369,13 @@ The three artifacts are the most basic parts in Scrum that are worked on during 
 \subsubsection{Product Backlog}
 The Product Backlog is the dynamic requirements list in Scrum. It is a item list comprising of anything that can add any form of value to the product. Typical items in a Product Backlog are new features, bugs, enhancements and functions. Each Product Backlog item also has certain attributes such as a description, priority order, complexity estimate and value estimate. 
 
-What separates a Product Backlog from a simple requirements list is that it is a dynamic process and not a static list. The items in the Product Backlog that are to be considered for the "near future", as in having a high priority order, usually have more details than other items. This is to allow changes to the distant Product Backlog items as the actual product developes.  The Product Backlog is in focus for both the practices Sprint Planning and Sprint Review. The refinement of the Product Backlog items is sometimes counted as a practice by itself as seen in Figure \ref{fig:scrum}, however the items can be tuned and refined at any time. All members of the Scrum team have a saying when it comes to the Product Backlog but the Product Owner is the main responsible person.
+What separates a Product Backlog from a simple requirements list is that it is a dynamic process and not a static list. The items in the Product Backlog that are to be considered for the "near future", as in having a high priority order, have more details than other items. This is to allow changes to the distant Product Backlog items as the actual product developes.  The Product Backlog is in focus for both the Sprint Planning and Sprint Review. The refinement of the Product Backlog items is sometimes counted as a practice by itself as seen in Figure \ref{fig:scrum}. However the items can be tuned and refined at any time. All members of the Scrum team have a saying when it comes to the Product Backlog but the Product Owner is the main responsible person.
 
 \subsubsection{Sprint Backlog}
 The Sprint Backlog is the selected items from the Product Backlog for the ongoing Sprint. It is the list of work to be done during the Sprint. All items in this backlog have clear details since the idea is to have them all completed at the end of the Sprint, which is a relatively short time period. The Sprint Backlog changes during a Sprint as the items become implemented and moved to "done". New items can also be added as unforeseen needed functionality is added. It is the Development Team that work with the Sprint Backlog and uses it as their progress report and todo list for the current Sprint. At each Daily Scrum the Sprint Backlog is updated and refined with informations such as remaining work hours. 
 
 \subsubsection{Product Increment}
-A Product Increment is the sum of all implemented Sprint Backlog items for a Sprint. It is a sort of next "step" for the product. The requirements for a a item to counted in the Product Increment is that it is fully usable for the product. Regardless if the Product Owner chooses to release it or not, it is still counted in the Product Increment.
+A Product Increment is the sum of all implemented Sprint Backlog items for a Sprint. It is a sort of "next step" for the product. The requirements for a item to be counted in the Product Increment is that it is fully usable for the product, regardless if the Product Owner chooses to release it or not.
 
 
 \section{Extreme Programming (XP)}
@@ -417,7 +417,7 @@ Saying that \gls{xp} focuses on the entire team does not simply mean the entire 
 
 
 \subsection{Continuous Process}
-These practices describes the cycles such as sprints and release plans for the project. Things like frequent integration are brought up and the importance of continuous refactoring. 
+These practices describes the cycles such as Sprints and release plans for the project. Things like frequent integration are brought up and the importance of continuous refactoring. 
 
 \subsubsection{Continuous Integration)}
 For those that frequently work with multiple people using \gls{git}, \emph{Continuous Integration} will sound familiar. Each programmer should integrate their work several times a day. If you are lucky (or fast), you are first and simply check in your work. If you are not so lucky, you have to merge the changes. In other words, \gls{xp} teams use nonblocking source control \cite{key1}. This means that every developer can work on any part of the system, simultaneously with the other developers. It is important that each system tests and acceptance tests are run before anything is checked in. If something is broken, the developer fixes it before checking in the changes. 
@@ -575,7 +575,7 @@ The cards are not only meant to simply hold programming tasks. They are meant to
 \subsection{Limit Work-in-Progress}
 Limiting \gls{wip} is about having a limit at each step in the product chain, shown in Figure \ref{fig:kanban_board}, that corresponds to the amount of tasks allowed in that step. A simple \gls{wip} limit is having it equal to the amount of available working people at each step. When deciding the \gls{wip} limit, all members from from the stake holders to the developers should take part and form an agreement \cite{key16}. 
 
-The \gls{wip} limit is important for several reasons. It shows when a pull from one step can be made to the next, it ensures focus on one or a few tasks at a time, it keeps the workload balanced and avoids stock piling of items at some middle step in the product chain. The most important benefit is that it gives the development team a limit to rely on and fall back to when put under to much stress, especially if everyone participated and formed a consensus when choosing the limit for the \gls{wip}. 
+The \gls{wip} limit is important for several reasons. It shows when a pull from one step can be made to the next, it ensures focus on one or a few tasks at a time, it keeps the workload balanced and avoids stock piling of items at some middle step in the product chain. The most important benefit is that it gives the development team a limit to rely on and fall back to when put under too much stress, especially if everyone participated and formed a consensus when choosing the limit for the \gls{wip}. 
 
 \subsection{Manage Flow}
 In Kanban the workflow or task flow is central so it makes sense having a practice focus on how to manage and improve it. In order to improve the workflow one must first be able to measure it somehow. Otherwise when changes are made, how do we know that it was an improvement? Some things are easier to measure and improve such as items stock piling at a certain step. An easy fix would be to add more manpower to that particular step. Some software such as \emph{Kanbanery} offer automatic tools for measuring that can give useful information about how changes affect the workflow \cite{key18}. Something important to stress out is that the more precise the estimated complexities and values for the cards/tasks the easier it gets to analyze the workflow.
