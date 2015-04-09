@@ -10,10 +10,10 @@
 \contentsline {section}{\numberline {1.4}Limitations}{2}{section.1.4}
 \contentsline {section}{\numberline {1.5}Thesis Report Outline}{2}{section.1.5}
 \contentsline {chapter}{\chapternumberline {2}Agile Development}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Abstraction \& Components}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}The Agile Manifesto}{6}{section.2.2}
+\contentsline {section}{\numberline {2.1}Component Abstraction}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}The Agile Manifesto}{7}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Individuals and Interactions over Processes and Tools}{7}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Working Software over Comprehensive Documentation}{7}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Working Software over Comprehensive Documentation}{8}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Customer Collaboration over Contract Negotiation}{8}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Responding to Change over Following a Plan}{8}{subsection.2.2.4}
 \contentsline {section}{\numberline {2.3}The Agile Principles}{9}{section.2.3}
