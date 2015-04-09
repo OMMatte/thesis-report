@@ -67,8 +67,9 @@
 \contentsline {subsection}{\numberline {3.4.3}Manage Flow}{32}{subsection.3.4.3}
 \contentsline {subsection}{\numberline {3.4.4}Make Process Policies Explicit}{32}{subsection.3.4.4}
 \contentsline {subsection}{\numberline {3.4.5}Improve Collaboratively}{32}{subsection.3.4.5}
+\contentsline {section}{\numberline {3.5}Other Mentionable Methodologies}{33}{section.3.5}
 \contentsline {chapter}{\chapternumberline {4}Theoretical Evaluation of Methodologies}{35}{chapter.4}
-\contentsline {subsection}{\numberline {4.0.6}Agile Methodology Point System}{35}{subsection.4.0.6}
+\contentsline {subsection}{\numberline {4.0.1}Agile Methodology Point System}{35}{subsection.4.0.1}
 \contentsline {section}{\numberline {4.1}Practical Evaluation of Agile Project}{35}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Project Description}{35}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Chosen Methodology and/or Strategy}{35}{subsection.4.1.2}
