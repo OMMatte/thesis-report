@@ -5,7 +5,7 @@
 \usepackage[latin1]{inputenc}
 \usepackage[swedish,english]{babel}
 \usepackage{modifications}
-\usepackage[acronym, numberedsection=autolabel]{glossaries}
+\usepackage[acronym, toc]{glossaries}
 \usepackage[colorlinks]{hyperref}
 \usepackage{graphicx}
 \usepackage{nameref}
@@ -101,11 +101,20 @@ description={Has several meanings but this report refers to corporate stakeholde
 
 \title{Agile Development in a Solo Environment}
 
+
+\begin{comment}
+
+
 \subtitle{Duis autem vel eum iruire dolor in hendrerit in
           vulputate velit esse molestie consequat, vel illum
           dolore eu feugiat null}
 \foreigntitle{Lorem ipsum dolor sit amet, sed diam nonummy nibh eui
               mod tincidunt ut laoreet dol}
+              
+              
+\end{comment}              
+              
+              
 \author{Mathias Lindblom}
 \date{June 2015}
 \blurb{Master's Thesis at KTH Royal Institute of Technology\\Computer Science and Communication (CSC)\\Supervisor: Sten Andersson\\Examiner: Olle Bälter}
@@ -116,6 +125,10 @@ description={Has several meanings but this report refers to corporate stakeholde
 \removepagenumbers
 \maketitle
 \selectlanguage{english}
+
+\begin{comment}
+
+
 \begin{abstract}
   This is a skeleton for KTH theses. More documentation
   regarding the KTH thesis class file can be found in
@@ -129,7 +142,14 @@ nibh risus, venenatis ac, tempor sed, vestibulum at, tellus. Class
 aptent taciti sociosqu ad litora torquent per conubia nostra, per
 inceptos hymenaeos.
 \end{abstract}
+
+\end{comment}
+
+
 \clearpage
+
+\begin{comment}
+
 \begin{foreignabstract}{swedish}
   Denna fil ger ett avhandlingsskelett.
   Mer information om \LaTeX-mallen finns i
@@ -143,10 +163,15 @@ nibh risus, venenatis ac, tempor sed, vestibulum at, tellus. Class
 aptent taciti sociosqu ad litora torquent per conubia nostra, per
 inceptos hymenaeos.
 \end{foreignabstract}
+
+\end{comment}
+
 \clearpage
 \tableofcontents*
 \mainmatter
 \pagestyle{newchap}
+
+\begin{comment}
 
 \chapter{Introduction}
 This chapter will initially go through the problem statement and goals of the report. It will also show the motivation and estimated value of the entire report. The last section will outline the structure of the rest of the report.
@@ -178,6 +203,8 @@ Secondary goals:
 \section{Limitations}
 
 \section{Thesis Report Outline}
+
+\end{comment}
 
 \mypart{Background} {The following two chapters forms the base for the theoretical and practical part of this reports study. The first chapter explains agile development as a concept and its core ideas. The second chapter explains some of the most common agile methodologies, by mainly going through their practices.}
 
@@ -270,18 +297,21 @@ Using the values stated by The Agile Manifesto, 12 principles were created that 
 %It is sort of a dictatorship vs democracy, dictatorship works but not well enough. And for a democracy to work the people %need to be onboard. 
 
 \section{Agile vs Waterfall}
+
+ \begin{figure}[h!] % NOTE CHANGE TO WIDTH=1.0 IF POSSIBLE!
+  \centering
+    \includegraphics[width=0.9\textwidth]{img/agile_waterfall.png}
+    \caption{Simplified abstract image showing the difference between the waterfall model and agile development. The image portrays how projects move forward in an arbitrary timeline through difference phases. P1 to P5 stands for Project 1 to Project 5.}
+    \label{fig:agile_waterfall}
+ \end{figure}
+ \noindent
 This section will a short illustrative and abstract view of the difference between agile development and the more established software development methodology called the waterfall model. As explained in \fullref{sec:abstraction_components}, one should be careful doing detailed comparisons between agile development and other methodologies since agile development is a bundle of methodologies.
 
 As seen in Figure \ref{fig:agile_waterfall}, the waterfall model takes one logical project step and finishes it before starting the next step, like sequential waterfalls that moves the project from one logical plane to the next. Each team work on different projects at any given time and each team work on one part of the project chain. Which means that the implementation team does not care about design for example. In Figure \ref{fig:agile_waterfall}, when the design team is finished with project 2 it gives the project to the implementation team and waits for a new project to arrive from the planning team. 
 
 In agile development, the project does not normally move from one distinct team to another. Instead, one team holds a project until it is completely finished before starting work on another project. For a team to be able to hold a project from start to finish it is vital that entire team incorporates all necessary skills within a project, which normally is done through so called cross-functional teams that are often mentioned within agile development. If another project starts, another cross-functional team is assigned that project. 
 
- \begin{figure}[h]
-  \centering
-    \includegraphics[width=1.0\textwidth]{img/agile_waterfall.png}
-    \caption{Simplified abstract image showing the difference between the waterfall model and agile development. The image portrays how projects move forward in an arbitrary timeline through difference phases. P1 to P5 stands for Project 1 to Project 5.}
-    \label{fig:agile_waterfall}
- \end{figure}
+
 
 \section{Agile vs Lean}
 \label{sec:agile_lean}
@@ -327,12 +357,12 @@ Scrum is one of the most known and used agile methodologies today. Scrum was ori
 
 Scrum goes against the traditional predictive way of developing and instead has a more empirical approach. What this means is that Scrum assumes that problems and challenges can't be foreseen in software development. Therefor focus lies maximizing the Development Team's ability to deliver quickly and respond to changing requirements.
 
-The information regarding the practices of Scrum is mainly taken from the book \emph{Agile Project Management with Scrum} by Ken Schwaber, one of the authors of The Agile Manifesto, together with updated information from the official Scrum web page: \url{www.scrumguides.org} \cite{key21} \cite{key15}. Both the book and the web page are recommended for further reading regarding Scrum.
+The information regarding the practices of Scrum is mainly taken from the book \emph{Agile Project Management with Scrum} by Ken Schwaber, one of the authors of The Agile Manifesto, together with updated information from the official Scrum web page: \url{www.scrumguides.org} \cite{key21} \cite{key15}. There are a total of 12 practices in Scrum divided the categories Roles, Events and Artifacts. Both the book and the web page are recommended for further reading regarding Scrum.
 
- \begin{figure}[h]
+ \begin{figure}[h!] %NOTE, CHANGE TO WIDTH 1.0 IF POSSIBLE!
   
   \centering
-    \includegraphics[width=1.0\textwidth]{img/how_scrum_works.png}
+    \includegraphics[width=0.88\textwidth]{img/how_scrum_works.png}
     \captionsource{Image showing an abstract view of how Scrum works, including different several practices including the three different roles.}{Scruminc, \url{http://www.scruminc.com}}
     \label{fig:scrum}
  \end{figure}
@@ -589,7 +619,7 @@ Crystal Clear has a clear focus on working and social environment. Five of the s
 
 
 \section{Kanban}
-When reading about Kanban it can get quite confusing. This is because Kanban is originally a lean scheduling system for \gls{jit} production developed by Taiichi Ohno at Toyota in 1953 \cite{key16} \cite{key17}. It is still used today within manufacturing but the ideas have been taken and modified to fit software development. The confusing part is that this software development version of Kanban is called Kanban. If not clearly stated otherwise, future referencing to \emph{Kanban} in the report refers to the software development version of Kanban. A fun fact is that "kan-ban" is Japanese for "signal card" \cite{key16}. Some disagreement regarding Kanban is weather it is more of a lean or more of an agile methodology. The easy answer to this is to simply ignore the question since lean and agile methodologies don't go against each other nor have precise definitions as explained in \fullref{sec:agile_lean}. One thing most can agree on is that Kanban is both lean and agile to some extent.
+When reading about Kanban it can get quite confusing. This is because Kanban is originally a lean scheduling system for \gls{jit} production developed by Taiichi Ohno at Toyota in 1953 \cite{key16}. It is still used today within manufacturing but the ideas have been taken and modified to fit software development. The confusing part is that this software development version of Kanban is called Kanban. If not clearly stated otherwise, future referencing to \emph{Kanban} in the report refers to the software development version of Kanban. A fun fact is that "kan-ban" is Japanese for "signal card" \cite{key16}. Some disagreement regarding Kanban is weather it is more of a lean or more of an agile methodology. The easy answer to this is to simply ignore the question since lean and agile methodologies don't go against each other nor have precise definitions as explained in \fullref{sec:agile_lean}. One thing most can agree on is that Kanban is both lean and agile to some extent.
 
 As David J. Andersson stated in his first book about Kanban, the methodology is lightweight and does not have a clear formal definition in order to promote changes and modifications \cite{key16}. This has led to several alternative methodologies, that build upon the original, popping up such as Kanban Ace and LKU Kanban. For these reasons, it is not that strange that the core practices can vary slightly in both numbers and definition. Depending on where you read you might find three or seven practices. For this report the chosen core practices are taken partly from the book \emph{Kanban: Successful Evolutionary Change for Your Technology Business} by David J. Andersson \cite{key16} and partly from the overall consensus from various resources available online.
 
@@ -635,6 +665,8 @@ The informed reader might wonder why only these four methodologies were chosen f
 The reason for the chosen methodologies are several. First of all we must acknowledge that going through every possible agile methodology is simply not possible. Kanban was chosen since it is both broadly used and very lightweight, making it a perfect choice for testing agile methodologies in small development teams. Crystal Clear was chosen as it clearly tries to address small development teams in its definition and there are not many agile methodologies that does so. Scrum is the most popular agile methodology today and therefor deserves a spot. \gls{xp} was chosen since it is popular but still quite different from the other methodologies, making it interesting for comparison reasons. 
 
 DSDM was skipped simply because its scope is too large, larger than Scrum for example. This makes it impractical for this report since it talks about business cases and sponsorship which might not be the number one priority for small development groups. Feature-Driven Development (FDD) is another popular methodology but it has focus on big projects by discussing things like automated build systems. Some other methodologies are Adaptive Software Development (ASD), Scaled Agile Framework (SAFe), Disciplined Agile Delivery (DAD), Projects in Controlled Environments (PRINCE2) but they were all skipped for similar reasons, or lack of documentation. 
+
+\begin{comment}
 
 \mypart{Method}{The method is divided in two main parts. The first section describes the theoretical evaluation of agile methodologies. The second part describes the project that has been developed using a few selected agile strategies.}
 
@@ -682,6 +714,8 @@ Each agile development methodology has vast amount of information, interpretatio
 
 \section{Future Work} 
 \label{sec:future_work}
+
+\end{comment}
 
 
 \printglossary[type=main]
