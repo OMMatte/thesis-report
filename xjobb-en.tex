@@ -11,7 +11,7 @@
 \usepackage{nameref}
 
 \newcommand*{\fullref}[1]{\hyperref[{#1}]{\autoref*{#1} \nameref*{#1}}} % One single link
-\renewcommand*{\glsdisplayfirst}[4]{#1#4*} % Glossary first entry
+\renewcommand*{\glsdisplayfirst}[4]{#1#4} % Glossary first entry
 
 \newcommand*{\captionsource}[2]{%
   \caption[{#1}]{%
@@ -42,16 +42,48 @@
 \setlength{\epigraphwidth}{.7\textwidth}
 
 % Glossary
-\newglossaryentry{rpi}{name={runaway process inflation}, description={Runaway inflation is a very rapid inflation (decrease of money value). Runaway process inflation is a term sometimes used within agile development to describe rapidly growing development processes}}
-\newglossaryentry{td}{name={technical dept}, description={Technical dept (also called design dept or code dept), is a metaphor primarily used in software development referring to the consequences of poor system design. The dept builds up as you for example introduce bugs and so called spaghetti code that has to be fixed in the future, as in repaying your dept}}
-\newglossaryentry{ev}{name={Early Victory}, description={A strategy commonly referenced to in agile development that refers to the sociological benefits of showing early and frequent results, such as increasing morale and trust \cite{key6}}}
-\newglossaryentry{osmosis}{name={osmosis}, description={The movement of a liquid, sometimes gas, through a plasma membrane (which is a sort of filer) which over time results in a balancing from high concentration areas to low for the molecules that are able to pass through the plasma membrane}}
-\newglossaryentry{es}{name={executive sponsor}, description={Also referred to as the project sponsor. Executive sponsor is a role in project management that is responsible to the business/company for the success of a project}}
-\newglossaryentry{git}{name={Git}, description={Git is a popular distributed revision control system mainly used for software development.}}
-\newglossaryentry{jitg}{name={JIT}, description={Just-in-time is a production strategy that seeks to improve the return on investment for a business by reducing in-process inventory and associated carrying costs. In simpler terms, reducing the stock up of inventory items in a process chain.}}
-\newglossaryentry{roig}{name={ROI}, description={Return on investment means the benefits, or return, for the investor resiling from an investment of some resource. High ROI}}
+\newglossaryentry{rpi}{
+name={Runaway Process Inflation}, 
+text={runaway process inflation}, 
+description={Runaway inflation is a very rapid inflation (decrease of money value). Runaway process inflation is a term sometimes used within agile development to describe rapidly growing development processes}}
 
+\newglossaryentry{td}{
+name={Technical Dept},
+text={technical dept}, 
+description={Technical dept (also called design dept or code dept), is a metaphor primarily used in software development referring to the consequences of poor system design. The dept builds up as you for example introduce bugs and so called spaghetti code that has to be fixed in the future, as in repaying your dept}}
 
+\newglossaryentry{ev}{
+name={Early Victory}, 
+text={early victory},
+description={A strategy commonly referenced to in agile development that refers to the sociological benefits of showing early and frequent results, such as increasing morale and trust}}
+
+\newglossaryentry{osmosis}{
+name={Osmosis},
+text={osmosis}, 
+description={The movement of a liquid, sometimes gas, through a plasma membrane (which is a sort of filter) which over time results in a balancing from high concentration areas to low for the molecules that are able to pass through the plasma membrane}}
+
+\newglossaryentry{es}{
+name={Executive Sponsor},
+text={executive sponsor}, 
+description={Also referred to as the project sponsor. Executive sponsor is a role in project management that is responsible to the business/company for the success of a project}}
+
+\newglossaryentry{git}{
+name={Git}, 
+text={Git},
+description={Git is a popular distributed revision control system mainly used for software development}}
+
+\newglossaryentry{jitg}{
+name={JIT}, 
+description={Just-in-time is a production strategy that seeks to improve the \gls{roi} for a business by reducing in-process inventory and associated carrying costs. In simpler terms, reducing the stock up of inventory items in a process chain}}
+
+\newglossaryentry{roig}{
+name={ROI}, 
+description={Return on investment means the benefits, or return, for the investor resulting from an investment of some resource. High ROI}}
+
+\newglossaryentry{stake}{
+name={Stakeholder},
+text={stakeholder},
+description={Has several meanings but this report refers to corporate stakeholders. A corporate stakeholder is a broad term meaning a person or party who has an interest in a certain business or project for a company. It can for example be investors, customers and suppliers}}
 
 
 % Acronyms
@@ -122,7 +154,7 @@ This chapter will initially go through the problem statement and goals of the re
 Agile development is something
 
 \section{Problem Statement}
-Agile software development can be seen as a trend in today's computer industry and the actual concept of the method changes every year, which is quite appropriate given what the methodology advocates. The method mainly targets advanced systems and encourage continuous improvement and rapid changes to new customer demands. The development process revolves around having collaboration between self-organizing and cross-functional teams with focus on communication together with a iterative development process. However the information available regarding how-to practically establish an agile development process in small companies with small projects is limited. The available literature usually give hints on where to start but focuses heavily on the full blown methodologies and leaves it up to the reader to decide what is practically possible for their limited sized development group or company.
+Agile software development can be seen as a trend in today's computer industry and the actual concept of the method changes every year, which is quite appropriate given what the methodology advocates. The method mainly targets advanced systems and encourage continuous improvement and rapid changes to new customer demands. The development process revolves around having collaboration between self-organizing and cross-functional teams with focus on communication together with an iterative development process. However the information available regarding how-to practically establish an agile development process in small companies with small projects is limited. The available literature usually give hints on where to start but focuses heavily on the full blown methodologies and leaves it up to the reader to decide what is practically possible for their limited sized development group or company.
 
 This can make it hard and confusing for developers wanting to adopt an agile mindset when starting their new company with only a few people or even by themselves. Moreover, trying to follow most agile methodologies, or other methodology types for that matter, completely can be overwhelming and lead to unnecessary abandonment of that methodology. By finding a good approach to how small teams and/or companies can adopt agile software development, future problems such as communications issues or delays that comes from not following a methodology can be avoided.
 
@@ -252,6 +284,7 @@ In agile development, the project does not normally move from one distinct team 
  \end{figure}
 
 \section{Agile vs Lean}
+\label{sec:agile_lean}
 When you read about different software development methodologies they can sometimes be referred to as \emph{lean}, sometimes \emph{agile} and sometimes \emph{lean and agile}. Often without explanation of what specific parts makes the methodology lean and what makes it agile which can be very confusing. To understand the confusion it is best to give a short explanation of what lean development means:
 \begin{description}
 \item[Lean] \hfill \\
@@ -294,7 +327,7 @@ Scrum is one of the most known and used agile methodologies today. Scrum was ori
 
 Scrum goes against the traditional predictive way of developing and instead has a more empirical approach. What this means is that Scrum assumes that problems and challenges can't be foreseen in software development. Therefor focus lies maximizing the Development Team's ability to deliver quickly and respond to changing requirements.
 
-The information regarding the practices of Scrum is mainly taken from the book \emph{Agile Project Management with Scrum} by Ken Schwaber, one of the authors of The Agile Manifesto, together with updated information from \url{www.scrumguides.org} \cite{key21} \cite{key15}.
+The information regarding the practices of Scrum is mainly taken from the book \emph{Agile Project Management with Scrum} by Ken Schwaber, one of the authors of The Agile Manifesto, together with updated information from the official Scrum web page: \url{www.scrumguides.org} \cite{key21} \cite{key15}. Both the book and the web page are recommended for further reading regarding Scrum.
 
  \begin{figure}[h]
   
@@ -359,15 +392,15 @@ Each newly starting Sprint is initialized with a Sprint Planning. The entire Scr
 \subsubsection{Daily Scrum}
 Also referred to as daily standup as seen in Figure \ref{fig:scrum}. This is something that the Development Team does every day and should take around 15 minutes \cite{key21}. They do this to synchronize and coordinate their work efforts. There are three important questions to be answered during this meeting which are: What work have each member done since the last Daily Scrum? What is everyone planning on doing before the next Daily Scrum? What hinders exist that stand in the way of the team meeting the current Sprint goals? It is the Scrum Master's job to enforce that the Daily Scrum takes place and that it is only the members of the Development Team that participate \cite{key15} \cite{key21}.
 \subsubsection{Sprint Review}
-The Sprint Review is held close to the end of a Sprint. The entire Scrum team should be present and if possible the stakeholders as well. This is supposed to be an informal meeting where the added functionality from the latest Sprint is shown. The Development Team shows what they have done and the Product Owner shows what has happened to the Backlog. The idea is to have a revised Product Backlog at the end that can be used for the next Sprint. The durations of this meeting is usually limited to four hours \cite{key21}.
+The Sprint Review is held close to the end of a Sprint. The entire Scrum team should be present and if possible the \glspl{stake} as well. This is supposed to be an informal meeting where the added functionality from the latest Sprint is shown. The Development Team shows what they have done and the Product Owner shows what has happened to the Backlog. The idea is to have a revised Product Backlog at the end that can be used for the next Sprint. The durations of this meeting is usually limited to four hours \cite{key21}.
 \subsubsection{Sprint Retrospective}
-The Sprint Retrospective should take place after the Sprint Review but before the upcoming Sprint Planning. Once again the entire Scrum team is present, but without the stakeholders. This meeting should take about three hours \cite{key21}. The focus of this meeting is to improve the work process during a Sprint. The team reflects about things like tools, relationships, processes and anything else that can improve the workflow of the team and next Sprint.
+The Sprint Retrospective should take place after the Sprint Review but before the upcoming Sprint Planning. Once again the entire Scrum team is present, but without the \glspl{stake}. This meeting should take about three hours \cite{key21}. The focus of this meeting is to improve the work process during a Sprint. The team reflects about things like tools, relationships, processes and anything else that can improve the workflow of the team and next Sprint.
 
 \subsection{Artifacts}
 The three artifacts are the most basic parts in Scrum that are worked on during the different events.
 
 \subsubsection{Product Backlog}
-The Product Backlog is the dynamic requirements list in Scrum. It is a item list comprising of anything that can add any form of value to the product. Typical items in a Product Backlog are new features, bugs, enhancements and functions. Each Product Backlog item also has certain attributes such as a description, priority order, complexity estimate and value estimate. 
+The Product Backlog is the dynamic requirements list in Scrum. It is an item list comprising of anything that can add any form of value to the product. Typical items in a Product Backlog are new features, bugs, enhancements and functions. Each Product Backlog item also has certain attributes such as a description, priority order, complexity estimate and value estimate. 
 
 What separates a Product Backlog from a simple requirements list is that it is a dynamic process and not a static list. The items in the Product Backlog that are to be considered for the "near future", as in having a high priority order, have more details than other items. This is to allow changes to the distant Product Backlog items as the actual product developes.  The Product Backlog is in focus for both the Sprint Planning and Sprint Review. The refinement of the Product Backlog items is sometimes counted as a practice by itself as seen in Figure \ref{fig:scrum}. However the items can be tuned and refined at any time. All members of the Scrum team have a saying when it comes to the Product Backlog but the Product Owner is the main responsible person.
 
@@ -375,29 +408,29 @@ What separates a Product Backlog from a simple requirements list is that it is a
 The Sprint Backlog is the selected items from the Product Backlog for the ongoing Sprint. It is the list of work to be done during the Sprint. All items in this backlog have clear details since the idea is to have them all completed at the end of the Sprint, which is a relatively short time period. The Sprint Backlog changes during a Sprint as the items become implemented and moved to "done". New items can also be added as unforeseen needed functionality is added. It is the Development Team that work with the Sprint Backlog and uses it as their progress report and todo list for the current Sprint. At each Daily Scrum the Sprint Backlog is updated and refined with informations such as remaining work hours. 
 
 \subsubsection{Product Increment}
-A Product Increment is the sum of all implemented Sprint Backlog items for a Sprint. It is a sort of "next step" for the product. The requirements for a item to be counted in the Product Increment is that it is fully usable for the product, regardless if the Product Owner chooses to release it or not.
+A Product Increment is the sum of all implemented Sprint Backlog items for a Sprint. It is a sort of "next step" for the product. The requirements for an item to be counted in the Product Increment is that it is fully usable for the product, regardless if the Product Owner chooses to release it or not.
 
 
 \section{Extreme Programming (XP)}
 \glsreset{xp}
-Kent Beck is the founder of \gls{xp}. He is also one of the members of the Agile Alliance that you can read about at \fullref{sec:manifesto}. \gls{xp} was conceived shortly before the creation of the Agile Alliance. In 2000, just a year before the Agile Alliance surfaced, the first book about \gls{xp} called \emph{Extreme Programming Explained: Embrace Change} was published by Kent \cite{key14}. For this reason, when reading early literature about \gls{xp} their is no mentioning of the term \emph{agile}, which is  not that strange since at the time, the term did not exist. However more published articles and books have surfaced after the year of 2001 that have incorporated the agile ideology, such as the second edition of Kent's first book realized in 2005 \cite{key14}.
+Kent Beck is the founder of \gls{xp}. He is also one of the members of the Agile Alliance that you can read about at \fullref{sec:manifesto}. \gls{xp} was conceived shortly before the creation of the Agile Alliance. In 2000, just a year before the Agile Alliance surfaced, the first book about \gls{xp} called \emph{Extreme Programming Explained: Embrace Change} was published by Kent \cite{key14}. For this reason, when reading early literature about \gls{xp} their is no mentioning of the term \emph{agile}, which is  not strange since at the time the term did not exist. However more published articles and books have surfaced after the year of 2001 that have incorporated the agile ideology, such as the second edition of Kent's first book released in 2005 \cite{key14}.
 
-Unlike Scrum, \gls{xp} is mostly about the developers and helping them be as efficient as possible. It does not talk much about the overall business outside the development team. All though if you read further about \gls{xp} you will find business related information but it is not at all in focus \cite{key14}. \gls{xp} is usually referred to a lightweight methodology however the word \emph{lightweight} means more than just skipping business related topics. It is also called lightweight because it promotes removing baggage for the developers by letting them focus on the current task at hand \cite{key14}. For example, a core idea in \gls{xp} is small fact based short term planning instead of extensive speculation based long term planning \cite{key14}. This just happens to be one of the absolute core ideas in agile development as well. 
+Unlike Scrum, \gls{xp} almost solely talk about the developers and helping them be as efficient as possible. It does not talk much about the overall business outside the development team. Although if you read further about \gls{xp} you will find business related information but it is not at all in focus. \gls{xp} put emphasis on team work, feedback and code quality. The term extreme comes from the idea that it takes a few ordinary development practices and impose them to an extreme. Originally \gls{xp} was designed for small to medium sized teams but has over time grown to incorporate large teams as well. 
 
-\gls{xp} put focus on team work, feedback and code quality. The term extreme comes from the idea that it takes a few ordinary development practices and impose them to an extreme \cite{key14}. Originally \gls{xp} was designed for small to medium sized teams but has over time grown to incorporate large teams as well. There are a total of 12 main practices in \gls{xp} that will be shortly described in the following sections. The practices have been divided in categories called \emph{Fine-Scale Feedback}, \emph{Continues Process}, \emph{Shared Understanding} and \emph{Programmer Welfare}. There are several corollary practices as well that talk more about the business and goes even further into coding details. To read about this and much more, the second edition of \emph{Extreme Programming Explained: Embrace Change} is recommended \cite{key14}.
+There are a total of 12 main practices in \gls{xp} that will be shortly described in the following sections. There are several corollary practices as well that talk more about the business and goes even further into coding details. To read about this and much more, the second edition of \emph{Extreme Programming Explained: Embrace Change} is recommended \cite{key14}.
 
 \subsection{Fine-Scale Feedback}
-The following practices describes how the members of the team develop their software with feedback in focus. It goes through the basics of how they work in pairs and always using \gls{tdd} to guide them. It also describes the relations between business people and developers.
+The following practices describes how the members of the team develop their software with feedback in focus. It goes through the basics of how they work in pairs and always use \gls{tdd} to guide them. It also describes the relations between business people and developers.
 
 \subsubsection{Pair Programming}
-This is perhaps the most notable feature or practice regarding \gls{xp}. \emph{Pair Programming} means that for each developer, there is a another developer observing and assisting without coding. They work together similar as in rally racing where one person is the driver and one is the map reader. The main difference is that in \emph{Pair Programming} the coders switch places regularly. The purpose is that the observing developer can have their mind set on a higher abstraction level and is not distracted by coding, making it easier to ensure high code quality \cite{key1}. Not only are bugs detected more easily but the overall resulting code is simply put better. This way of developing can be quite motivating for the developers since you are never alone and if you grow tired of typing you just switch places with your pair. If the developers also switch partners every other day, information and knowledge is spread rapidly and smoothly within the entire team. This is especially good when you have specialists with knowledge that could benefit the other developers. Studies conducted by Williams and Nosek has suggested that pairing does not reduce the development efficiency but does show a decrease in defect rate in the software \cite{key10} \cite{key11}.
+This is perhaps the most notable practice regarding \gls{xp}. Pair Programming means that for each developer, there is a another developer observing and assisting without coding. They work together similar as in rally racing where one person is the driver and one is the map reader. The main difference is that in Pair Programming the coders switch places regularly. The purpose is that the observing developer can have their mind set on a higher abstraction level and is not distracted by coding, making it easier to ensure high code quality \cite{key1}. Not only are bugs detected more easily but the overall resulting code is simply put better. This way of developing can be quite motivating for the developers since you are never alone and if you grow tired of typing you just switch places with your pair. If the developers also switch partners every other day, information and knowledge is spread rapidly and smoothly within the entire team. This is especially good when you have specialists with knowledge that could benefit the other developers. Studies conducted by Williams and Nosek has suggested that pairing does not reduce the development efficiency but does show a decrease in defect rate in the software \cite{key11}.
 
 \subsubsection{Planning Game}
-The \emph{Planning Game} is played between the business people and the developers. It is about figuring out and deciding witch features to implement and basically form a prioritization of what needs to be done. The business people focuses on the importance of each feature \cite{key1}. The developers focuses on the cost of developing the features. 
+The Planning Game is played between the business people and the developers. It is about figuring out and deciding witch features to implement and basically form a prioritization of what needs to be done. The business people focuses on the importance of each feature \cite{key1}. The developers focuses on the cost of developing the features. 
 
-A simple and natural way to play the game is; After each iteration, which for example might be a two week period, the developers updates the cost of future features. They also come up with a budget for how much they will be able to develop for the next iteration. Then it is the business peoples turn. They decide the features, within the budget, that they want the developers to work on for the next iteration. This game plays out after each iteration.
+A simple and natural way to play the game is: After each iteration, which for example might be a two week period, the developers updates the cost of future features. They also come up with a budget for how much they will be able to develop for the next iteration. Then it is the business peoples turn. They decide the features, within the budget, that they want the developers to work on for the next iteration. This game plays out after each iteration.
 
-In reality it is much more complicated and a whole chapter is dedicated to the \emph{Planning Game} in the book \emph{Agile Principles, Patterns, and Practices in C\#} by Martin C. Robert  and Martin Micah \cite{key1}. What is stressed is transparency since everybody might not be up to play ball just relying on some developers estimation. Things like velocity and user stories are described in detail which are all important components to the \emph{Planning Game}.
+In reality it is much more complicated and a whole chapter is dedicated to the Planning Game in the book \emph{Agile Principles, Patterns, and Practices in C\#} by Martin C. Robert  and Martin Micah \cite{key1}. Things like velocity and user stories are described in detail which are all important components to the Planning Game. What is stressed is transparency since everybody might not be up to play ball just relying on some developers estimation. 
 
 \subsubsection{Test-Driven Development}
 The following steps describes \gls{tdd}:
@@ -410,187 +443,191 @@ The following steps describes \gls{tdd}:
 \item Repeat for every future functionality.
 \end{enumerate}
 
-This can seem overwhelming at first but it leads to having a close to 100 percent test coverage which can be very beneficial as the project grows. Another positive aspect is that writing test cases before coding leads to all code being testable by definition. Some may think: "isn't all code testable?" but as soon as you build a system without the slightest thought about testability you will get the answer \cite{key12}. Further more, using \gls{tdd} you tend to get code that is less coupled and better structured \cite{key1} \cite{key12}. The reason for this is simply because your mind is set to create code that can be tested independently, indirectly leading to decoupled module like structure.
+This can seem overwhelming at first but it leads to having a close to 100 percent test coverage which can be very beneficial as the project grows. Another positive aspect is that writing test cases before coding leads to all code being testable by definition. Some may think: \emph{Isn't all code testable?} As soon as you build a system without the slightest thought about testability you will get the answer. Further more, using \gls{tdd} you tend to get code that is less coupled and better structured \cite{key1}. The reason for this is simply because your mind is set to create code that can be tested independently, indirectly leading to decoupled module like structure.
 
 \subsubsection{Whole Team} 
-Saying that \gls{xp} focuses on the entire team does not simply mean the entire development team. Everyone that is in any way connected to the \gls{xp} project should be collaborating closely with each other to solve problems. This goes as far as preferably having the customer in the same room or within 100 meters from the developers \cite{key1}. The more time the customer can spend with the team and the shorter distance the customer is from the team the better. If the customer is unable to be within close vicinity then it is advice able to have a stand in representant for the customer \cite{key1}.
+Saying that \gls{xp} focuses on the entire team does not simply mean the entire development team. Everyone that is in any way connected to the \gls{xp} project should be collaborating closely with each other to solve problems. This goes as far as preferably having the customer in the same room or within 100 meters from the developers \cite{key1}. The more time the customer can spend with the team and the shorter distance the customer is from the team the better. If the customer is unable to be within close vicinity then it is advisable to have a stand in representant for the customer.
 
 
 \subsection{Continuous Process}
-These practices describes the cycles such as Sprints and release plans for the project. Things like frequent integration are brought up and the importance of continuous refactoring. 
+These practices describes the cycles such as sprints and release plans for the project. Things like frequent integration are brought up and the importance of continuous refactoring. 
 
 \subsubsection{Continuous Integration)}
-For those that frequently work with multiple people using \gls{git}, \emph{Continuous Integration} will sound familiar. Each programmer should integrate their work several times a day. If you are lucky (or fast), you are first and simply check in your work. If you are not so lucky, you have to merge the changes. In other words, \gls{xp} teams use nonblocking source control \cite{key1}. This means that every developer can work on any part of the system, simultaneously with the other developers. It is important that each system tests and acceptance tests are run before anything is checked in. If something is broken, the developer fixes it before checking in the changes. 
+For those that frequently work with multiple people using \gls{git}, Continuous Integration will sound familiar. Each programmer should integrate their work several times a day. If you are lucky (or fast), you are first and simply check in your work. If you are not so lucky, you have to merge the changes. In other words, \gls{xp} teams use nonblocking source control \cite{key1}. This means that every developer can work on any part of the system, simultaneously with the other developers. It is important that each system test and acceptance test are run before anything is checked in. If something is broken, the developer fixes it before checking in the changes. 
 
 \subsubsection{Refactoring}
-\epigraph{Refactoring is not a backup practice when quality ensuring practices fail. Refactoring is a quality ensuring practice.}
+Refactoring is not a backup practice when quality ensuring practices fail. Refactoring is a quality ensuring practice.
 
-Sometimes it can be hard to convince non-programmers the benefits of refactoring. The main reason is that feature wise, nothing is added. At most some optimization might be noticeable. Refactoring is about changing the foundation of the software. It is to make adding new features a simpler task. Code duplication is a sign that refactoring is needed. When developers choose bad practices simply because they see no other way of implementing something, factoring is needed. When changing code affects unrelated code sections, refactoring is needed. However the idea is not to code poorly, fix it with refactoring and continue. Most developers knows that coming to a situation where refactoring is advisable is pretty much unavoidable, the important thing is not to add fuel to the flames. \emph{Pair Programming} for instance seeks to diminish the need of refactoring and make sure quality is ensured \cite{key13}.
+Sometimes it can be hard to convince non-programmers the benefits of refactoring. The main reason is that feature wise, nothing is added. At most some optimization might be noticeable. Refactoring is about changing the foundation of the software. It is to make adding new features a simpler task. Code duplication is a sign that refactoring is needed. When developers start to choose bad coding practices simply because they see no other way of implementing something, factoring is needed. When changing code affects unrelated code sections, refactoring is needed. However the idea is not to code poorly, fix it with refactoring and continue. Most developers knows that coming to a situation where refactoring is advisable is pretty much unavoidable, the important thing is not to add fuel to the flames. Pair Programming for instance seeks to diminish the need of refactoring and make sure quality is ensured \cite{key14}.
 
-In \gls{xp} refactoring is not something you do only at the end of an iteration or cycle, not even something you only do at the end of the day. You do it as soon as you see that it is needed \cite{key1}. This means that refactoring will come in really small packages that alone do not bring much value. Together however, all the refactoring keep the clone clean, simple and as expressive as possible.
-
-NOTE TO SELF: FIND GENRAL INFO ABOUT REFACTORING. ALSO CHECK WIKI, OTHER NAME ON THIS PRACTICE Design Improvement
+In \gls{xp} refactoring is not something you do only at the end of an iteration or cycle, not even something you only do at the end of the day. You do it as soon as you see that it is needed. This means that refactoring will come in really small packages that alone do not bring much value. Together however, all the refactoring keep the clone clean, simple and as expressive as possible.
 
 \subsubsection{Small Releases}
-\emph{Small Releases} simply means release often and release small. Releasing software can be a pain but that is usually the case when you seldom release, thus having no routine for it. The releases in \gls{xp} can be split into two types. The iteration plan and the release plan.
+Small Releases means release often and release small. Releasing software can be a pain but that is usually the case when you seldom release, thus having no routine for it. The releases in \gls{xp} can be split into two types. The iteration plan and the release plan:
 
 \begin{description}
 \item[The iteration plan] \hfill \\ 
-This is a sort of minor release. In \gls{xp} the usual interval for minor releases of new software is every two weeks \cite{key1}. However as short as possible is preferred. The two week period is just a well working standard. At the end of each iteration cycle, decisions regarding user stories and features should be made according to the the \emph{Planning Game}. It is not obligatory that something gets released at the end of this cycle since the short time period might mean that too few features with value have been implemented.  
+This is a sort of minor release. In \gls{xp} the usual interval for minor releases of new software is every two weeks \cite{key1}. However as short as possible is preferred. The two week period is just a well working standard. At the end of each iteration cycle, decisions regarding user stories and features should be made according to the the Planning Game. It is not obligatory that something gets released at the end of this cycle since the short time period might mean that too few features with value have been implemented.  
 \item[The release plan] \hfill \\ 
-This is basically the bigger version of the iteration plan. This is a more abstract plan over a longer time period that usually is about three months \cite{key1}. A clear difference is that the iteration plan should not change but the release plan is subject to change during its runtime. A simple explanation for this is is expected that we can usually plan two weeks ahead without interference while this is not the case over three months. It is also expected that something always gets released at the end of a release plan cycle.
+This is basically the bigger version of the iteration plan. This is a more abstract plan over a longer time period that usually spans around three months \cite{key1}. A clear difference is that the iteration plan should not change but the release plan is subject to change during its lifetime. A simple explanation for this is that it is expected to foresee
+implementation issues two weeks ahead while this is not the case for three months. It is also expected that something gets released at the end of a release plan cycle.
 \end{description}
 
 
 \subsection{Shared Understanding}
-The following practices  are about giving the developers a team feeling and shared understanding of the entire project. The practices talk about code design, abstraction and that sharing knowledge is caring. One for all and all for one. 
+The following practices  are about giving the developers a team feeling and shared understanding of the entire project. The practices talk about code design, abstraction and that sharing knowledge is caring.
 
 \subsubsection{Coding Standards}
-\emph{Pair Programming} describes how knowledge can be spread swiftly by routinely changing programming partner. For this to work well it is important to have a coding standard so that the programmers don't spend time on understanding others syntax. Without a coding standard, whenever a programmer starts working on someone else's work, he/she might feel the need to format or even refactor the code. When setting a coding standard it is important with proper communication so that every developer feels comfortable with standard and voluntarily wants to uphold it \cite{key13}. There is really no reason not to have a coding standard since it will make the software easier to understand which indirectly increases code quality.  
+Pair Programming describes how knowledge can be spread swiftly by routinely changing programming partner. For this to work well it is important to have a coding standard so that the programmers don't spend time trying to understand each others semantics and syntax. Without a coding standard, whenever a programmer starts working on someone else's work, he/she might feel the need to format or even refactor the code. 
+
+When setting a coding standard it is important with proper communication so that every developer feels comfortable with the standard and voluntarily wants to uphold it \cite{key14}. There is really no reason not to have a coding standard since it will make the software easier to understand which indirectly increases code quality.  
 
 \subsubsection{Collective Code Ownership}
-There will always be developers with different specialities. The common way of just working on ones speciality means being more locked to that speciality. \gls{xp} instead seeks to minimize this specially difference between the members. Both \emph{Pair Programming} and \emph{Coding Standards} works to even out the specialities between team members. Everybody can choose to work on any part of the software such as on the database, the \gls{gui} or the server. As a \gls{xp} developer you are not confined to a specialty and assistance should always be given to those who seek to broaden their expertise by coding on unfamiliar parts of the software \cite{key1}. This is to increase motivation, reduce risks by spreading knowledge and aid the personal development of the developers.
+There will always be developers with different specialities. The common way of just working on ones speciality means being more locked to that speciality. \gls{xp} instead seeks to minimize this speciality difference between the members. Both Pair Programming and Coding Standards helps in evening out the specialities between team members. 
+
+Everybody can choose to work on any part of the software such as on the database, the \gls{gui} or the server. As a \gls{xp} developer you are not confined to a specialty and assistance should always be given to those who seek to broaden their expertise by coding on unfamiliar parts of the software \cite{key1}. This is to increase motivation, reduce risks by spreading knowledge and aid the personal development of the developers.
 
 \subsubsection{Simple Design}
-\gls{xp} seeks to keep it simple and expressive as stated by \emph{Refactoring}. The infrastructure is not in place when developing according to \gls{xp}, the infrastructure gets created when it is currently needed. There are three so called mantras that an \gls{xp} developer follows regarding simple design:
+\gls{xp} seeks to keep it simple and expressive as stated by the practice Refactoring. The infrastructure is not in place when developing according to \gls{xp}, the infrastructure gets created when it is currently needed. There are three so called mantras that an \gls{xp} developer follows regarding simple design:
 \begin{description}
 \item[Consider the simplest thing that could possibly work] \hfill \\ 
 When developers are about to implement a new story. They think about the simplest possible scenario that satisfies the story. Then they choose the simplest possible practical way of making that scenario a reality. This means that \gls{xp} developers do not think about future stories when implementing the current story. 
 \item[You aren't going to need it] \hfill \\ 
-Sometimes you just know that a database will be needed in the future or that a web server is going to be created. Is it not important to make sure the code were currently implementing is easily hooked to these services even if the services don't exist yet? The answer is maybe. The developers only do it if they are absolutely certain that the service will come in the future together with the conclusion that creating hooks for this service before it exists will be more valuable than creating them later. 
+Sometimes you just know that a database will be needed in the future or that a web server is going to be created. Is it not important to make sure the code currently being implemented is easily hooked to these services even if the services don't exist yet? The answer is maybe. The developers only do it if they are absolutely certain that the service will come in the future together with the conclusion that creating hooks for this service before it exists will be more valuable than creating them later. 
 \item[Once and only once] \hfill \\ 
 If duplicate code exists, make sure it doesn't. The best way to remove duplication is creating abstraction \cite{key1}. For example if a couple of code parts do almost the same thing, use templates. The important thing is that code duplication is removed as soon as it is seen.
 \end{description}
  
 \subsubsection{System Metaphor}
-This is the most vague practice in \gls{xp}. In the book \emph{Agile Principles, Patterns, and Practices in C\#},  Martin C. Robert and Martin Micah describes the metaphor by describing a jigsaw puzzle \cite{key1}. 
+This is the most vague practice in \gls{xp}. In the book \emph{Agile Principles, Patterns, and Practices in C\#},  Martin C. Robert and Martin Micah describes the System Metaphor by describing a jigsaw puzzle \cite{key1}. 
 
-How do one know that what pieces go together in a jigsaw puzzle? A blind person could only go by the shapes and try to fit pieces that seem to go together. A more powerful evidence that the pieces go together is the image. If the image seems correct, we don't have to look at the shape, we just know they somehow go together. More importantly, if the pieces do not go together even though the image is correct we know for sure that the puzzle maker has failed with the pieces. A blind person would have a much harder time coming to this conclusion.
+How do one know what pieces go together in a jigsaw puzzle? A blind person could only go by the shapes and try to fit pieces that seem to go together. A more powerful evidence that the pieces go together is the image. If the image seems correct, we don't have to look at the shape, we just know they somehow go together. More importantly, if the pieces do not go together even though the image is correct we know for sure that the puzzle maker has failed with the pieces. A blind person would have a much harder time coming to this conclusion.
 
-In other words, the metaphor correlates to how important it is to know the big pictures in order to make sure that the modules or components are what we really want them to be. No offense meant to any blind person out there. Also note that the description of the metaphor using the jigsaw puzzle is also a metaphor by itself, mind blown! By using metaphors we can create an abstraction, or the big picture, for complicated software or systems. When using metaphors you often use a system of names for different elements that on a high level describes the overall mechanisms.
+In other words, the metaphor correlates to how important it is to know the big pictures in order to make sure that the modules or components are what we really want them to be. No offense meant to any blind person out there. Also note that the description of the System Metaphor using the jigsaw puzzle is a metaphor by itself, mind blown! By using metaphors we can create an abstraction, or the big picture, for complicated software or systems. When using metaphors you often use a system of names for different elements that on a high level describes the overall mechanisms.
 
-The metaphor is the vision for a system. It is the guide for the developers that help them name classes and methods, select appropriate locations for new components and overall helps ensuring that everyone knows where,what and why they are currently implementing something.
+The metaphor is the vision for a system. It is the guide for the developers that help them name classes and methods, select appropriate locations for new components and overall helps ensuring that everyone knows where, what and why they are currently implementing something.
 
 
 \subsection{Programmer Welfare}
-This section only has one practice where the focus is on the wellbeing of the developers. The practice \emph{Sustainable Pace} is about avoiding burning out the developers with stress and overtime.
+This section only has one practice where the focus is on the wellbeing of the developers. The practice Sustainable Pace is about avoiding burning out the developers with stress and overtime.
 
 \subsubsection{Sustainable Pace}
-Like a marathon runner must conserve his/her energy to not burn out before the race is finished, the development team in \gls{xp} must keep a sustainable pace. A software project takes a long time to finish and sprinting from start comes with several problems. One problem is that it can affect motivation negatively in the long run. Estimations becomes wrongfully optimistic. Also working extra hard from start, when you have minimum knowledge of the heading of a project, can lead to redundant work. 
+Like a marathon runner must conserve his/her energy to not burn out before the race is finished, the development team in \gls{xp} must keep a Sustainable Pace. A software project takes a long time to finish and sprinting from start comes with several drawbacks. It can affect motivation negatively in the long run. Estimations becomes wrongfully optimistic as time passes. Also working extra hard from start, when you have minimum knowledge of the heading of a project, can lead to redundant work. 
 
-Therefor in \gls{xp} you are not allowed to work overtime with the only exception of the final week before a big release \cite{key1}. The big releases usually comes once every third month like stated by the practice \emph{Small Releases}. That does however not mean that the practice is to always work overtime before every release, it simply means that is allowed if a team happen to be extremely close to reaching a important release goal in the final sprint. Making sure that everyone works in a sustainable pace also have the effect of conserving energy so the team is alert for that seldom occurrence when an extra push is needed.
+Therefor in \gls{xp} you are not allowed to work overtime with the only exception of the final week before a big release \cite{key1}. The big releases usually comes once every third month like stated by the practice Small Releases. That does not mean that the practice is to always work overtime before every release, it simply means that is allowed if a team happen to be extremely close to reaching an important release goal in the final moments before release. Making sure that everyone works in a Sustainable Pace also have the effect of conserving energy so the team is alert for that seldom occurrence when an extra push is needed.
 
 
 
 \section{Crystal Clear}
 Crystal Clear is an agile development methodology developed by Alistair Cockburn, one of the authors of The Agile Manifesto. Her role in the creation of The Agile Manifesto was to focus on efficiency rather than handling rapidly changing requirements and thus Crystal Clear has focus on efficiency, similar to \gls{xp} \cite{key5}. Just like agile development can be seen as a family of methodologies, Crystal is a family of methodologies. Some of the other variations that exists are Crystal Yellow, Orange, Red, Maroon, Blue and Violet. The darker the color, the bigger project/team it is suppose to handle. Crystal Red is for example for a project consisting of 50-100 people. Crystal Clear, like the name clearly suggests, is designed for the smallest project consisting of 5-8 people. It is for that reason that Crystal Clear was the chosen sub methodology for this report since we seek to find agile methodologies suitable for small development teams.
 
-Crystal Clear has seven properties that stand as the practices of the methodology. The first three properties, \emph{Frequent Delivery}, \emph{Reflective Improvement} and \emph{Osmotic Communication} are the only required properties and the last four are recommended, especially for experienced teams \cite{key5}. For more detailed description about Crystal Clear read the book Crystal Clear by the created Alistair Cockburn herself \cite{key5}. The book is mainly based on expert interviews, conducted by Alistair Cockburn himself, of development teams and project managers. The following descriptions of principles are taken from that book if no other reference is mentioned.
+Crystal Clear has seven properties that stand as the practices of the methodology. The first three properties, Frequent Delivery, Reflective Improvement and Osmotic Communication are the only required properties and the last four are recommended, especially for experienced teams. For a more detailed description of Crystal Clear read the book \emph{Crystal Clear} created by Alistair Cockburn herself \cite{key5}. The book is mainly based on expert interviews of development teams and project managers, conducted by Alistair Cockburn himself. The following descriptions of principles are taken from that book if no other reference is mentioned.
 
 
 \subsection{Frequent Delivery}
-It is important to have a strict delivery frequency and not fall in to the temptation of extending deadlines since it can be demotivating for the team and jeopardize the future schedule. By ensuring that the team deliver new software on a regular basis the team learns how much it is able to deliver and can improve estimations. This also gives the developers a feeling of \gls{ev}. Frequent delivery is not only for the developers, it also aims to satisfy the customer by giving clear progress reports in the form of actual software. The delivery frequency is usually about 2 weeks but depending on the project and development team this can be either extended or shortened.
-\subsection{Reflective Improvement}
-\epigraph{Did you get together at least once within the last three months for a half hour, hour or half day to compare notes, reflect, discuss your group's working habits and discover what speeds you up, what slows you down, and what you might be able to improve?
-. \cite{key5}}{\textsc{Alistar Cockburn}}
+It is important to have a strict delivery frequency and not fall into the temptation of extending deadlines since it can be demotivating for the team and jeopardize the future schedule. By ensuring that the team deliver new software on a regular basis the team learns how much it is able to deliver and can improve estimations. This also gives the developers a feeling of \gls{ev}. Frequent delivery is not only for the developers, it also aims to satisfy the customer by giving clear progress reports in the form of actual software. The delivery frequency is usually about 2 weeks but depending on the project and development team this can be either extended or shortened.
 
-This is similar to what was mentioned at \fullref{sec:agile_development} in the first paragraph. If you never stop, reflect and evaluate your work you don't know if what you are doing is really working. Agile development is about being open to changes but you have to know the worth of those changes. It does not have to be statistical assessment, it can be something as simple as just sitting down with some colleagues over a cup of coffee and discuss what is working and what is not. The important thing is to make it happen by allowing the team to do this on a regular basis. Crystal Clear is a lot about the social environment and trusts the team to make the right choices when given the right circumstances. It is here \emph{Reflective Improvement} is so important because it allows the team to evaluate their decisions and improve for the future.
+\subsection{Reflective Improvement}
+\epigraph{Did you get together at least once within the last three months for a half hour, hour or half day to compare notes, reflect, discuss your group's working habits and discover what speeds you up, what slows you down, and what you might be able to improve?}{\textsc{Alistar Cockburn} \cite{key5}}
+\noindent
+This is similar to what was mentioned at \fullref{sec:agile_development} in the first paragraph. If you never stop, reflect and evaluate your work you don't know if what you are doing is really working. Agile development is about being open to changes but you have to know the worth of those changes. It does not have to be statistical assessment, it can be something as simple as just sitting down with some colleagues over a cup of coffee and discuss what is working and what is not. The important thing is to make it happen by allowing the team to do this on a regular basis. Crystal Clear is a lot about the social environment and trusts the team to make the right choices when given the right circumstances. Reflective Improvement is important because it allows the team to evaluate their decisions and improve for the future.
 
 
 \subsection{Osmotic Communication}
-This is a important principle for Crystal Clear. In fact, it is so important that it is the only principle that exist in all sub-methodologies within the Crystal Family. Osmotic communication is the effect of having a team physically close together and picking up important information in the background chatter. So individuals holding lots of important information will, either consciously or unconsciously, gradually spread it out which is similar to the effect of \gls{osmosis}. A simple way of ensuring osmotic communication is simply grouping the team in one single room, or the so called "war room", whose name might inspire people resisting leaving their private offices to make this possible. For large teams this can be an logistic issue but an alternative is to have several rooms next to each other forming sub-teams.
+This is an important principle for Crystal Clear. In fact, it is so important that it is the only principle that exist in all sub methodologies within the Crystal Family. Osmotic communication is the effect of having a team physically close together and picking up important information in the background chatter. So individuals holding lots of important information will, either consciously or unconsciously, gradually spread it out which is similar to the effect of \gls{osmosis}. A simple way of ensuring osmotic communication is simply grouping the team in one single room, or the so called "war room", whose name might inspire people resisting leaving their private offices. For large teams this can be an logistic issue but an alternative is to have several rooms next to each other forming sub teams.
 
 
 \subsection{Personal Safety}
-This refers to something that most agree on is important but is generally hard to establish. To be able to give critique at any level of the company or project chain. The most important thing that is needed to allow this is to somehow remove the fear of reprisal. The members must feel safe and have trust in one another in order have the confidence to bring out weaknesses and problems in the project. Especially when weaknesses goes against the word of project leaders or managers. This means that it is important with good leadership to ensure \emph{Personal Safety}. Simon Sinek, who is a leadership expert, stresses and explains this importance well in a TED Talk \cite{key7}. There he makes an example of how the militaries focus on great leadership influence the soldiers and draws a parallel on the positive effects this would have on companies. In short terms, what it means to have leaders truly and fully trusting the team and the team truly and fully trusting the leaders. 
+This refers to something that most agree on is important but is generally hard to establish. To be able to give critique at any level of the company or project chain. The most important thing that is needed to allow this is to somehow remove the fear of reprisal. The members must feel safe and have trust in one another in order have the confidence to bring out weaknesses and problems in the project. Especially when weaknesses goes against the word of project leaders or managers. This means that it is important with good leadership to ensure Personal Safety. Simon Sinek, who is a leadership expert, stresses and explains this importance well in a TED Talk \cite{key7}. There he makes an example of how the militaries focus on great leadership influence the soldiers and draws a parallel on the positive effects this would have on companies. In short terms, he brings up the hard to measure positive effects in having leaders truly and fully trusting the team and the team truly and fully trusting the leaders. 
 
-A  way of ensuring trust, that leads to \emph{Personal Safety}, between leaders and the members is to let the leaders have private discussions with each member. During these discussions the leaders try to make the member expose weaknesses, such as a failure to reach a deadline or any form of work-related information that you don't feel comfortable exposing. An experienced leader can then show a positive attitude and even gratefulness for the information. Furthermore, the leader can cover for the member and offer assistance to demonstrate that when the member revels a weakness or mistake, he/she will actually get assistance. Another tool is to have meetings where difficult problems are discussed where all members of the team are present, including the leader/leaders. This can lead to heavy argumentation, opening up to critique and hopefully showing that they can solve problems together that would not be easily possible alone.
+A  way of ensuring trust, that leads to \emph{Personal Safety}, between leaders and the members is to let the leaders have private discussions with each member. During these discussions the leaders try to make the member expose weaknesses, such as a failure to reach a deadline or any form of work-related information that they don't feel comfortable exposing. An experienced leader can then show a positive attitude and even gratefulness for the information. Furthermore, the leader can cover for the member and offer assistance to demonstrate that when the member revels a weakness or mistake, he/she will actually get assistance. Another tool is to have meetings where difficult problems are discussed where all members of the team are present, including the leader(s). This can lead to heavy argumentation, opening up to critique and hopefully showing that they can solve problems together that would not be easily possible alone.
 
 
 \subsection{Focus}
-\epigraph{Do all the people know what their top two priority items to work on are? Are they guaranteed at least two days in a row and two uninterrupted hours each day to work on them?
-. \cite{key5}}{\textsc{Alistar Cockburn}}
+\epigraph{Do all the people know what their top two priority items to work on are? Are they guaranteed at least two days in a row and two uninterrupted hours each day to work on them?}{\textsc{Alistar Cockburn} \cite{key5}}
 
 \noindent
+As a developer, at some point you have come across the situation on working on some functionality, detecting some side problem or challenge, spending lots of time working on it, and finally asked yourself the question: \emph{What am I doing?} As a programmer it is easy to find yourself in this situation of spending valuable time on non-valuable things. It is mainly the \glspl{es} job to make sure that this happens as little as possible and the developers stay on the correct course, speaking about value to the project or company. 
 
-As a developer, at some point you have come across the situation on working on some functionality, detecting some side problem or challenge, spending lots of time working on it, and at some point asked yourself the question; What am I doing? As a programmer it is easy to find yourself in this situation of spending valuable time on non-valuable things. It is mainly the \glspl{es} job to make sure that this happens as little as possible and the developers stay on the correct course, speaking about value to the project or company. When working on several projects as a developer, it takes time to mentally switch between one project to another. For the programmer out there, you can draw the parallel to cache misses. Inexperienced managers underestimate this cost and keep assigning new projects to the same developers before the previous projects are finished. This is not only overwhelming to the developers and makes it hard for them to know what to work on, it is also motivationally destructive to regularly report the lack of progress on assigned projects. A simple repair is that the \gls{es} makes a clear prioritization list for each individual. For example prioritizing two projects or items much higher then the rest.
+When working on several projects as a developer, it takes time to mentally switch between one project to another. For the programmer out there, you can draw the parallel to cache misses. Inexperienced managers underestimate this cost and keep assigning new projects to the same developers before the previous projects are finished. This is not only overwhelming to the developers and makes it hard for them to know what to work on, it is also motivationally destructive to regularly report the lack of progress on assigned projects. A simple repair is that the \gls{es} makes a clear prioritization list for each individual. For example prioritizing two projects or items much higher than the rest.
 
-Focus time for the team members is also something important. It can be as simple as guaranteeing two full days work on a project before being allowed to switch or even look at another project. This limits the overhead of switching between projects, guaranteeing some progress to be made before any switch to another project is made. Another level of practically ensuring focus time is to have a couple of hours each day where interruption are forbidden, with the exception of certain critical scenarios. This can be very important because just like how project switching leads to overhead time waste, frequent interruptions from colleagues can create the same idle time. Especially when the interruptions are about matters that don't directly involve what the developer is currently working on. 
+Focus time for the team members is also something important. It can be as simple as guaranteeing two full days work on a project before being allowed to switch or even look at another project. This limits the overhead of switching between projects, guaranteeing some progress to be made before any switch to another project is made. Another level of practically ensuring focus time is to have a couple of hours each day where interruptions are forbidden, with the exception of certain critical scenarios. This can be very important because just like how project switching leads to overhead time waste, frequent interruptions from colleagues can create the same idle time. Especially when the interruptions are about matters that don't directly involve what the developer is currently working on. 
 
 
 \subsection{Easy Access to Expert Users}
-\epigraph{Does it take less than three days, on the average, from when you come up with a question about system usage to when an expert user answers the question? Can you get the answer in a few hours?
-. \cite{key5}}{\textsc{Alistar Cockburn}}
+\epigraph{Does it take less than three days, on the average, from when you come up with a question about system usage to when an expert user answers the question? Can you get the answer in a few hours?}{\textsc{Alistar Cockburn} \cite{key5}}
 
 \noindent
-Expert users can provide qualitative feedback about functionality and design and are generally a great source of information for the developers.  Easy access to expert users is a good addition to \emph{Frequent Deliveries} since it allows rapid and valuable feedback when deploying and testing newly added features. A study conducted in 1995, by Keil and Carmel showed the importance of having direct links to expert users and the positive effects it could have on a project \cite{key8}. Their research let to the recommendation to "Reduce Reliance on Indirect Links", as in rely more on access to real users. If a programmer has a design question and it takes several days before a reply comes, from an expert user, it can lead to delays or the programmer making decisions based on his own assumptions. This time delay between questions and answers can have grave impacts on the project. Some practical ways of ensuring \emph{Easy Access to Expert Users} is:
+Expert users can provide qualitative feedback about functionality and design and are generally a great source of information for the developers.  Easy access to expert users is a good addition to Frequent Deliveries since it allows rapid and valuable feedback when deploying and testing newly added features. A study conducted in 1995, by Keil and Carmel showed the importance of having direct links to expert users and the positive effects it could have on a project \cite{key8}. Their research led to the recommendation to "Reduce Reliance on Indirect Links", as in rely more on access to real users. If a programmer has a design question and it takes several days before a reply comes, from an expert user, it can lead to delays or the programmer making decisions based on his own assumptions. This time delay between questions and answers can have grave impacts on the project. Some practical ways of ensuring Easy Access to Expert Users is:
 \begin{description}
 \item[Weekly or semi weekly user meetings with additional phone calls] \hfill \\ 
 Pretty straight forward, allow communication to flow freely between expert users and developers with regular weekly meetings. It can be as little as one or two hors per week. It is advisable to have the meetings more frequent in the early phases of the project. The availability of phone calls is a good addition for those extra important questions that needs a quick reply.
 \item[One or more experienced users directly on the development team] \hfill \\
 This can be hard to achieve and is rarely used since it highly depends on the availability of the expert user. However, if it is possible it is perhaps the optimal way of providing expert user feedback.
 \item[Send the developers to become trainee users for a period] \hfill \\
-This is sort of converting developers to expert users. This leads to the developers seeing the project from a different perspective and can limit the need of having regular feedback from the actual expert users.
+This is sort of converting developers to expert users. This leads to the developers seeing the project from a different perspective and can limit the need of having regular feedback from actual expert users.
 \end{description}
 
-
 \subsection{Technical Environment with Automated Tests, Configuration Management \& Frequent Integration}
-Neither of these technical environment elements are crucial for a successful project but they can make the developers lives 
+Neither of these technical environment elements are crucial for a successful project but they can make the developers lives easier.
 \begin{description}
 \item[Automated Testing] \hfill \\ 
-Many projects to just fine using manual testing. However every programmer, that had switched from manual testing to automated testing, that Alistair Cockburn interviewed swore to \emph{never to work without them again}. The benefits are apparent when several people work on the same code on different days. The next developer can just run the automated tests the day he/she starts and be confident that nothing is broken. It gives the developers a freedom to change without worrying about whether or not something got broken along the way. For those with no prior experience with automated testing, the X-unit framework is advisable to take a look at. There is a version of X-unit for most languages and they share the name ending "unit" while the "X" is replaced with something correlating to the language, like Junit for Java. 
+Many projects do just fine using manual testing. However every programmer, that had switched from manual testing to automated testing, that Alistair Cockburn interviewed swore to \emph{never to work without them again}. The benefits are apparent when several people work on the same code on different days. The next developer can just run the automated tests the day he/she starts and be confident that nothing is broken. It gives the developers a freedom to change without worrying about whether or not something got broken along the way. For those with no prior experience with automated testing, the X-unit framework is advisable to take a look at. There is a version of X-unit for most languages and they share the name ending "unit" while the "X" is replaced with something correlating to the language, like Junit for Java. 
 \item[Configuration Management] \hfill \\
 The configuration management system gives a structure to the project that allows asynchronous work, revert changes, select a specific configuration for release and backup to a stored stable configuration when problem arises. You can loosely say that the configuration management system is to an entire project as \gls{git} is to software development. According to Alistair Cockburn, configuration management is often cited by development teams to be the most critical non-compiler tool.
 \item[Frequent Integration.] \hfill \\
-Frequent integration leads to easier to detection of bugs and also fewer bugs/problems that surface simultaneously. The added code is more fresh in the developers minds and smaller in size, thus leading to fewer hiccups when checking the code to be integrated. It is advisable to integrate as frequent as possible. It is good to be able to integrate several times a days. If that is not realistically possible then once every day is not bad either. When several days goes before integration the problems starts to stack up.
+Frequent integration leads to easier detection of bugs and also fewer bugs/problems that surface simultaneously. The added code is more fresh in the developers minds and smaller in size, thus leading to fewer hiccups when checking the code to be integrated. It is advisable to integrate as frequent as possible. It is good to be able to integrate several times a days. If that is not realistically possible then once every day is not bad either. When several days goes before integration the problems starts to stack up.
 \end{description}
 
 
+%Should be moved somewhere else
+\begin{comment}
 \subsection{Summary}
 Crystal Clear has a clear focus on working and social environment. Five of the seven properties talk about social values for the development teams and how important these are for improving the final result of the project, \emph{Reflective Improvement}, \emph{Osmotic Communication}, \emph{Personal Safety}, \emph{Focus}, \emph{Easy Access to Expert Users}. The properties can also enhance the effect of another, for instance; \emph{Frequent Delivery} enhances trust since it exposes the working flow of the members, leading to \emph{Personal Safety}. \emph{Personal Safety} in turn enhances \emph{Reflective Improvement} since the members are more likely to speak out freely.
+\end{comment}
 
 
 
 \section{Kanban}
-When reading about Kanban it can get quite confusing. This is because Kanban is originally a lean scheduling system for \gls{jit} production developed by Taiichi Ohno at Toyota in 1953 \cite{key16} \cite{key17}. It is still used today within manufacturing but the ideas have been taken and modified to fit software development. The confusing part is that this software development version of Kanban is called Kanban. If not clearly stated otherwise, future referencing to \emph{Kanban} in the report refers to the software development version of Kanban. A out of the blue fun fact is that "kan-ban" is Japanese for "signal card" \cite{16}. Some arguments regarding Kanban is about weather it is more of a lean or more of an agile methodology. The easy answer to this is to simply ignore the question since lean and agile methodologies don't go against each other nor have strict or precise definitions. One thing most can agree on is that Kanban is both lean and agile to some extent.
+When reading about Kanban it can get quite confusing. This is because Kanban is originally a lean scheduling system for \gls{jit} production developed by Taiichi Ohno at Toyota in 1953 \cite{key16} \cite{key17}. It is still used today within manufacturing but the ideas have been taken and modified to fit software development. The confusing part is that this software development version of Kanban is called Kanban. If not clearly stated otherwise, future referencing to \emph{Kanban} in the report refers to the software development version of Kanban. A fun fact is that "kan-ban" is Japanese for "signal card" \cite{key16}. Some disagreement regarding Kanban is weather it is more of a lean or more of an agile methodology. The easy answer to this is to simply ignore the question since lean and agile methodologies don't go against each other nor have precise definitions as explained in \fullref{sec:agile_lean}. One thing most can agree on is that Kanban is both lean and agile to some extent.
 
-As David J. Andersson stated in his first book about Kanban, the methodology is lightweight and does not have a clear formal definition in order to promote changes and modifications \cite{16}. This has led to several alternative methodologies, that build upon the original, popping up such as Kanban Ace and LKU Kanban. For these reasons, it is not that strange that the core practices can vary slightly in both numbers and definition. Depending on where you read you might find three or seven practices. For this report the chosen core practices are taken partly from the book \emph{Kanban: Successful Evolutionary Change for Your Technology Business} by David J. Andersson \cite{key16} and partly from the overall consensus from various resources available online.
+As David J. Andersson stated in his first book about Kanban, the methodology is lightweight and does not have a clear formal definition in order to promote changes and modifications \cite{key16}. This has led to several alternative methodologies, that build upon the original, popping up such as Kanban Ace and LKU Kanban. For these reasons, it is not that strange that the core practices can vary slightly in both numbers and definition. Depending on where you read you might find three or seven practices. For this report the chosen core practices are taken partly from the book \emph{Kanban: Successful Evolutionary Change for Your Technology Business} by David J. Andersson \cite{key16} and partly from the overall consensus from various resources available online.
 
 
 \begin{figure}[h]
   
   \centering
     \includegraphics[width=1.0\textwidth]{img/kanban_board.png}
-    \captionsource{Image showing the basics of a kanban board. The cards move from left to right. The number under each category represent the \gls{wip} limit. }{Pawel Brodzinski, \url{http://brodzinski.com/}}
+    \captionsource{Image showing the basics of a Kanban board. The cards move from left to right. The number under each category represent the \gls{wip} limit. }{Pawel Brodzinski, \url{http://brodzinski.com/}}
     \label{fig:kanban_board}
 \end{figure}
 
 
 
 \subsection{Visualize}
-This practice is about visualizing workflow. To have transparency between developers, managers and anyone else connected to a project. The standard way of doing this is using a so called kanban board with cards, see Figure \ref{fig:kanban_board}. This board can either be a physical board with sticky notes, or a virtual board. This board is a visual control system for all the tasks within a project \cite{key16}. The board allows for self-organizing by just pulling a new available card after finishing a task instead of waiting for a superior to supply the tasks.
+This practice is about visualizing workflow. To have transparency between developers, managers and anyone else connected to a project. The standard way of doing this is using a so called Kanban board with cards, see Figure \ref{fig:kanban_board}. This board can either be a physical board with sticky notes, or a virtual board. This board is a visual control system for all the tasks within a project. The board allows for self-organizing by just pulling a new available card after finishing a task instead of waiting for a superior to supply the tasks.
 
-The cards are not only meant to simply hold programming tasks. They are meant to represent some customer value. Therefor the design of the cards is important in order for the developers to make easier decisions on what to work on next \cite{key16}. There are no exact rules on what information the cards should hold but a title, description, estimated size and some estimated value number is a good start.
+The cards are not only meant to simply hold programming tasks. They are meant to represent some customer value. Therefor the design of the cards is important in order for the developers to make easier decisions on what to work on next. There are no exact rules on what information the cards should hold but a title, description, estimated size and some estimated value number is a good start \cite{key16}.
 
 \subsection{Limit Work-in-Progress}
-Limiting \gls{wip} is about having a limit at each step in the product chain, shown in Figure \ref{fig:kanban_board}, that corresponds to the amount of tasks allowed in that step. A simple \gls{wip} limit is having it equal to the amount of available working people at each step. When deciding the \gls{wip} limit, all members from from the stake holders to the developers should take part and form an agreement \cite{key16}. 
+Limiting \gls{wip} is about having a limit at each step in the product chain, shown in Figure \ref{fig:kanban_board}, that corresponds to the amount of tasks allowed in that step. A simple \gls{wip} limit is having it equal to the amount of available working people at each step. When deciding the \gls{wip} limit, all members from from the \glspl{stake} to the developers should take part and form an agreement \cite{key16}. 
 
-The \gls{wip} limit is important for several reasons. It shows when a pull from one step can be made to the next, it ensures focus on one or a few tasks at a time, it keeps the workload balanced and avoids stock piling of items at some middle step in the product chain. The most important benefit is that it gives the development team a limit to rely on and fall back to when put under too much stress, especially if everyone participated and formed a consensus when choosing the limit for the \gls{wip}. 
+The \gls{wip} limit is important for several reasons. It shows when a pull from one step can be made to the next. It ensures focus on one or a few tasks at a time. It keeps the workload balanced and avoids stock piling of items at some middle step in the product chain. The most important benefit is that it gives the development team a limit to rely on and fall back to when put under too much stress, especially if everyone participated and formed a consensus when choosing the limit for the \gls{wip}. 
 
 \subsection{Manage Flow}
 In Kanban the workflow or task flow is central so it makes sense having a practice focus on how to manage and improve it. In order to improve the workflow one must first be able to measure it somehow. Otherwise when changes are made, how do we know that it was an improvement? Some things are easier to measure and improve such as items stock piling at a certain step. An easy fix would be to add more manpower to that particular step. Some software such as \emph{Kanbanery} offer automatic tools for measuring that can give useful information about how changes affect the workflow \cite{key18}. Something important to stress out is that the more precise the estimated complexities and values for the cards/tasks the easier it gets to analyze the workflow.
 
 \subsection{Make Process Policies Explicit}
-In the practice \emph{Visualize} it was mentioned the importance of having a clear design on the cards of the kanban board. This practice is about just that. Without clear rules and a common understanding of how the card system works the discussions becomes subjective and emotional instead of factual \cite{key19}. Having the process policies explicit makes them easier to understand and therefor easier to use. They help choices regarding the process become more rational and empirical and the team have an easier time reaching consensus simply because everyone is working from the same policy configuration \cite{key19}.
+In the practice Visualize the importance of having a clear design on the cards of the Kanban board was mentioned. This practice is about just that. Without clear rules and a common understanding of how the card system works the discussions becomes subjective and emotional instead of factual \cite{key19}. Having the process policies explicit makes them easier to understand and therefor easier to use. They help choices regarding the process become more rational and empirical and the team have an easier time reaching consensus simply because everyone is working from the same policy configuration.
 
 
 \subsection{Improve Collaboratively}
-\epigraph{If you are not continually improving, but you are doing all of the other parts of the Kanban method, you are missing the point. It's a little like the concept of ?doing? agile but not being agile.
-. \cite{key19}}{\textsc{Matthew Powell}}
+\epigraph{If you are not continually improving, but you are doing all of the other parts of the Kanban method, you are missing the point. It's a little like the concept of "doing" agile but not being agile.}{\textsc{Matthew Powell} \cite{key19}}
 
-This practice is more social and less practically oriented then the other. When reading about Kanban you sometimes stumble upon the word \emph{Kaizen} meaning continuous improvement. \emph{Kaizen culture} is also often mentioned that talks about empowering the workforce and encourage them to "do the right thing". Kaizen culture promotes high levels of collaborations and freedom to self-organize work \cite{key16}. It is about putting the company and business first and this requires lots of trust which Simon Sinek talk about in his TED Talk about leadership \cite{key7}.
+\noindent
+This practice is more social and less practically oriented than the others. When reading about Kanban you sometimes stumble upon the word \emph{Kaizen} meaning continuous improvement. \emph{Kaizen culture} is also often mentioned that talks about empowering the workforce and encourage them to "do the right thing". Kaizen culture promotes high levels of collaborations and freedom to self-organize work. It is about putting the company and business first and this requires lots of trust which Simon Sinek talk about in his TED Talk about leadership \cite{key7}.
 
-Kanban promotes using a scientific approach when trying to introduce new changes. That means to evaluate a situation, suggest suitable change, predict the outcome, observe the results and compare with the prediction and previous results. If the team or business have a kaizan culture together with using the scientific approach then that can lead to spontaneously and regular local improvements to the process \cite{key16}.
+Kanban promotes using a scientific approach when trying to introduce new changes. That means to evaluate a situation, suggest suitable change, predict the outcome, observe the results and compare with the prediction and previous results. If the team or business have a Kaizan culture together with using the scientific approach then that can lead to spontaneous and regular local improvements to the process \cite{key16}.
 
 \section{Other Mentionable Methodologies}
 The informed reader might wonder why only these four methodologies were chosen for the report. After all there are at least a dozen more agile methodologies worth mentioning. For instance Dynamic Systems Development Method (DSDM) that is a broadly used agile methodology. 
@@ -610,7 +647,7 @@ DSDM was skipped simply because its scope is too large, larger than Scrum for ex
 
 \subsection{Project Description}
 The actual project, to be developed using agile strategies, is a private initiative from Per-Arne Forsberg who has 25 years of successful international experience and knowledge in managing technically skilled units, products and projects around the world at Ericsson. Having been involved and engaged in change management, using the latest Lean and Agile methodology.
-The project is developing a dynamic, scalable and robust interactive tutoring framework prototype for pre-academic students. Assisting students today according to the ?old school? is social but also ineffective since it is usually one to one communication or one to a few in a geographical location (you have to meet at pre-determined location at pre-determined times, like classrooms). The long term goal is to assist in communication between students and teachers (tutors willing to help out with their knowledge from their preferred location) in Sweden and in turn combat the negative (knowledge) grade curve that can be seen around the country (according to international studies, PISA). In short the idea is to create a interactive website that can be used for many to many type of communication between students and teachers. An exact specification of the project does not exist in order to encourage the agile development process.
+The project is developing a dynamic, scalable and robust interactive tutoring framework prototype for pre-academic students. Assisting students today according to the ?old school? is social but also ineffective since it is usually one to one communication or one to a few in a geographical location (you have to meet at pre-determined location at pre-determined times, like classrooms). The long term goal is to assist in communication between students and teachers (tutors willing to help out with their knowledge from their preferred location) in Sweden and in turn combat the negative (knowledge) grade curve that can be seen around the country (according to international studies, PISA). In short the idea is to create an interactive website that can be used for many to many type of communication between students and teachers. An exact specification of the project does not exist in order to encourage the agile development process.
 
 \subsection{Chosen Methodology and/or Strategy}
 
@@ -652,105 +689,161 @@ Each agile development methodology has vast amount of information, interpretatio
 \printglossary[type=\acronymtype]
 
 
-\appendix
-\addappheadtotoc
-\chapter{RDF}\label{appA}
-
-\begin{figure}[ht]
-\begin{center}
-And here is a figure
-\caption{\small{Several statements describing the same resource.}}\label{RDF_4}
-\end{center}
-\end{figure}
-
-that we refer to here: \ref{RDF_4}
+%\appendix
+%\addappheadtotoc
+%\chapter{RDF}\label{appA}
 
 \begin{thebibliography}{56}
 
 \bibitem{key1}
-Martin C. Robert, Martin Micah,
-\emph{Agile Principles, Patterns, and Practices in C\#}.
-Prentice Hall, Massachusetts,
-2nd edition,
-2006.
+Martin, C.R. and Martin, M. 
+2006. 
+Agile principles, patterns, and practices in C\#. 
+Prentice Hall, Massachusetts. 
+768 pp.
 
 \bibitem{key2}
-\url{http://www.agilealliance.org}
+Agile Alliance. 
+2015. 
+The alliance. 
+[ \url{http://www.agilealliance.org/the-alliance/} ]. 
+Accessed Mars 5, 2015.
 
 \bibitem{key3}
-\url{https://www.youtube.com/watch?v=t9YLtDJZtPY&t=175}
+Crockford, C. 
+2007. 
+Quality. 
+[ \url{https://www.youtube.com/watch?v=t9YLtDJZtPY&t=175} ]. 
+Accessed Mars 12, 2015.
 
 \bibitem{key4}
-\url{http://www.literateprogramming.com/knuthweb.pdf}
+Knuth, D.E. 
+1984. 
+Literate Programming. 
+Comput J. 
+27: 97-111. 
+%\url{http://www.literateprogramming.com/knuthweb.pdf}
 
 \bibitem{key5}
-\url{http://users.dcc.uchile.cl/~nbaloian/cc1001-03/ejercicios/crystalclearV5d.pdf}
-
-\bibitem{key6}
-[KW] Karl Weick, The Social Psychology of Organizing, McGraw-Hill Humanities/Social Sciences/Languages; 2nd edition, 1979.
+Cockburn, A. 
+2004. 
+Crystal clear: a human-powered methodology for small teams. 
+Addison-Wesley Professional, New Jersey. 
+312 pp.
+% \url{http://users.dcc.uchile.cl/~nbaloian/cc1001-03/ejercicios/crystalclearV5d.pdf}
 
 \bibitem{key7}
-\url{http://www.ted.com/talks/simon_sinek_why_good_leaders_make_you_feel_safe}
+Sinek, S. 
+2014. 
+Why good leaders make you feel safe. 
+[ \url{http://www.ted.com/talks/simon_sinek_why_good_leaders_make_you_feel_safe} ]. 
+Accessed Mars 13, 2015. 
 
 \bibitem{key8}
-Keil, M. and Carmel, E. (1995) Customer Developer Links in Software Development, Communications of the ACM, Vol 38, Num 5, May. pp33-44
+Keil, M. and Carmel, E. 
+1995. 
+Customer developer links in software development. 
+Commun ACM. 
+38: 33-44.
 
-\bibitem{key9}
-[Cockburn2001] Alistair Cockburn and Laurie Williams, "The Costs and Benefits of Pair
-Programming," XP2000 Conference in Sardinia, reproduced in Giancarlo Succi and Michele Marchesi,
-Extreme Programming Examined, Addison-Wesley, 2001.
+%\bibitem{key9}
+%[Cockburn2001] Alistair Cockburn and Laurie Williams, "The Costs and Benefits of Pair
+%Programming," XP2000 Conference in Sardinia, reproduced in Giancarlo Succi and Michele Marchesi,
+%Extreme Programming Examined, Addison-Wesley, 2001.
 
-\bibitem{key10}
-[Nosek98] J. T. Nosek, "The Case for Collaborative Programming," Communications of the ACM,
-1998, pp. 105108.
+%\bibitem{key10}
+%[Nosek98] J. T. Nosek, "The Case for Collaborative Programming," Communications of the ACM,
+%1998, pp. 105108.
 
 \bibitem{key11}
-[Williams2000] Laurie Williams, Robert R. Kessler, Ward Cunningham, Ron Jeffries, "Strengthening
-the Case for Pair Programming," IEEE Software, JulyAug. 2000.
+Williams, L., Kessler, R.R., Cunningham, W. and Jeffries R. 
+2000. 
+Strengthening the case for pair programming. 
+IEEE Softw. 
+17: 19-25.
 
-\bibitem{key12}
-\url{https://people.kth.se/~tomase/#/presentations/computer_science}
+%\bibitem{key12}
+%\url{https://people.kth.se/~tomase/#/presentations/computer_science}
 
-\bibitem{key13}
-\url{http://repo.hackerzvoice.net/depot_madchat/coding/xp/xpexplained.pdf}
+%\bibitem{key13}
+%\url{http://repo.hackerzvoice.net/depot_madchat/coding/xp/xpexplained.pdf}
 
 \bibitem{key14}
-\url{http://ptgmedia.pearsoncmg.com/images/9780321278654/samplepages/9780321278654.pdf}
+Beck, K. and Andres, C. 
+2004. 
+Extreme programming explained: embrace change, 2nd edition. 
+Addison-Wesley Professional, New Jersey. 
+224 pp. 
+%\url{http://ptgmedia.pearsoncmg.com/images/9780321278654/samplepages/9780321278654.pdf}
 
 \bibitem{key15}
-\url{http://www.scrumguides.org/scrum-guide.html}
+Scrum Guides. 
+2013. 
+The scrum guide. 
+[ \url{http://www.scrumguides.org/scrum-guide.html} ]. 
+Accessed Mars 23, 2015. 
 
 \bibitem{key16}
-\url{http://www.scrumsense.com/wp-content/uploads/2010/02/KanbanManuscript-dja-rev1_07_2.pdf}
+Anderson, D.J. 
+2010. 
+Kanban: successful evolutionary change for technology organizations. 
+Blue Hole Press. 
+278 pp. 
+%\url{http://www.scrumsense.com/wp-content/uploads/2010/02/KanbanManuscript-dja-rev1_07_2.pdf}
 
-\bibitem{key17}
-\url{http://en.wikipedia.org/wiki/Kanban}
+%\bibitem{key17}
+%\url{http://en.wikipedia.org/wiki/Kanban}
 
 \bibitem{key18}
-\url{https://kanbanery.com/ebook/GettingStartedWithKanban.pdf}
+Klipp, P. 
+2014. 
+Getting started with kanban. 
+Kanbanery. 
+37 pp.
+%[ \url{https://kanbanery.com/ebook/GettingStartedWithKanban.pdf} ]. 
 
 \bibitem{key19}
-\url{http://www.everydaykanban.com/what-is-kanban/}
+Everyday Kanban. 
+2015. 
+What is kanban. 
+[ \url{http://www.everydaykanban.com/what-is-kanban/} ]. 
+Accessed Mars 25, 2015.
 
-\bibitem{key20}
-\url{https://www.google.se/books?hl=sv&lr=&id=6O5tAgAAQBAJ&oi=fnd&pg=PR3&dq=scrum&ots=1FXoZqQl5Z&sig=oAaGuCqYT8GOPb3L4u6kqIoWYH8&redir_esc=y#v=onepage&q=jeff%20sutherland&f=false} %About combining xp with scrum
+% \bibitem{key20}
+%\url{https://www.google.se/books?%hl=sv&lr=&id=6O5tAgAAQBAJ&oi=fnd&pg=PR3&dq=scrum&ots=1FXoZqQl5Z&sig=oAaGuCqYT8GOPb3L4u6kqIoWYH8&%redir_esc=y#v=onepage&q=jeff%20sutherland&f=false} %About combining xp with scrum
 
 \bibitem{key21}
-\url{https://www.google.se/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCUQFjAA&url=http%3A%2F%2Fxa.yimg.com%2Fkq%2Fgroups%2F19611210%2F134287803%2Fname%2FAgile&ei=MXsRVeqRMeHXyQOJtoCoDA&usg=AFQjCNEBuHLF_m23E8qOTsBJvOtetCxukw&sig2=J3vpAfBnP0Mhms92bnycIA&bvm=bv.89184060,d.bGQ&cad=rja}
+Schwaber, K. 
+2004. 
+Agile project management with scrum. 
+Microsoft Press. 
+192 pp.
+%\url{https://www.google.se/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCUQFjAA&url=http%3A%2F%2Fxa.yimg.com%2Fkq%2Fgroups%2F19611210%2F134287803%2Fname%2FAgile&ei=MXsRVeqRMeHXyQOJtoCoDA&usg=AFQjCNEBuHLF_m23E8qOTsBJvOtetCxukw&sig2=J3vpAfBnP0Mhms92bnycIA&bvm=bv.89184060,d.bGQ&cad=rja}
 
 \bibitem{key22}
-2. J. Womack, D. Jones, and D. Roos, The Machine
-That Changed the World: The Story of
-Lean Production, Simon \& Schuster, 2007
+Womack, J.P., Jones, D.T. and Roos, D. 
+2007. 
+The machine that changed the world: the story of lean production. 
+Free Press, New York. 
+352 pp. 
 
 \bibitem{key23}
-http://ptgmedia.pearsoncmg.com/images/9780321150783/samplepages/0321150783.pdf
+Poppendieck, M. and Poppendieck, T. 
+2003. 
+Lean software development: an agile toolkit. 
+Addison-Wesley Professional, New Jersey. 
+240 pp.
+%http://ptgmedia.pearsoncmg.com/images/9780321150783/samplepages/0321150783.pdf
 
 \bibitem{key24}
-http://martinfowler.com/bliki/AgileVersusLean.html
+Martin Fowler. 
+2008. 
+Agile versus lean. 
+[ \url{http://martinfowler.com/bliki/AgileVersusLean.html} ]. 
+Accessed April 1, 2015.
 
-\bibitem{key25}
-\url{http://www.quotium.com/performance/comparison-of-key-methodologies-in-agile/}
+%\bibitem{key25}
+%\url{http://www.quotium.com/performance/comparison-of-key-methodologies-in-agile/}
 
 \end{thebibliography}
 
