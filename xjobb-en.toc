@@ -59,6 +59,19 @@
 \contentsline {subsection}{\numberline {2.4.4}Make Process Policies Explicit}{29}{subsection.2.4.4}
 \contentsline {subsection}{\numberline {2.4.5}Improve Collaboratively}{30}{subsection.2.4.5}
 \contentsline {section}{\numberline {2.5}Other Mentionable Methodologies}{30}{section.2.5}
-\contentsline {chapter}{Glossary}{33}{section*.24}
-\contentsline {chapter}{Acronyms}{35}{section*.26}
-\contentsline {chapter}{Bibliography}{37}{section*.29}
+\contentsline {chapter}{\chapternumberline {3}Theoretical Evaluation}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}Methodology Evaluation}{33}{section.3.1}
+\contentsline {section}{\numberline {3.2}Chosen Methodology for the Project}{33}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Project Description}{33}{subsection.3.2.1}
+\contentsline {chapter}{\chapternumberline {4}Project Evaluation}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}Agile Workflow}{35}{section.4.1}
+\contentsline {section}{\numberline {4.2}Project Result}{35}{section.4.2}
+\contentsline {section}{\numberline {4.3}Developer \& Product Owner Experience}{35}{section.4.3}
+\contentsline {chapter}{\chapternumberline {5}Discussion}{37}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Conclusions}{39}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Report Critique}{41}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Developers Thoughts}{43}{chapter.8}
+\contentsline {section}{\numberline {8.1}Future Work}{43}{section.8.1}
+\contentsline {chapter}{Glossary}{45}{section*.24}
+\contentsline {chapter}{Acronyms}{47}{section*.26}
+\contentsline {chapter}{Bibliography}{49}{section*.29}
