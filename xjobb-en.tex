@@ -482,7 +482,7 @@ Saying that \gls{xp} focuses on the entire team does not simply mean the entire 
 \subsection{Continuous Process}
 These practices describes the cycles such as sprints and release plans for the project. Things like frequent integration are brought up and the importance of continuous refactoring. 
 
-\subsubsection{Continuous Integration)}
+\subsubsection{Continuous Integration}
 For those that frequently work with multiple people using \gls{git}, Continuous Integration will sound familiar. Each programmer should integrate their work several times a day. If you are lucky (or fast), you are first and simply check in your work. If you are not so lucky, you have to merge the changes. In other words, \gls{xp} teams use nonblocking source control \cite{key1}. This means that every developer can work on any part of the system, simultaneously with the other developers. It is important that each system test and acceptance test are run before anything is checked in. If something is broken, the developer fixes it before checking in the changes. 
 
 \subsubsection{Refactoring}
@@ -672,9 +672,9 @@ DSDM was skipped simply because its scope is too large, larger than Scrum for ex
 
 \chapter{Theoretical Evaluation}
 \label{sec:method_teori}
-This chapter aims to compare the four agile methodologies to each other with focus on small development teams. There is no exact definition of what a "small project" or "small team" means. For the sake of clarification we assume that a small project consists of one to five person(s). They can either all be part of the development team or one or two have other responsibilities such as being a costumer, project leader or product owner. We further assume that the small team is a newly founded IT company and not some sort of small project team within a larger company. For example, it could be a handful of friends starting an IT consulting business after getting their master's degree in computer science. 
+This chapter aims to compare the four agile methodologies to each other with focus on small development teams. There is no exact definition of what a "small project" or "small team" means. For the sake of clarification we assume that a small project consists of one to five person(s). They can either all be part of the development team or one or two have other responsibilities such as being a costumer, project leader or product owner. We further assume that the small team is a newly founded IT company and not some sort of small project team within a larger company. For example, it could be a handful of friends starting an IT consulting business after getting their master's degree in computer science. So whenever a small company, small project, small team etcetera is mentioned from here on, this is the setup you should have in mind.
 
-\section{Methodology Evaluation}
+\section{Methodology Walktrough}
 \subsection{The Agile Principles for Small Teams}
 The agile principles are the backbone of agile development. Therefor it is only natural to compare agile methodologies to these principles in order to estimate how agile they are and what their differences are. However the principles aim to satisfy big projects and big teams since after all, the bigger the project the bigger the need for a methodology. Even if it is hard valuing the agile principles, or not even meant to by the founders and followers, it does make sense to reestimate their value for small newly started IT companies. The following evaluation of the principles is just an estimation based on logical reasoning and should be read with a critical mindset. The principles are listed at \fullref{sec:agile_principles}.
 
@@ -684,13 +684,23 @@ To summarize, the 9 principles 1-3, 6-10 and 12 comes out as more important to s
 
 
 \subsection{Scrum}
-The practices of Scrum satisfy the agile principles well. The only principle that it does not address directly is principle 9 that talks about technical excellence and good design. 
+The practices of Scrum satisfy the agile principles well. You can almost match each practice in Scrum to each different agile principle and perhaps this is why Scrum is often used as the example methodology for agile development.
+The only principle that it does not address is principle 9 that talks about technical excellence and good design. Good code design is only briefly mentioned when talking about getting tasks done before the end of each Sprint and not leaving loose uncompleted ends. The methodology clearly revolves around the Sprints. It talks a lot about having short iterations with many short meetings and ensuring that the Product Backlog is kept updated at all times.
+
+Everything in Scrum goes together pretty neatly as seen in Figure \ref{fig:scrum}. Each practice is strongly connected to several of the others. Within the events, all three roles work together tightly and always have the artifacts in focus. Generally this is a good thing since it shows coherence and makes it easier to grasp the meaning of each practice. However to be able to include all practices one would at least need three people to fill the roles, which would mean a Development Team of size one to three for small companies. Another solution would be to have everyone part of the Development Team where two of these have extended roles as a Product Owner and Scrum Master. It is certainly possible to include all practices for a small project but it would also most certainly lead to lots of overhead work when so few people are involved.
 
 \subsection{Extreme Programming (XP)}
-\subsection{Crystal Clear}
-\subsection{Kanban}
-\subsection{Summary}
+\gls{xp} is quite opposite of Scrum and talks quite a lot about code quality. The practices Pair Programming, \gls{tdd}, Coding Standards, Simple Design and Refactoring all emphasizes how they have a positive influence on code quality. At first glance one might believe that \gls{xp} is much more "zoomed in" than Scrum and only talks about how the Development Team should code. However, the practice called The Planning Game is very big and includes components that are similar to several practices in Scrum, such as iterations (Sprints), small stories (Product Backlog) and planning meetings (Sprint Planning). So one could also see \gls{xp} as a sort of huge framework where Scrum is replaced by The Planning Game. So for companies using both Scrum and \gls{xp} it's a matter of perspective weather they are using \gls{xp} on top of Scrum or Scrum on top of \gls{xp}.
 
+\gls{xp} as a whole is quite clearly too vast for small newly founded IT companies. But they do have many stand-alone practices that would be easy to start with and then slowly built upon, practice by practice. For example, all the quality ensuring practices mentioned. However, how agile would it be to have a bunch of practices satisfying only one agile principle? To ensure that the other parts of the agile principles are included one would have to look into the Planning Game. But instead of diving into that vast practice it would make more sense starting with Scrum where the different parts of The Planning Game or more clearly distinguished. 
+
+\subsection{Crystal Clear}
+Ironically the practices of Crystal Clear is the most vague of all four methodologies. They have chosen a higher abstraction on their practices, somewhere in between the agile principles and the practices of the other methodologies.  Instead of describing actual tools to achieve positive outcomes it focuses on describing positive outcomes with tools as examples. Half the practices, Osmotic Communication, Personal Safety and Focus, all talk about social behavior in group environments. The methodology revolves around building safety and trust within the team. In other terms, it has focus on the human mind instead of artifacts and processes. 
+
+Crystal Clear is clearly more lightweight than \gls{xp} and Scrum which naturally means it would be an easier methodology to follow for small companies. To try to establish a sort of trust oriented culture early in a company, Crystal Clear is certainly a good candidate to follow. However it somewhat lacks practical practices to follow so it might be a good idea to complement it using another methodology. The methodologies Frequent Delivery and Reflective Improvement is basically the Sprint and Sprint Retrospective so Scrum would be a good candidate to pair it together with. 
+
+You can safely say that Crystal Clear put heavy emphasize on the part of the The Agile Manifesto that states: \emph{Individuals and interactions} over processes and tools.
+\subsection{Kanban}
 
 \section{Chosen Methodology for the Project}
 
