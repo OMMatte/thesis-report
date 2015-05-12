@@ -67,16 +67,16 @@
 \contentsline {subsection}{\numberline {3.1.4}Crystal Clear}{35}{subsection.3.1.4}
 \contentsline {subsection}{\numberline {3.1.5}Kanban}{36}{subsection.3.1.5}
 \contentsline {section}{\numberline {3.2}Chosen Methodology for the Project}{36}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Project Description}{36}{subsection.3.2.1}
-\contentsline {chapter}{\chapternumberline {4}Project Evaluation}{37}{chapter.4}
-\contentsline {section}{\numberline {4.1}Agile Workflow}{37}{section.4.1}
-\contentsline {section}{\numberline {4.2}Project Result}{37}{section.4.2}
-\contentsline {section}{\numberline {4.3}Developer \& Product Owner Experience}{37}{section.4.3}
-\contentsline {chapter}{\chapternumberline {5}Discussion}{39}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Conclusions}{41}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Report Critique}{43}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Developers Thoughts}{45}{chapter.8}
-\contentsline {section}{\numberline {8.1}Future Work}{45}{section.8.1}
-\contentsline {chapter}{Glossary}{47}{section*.24}
-\contentsline {chapter}{Acronyms}{49}{section*.26}
-\contentsline {chapter}{Bibliography}{51}{section*.29}
+\contentsline {subsection}{\numberline {3.2.1}Project Description}{37}{subsection.3.2.1}
+\contentsline {chapter}{\chapternumberline {4}Project Evaluation}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}Agile Workflow}{39}{section.4.1}
+\contentsline {section}{\numberline {4.2}Project Result}{39}{section.4.2}
+\contentsline {section}{\numberline {4.3}Developer \& Product Owner Experience}{39}{section.4.3}
+\contentsline {chapter}{\chapternumberline {5}Discussion}{41}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Conclusions}{43}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Report Critique}{45}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Developers Thoughts}{47}{chapter.8}
+\contentsline {section}{\numberline {8.1}Future Work}{47}{section.8.1}
+\contentsline {chapter}{Glossary}{49}{section*.24}
+\contentsline {chapter}{Acronyms}{51}{section*.26}
+\contentsline {chapter}{Bibliography}{53}{section*.29}
