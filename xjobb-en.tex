@@ -9,8 +9,12 @@
 \usepackage[colorlinks]{hyperref}
 \usepackage{graphicx}
 \usepackage{nameref}
+%\usepackageappendix}
 
-\newcommand*{\fullref}[1]{\hyperref[{#1}]{\autoref*{#1} \nameref*{#1}}} % One single link
+\renewcommand\cftappendixname{\appendixname~} % Nicer look for appendixes in content list
+
+\newcommand*{\fullref}[1]{\hyperref[{#1}]{\autoref*{#1} \nameref*{#1}}} % full reference including section/chapter tag
+\newcommand*{\appfullref}[1]{\hyperref[{#1}]{Appendix \ref*{#1} \nameref*{#1}}} % full reference for appendices
 \renewcommand*{\glsdisplayfirst}[4]{#1#4} % Glossary first entry
 
 \newcommand*{\captionsource}[2]{%
@@ -85,6 +89,12 @@ name={Stakeholder},
 text={stakeholder},
 description={Has several meanings but this report refers to corporate stakeholders. A corporate stakeholder is a broad term meaning a person or party who has an interest in a certain business or project for a company. It can for example be investors, customers and suppliers}}
 
+\newglossaryentry{us}{
+name={User Story},
+text={user story},
+plural={user stories},
+description={Within software development and product management, user stories are short descriptions, or stories, that tries to envision the users interaction for some requirement. The layout of user stories varies for different projects but It should capture the "who", "what", and "why" in a short but descriptive way. Usually the stories are highly abstract but before implementation on a story begins they are broken down into more fine graned sub-stories. The term is commonly used within agile development and originates from the methodology \gls{xp}}}
+
 
 % Acronyms
 \newglossaryentry{jit}{type=\acronymtype, name={JIT}, description={just-in-time}, first={just-in-time (JIT)\glsadd{jitg}}, see=[Glossary:]{jitg}}
@@ -96,6 +106,7 @@ description={Has several meanings but this report refers to corporate stakeholde
 \newacronym{lsd}{LSD}{lean software development}
 \newacronym{lpd}{LPD}{lean product development}
 \newacronym{dsdm}{DSDM}{dynamic systems development method}
+\newacronym{uml}{UML}{unified modeling language}
 
 
 
@@ -460,7 +471,7 @@ The Planning Game is played between the business people and the developers. It i
 
 A simple and natural way to play the game is: After each iteration, which for example might be a two week period, the developers updates the cost of future features. They also come up with a budget for how much they will be able to develop for the next iteration. Then it is the business peoples turn. They decide the features, within the budget, that they want the developers to work on for the next iteration. This game plays out after each iteration.
 
-In reality it is much more complicated and a whole chapter is dedicated to the Planning Game in the book \emph{Agile Principles, Patterns, and Practices in C\#} by Martin C. Robert  and Martin Micah \cite{key1}. Things like velocity and user stories are described in detail which are all important components to the Planning Game. What is stressed is transparency since everybody might not be up to play ball just relying on some developers estimation. 
+In reality it is much more complicated and a whole chapter is dedicated to the Planning Game in the book \emph{Agile Principles, Patterns, and Practices in C\#} by Martin C. Robert  and Martin Micah \cite{key1}. Things like velocity and \glspl{us} are described in detail which are all important components to the Planning Game. What is stressed is transparency since everybody might not be up to play ball just relying on some developers estimation. 
 
 \subsubsection{Test-Driven Development}
 The following steps describes \gls{tdd}:
@@ -497,7 +508,7 @@ Small Releases means release often and release small. Releasing software can be 
 
 \begin{description}
 \item[The iteration plan] \hfill \\ 
-This is a sort of minor release. In \gls{xp} the usual interval for minor releases of new software is every two weeks \cite{key1}. However as short as possible is preferred. The two week period is just a well working standard. At the end of each iteration cycle, decisions regarding user stories and features should be made according to the the Planning Game. It is not obligatory that something gets released at the end of this cycle since the short time period might mean that too few features with value have been implemented.  
+This is a sort of minor release. In \gls{xp} the usual interval for minor releases of new software is every two weeks \cite{key1}. However as short as possible is preferred. The two week period is just a well working standard. At the end of each iteration cycle, decisions regarding \glspl{us} and features should be made according to the the Planning Game. It is not obligatory that something gets released at the end of this cycle since the short time period might mean that too few features with value have been implemented.  
 \item[The release plan] \hfill \\ 
 This is basically the bigger version of the iteration plan. This is a more abstract plan over a longer time period that usually spans around three months \cite{key1}. A clear difference is that the iteration plan should not change but the release plan is subject to change during its lifetime. A simple explanation for this is that it is expected to foresee
 implementation issues two weeks ahead while this is not the case for three months. It is also expected that something gets released at the end of a release plan cycle.
@@ -717,21 +728,70 @@ Kanban certainly does not fully satisfy all the agile principles but the practic
 Kanban seems like a suitable choice to start with for a small new company looking for an agile methodology. It does a decent job covering the agile principles, it is relatively lightweight and most of the practices are easy to practically follow. However as a company/project grows it can perhaps become too lightweight and should be expanded or complemented using another methodology. An example of this is the methodology Scrum-ban which is a combination of Scrum and Kanban.
 
 \section{Chosen Methodology for the Project}
-Kanban became the chosen methodology for the project. There are several reasons for the methodology to be favorable for the project. The methodology covers most of the agile principles but is extremely lightweight compared to Scrum and especially \gls{xp}. For a small project this is essential since the smaller the project team the larger the overhead for a methodology. And in this perticular project there will be just one developer and the owner of the project. The fact that Kanban is meant to be expanded on demand and that methodologies like Scrum-ban exists also means that it should be easy to let the methodology grow as the project/company grows.
+Kanban became the chosen methodology for the project, see \fullref{sec:project_description}. There are several reasons for the methodology to be favorable for the project. The methodology covers most of the agile principles but is extremely lightweight compared to Scrum and especially \gls{xp}. For a small project this is essential since the smaller the project team the larger the overhead for a methodology. And in this particular project there will be just one developer and the owner of the project. The fact that Kanban is meant to be expanded on demand and that methodologies like Scrum-ban exists also means that it should be easy to let the methodology grow as the project/company grows.
 
 The Kanban board is easy to understand and implement. It will give value even if you are developing completely alone since it provides structure and abstraction. It also offers transparency for the project owner. The freedom of details on the Kanban board and its cards through the process policies means that it easy to start small and slowly buildup the organization of the board.
 
 Regarding Crystal Clear, the focus on social environment makes it a pretty poor choice when working solo as a developer. Even if you are a handful of developers it can be hard to practically follow such abstract ideas. The methodology also does not have the same connection for its practices as the other methodologies.
 
+\chapter{Project}
+This chapter goes through the project and specifically the workflow of the project that was and, at this time, is still being developed using Kanban. The chapter tries to keep a natural timeline but not to a full extent since many logical components of the development process were themselves developed over time. Figure \ref{fig:agile_waterfall} describes the problem pretty well. In other words, each component individually, like creating the Process Policies, follow a logical timeline.
+
+Since the project is a private initiative by the product owner, the developer works from his home. Tuesday at 10:00 was initially selected as a weekly meeting time to ensure that the developer and product owner regularly see each other face to face. During the course of the project extra meeting times were added, especially at the start of the project to get the ball rolling. 
 
 \subsection{Project Description}
+\label{sec:project_description}
 The project, to be developed using agile strategies, is a private initiative from Per-Arne Forsberg who has 25 years of successful international experience and knowledge in managing technically skilled units, products and projects around the world at Ericsson. Having been involved and engaged in change management, using the latest Lean and Agile methodology.
 
 The project is developing a dynamic, scalable and robust interactive tutoring framework prototype for pre-academic students. Assisting students today according to the "old school" is social but also ineffective since it is usually one to one communication or one to a few in some geographical location (you have to meet at pre-determined location at pre-determined times, like classrooms). The long term goal is to assist in communication between students and teachers (tutors willing to help out with their knowledge from their preferred location) in Sweden and in turn combat the negative (knowledge) grade curve that can be seen around the country, according to international studies, PISA. 
 
 In short the idea is to create an interactive website that can be used for many to many type of communication between students and teachers. An exact specification of the project does not exist in order to encourage the agile development process.
 
-\chapter{Project Evaluation}
+\section{Process Policies}
+that was looked into, after deciding on using Kanban, was the layout of the Kanban cards, in other words the Process Polices. Typically these cards are either simply tasks and/or \glspl{us}. Since Kanban itself does not explicitly state the layout of the cards, the strategies described in Use-Case 2.0 were selected to form the basic structure \cite{key25}. This will be described further in \fullref{sec:use_case}.
+
+The Process Policies were not all written at one point in time. As the project grew more policies were added. Using
+
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.8\textwidth]{img/process_policy_sample.png}
+    \caption{A sample of the projects Process Policies. This sample shows information regarding the type of cards called Use-Case Flow Cards. For a full list of the Process Policies, see \appfullref{app:project_process_policies}}
+    \label{fig:process_policy_sample}
+\end{figure}
+The first thing 
+
+\subsection{Use-Case 2.0}
+\label{sec:use_case}
+\Glspl{us} is a common approach in agile development to represent project requirements and specifications in a easy to understand, abstract and layered structure. A use-case is a similar alternative approach. The difference is in the scope and its focus. While \glspl{us} tend to be more abstract and use everyday language to keep it open for interpretation, use-cases instead are more user-to-system goal focused and tend to use a more business oriented language. Use cases also tend to have larger scope that includes components such as \gls{uml}. It is common that project requirements are built using both \glspl{us} and use-cases techniques in some sort of combination. What's Important to know is that the definition for both of these techniques are not strict in order to have an easier time adapting them to any project type and size.
+
+Use-Case 2.0 is a popular technique meant to be lightweight, scalable, versatile and easy to use \cite{key25}. If it delivers what it promises it sure fits the description of what you look for in a small project with few members. Also the technique is meant to be used with methodologies such as Kanban and Scrum. Without going into to much detail the technique, when used with Kanban, can be summarized as following:
+
+\begin{enumerate}
+\item Agree on the goals and scope of the system and identify all actors and ways of using the system. Repeat this every now and then as things can change as the project develops.
+\item Each use-case represents a meaningful logical interaction between some actor and the system.
+\item Create a narrative for each use-case that explains the actors goal and interaction on an abstract level and in everyday language, similar to how \gls{us} are written.
+\item Create basic and alternative flows for each use-case that in a step-by-step manor goes through a users perspective in navigating the system to achieve the use case goal.
+\item Create basic test cases for how to check if the use-case and use-case flows are satisfied. 
+\item When development on a use case grows "near", create slices for the use-case. As the name suggests, try to create each slice so they correspond to a suitable and somewhat equally sized work. The slices are created by either splitting a use-case flow or combining multiple flows. The slice can also go deeper in detail if wanted or needed, both in terms of the use-case flow steps and test cases.
+\item Work on a certain number of slices at a time (depending on the size of the project team) and when implemented, check them against the test cases.
+\item Keep updating the use-cases with information as slices are completed. 
+\end{enumerate}
+
+Note that this is a simplified summarization of Use-Case 2.0 that is influenced by both Kanban and the project. Read more about how to technique works in in the e-book \emph{Use-Case 2.0, The Guide to Succeeding with Use Cases} by Ivar Jacobson, Ian Spence and Kurt Bittner \cite{key25}.
+
+\section{Kanban Board}
+After deciding to use Kanban together with Use-Case 2.0, about five longer meetings corresponding to almost three full work days were spent on brainstorming the use-cases for the project. To let each case represent a card, post-its notes were used on a blackboard. 
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=1.0\textwidth]{img/trello_kanban_board.png}
+    \caption{Trello Kanban board.}
+    \label{fig:trello_kanban_board}
+\end{figure}
+
+\subsection{Trello}
+
 
 \section{Agile Workflow}
 
@@ -750,8 +810,6 @@ In short the idea is to create an interactive website that can be used for many 
 There are several reasons to be critical for the type of research conducted in this report. Some have already been mentioned briefly here and there throughout the report. First of all agile development by itself is quite vague in its definitions and the work regarding agile development and its methodologies are mostly based on expert experience. It is the results of industry experts that have seen problems, come up with ideas to fix them, had companies or themselves try them out finally evaluate  the outcome. The problem is that there are so many parameters and influences when evaluating software development methodologies that it is really hard to make sense of the result. Too be clear, the data is very noisy. For instance, you can not make a software using one methodology and then have the development team create the software again using another approach. The results of the new approach will most certainly be influenced by their first attempt. What is really needed is several development teams consisting of developers with somewhat equal experience and background. However, depending on parameters such as if the software type is a website, game or security system the results might vary. Thus most work regarding agile development and its methodologies, including this report, falls into the category of social science or soft science which is important to have in mind. All of this also means that investigating work regarding agile development, such as this report, would benefit in having a more experienced author but this is usually hard to come around when we talk about a university thesis for obvious reasons.
 
 Each agile development methodology has vast amount of information, interpretations and alternative versions going for them. To make a full theoretical analyzes and comparison is out of scope for this report. The first and easy limitation was to not include every possible agile methodology in order to have room for more depth into the chosen methodologies as well as to keep the complexity down and give the readers some focus. However, even with this limitation it would not be viable going through every aspect of each methodology since each methodology would deserve their own full report. So the practices of each methodology was chosen as a solid and common ground to be analyzed. What this means is that a lot of what defines the methodologies have potentially been "cut off" and therefore given an unfair assessment to some degree. This is also brought up in \fullref{sec:future_work}.
-
- 
 
 \chapter{Developers Thoughts}
 
@@ -911,15 +969,195 @@ Addison-Wesley Professional, New Jersey.
 %http://ptgmedia.pearsoncmg.com/images/9780321150783/samplepages/0321150783.pdf
 
 \bibitem{key24}
-Martin Fowler. 
+Fowler, M. 
 2008. 
 Agile versus lean. 
 [ \url{http://martinfowler.com/bliki/AgileVersusLean.html} ]. 
 Accessed April 1, 2015.
 
+\bibitem{key25}
+Jacobson, I., Spence, I. and Bittner K. 
+2011. 
+Use-case 2.0.
+Ivar Jacobson International.
+55 pp.
+
 %\bibitem{key25}
 %\url{http://www.quotium.com/performance/comparison-of-key-methodologies-in-agile/}
 
 \end{thebibliography}
+
+\appendixname{Appendix}
+% \cleardoublepage
+%\addcontentsline{toc}{chapter}{Appendices}
+\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+\begin{appendices}
+
+\chapter{Project Process Policies}
+\label{app:project_process_policies}
+The Process Policies for the project are written in the online organization tool called Trello. For the time being they can be accessed using the following link: \url{https://trello.com/c/Xtm9s8LF/95-rules}
+
+However since the project is ongoing the information will change and the link might become invalid in the future. A sample of how to Process Policies are written in Trello can be seen in Figure \ref{fig:process_policy_sample}. The Kanban board in Trello is visible at Figure \ref{fig:trello_kanban_board}. Everything below is an extraction of the Process Policies at the time of this reports writing, slightly modified to suit the layout of this report.
+
+
+\section{Project Process Policies}
+Strategies in Use-Case 2.0 are integrated with the Kanban board.
+
+\subsection{General Kanban Board Policies}
+\begin{itemize}
+\item Normally the cards move from left to right on the board. Each card type has more information on this below.
+\item The categories Use-Cases and Use-Case Flows are only for the Use-Case Cards and Use-Case Flow Cards. 
+\item The Use-Case Slices/Backlog is the "To-Do" list that a developer can grab and move to In Development.
+\item Everything in In Development should be something being worked on by a developer. If the developer pauses work it should move back to the Backlog and if the work is done it should move to Done before grabbing a new card.
+\item Cards in Done await inspection before being moved back to the Backlog or being decided to put the code live.
+\item Cards only move to Deployed and Live from Done. The cards must also of course be deployed and live.
+\end{itemize}
+
+
+\subsection{Use-Cases Cards}
+For a good example, look at: 
+
+\url{https://trello.com/c/JvD4oEyF/47-1-1-connect-to-platform-pc-browser} 
+
+\begin{description}
+\item[Meaning] \hfill \\ 
+To represent to most abstract part of the use-cases whose content could change greatly over time.
+
+\item[Heading Structure] \hfill
+\begin{enumerate}
+\item Use-case ID, a unique number followed by a dot.
+\item Priority following MoSCoW written "P:X" where 'X' is either M (Must), S, (Should), C (Could), W (Would).
+\item Title name of the use-case.
+\end{enumerate}
+
+\item[Content Structure] \hfill \\ 
+Begin with the narrative and use everyday language. What does the actor want to achieve? What is the goal of the use-case? Make sure it is clear who the actor is.
+
+Leave a heading for the basic flow and all alternative flows, if they exist. Link each flow to the card corresponding to that particular flow. 
+
+Add any possible notes that are not related to the narrative in the end. Comments can also be used for notes. 
+
+\item[Color Code / Labels] \hfill \\ 
+Always and only 'Use-Case Related' and 'Project'
+
+\item[Movement] \hfill \\ 
+Use-Cases <-> Done -> Deployed and Live
+
+The card sit still in Use-Cases and only move to done when all use-case flows corresponding to the card are moved to Done or Deployed and Live. Once there the decision is made weather or not it is truly satisfied and can either move back or to Deployed and Live. The card can also be Archived if decided to be unwanted.
+\end{description}
+
+
+\subsection{Use-Case Flow Cards}
+For good examples, look at: 
+
+\url{https://trello.com/c/JvD4oEyF/47-1-1-connect-to-platform-pc-browser}
+
+\url{https://trello.com/c/4krVGIwA/48-1-a-connect-to-platform-mobile-browser} 
+
+\begin{description}
+\item[Meaning] \hfill \\ 
+To represent to basic and alternative flows of the use-cases. These are a part of the use-case but are split into different cards and has a different category for greater freedom of movement and thus keeping the most abstract part of the use-cases still under the category Use-Cases. 
+
+\item[Heading Structure] \hfill
+\begin{enumerate}
+\item The ID corresponding to its use-case with a dot and no space after.
+\item The number 1 for basic flow. A letter A-Z for alternative flows.
+\item The title of the corresponding use-case followed by a ':'.
+\item The title of the flow.
+\end{enumerate}
+
+\item[Content Structure] \hfill \\ 
+Enumerate steps describing the navigation flow from a users perspective on the system.
+
+Dot steps describing the test cases for how to check if the flow is satisfied. These should be more in detail than the flow steps and is for the developer to check against after implementation. 
+
+\item[Color Code / Labels] \hfill \\ 
+Always and only 'Use-Case Related' and 'Project'
+
+\item[Movement] \hfill \\ 
+Use-Case Flows <-> Use-Case Slices/Backlog <-> In development <-> Done -> Deployed and Live
+
+\end{description}
+
+\subsection{Use-Case Slices Cards}
+For a good example, look at:
+
+\url{https://trello.com/c/Dpd63Jy0/114-5-1-t-expand-links}
+
+\begin{description}
+\item[Meaning] \hfill \\ 
+These cards are Use-Case Slices or Use-Case Tasks that represents a part of a Use-Case Flow. It can either be a few exact steps of the flow, a task needed to satisfy the flow or a small addition to a flow deserving of its own card.
+
+\item[Heading Structure] \hfill
+\begin{enumerate}
+\item The entire Use-Case Flow ID followed by no space.
+\item The letter 'T'.
+\item Title of the slice, or task.
+\end{enumerate}
+
+\item[Content Structure] \hfill \\ 
+As you wish. The purpose of the card should be clear. However if the card is a strict part of some steps of a flow. Those steps should be written down.
+
+\item[Color Code / Labels] \hfill \\ 
+Always 'Project'.
+Always 'Use-Case Related' if it is a strict subset of a Use-Case Flow.
+Never 'Report'.
+The rest are optional.
+
+\item[Movement] \hfill \\ 
+Use-Case Slices/Backlog <-> In Development <-> Done <-> Deployed and Live
+
+These cards can be directly put to 'In Development'.
+
+\end{description}
+
+\subsection{Task Cards}
+A good example:
+
+\url{https://trello.com/c/5Mrp0crr/121-refactor-navigation-panel}
+
+\begin{description}
+\item[Meaning] \hfill \\ 
+A task card does not directly correlate to a use-case and its flow(s). It can be a small feature, bug, design improvement etcetera. Basically anything that can add some form of value but does not fit logically to a use-case. If the complexity of card is large it should perhaps be converted to a Use-Case card.
+
+\item[Heading Structure] \hfill \\
+Just a fitting title of the task.
+
+\item[Content Structure] \hfill \\ 
+As you wish. Be as detailed as possible and needed.
+
+\item[Color Code / Labels] \hfill \\ 
+Always 'Project'.
+Never 'Report' or 'Use-Case Related'.
+The rest are optional.
+
+\item[Movement] \hfill \\ 
+Use-Case Slices/Backlog <-> In Development <-> Done <-> Deployed and Live.
+
+These cards can be directly put to 'In Development'.
+
+\end{description}
+
+\subsection{Report Cards}
+
+\begin{description}
+\item[Meaning] \hfill \\ 
+These cards are for the report writer and only he/she knows its meaning.
+
+\item[Heading Structure] \hfill \\
+As the report writer pleases.
+
+\item[Content Structure] \hfill \\ 
+As the report writer pleases.
+
+\item[Color Code / Labels] \hfill \\ 
+Always and only 'Report'.
+
+\item[Movement] \hfill \\ 
+As the report writer pleases.
+
+\end{description}
+
+\end{appendices}
 
 \end{document}
