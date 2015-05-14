@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  14 MAY 2015 19:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  14 MAY 2015 19:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -973,17 +973,7 @@ Package glossaries Info: Writing glossary file xjobb-en.glo on input line 45.
 
 Package glossaries Info: Writing glossary file xjobb-en.acn on input line 45.
 
-(./xjobb-en.aux
-
-LaTeX Warning: Label `fig:use_case_card' multiply defined.
-
-
-LaTeX Warning: Label `fig:use_case_flow_card' multiply defined.
-
-
-LaTeX Warning: Label `fig:task_card' multiply defined.
-
-)
+(./xjobb-en.aux)
 \openout1 = `xjobb-en.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
@@ -1200,12 +1190,9 @@ File: img/process_policy_sample.png Graphic file (type png)
 
 <use img/process_policy_sample.png>
 Package pdftex.def Info: img/process_policy_sample.png used on input line 769.
-(pdftex.def)             Requested size: 316.80121pt x 314.38298pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40 <./img/process_policy_sample.png>] [41]
-<img/post_its.png, id=667, 803.0pt x 712.6625pt>
+(pdftex.def)             Requested size: 277.19879pt x 275.0851pt.
+ [40 <./img/process_policy_sample.png>]
+[41] <img/post_its.png, id=668, 803.0pt x 712.6625pt>
 File: img/post_its.png Graphic file (type png)
  <use img/post_its.png>
 Package pdftex.def Info: img/post_its.png used on input line 796.
@@ -1218,34 +1205,33 @@ File: img/trello_kanban_board.png Graphic file (type png)
 <use img/trello_kanban_board.png>
 Package pdftex.def Info: img/trello_kanban_board.png used on input line 808.
 (pdftex.def)             Requested size: 396.0pt x 214.82317pt.
-
-<img/use_case_card.png, id=682, 387.4475pt x 377.41pt>
+ [43 <./img/trello_kanban_board.png>]
+<img/use_case_card.png, id=687, 387.4475pt x 377.41pt>
 File: img/use_case_card.png Graphic file (type png)
 
 <use img/use_case_card.png>
 Package pdftex.def Info: img/use_case_card.png used on input line 819.
-(pdftex.def)             Requested size: 170.2771pt x 165.86511pt.
+(pdftex.def)             Requested size: 178.19879pt x 173.58191pt.
 
-<img/use_case_flow_card.png, id=683, 390.45876pt x 484.81125pt>
+<img/use_case_flow_card.png, id=688, 390.45876pt x 484.81125pt>
 File: img/use_case_flow_card.png Graphic file (type png)
 
 <use img/use_case_flow_card.png>
 Package pdftex.def Info: img/use_case_flow_card.png used on input line 825.
-(pdftex.def)             Requested size: 170.2771pt x 211.42381pt.
+(pdftex.def)             Requested size: 178.19879pt x 221.25525pt.
 
-<img/task_card.png, id=684, 400.49625pt x 131.49126pt>
+<img/task_card.png, id=689, 400.49625pt x 131.49126pt>
 File: img/task_card.png Graphic file (type png)
  <use img/task_card.png>
 Package pdftex.def Info: img/task_card.png used on input line 831.
-(pdftex.def)             Requested size: 170.2771pt x 55.90611pt.
+(pdftex.def)             Requested size: 178.19879pt x 58.5064pt.
 
-[43 <./img/trello_kanban_board.png>]
-Underfull \hbox (badness 1360) in paragraph at lines 848--849
+Underfull \hbox (badness 1360) in paragraph at lines 844--845
 []\T1/lmr/m/n/10.95 During de-vel-op-ment new cards were
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 848--849
+Underfull \hbox (badness 1748) in paragraph at lines 844--845
 \T1/lmr/m/n/10.95 con-tin-u-ously cre-ated and added to the
  []
 
@@ -1286,19 +1272,19 @@ a metaphor
 ]
 bibitemlist
 
-Underfull \hbox (badness 2680) in paragraph at lines 900--905
+Underfull \hbox (badness 2680) in paragraph at lines 896--901
 []\T1/lmr/m/n/10.95 Agile Al-liance. 2015. The al-liance. [ [][]$\T1/lmtt/m/n/1
 0.95 http : / / www . agilealliance . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--912
+Underfull \hbox (badness 10000) in paragraph at lines 903--908
 []\T1/lmr/m/n/10.95 Crockford, C. 2007. Qual-ity. [ [][]$\T1/lmtt/m/n/10.95 htt
 ps : / / www . youtube . com / watch ? v =
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 930--935
+Underfull \hbox (badness 4859) in paragraph at lines 926--931
 \T1/lmtt/m/n/10.95 talks / simon _ sinek _ why _ good _ leaders _ make _ you _ 
 feel _ safe$[][] \T1/lmr/m/n/10.95 ]. Ac-cessed
  []
@@ -1306,19 +1292,19 @@ feel _ safe$[][] \T1/lmr/m/n/10.95 ]. Ac-cessed
 [59] [60] [61
 
 ]
-Overfull \hbox (9.66515pt too wide) in paragraph at lines 1083--1084
+Overfull \hbox (9.66515pt too wide) in paragraph at lines 1079--1080
 [][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / JvD4oEyF / 47-[]1-[]1-
 []connect-[]to-[]platform-[]pc-[]browser$[][] 
  []
 
 [62]
-Overfull \hbox (9.66515pt too wide) in paragraph at lines 1118--1119
+Overfull \hbox (9.66515pt too wide) in paragraph at lines 1114--1115
 [][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / JvD4oEyF / 47-[]1-[]1-
 []connect-[]to-[]platform-[]pc-[]browser$[][] 
  []
 
 
-Overfull \hbox (32.66008pt too wide) in paragraph at lines 1120--1121
+Overfull \hbox (32.66008pt too wide) in paragraph at lines 1116--1117
 [][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / 4krVGIwA / 48-[]1-[]a-
 []connect-[]to-[]platform-[]mobile-[]browser$[][] 
  []
@@ -1327,29 +1313,19 @@ Overfull \hbox (32.66008pt too wide) in paragraph at lines 1120--1121
 \tf@toc=\write8
 \openout8 = `xjobb-en.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1228.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1228.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1224.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1224.
  (./xjobb-en.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1228.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1228.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1224.
 
-
-
-Package rerunfilecheck Warning: File `xjobb-en.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `xjobb-en.out':
-(rerunfilecheck)             Before: F9F85998B21A8E352F3CCA5DFDA13499;601
-(rerunfilecheck)             After:  D31BE9863AB882D72CDE2800029A1266;601.
-
-LaTeX Warning: There were multiply-defined labels.
-
+Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
+(rerunfilecheck)             Checksum: D31BE9863AB882D72CDE2800029A1266;601.
  ) 
 Here is how much of TeX's memory you used:
- 16798 strings out of 493117
- 246649 string characters out of 6135432
- 422589 words of memory out of 5000000
+ 16796 strings out of 493117
+ 246627 string characters out of 6135432
+ 422560 words of memory out of 5000000
  19709 multiletter control sequences out of 15000+600000
  83634 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1411,12 +1387,6 @@ placed by a fixed one
 pdfTeX warning (dest): name{glo:td} has been referenced but does not exist, rep
 laced by a fixed one
 
-pdfTeX warning (dest): name{section*.42} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.37} has been referenced but does not exist
-, replaced by a fixed one
-
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
 xlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2014/texmf-dist/f
@@ -1430,10 +1400,10 @@ dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/public/lm/lmssbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
 ublic/lm/lmssdc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm
 /lmtt10.pfb>
-Output written on xjobb-en.pdf (69 pages, 2574599 bytes).
+Output written on xjobb-en.pdf (69 pages, 2574538 bytes).
 PDF statistics:
- 976 PDF objects out of 1000 (max. 8388607)
- 864 compressed objects within 9 object streams
- 257 named destinations out of 1000 (max. 500000)
+ 971 PDF objects out of 1000 (max. 8388607)
+ 859 compressed objects within 9 object streams
+ 255 named destinations out of 1000 (max. 500000)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
