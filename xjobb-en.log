@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  14 MAY 2015 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  14 MAY 2015 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1112,7 +1112,7 @@ l.189 \pagestyle
 ] [2
 
 ] [3]
-<img/agile_development_abstraction.png, id=217, 399.6531pt x 249.5724pt>
+<img/agile_development_abstraction.png, id=213, 399.6531pt x 249.5724pt>
 File: img/agile_development_abstraction.png Graphic file (type png)
 
 <use img/agile_development_abstraction.png>
@@ -1136,7 +1136,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 267.
  [5] [6] [7]
-<img/agile_waterfall.png, id=268, 406.06706pt x 442.65375pt>
+<img/agile_waterfall.png, id=264, 406.06706pt x 442.65375pt>
 File: img/agile_waterfall.png Graphic file (type png)
 
 <use img/agile_waterfall.png>
@@ -1154,7 +1154,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 377.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<img/how_scrum_works.png, id=325, 1003.75pt x 718.685pt>
+<img/how_scrum_works.png, id=321, 1003.75pt x 718.685pt>
 File: img/how_scrum_works.png Graphic file (type png)
 
 <use img/how_scrum_works.png>
@@ -1171,7 +1171,7 @@ Overfull \hbox (18.94406pt too wide) in paragraph at lines 625--627
 and also fewer bugs/problems
  []
 
-[27] <img/kanban_board.png, id=535, 360.59718pt x 161.85469pt>
+[27] <img/kanban_board.png, id=531, 360.59718pt x 161.85469pt>
 File: img/kanban_board.png Graphic file (type png)
 
 <use img/kanban_board.png>
@@ -1185,53 +1185,56 @@ Package pdftex.def Info: img/kanban_board.png used on input line 647.
 ] [34] [35] [36] [37] [38
 
 ] [39]
-<img/process_policy_sample.png, id=635, 394.47375pt x 391.4625pt>
+<img/process_policy_sample.png, id=631, 394.47375pt x 391.4625pt>
 File: img/process_policy_sample.png Graphic file (type png)
 
 <use img/process_policy_sample.png>
 Package pdftex.def Info: img/process_policy_sample.png used on input line 769.
 (pdftex.def)             Requested size: 277.19879pt x 275.0851pt.
- [40 <./img/process_policy_sample.png>]
-[41] <img/post_its.png, id=668, 803.0pt x 712.6625pt>
+
+Underfull \vbox (badness 3492) has occurred while \output is active []
+
+ [40 <./img/process_policy_sample.png>] [41]
+<img/post_its.png, id=663, 803.0pt x 712.6625pt>
 File: img/post_its.png Graphic file (type png)
  <use img/post_its.png>
 Package pdftex.def Info: img/post_its.png used on input line 796.
 (pdftex.def)             Requested size: 356.39758pt x 316.3128pt.
 
 [42 <./img/post_its.png>]
-<img/trello_kanban_board.png, id=677, 1263.72125pt x 685.56125pt>
+<img/trello_kanban_board.png, id=673, 1263.72125pt x 685.56125pt>
 File: img/trello_kanban_board.png Graphic file (type png)
 
 <use img/trello_kanban_board.png>
 Package pdftex.def Info: img/trello_kanban_board.png used on input line 808.
 (pdftex.def)             Requested size: 396.0pt x 214.82317pt.
  [43 <./img/trello_kanban_board.png>]
-<img/use_case_card.png, id=687, 387.4475pt x 377.41pt>
+<img/use_case_card.png, id=683, 387.4475pt x 377.41pt>
 File: img/use_case_card.png Graphic file (type png)
 
 <use img/use_case_card.png>
 Package pdftex.def Info: img/use_case_card.png used on input line 819.
 (pdftex.def)             Requested size: 178.19879pt x 173.58191pt.
 
-<img/use_case_flow_card.png, id=688, 390.45876pt x 484.81125pt>
+<img/use_case_flow_card.png, id=684, 390.45876pt x 484.81125pt>
 File: img/use_case_flow_card.png Graphic file (type png)
 
 <use img/use_case_flow_card.png>
 Package pdftex.def Info: img/use_case_flow_card.png used on input line 825.
 (pdftex.def)             Requested size: 178.19879pt x 221.25525pt.
 
-<img/task_card.png, id=689, 400.49625pt x 131.49126pt>
+<img/task_card.png, id=685, 400.49625pt x 131.49126pt>
 File: img/task_card.png Graphic file (type png)
  <use img/task_card.png>
 Package pdftex.def Info: img/task_card.png used on input line 831.
 (pdftex.def)             Requested size: 178.19879pt x 58.5064pt.
 
-Underfull \hbox (badness 1360) in paragraph at lines 844--845
+Underfull \hbox (badness 1360) in paragraph at lines 841--842
 []\T1/lmr/m/n/10.95 During de-vel-op-ment new cards were
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 844--845
+Underfull \hbox (badness 1748) in paragraph at lines 841--842
 \T1/lmr/m/n/10.95 con-tin-u-ously cre-ated and added to the
  []
 
@@ -1272,19 +1275,19 @@ a metaphor
 ]
 bibitemlist
 
-Underfull \hbox (badness 2680) in paragraph at lines 896--901
+Underfull \hbox (badness 2680) in paragraph at lines 887--892
 []\T1/lmr/m/n/10.95 Agile Al-liance. 2015. The al-liance. [ [][]$\T1/lmtt/m/n/1
 0.95 http : / / www . agilealliance . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 903--908
+Underfull \hbox (badness 10000) in paragraph at lines 894--899
 []\T1/lmr/m/n/10.95 Crockford, C. 2007. Qual-ity. [ [][]$\T1/lmtt/m/n/10.95 htt
 ps : / / www . youtube . com / watch ? v =
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 926--931
+Underfull \hbox (badness 4859) in paragraph at lines 917--922
 \T1/lmtt/m/n/10.95 talks / simon _ sinek _ why _ good _ leaders _ make _ you _ 
 feel _ safe$[][] \T1/lmr/m/n/10.95 ]. Ac-cessed
  []
@@ -1292,19 +1295,19 @@ feel _ safe$[][] \T1/lmr/m/n/10.95 ]. Ac-cessed
 [59] [60] [61
 
 ]
-Overfull \hbox (9.66515pt too wide) in paragraph at lines 1079--1080
+Overfull \hbox (9.66515pt too wide) in paragraph at lines 1070--1071
 [][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / JvD4oEyF / 47-[]1-[]1-
 []connect-[]to-[]platform-[]pc-[]browser$[][] 
  []
 
 [62]
-Overfull \hbox (9.66515pt too wide) in paragraph at lines 1114--1115
+Overfull \hbox (9.66515pt too wide) in paragraph at lines 1105--1106
 [][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / JvD4oEyF / 47-[]1-[]1-
 []connect-[]to-[]platform-[]pc-[]browser$[][] 
  []
 
 
-Overfull \hbox (32.66008pt too wide) in paragraph at lines 1116--1117
+Overfull \hbox (32.66008pt too wide) in paragraph at lines 1107--1108
 [][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / 4krVGIwA / 48-[]1-[]a-
 []connect-[]to-[]platform-[]mobile-[]browser$[][] 
  []
@@ -1313,19 +1316,19 @@ Overfull \hbox (32.66008pt too wide) in paragraph at lines 1116--1117
 \tf@toc=\write8
 \openout8 = `xjobb-en.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1224.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1224.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1215.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1215.
  (./xjobb-en.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1224.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1224.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1215.
 
 Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
 (rerunfilecheck)             Checksum: D31BE9863AB882D72CDE2800029A1266;601.
  ) 
 Here is how much of TeX's memory you used:
- 16796 strings out of 493117
- 246627 string characters out of 6135432
- 422560 words of memory out of 5000000
+ 16794 strings out of 493117
+ 246595 string characters out of 6135432
+ 422553 words of memory out of 5000000
  19709 multiletter control sequences out of 15000+600000
  83634 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1400,10 +1403,10 @@ dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/public/lm/lmssbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
 ublic/lm/lmssdc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm
 /lmtt10.pfb>
-Output written on xjobb-en.pdf (69 pages, 2574538 bytes).
+Output written on xjobb-en.pdf (69 pages, 2574181 bytes).
 PDF statistics:
- 971 PDF objects out of 1000 (max. 8388607)
- 859 compressed objects within 9 object streams
- 255 named destinations out of 1000 (max. 500000)
+ 967 PDF objects out of 1000 (max. 8388607)
+ 855 compressed objects within 9 object streams
+ 253 named destinations out of 1000 (max. 500000)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 

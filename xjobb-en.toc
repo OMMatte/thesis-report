@@ -68,14 +68,12 @@
 \contentsline {subsection}{\numberline {3.1.5}Kanban}{36}{subsection.3.1.5}
 \contentsline {section}{\numberline {3.2}Chosen Methodology for the Project}{36}{section.3.2}
 \contentsline {chapter}{\chapternumberline {4}Project}{39}{chapter.4}
-\contentsline {subsection}{\numberline {4.0.1}Project Description}{39}{subsection.4.0.1}
-\contentsline {section}{\numberline {4.1}Using Kanban}{40}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Process Policies}{40}{subsection.4.1.1}
-\contentsline {subsubsection}{Use-Case 2.0}{40}{section*.29}
-\contentsline {subsection}{\numberline {4.1.2}Kanban Board}{42}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.1}Project Description}{39}{section.4.1}
+\contentsline {section}{\numberline {4.2}Using Kanban}{40}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Process Policies}{40}{subsection.4.2.1}
+\contentsline {subsubsection}{Use-Case 2.0}{41}{section*.29}
+\contentsline {subsection}{\numberline {4.2.2}Kanban Board}{42}{subsection.4.2.2}
 \contentsline {subsubsection}{Kanban Cards}{44}{section*.32}
-\contentsline {subsection}{\numberline {4.1.3}Trello}{45}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Agile Workflow}{45}{section.4.2}
 \contentsline {section}{\numberline {4.3}Project Result}{45}{section.4.3}
 \contentsline {section}{\numberline {4.4}Developer \& Product Owner Experience}{45}{section.4.4}
 \contentsline {chapter}{\chapternumberline {5}Discussion}{47}{chapter.5}
