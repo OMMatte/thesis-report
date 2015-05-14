@@ -9,6 +9,12 @@
 \usepackage[colorlinks]{hyperref}
 \usepackage{graphicx}
 \usepackage{nameref}
+%\usepackage{float}
+\usepackage{wrapfig}
+%\restylefloat{figure}
+\usepackage{xcolor}
+\usepackage[margin=10pt,font=small,labelfont=bf,
+labelsep=endash]{caption}
 %\usepackageappendix}
 
 \renewcommand\cftappendixname{\appendixname~} % Nicer look for appendixes in content list
@@ -646,6 +652,7 @@ As David J. Andersson stated in his first book about Kanban, the methodology is 
 
 
 \subsection{Visualize}
+\label{sec:kanban_visualize}
 This practice is about visualizing workflow. To have transparency between developers, managers and anyone else connected to a project. The standard way of doing this is using a so called Kanban board with cards, see Figure \ref{fig:kanban_board}. This board can either be a physical board with sticky notes, or a virtual board. This board is a visual control system for all the tasks within a project. The board allows for self-organizing by just pulling a new available card after finishing a task instead of waiting for a superior to supply the tasks.
 
 The cards are not only meant to simply hold programming tasks. They are meant to represent some customer value. Therefor the design of the cards is important in order for the developers to make easier decisions on what to work on next. There are no exact rules on what information the cards should hold but a title, description, estimated size and some estimated value number is a good start \cite{key16}.
@@ -747,8 +754,12 @@ The project is developing a dynamic, scalable and robust interactive tutoring fr
 
 In short the idea is to create an interactive website that can be used for many to many type of communication between students and teachers. An exact specification of the project does not exist in order to encourage the agile development process.
 
-\section{Process Policies}
-that was looked into, after deciding on using Kanban, was the layout of the Kanban cards, in other words the Process Polices. Typically these cards are either simply tasks and/or \glspl{us}. Since Kanban itself does not explicitly state the layout of the cards, the strategies described in Use-Case 2.0 were selected to form the basic structure \cite{key25}. This will be described further in \fullref{sec:use_case}.
+\section{Using Kanban}
+
+\subsection{Process Policies}
+The first thing that was looked into, after deciding on using Kanban, was the layout of the Kanban cards, in other words the Process Polices. Typically these cards are either simply tasks and/or \glspl{us}. Since Kanban itself does not explicitly state the layout of the cards, the strategies described in Use-Case 2.0 were selected to form the basic structure \cite{key25}. This will be described further in \fullref{sec:use_case}.
+
+Most of the policies are written in \appfullref{app:project_process_policies} that is a mix of process policies connected to Use-Case 2.0 and the Kanban cards. 
 
 The Process Policies were not all written at one point in time. As the project grew more policies were added. Using
 
@@ -759,9 +770,8 @@ The Process Policies were not all written at one point in time. As the project g
     \caption{A sample of the projects Process Policies. This sample shows information regarding the type of cards called Use-Case Flow Cards. For a full list of the Process Policies, see \appfullref{app:project_process_policies}}
     \label{fig:process_policy_sample}
 \end{figure}
-The first thing 
 
-\subsection{Use-Case 2.0}
+\subsubsection{Use-Case 2.0}
 \label{sec:use_case}
 \Glspl{us} is a common approach in agile development to represent project requirements and specifications in a easy to understand, abstract and layered structure. A use-case is a similar alternative approach. The difference is in the scope and its focus. While \glspl{us} tend to be more abstract and use everyday language to keep it open for interpretation, use-cases instead are more user-to-system goal focused and tend to use a more business oriented language. Use cases also tend to have larger scope that includes components such as \gls{uml}. It is common that project requirements are built using both \glspl{us} and use-cases techniques in some sort of combination. What's Important to know is that the definition for both of these techniques are not strict in order to have an easier time adapting them to any project type and size.
 
@@ -780,15 +790,66 @@ Use-Case 2.0 is a popular technique meant to be lightweight, scalable, versatile
 
 Note that this is a simplified summarization of Use-Case 2.0 that is influenced by both Kanban and the project. Read more about how to technique works in in the e-book \emph{Use-Case 2.0, The Guide to Succeeding with Use Cases} by Ivar Jacobson, Ian Spence and Kurt Bittner \cite{key25}.
 
-\section{Kanban Board}
-After deciding to use Kanban together with Use-Case 2.0, about five longer meetings corresponding to almost three full work days were spent on brainstorming the use-cases for the project. To let each case represent a card, post-its notes were used on a blackboard. 
+\subsection{Kanban Board}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.9\textwidth]{img/post_its.png}
+    \caption{Two combined pictures of the earliest stage of formulating use-cases. The left image shows the use-cases of the project where the most important components are already visible. The right side shows the initial use-cases for the report. The author sends his apologies for the poor image quality.}
+    \label{fig:post_its}
+\end{figure}
+After deciding to use Kanban together with Use-Case 2.0, about five longer meetings corresponding to almost three full work days were spent on brainstorming the use-cases for the project. Each use-case was represented by a card and each card was a post-it note on a physical blackboard. These brainstorming sessions were kept highly abstract with focus on detecting the most important components of the project as well as all necessary components to make the website prototype a reality. This early stage of the project can be seen in Figure \ref{fig:post_its}. 
+
+The physical blackboard became highly impractical as progress was made. The cards had to be taken up and taken down at every meeting since meetings took place at different public locations. Also overview became blurry with the use of only colored pencils and manual card linking. The most devastating issue was that modifying the content became a hassle and being able to easily change and modify the requirements is one of the most important aspects of agile development. So it was decided to move on to a virtual Kanban board. Many online options exists such as Kanban Tool, Kanbanize, Trello, Kanbanchi, SmartQ and many more. The selected online tool became Trello with the main reasons being that it is well established, free, lightweight and very easy to use. The advanced tools offered by the other options were not needed for a project of just two people. 
+
+The Kanban board within Trello quickly became the center of the project and the center of attention at every meeting. All problems with the physical Kanban board were gone. Figure \ref{fig:trello_kanban_board} shows how the board looked after about three months into the project. As explained in the picture, only a few of the standards columns in Kanban were used. The reason being to limit overhead when only one developer is working on the board. For example, the backlog and todo columns are combined and also testing is assumed to be done before moving to column Done and once again tested at a meeting before moving to Deployed and Live.  
 
 \begin{figure}[h]
   \centering
     \includegraphics[width=1.0\textwidth]{img/trello_kanban_board.png}
-    \caption{Trello Kanban board.}
+    \caption{A part of the Kanban board used with the online software tool Trello: \url{https://trello.com/}. The three most left columns are part of the Use-Case 2.0 strategies. The four right columns are the most basic steps used within Kanban that somewhat corresponds to the columns seen in Figure \ref{fig:kanban_board}. The third column is both a part of the Use-Case 2.0 strategies and a standard Kanban step.}
     \label{fig:trello_kanban_board}
 \end{figure}
+
+\subsubsection{Kanban Cards}
+
+
+
+\begin{wrapfigure}{r}{0.45\textwidth}
+\captionsetup{font=scriptsize,labelfont=scriptsize, singlelinecheck=false, labelfont=bf}
+\includegraphics[width=0.43\textwidth]{img/use_case_card.png}
+\vspace{-5pt}
+  \caption{Example of a Use-Case Flow Card.}
+   \label{fig:use_case_card}
+   \vspace{5pt}
+   
+   \includegraphics[width=0.43\textwidth]{img/use_case_flow_card.png}  
+   \vspace{-5pt}
+   \caption{Example of a Use-Case Flow Card.}
+  \label{fig:use_case_flow_card}
+   \vspace{5pt}
+
+   \includegraphics[width=0.43\textwidth]{img/task_card.png}
+   \vspace{-5pt}
+  \caption{Example of a Task Card.}
+  \label{fig:task_card}
+
+   
+\end{wrapfigure}
+
+
+
+An example of the structure policies, or rules, for the cards can be seen in Figure \ref{fig:process_policy_sample}. The card types are Use-Case Cards, Use-Case Flow Cards, Use-Case Slices Cards, Task Cards and Report Cards. To understand how these exactly work it's best to look at \appfullref{app:project_process_policies}.
+
+
+
+
+Everything about the project was written inside the cards. Every task or idea had a card connected to it. The cards has basically three movement types after creation: It can move its way to the right on the board until it ends up in Deployed and Live. It can at some point in some category be removed, or archived as it is called in Trello, if it is found unwanted. These cards are not permanently deleted and can always be found again after removal. Finally a card can find itself to be frozen in some category, except in In Development and in Done. The cards in Deployed and Live are for instance normally frozen in place. Other examples are low priority cards in the Backlog or earlier categories that have a small value but high complexity.  
+
+During development new cards were continuously created and added to the board. At each meeting, more cards could be created and added. It was during the meetings that it was decided which cards should be kept or removed. Also the cards in the Done column was tested and discussed together with the cards in the In Development column. Another important part of the meetings were organizing the Backlog column so that the cards were kept arranged in priority order from top to bottom.
+
+The Report cards are special. They were added early since the report writer is the developer. Therefor it made sense including these cards since it gives the product owner a better overview of what is going on at every meeting. After all, one of the practices in Kanban is about having transparency, see \fullref{sec:kanban_visualize}.
+
+
 
 \subsection{Trello}
 
@@ -1006,10 +1067,12 @@ Strategies in Use-Case 2.0 are integrated with the Kanban board.
 \subsection{General Kanban Board Policies}
 \begin{itemize}
 \item Normally the cards move from left to right on the board. Each card type has more information on this below.
-\item The categories Use-Cases and Use-Case Flows are only for the Use-Case Cards and Use-Case Flow Cards. 
-\item The Use-Case Slices/Backlog is the "To-Do" list that a developer can grab and move to In Development.
+\item The categories Use-Cases and Use-Case Flows are only for the Use-Case Cards and Use-Case Flow Cards. However, new ideas should be new cards in Use-Cases and discussed in the next meeting.
+\item The Use-Case Slices/Backlog is the "To-Do" list that a developer can grab and move to In Development. The cards highest up are the most prioritized card.
 \item Everything in In Development should be something being worked on by a developer. If the developer pauses work it should move back to the Backlog and if the work is done it should move to Done before grabbing a new card.
+\item Before moving to Done, the developer should have run the tests described in a card. Even if no tests are written, testing should still be conducted.
 \item Cards in Done await inspection before being moved back to the Backlog or being decided to put the code live.
+\item At the next meeting. Each card in Done should be explained and tested once again before deciding if the card should be Deployed or not. The card must of course be put live by a developer before being moved to Deployed.
 \item Cards only move to Deployed and Live from Done. The cards must also of course be deployed and live.
 \end{itemize}
 
@@ -1032,6 +1095,8 @@ To represent to most abstract part of the use-cases whose content could change g
 
 \item[Content Structure] \hfill \\ 
 Begin with the narrative and use everyday language. What does the actor want to achieve? What is the goal of the use-case? Make sure it is clear who the actor is.
+
+If requirements exist, leave a heading and link to each Use-Case Card or any other card that is a requirement. No need to implement already implemented cards.
 
 Leave a heading for the basic flow and all alternative flows, if they exist. Link each flow to the card corresponding to that particular flow. 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  13 MAY 2015 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  14 MAY 2015 19:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -908,40 +908,106 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 Redoing nameref's sectioning
 Redoing nameref's label
 LaTeX Info: Redefining \nameref on input line 13.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen175
+\WF@size=\dimen176
+\c@WF@wrappedlines=\count193
+\WF@box=\box36
+\WF@everypar=\toks40
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+
+Class memoir Warning: You are using the caption package with the memoir class. 
+To prepare we will now reset all captioning macros and configurations to kernel
+ defaults, and then let the caption package take over. Please remember to use t
+he caption package interfaces in order to configure your captions. .
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen177
+\captionmargin@=\dimen178
+\captionwidth=\dimen179
+\caption@tempdima=\dimen180
+\caption@indent=\dimen181
+\caption@parindent=\dimen182
+\caption@hangindent=\dimen183
+)
+\c@ContinuedFloat=\count194
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `xjobb-en.glo'.
 
-Package glossaries Info: Writing glossary file xjobb-en.glo on input line 39.
+Package glossaries Info: Writing glossary file xjobb-en.glo on input line 45.
 \glo@acronym@file=\write6
 \openout6 = `xjobb-en.acn'.
 
-Package glossaries Info: Writing glossary file xjobb-en.acn on input line 39.
-(./xjobb-en.aux)
+Package glossaries Info: Writing glossary file xjobb-en.acn on input line 45.
+
+(./xjobb-en.aux
+
+LaTeX Warning: Label `fig:use_case_card' multiply defined.
+
+
+LaTeX Warning: Label `fig:use_case_flow_card' multiply defined.
+
+
+LaTeX Warning: Label `fig:task_card' multiply defined.
+
+)
 \openout1 = `xjobb-en.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 133.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 139.
 
  (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
-LaTeX Font Info:    ... okay on input line 133.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 133.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 139.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -950,39 +1016,29 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 nary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 )
-\AtBeginShipoutBox=\box36
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 137.
-)
-Package hyperref Info: Link coloring ON on input line 133.
-LaTeX Info: Redefining \ref on input line 133.
-LaTeX Info: Redefining \pageref on input line 133.
-LaTeX Info: Redefining \nameref on input line 133.
-
-(./xjobb-en.out) (./xjobb-en.out)
+\AtBeginShipoutBox=\box37
+Package hyperref Info: Link coloring ON on input line 139.
+LaTeX Info: Redefining \ref on input line 139.
+LaTeX Info: Redefining \pageref on input line 139.
+LaTeX Info: Redefining \nameref on input line 139.
+ (./xjobb-en.out) (./xjobb-en.out)
 \@outlinefile=\write7
 \openout7 = `xjobb-en.out'.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count193
-\scratchdimen=\dimen175
-\scratchbox=\box37
-\nofMPsegments=\count194
-\nofMParguments=\count195
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count196
-\MPscratchDim=\dimen176
-\MPnumerator=\count197
-\makeMPintoPDFobject=\count198
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count195
+\scratchdimen=\dimen184
+\scratchbox=\box38
+\nofMPsegments=\count196
+\nofMParguments=\count197
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen185
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count200
+\everyMPtoPDFconversion=\toks42
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -998,7 +1054,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 138.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 144.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -1008,7 +1066,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: kth_svv_comp_science_comm.pdf Graphic file (type pdf)
 
 <use kth_svv_comp_science_comm.pdf>
-Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 138.
+Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 144.
 (pdftex.def)             Requested size: 410.53275pt x 468.75009pt.
  [1
 
@@ -1019,36 +1077,36 @@ Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 138.
 vv_comp_science_comm.pdf>] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 181.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 187.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 181.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 187.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 181
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 187
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 181
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 187
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 181.
+(Font)              <10.95> on input line 187.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 181.
+(Font)              <8> on input line 187.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 181.
+(Font)              <6> on input line 187.
  (./xjobb-en.toc
 [3
 
@@ -1057,7 +1115,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.183 \pagestyle
+l.189 \pagestyle
                 {newchap} [4] [1
 
 
@@ -1069,30 +1127,30 @@ File: img/agile_development_abstraction.png Graphic file (type png)
 
 <use img/agile_development_abstraction.png>
 Package pdftex.def Info: img/agile_development_abstraction.png used on input li
-ne 239.
+ne 245.
 (pdftex.def)             Requested size: 396.0pt x 247.30591pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <./img/agile_development_abstraction.png>]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 249.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 255.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 261.
+(Font)              <10> on input line 267.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 261.
+(Font)              <7> on input line 267.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 261.
+(Font)              <5> on input line 267.
  [5] [6] [7]
-<img/agile_waterfall.png, id=270, 406.06706pt x 442.65375pt>
+<img/agile_waterfall.png, id=268, 406.06706pt x 442.65375pt>
 File: img/agile_waterfall.png Graphic file (type png)
 
 <use img/agile_waterfall.png>
-Package pdftex.def Info: img/agile_waterfall.png used on input line 314.
+Package pdftex.def Info: img/agile_waterfall.png used on input line 320.
 (pdftex.def)             Requested size: 356.39758pt x 388.50983pt.
  [8 <./img/agile_waterfall.png>] [9] [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1100,36 +1158,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [11
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 371.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 377.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<img/how_scrum_works.png, id=327, 1003.75pt x 718.685pt>
+<img/how_scrum_works.png, id=325, 1003.75pt x 718.685pt>
 File: img/how_scrum_works.png Graphic file (type png)
 
 <use img/how_scrum_works.png>
-Package pdftex.def Info: img/how_scrum_works.png used on input line 376.
+Package pdftex.def Info: img/how_scrum_works.png used on input line 382.
 (pdftex.def)             Requested size: 348.48193pt x 249.51476pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 377.
  [12 <./img/how_scrum_works.png>] [13] [14]
 [15] [16] [17] [18] [19] [20] [21] [22]
 Underfull \vbox (badness 4467) has occurred while \output is active []
 
  [23]
 [24] [25] [26]
-Overfull \hbox (18.94406pt too wide) in paragraph at lines 619--621
+Overfull \hbox (18.94406pt too wide) in paragraph at lines 625--627
 \T1/lmr/m/n/10.95 Frequent in-te-gra-tion leads to eas-ier de-tec-tion of bugs 
 and also fewer bugs/problems
  []
 
-[27] <img/kanban_board.png, id=538, 360.59718pt x 161.85469pt>
+[27] <img/kanban_board.png, id=535, 360.59718pt x 161.85469pt>
 File: img/kanban_board.png Graphic file (type png)
 
 <use img/kanban_board.png>
-Package pdftex.def Info: img/kanban_board.png used on input line 641.
+Package pdftex.def Info: img/kanban_board.png used on input line 647.
 (pdftex.def)             Requested size: 396.0pt x 177.74432pt.
  [28 <./img/kanban_board.png>] [29] [30] [31]
 [32
@@ -1139,35 +1195,80 @@ Package pdftex.def Info: img/kanban_board.png used on input line 641.
 ] [34] [35] [36] [37] [38
 
 ] [39]
-<img/process_policy_sample.png, id=637, 394.47375pt x 391.4625pt>
+<img/process_policy_sample.png, id=635, 394.47375pt x 391.4625pt>
 File: img/process_policy_sample.png Graphic file (type png)
 
 <use img/process_policy_sample.png>
-Package pdftex.def Info: img/process_policy_sample.png used on input line 758.
+Package pdftex.def Info: img/process_policy_sample.png used on input line 769.
 (pdftex.def)             Requested size: 316.80121pt x 314.38298pt.
- [40 <./img/process_policy_sample.png>]
-[41] <img/trello_kanban_board.png, id=668, 1263.72125pt x 685.56125pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40 <./img/process_policy_sample.png>] [41]
+<img/post_its.png, id=667, 803.0pt x 712.6625pt>
+File: img/post_its.png Graphic file (type png)
+ <use img/post_its.png>
+Package pdftex.def Info: img/post_its.png used on input line 796.
+(pdftex.def)             Requested size: 356.39758pt x 316.3128pt.
+
+[42 <./img/post_its.png>]
+<img/trello_kanban_board.png, id=677, 1263.72125pt x 685.56125pt>
 File: img/trello_kanban_board.png Graphic file (type png)
 
 <use img/trello_kanban_board.png>
-Package pdftex.def Info: img/trello_kanban_board.png used on input line 788.
+Package pdftex.def Info: img/trello_kanban_board.png used on input line 808.
 (pdftex.def)             Requested size: 396.0pt x 214.82317pt.
- [42 <./img/trello_kanban_board.png>] [43
 
-]
-[44
+<img/use_case_card.png, id=682, 387.4475pt x 377.41pt>
+File: img/use_case_card.png Graphic file (type png)
 
-] [45] [46
+<use img/use_case_card.png>
+Package pdftex.def Info: img/use_case_card.png used on input line 819.
+(pdftex.def)             Requested size: 170.2771pt x 165.86511pt.
 
-] [47] [48
+<img/use_case_flow_card.png, id=683, 390.45876pt x 484.81125pt>
+File: img/use_case_flow_card.png Graphic file (type png)
+
+<use img/use_case_flow_card.png>
+Package pdftex.def Info: img/use_case_flow_card.png used on input line 825.
+(pdftex.def)             Requested size: 170.2771pt x 211.42381pt.
+
+<img/task_card.png, id=684, 400.49625pt x 131.49126pt>
+File: img/task_card.png Graphic file (type png)
+ <use img/task_card.png>
+Package pdftex.def Info: img/task_card.png used on input line 831.
+(pdftex.def)             Requested size: 170.2771pt x 55.90611pt.
+
+[43 <./img/trello_kanban_board.png>]
+Underfull \hbox (badness 1360) in paragraph at lines 848--849
+[]\T1/lmr/m/n/10.95 During de-vel-op-ment new cards were
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 848--849
+\T1/lmr/m/n/10.95 con-tin-u-ously cre-ated and added to the
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44 <./img/use_case_card.png> <./img/use_case_flow_card.png> <./img/task_card.
+png>]
+[45] [46
+
+] [47
+
+] [48
+
+] [49] [50
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
-[50] (./xjobb-en.gls [51
+ [51]
+[52] (./xjobb-en.gls [53
 
-] [52
+] [54
 
 ]
 Overfull \hbox (5.29369pt too wide) in paragraph at lines 29--29
@@ -1175,74 +1276,84 @@ Overfull \hbox (5.29369pt too wide) in paragraph at lines 29--29
 a metaphor
  []
 
-[53
+[55
 
-]) (./xjobb-en.acr [54]) [55
+]) (./xjobb-en.acr [56]) [57
 
 
-] [56
+] [58
 
 ]
 bibitemlist
 
-Underfull \hbox (badness 2680) in paragraph at lines 839--844
+Underfull \hbox (badness 2680) in paragraph at lines 900--905
 []\T1/lmr/m/n/10.95 Agile Al-liance. 2015. The al-liance. [ [][]$\T1/lmtt/m/n/1
 0.95 http : / / www . agilealliance . org /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 846--851
+Underfull \hbox (badness 10000) in paragraph at lines 907--912
 []\T1/lmr/m/n/10.95 Crockford, C. 2007. Qual-ity. [ [][]$\T1/lmtt/m/n/10.95 htt
 ps : / / www . youtube . com / watch ? v =
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 869--874
+Underfull \hbox (badness 4859) in paragraph at lines 930--935
 \T1/lmtt/m/n/10.95 talks / simon _ sinek _ why _ good _ leaders _ make _ you _ 
 feel _ safe$[][] \T1/lmr/m/n/10.95 ]. Ac-cessed
  []
 
-[57] [58] [59
+[59] [60] [61
 
 ]
-Overfull \hbox (9.66515pt too wide) in paragraph at lines 1020--1021
+Overfull \hbox (9.66515pt too wide) in paragraph at lines 1083--1084
+[][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / JvD4oEyF / 47-[]1-[]1-
+[]connect-[]to-[]platform-[]pc-[]browser$[][] 
+ []
+
+[62]
+Overfull \hbox (9.66515pt too wide) in paragraph at lines 1118--1119
 [][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / JvD4oEyF / 47-[]1-[]1-
 []connect-[]to-[]platform-[]pc-[]browser$[][] 
  []
 
 
-Overfull \hbox (9.66515pt too wide) in paragraph at lines 1053--1054
-[][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / JvD4oEyF / 47-[]1-[]1-
-[]connect-[]to-[]platform-[]pc-[]browser$[][] 
- []
-
-
-Overfull \hbox (32.66008pt too wide) in paragraph at lines 1055--1056
+Overfull \hbox (32.66008pt too wide) in paragraph at lines 1120--1121
 [][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / 4krVGIwA / 48-[]1-[]a-
 []connect-[]to-[]platform-[]mobile-[]browser$[][] 
  []
 
-[60] [61] [62] [63]
+[63] [64] [65]
 \tf@toc=\write8
 \openout8 = `xjobb-en.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1163.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1163.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1228.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1228.
  (./xjobb-en.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1163.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1163.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1228.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1228.
 
-Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
-(rerunfilecheck)             Checksum: F501928103738550A4CAB245763EA160;601.
+
+
+Package rerunfilecheck Warning: File `xjobb-en.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `xjobb-en.out':
+(rerunfilecheck)             Before: F9F85998B21A8E352F3CCA5DFDA13499;601
+(rerunfilecheck)             After:  D31BE9863AB882D72CDE2800029A1266;601.
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 15286 strings out of 493117
- 221827 string characters out of 6135432
- 391163 words of memory out of 5000000
- 18220 multiletter control sequences out of 15000+600000
- 84251 words of font info for 60 fonts, out of 8000000 for 9000
+ 16798 strings out of 493117
+ 246649 string characters out of 6135432
+ 422589 words of memory out of 5000000
+ 19709 multiletter control sequences out of 15000+600000
+ 83634 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,13n,49p,1773b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,92p,1773b,706s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{glo:roig} has been referenced but does not exist,
  replaced by a fixed one
 
@@ -1300,24 +1411,29 @@ placed by a fixed one
 pdfTeX warning (dest): name{glo:td} has been referenced but does not exist, rep
 laced by a fixed one
 
+pdfTeX warning (dest): name{section*.42} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.37} has been referenced but does not exist
+, replaced by a fixed one
+
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
 xlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2014/texmf-dist/f
 onts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/lm/lmbx9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/
+/public/lm/lmbx8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/
 lmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/public/lm/lmssbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
 ublic/lm/lmssdc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm
-/lmtt10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt9.pfb
->
-Output written on xjobb-en.pdf (67 pages, 1194391 bytes).
+/lmtt10.pfb>
+Output written on xjobb-en.pdf (69 pages, 2574599 bytes).
 PDF statistics:
- 944 PDF objects out of 1000 (max. 8388607)
- 840 compressed objects within 9 object streams
- 249 named destinations out of 1000 (max. 500000)
- 132 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 976 PDF objects out of 1000 (max. 8388607)
+ 864 compressed objects within 9 object streams
+ 257 named destinations out of 1000 (max. 500000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
