@@ -16,6 +16,9 @@
 \usepackage[margin=10pt,font=small,labelfont=bf,
 labelsep=endash]{caption}
 %\usepackageappendix}
+\usepackage{pdfpages}
+
+
 
 \renewcommand\cftappendixname{\appendixname~} % Nicer look for appendixes in content list
 
@@ -113,6 +116,7 @@ description={Within software development and product management, user stories ar
 \newacronym{lpd}{LPD}{lean product development}
 \newacronym{dsdm}{DSDM}{dynamic systems development method}
 \newacronym{uml}{UML}{unified modeling language}
+\newacronym{css}{CSS}{cascading style sheets}
 
 
 
@@ -188,45 +192,59 @@ inceptos hymenaeos.
 \mainmatter
 \pagestyle{newchap}
 
-\begin{comment}
+%\begin{comment}
 
 \chapter{Introduction}
-This chapter will initially go through the problem statement and goals of the report. It will also show the motivation and estimated value of the entire report. The last section will outline the structure of the rest of the report.
-
-Agile development is something
+This chapter goes through the problem statement including goals, the target group and limitations. The last section will outline the structure of the rest of the report.
 
 \section{Problem Statement}
-Agile software development can be seen as a trend in today's computer industry and the actual concept of the method changes every year, which is quite appropriate given what the methodology advocates. The method mainly targets advanced systems and encourage continuous improvement and rapid changes to new customer demands. The development process revolves around having collaboration between self-organizing and cross-functional teams with focus on communication together with an iterative development process. However the information available regarding how-to practically establish an agile development process in small companies with small projects is limited. The available literature usually give hints on where to start but focuses heavily on the full blown methodologies and leaves it up to the reader to decide what is practically possible for their limited sized development group or company.
+Agile software development can be seen as a trend in today's computer industry. The variety of agile methodologies, as well as their definitions, changes frequently, which is quite appropriate given what agile development advocates. Most agile methodologies mainly targets established companies with advanced software systems. They talk about things like continuous improvement, rapid changes to new customer demands and the collaboration between self-organizing and cross-functional development using an iterative development process. However the information available regarding how-to practically establish an agile development process in small companies with small projects is limited. The available literature can give hints but has a strong focus on the full blown methodologies and leaves it up to the readers to decide what is practically possible for their limited sized development group or company.
 
-This can make it hard and confusing for developers wanting to adopt an agile mindset when starting their new company with only a few people or even by themselves. Moreover, trying to follow most agile methodologies, or other methodology types for that matter, completely can be overwhelming and lead to unnecessary abandonment of that methodology. By finding a good approach to how small teams and/or companies can adopt agile software development, future problems such as communications issues or delays that comes from not following a methodology can be avoided.
+The vast information available, complexity and focus on established companies can make it hard and confusing for developers wanting to adopt an agile mindset when starting their new company with only a few people or even by themselves. Trying to follow most agile methodologies completely, or other methodology types for that matter, would likely be overwhelming and lead to unnecessary early abandonment of that methodology. By finding a good approach to how small development teams and/or companies can adopt an agile development process, more companies/teams could benefit from the potential positive outcomes that comes from utilizing agile development.
+%\section{Motivation \& Value} %syfte
 
-\section{Motivation \& Value} %syfte
-
-\section{Goals}
+\subsection{Goals}
 The main goal of the thesis is as follows:
 
 \begin{itemize}
-\item Find agile development methodologies or agile strategies suitable for a single developer up to small teams consisting of only a handful of people.
+\item Find an agile development methodology and potentially modify it to make it suitable for small development teams and/or companies consisting of 1-5 members.
 \end{itemize}
 \noindent
 Secondary goals:
 
 \begin{itemize}
-\item Theoretical comparison of popular agile development methodologies.
+\item Theoretical comparison of popular agile development methodologies suitable for small companies/development teams..
 \item Overall clarification of agile terms and thinking/reasoning. For example differentiate Agile from Lean.
-\item Produce a working prototype of the interactive tutoring framework described later. This is also the main goal of the project owner, Per-Arne Forsberg.
+\item Produce a working prototype of the interactive tutoring framework described at \fullref{sec:project_description}.
 \end{itemize}
 
-\section{Limitations}
+\subsection{Target Audience}
+The target audience are mainly small newly started IT companies with limited experience in software development methodologies. However, anyone having an interest in developing something using an agile approach, either alone or with a handful of people, might find this report useful. 
 
-\section{Thesis Report Outline}
+For those lacking prior knowledge regarding agile development, \fullref{sec:agile_development} together with \fullref{sec:agile_methodologies} should contain enough content to make the reader acquainted to the subject and understand the rest of the report. After all, given the target audience, it would be inappropriate not to offer the readers a comprehensive background.
 
-\end{comment}
+\subsection{Limitations}
+This report does not seek to investigate whether or not agile development as a whole is advantageous, compared to other methodology types, for small development teams. Instead it makes the assumption that agile development is advantageous and investigates what agile approach is most suitable for small development teams. 
 
-\mypart{Background} {The following two chapters forms the base for the theoretical and practical part of this reports study. The first chapter explains agile development as a concept and its core ideas. The second chapter explains some of the most common agile methodologies, by mainly going through their practices.}
+The large scope of the agile development methodologies, the many social parameters and variety of projects means that the outcome of this report can't come to definite conclusions. It can't for example conclude that a certain methodology is the absolute best choice for small IT companies. This also explains the vague word \emph{suitable} in the goals section above. The report and investigation should instead be seen more as an thorough, experiential based and comprehensive guide. This is brought up again in \fullref{sec:discussion}.
+
+\section{Thesis Outline}
+Below are the chapters following the introduction of this report, in order, containing information about the flow of the report.
+
+The report will begin by giving background about agile development in \fullref{sec:agile_development}. Following is \fullref{sec:agile_methodologies} which is a comprehensive walkthrough of a few agile methodologies and their practices. Some of these practices will be mentioned throughout the rest of the report.
+
+In \fullref{sec:method_teori} after a short theoretical evaluation, of the agile methodologies from the prior chapter, one methodology is selected to be used in the project. Afterwards in \fullref{sec:the_project}, the project is described and how the selected methodology was used within the project. It will also contain information about the results of the project and the subjective experience for the members of the project.
+
+Lastly the outcomes of the project is discussed and analyzed, in \fullref{sec:discussion}.
+
+
+%\end{comment}
+
+%\mypart{Background} {The following two chapters forms the base for the theoretical and practical part of this reports study. The first chapter explains agile development as a concept and its core ideas. The second chapter explains some of the most common agile methodologies, by mainly going through their practices.}
 
 \chapter{Agile Development}
 \label{sec:agile_development}
+This chapter goes through agile development as a concept and highlights its core ideas and principles. It also explains the differences between agile development and the waterfall model as well as lean development.
 
 Most developers have experienced the nightmare of working on a project and slowly witness the increasing number of bugs, errors and time when adding new functionality. In order to combat this disheartening scenario, developers tend to create constraints and routines around their activity, forming a development process based on prior mistakes. However big development projects can be complex and even though experienced based constraints helps, the problems remains and builds upon each other. One solution for this is to keep adding more constraints and routines. So the development process grows and grows and until the process itself becomes so cumbersome and advanced that it creates the problems it was designed to prevent, which was to avoid \gls{td} and increase efficiency \cite{key1}. 
 
@@ -234,11 +252,11 @@ This so called \gls{rpi} was common among big companies around the millennium sh
 
 \section{Component Abstraction}
 \label{sec:abstraction_components}
-It is common that agile development is directly compared to the waterfall model which is strange given how they situate on different abstraction levels. What this means is that the waterfall model is a software development methodology just like Scrum. Agile development on the other hand is not a followable methodology by itself. It is more of an ideology or perhaps a collection of methodologies. So how is it even possible to compare the two of them? The answer is that people are comparing the waterfall model to some popular agile methodology like Scrum or some common practices like sprints and standup meetings, indirectly claiming that these elements represent agile development as a whole. This leads to confusion and unfair comparisons. So before continuing reading about agile development it is a good idea to give a short overview of the components that make up agile development. Bare in mind that this is a simplified overview meant to give the reader a better sense of how agile development and the methodologies with its practices correlate to each other.
+It is common that agile development is directly compared to the waterfall model which is strange given how they situate on different abstraction levels. The Waterfall model is a software development methodology just like for example Scrum. Agile development on the other hand is not a followable methodology by itself. It is more of an ideology or perhaps a collection of methodologies. So how is it even possible to compare the two of them? The answer is that people are comparing the waterfall model to some popular agile methodology like Scrum or some common practices like sprints and standup meetings, indirectly claiming that these elements represent agile development as a whole. This leads to confusion and unfair comparisons. So before continuing reading about agile development it is a good idea to get a short overview of the components that make up agile development. Bare in mind that this is a simplified overview meant to give the reader a better sense of how agile development and the methodologies with its practices correlate to each other.
 
-In Figure \ref{fig:agile_abstraction}, agile development have been dividid into four different abstraction levels. First we have the ideology that consist of the core ideas such as The Agile Manifesto and principles. This is basically what defines agile development. Secondly we have the methodologies and strategies that fulfills some or all of the agile principles and philosophies. The third abstraction are the practices that make up the methodologies, similar to how the principles make up agile development. However, the practices are more practically applicable and at a much lower abstraction level. Lastly, at the forth abstraction level, we have the actual tools that are needed to make the practices a reality. These tools can be very simple such as a physical room for meeting practices or more advanced such as the xUnit framework for test-driven development.
+In Figure \ref{fig:agile_abstraction}, agile development have been dividid into four different abstraction levels. First we have the ideology that consist of the core ideas such as The Agile Manifesto and principles. This is basically what defines agile development, which will be explained at \fullref{sec:manifesto} and forward. Secondly we have the methodologies and strategies that fulfills some or all of the agile principles and philosophies. The third abstraction are the practices that make up the methodologies, similar to how the principles make up agile development. However, the practices are more practically applicable and at a much lower abstraction level. Lastly, at the forth abstraction level, we have the actual tools that are needed to make the practices a reality. These tools can be very simple such as a physical room for meeting practices or more advanced such as the xUnit framework for test-driven development.
 
-The report will frequently talk about these different components so it is a good idea to keep a mental image of Figure \ref{fig:agile_abstraction}. Moreover, this report will refer to agile development as an ideology in order to not confuse it with the methodologies.
+The report will frequently talk about these different components so it is a good idea to keep a mental image of Figure \ref{fig:agile_abstraction}. Moreover, this report will refer to agile development as an ideology in order to not confuse it with its methodologies.
 
 \begin{figure}[h]
   \centering
@@ -291,7 +309,7 @@ By having a more abstract and lose plan with details only for the near future, f
 
 \section{The Agile Principles}
 \label{sec:agile_principles}
-Using the values stated by The Agile Manifesto, 12 principles were created that act as the characteristics for agile practices \cite{key1}. You can interpret these principles as the next small abstraction step from The Agile Manifesto where you get a clearer explanation of what agile development is. These are the principles:
+Together with the values stated by The Agile Manifesto, 12 principles were created that act as the characteristics for agile practices \cite{key1}. You can interpret these principles as another formulation of The Agile Manifesto where you get a clearer explanation of what agile development means. These are the principles:
 
 \begin{enumerate}
 \item Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
@@ -314,19 +332,22 @@ Using the values stated by The Agile Manifesto, 12 principles were created that 
 %It is sort of a dictatorship vs democracy, dictatorship works but not well enough. And for a democracy to work the people %need to be onboard. 
 
 \section{Agile vs Waterfall}
+\label{sec:agile_waterfall}
 
  \begin{figure}[h!] % NOTE CHANGE TO WIDTH=1.0 IF POSSIBLE!
   \centering
     \includegraphics[width=0.9\textwidth]{img/agile_waterfall.png}
-    \caption{Simplified abstract image showing the difference between the waterfall model and agile development. The image portrays how projects move forward in an arbitrary timeline through difference phases. P1 to P5 stands for Project 1 to Project 5.}
+    \caption{Simplified highly abstract image showing the difference between the waterfall model and agile development. The image portrays how projects move forward in an arbitrary timeline through difference phases. P1 to P5 stands for Project 1 to Project 5. Each color represents a logical phase for a project such as planning or design. The stick figures represents team members and their color represents expertise within a certain phase. The image is further explained in \fullref{sec:agile_waterfall}.}
     \label{fig:agile_waterfall}
  \end{figure}
  \noindent
-This section will a short illustrative and abstract view of the difference between agile development and the more established software development methodology called the waterfall model. As explained in \fullref{sec:abstraction_components}, one should be careful doing detailed comparisons between agile development and other methodologies since agile development is a bundle of methodologies.
+This section gives a short and illustrative view of the differences between agile development and the more established software development methodology called the waterfall model. As explained in \fullref{sec:abstraction_components}, one should be careful doing detailed comparisons between agile development and other methodologies since agile development is a bundle of methodologies. For this reason the comparison is held highly abstract.
 
-As seen in Figure \ref{fig:agile_waterfall}, the waterfall model takes one logical project step and finishes it before starting the next step, like sequential waterfalls that moves the project from one logical plane to the next. Each team work on different projects at any given time and each team work on one part of the project chain. Which means that the implementation team does not care about design for example. In Figure \ref{fig:agile_waterfall}, when the design team is finished with project 2 it gives the project to the implementation team and waits for a new project to arrive from the planning team. 
+As seen in Figure \ref{fig:agile_waterfall}, a project moves sequentially from one logical phase to the next in the waterfall model and rarely moves back to an prior phase. This means that once a project leaves a phase, it is assumed that that phase is completed for that project. Feel free to visualize a multi-step waterfall moving a log (project) from one water level (phase) to the next. The phases can hold different projects at any given time. Once a team in a certain phase is finished with a project, that project is moved to the next phase and the team is ready to receive a new project from the previous phase. All of this means for example that the implementation team does not care about design, or at least design is not their area of concern. In Figure \ref{fig:agile_waterfall}, when the design team is finished with project 2 (P2) it is moved to the implementation phase and the design team awaits the arrival of P3 from the planning team. 
 
-In agile development, the project does not normally move from one distinct team to another. Instead, one team holds a project until it is completely finished before starting work on another project. For a team to be able to hold a project from start to finish it is vital that entire team incorporates all necessary skills within a project, which normally is done through so called cross-functional teams that are often mentioned within agile development. If another project starts, another cross-functional team is assigned that project. 
+Do note that the word \emph{team} is a simplification. In reality in the waterfall model, each phase can contain multiple development teams or so called functional units. The point is that each phase can be much more advanced than to simply contain a development team.
+
+In agile development, the project does not normally move from one distinct phase to another. Instead, the project moves through layers of phases in a loop like fashion, as seen in Figure \ref{fig:agile_waterfall}. Another difference is that the same team holds a project until it is completely finished before starting to work on another project. In order to make that work it is vital that entire team incorporates all necessary skills within a project. A team that satisfies this is called a cross-functional team which are often mentioned within agile development. If another project starts, another cross-functional team is assigned that project. 
 
 
 
@@ -350,7 +371,7 @@ When you read about different software development methodologies they can someti
 \end{enumerate}
 \end{description}
  
-Note that \gls{lsd} has just over half the amount of principles compared to agile development. Without going into detail for each specific principle we can see that several of the lean principles have similarities to the agile principles. L1 says to remove waste while A1 says to maximize value. L2 is hidden in several of the agile principles. L3 is about delaying decisions as late as possible to make the best informed decision which is a simplified version of A2. L4 and A3 both talks about fast delivery. L5 is basically what A5 states.
+Note that \gls{lsd} has just over half the amount of principles compared to agile development. Without going into detail for each specific principle we can see that several of the lean principles have similarities to the agile principles. L1 (lean principle number one) says to remove waste while A1 (agile principle number one) says to maximize value. L2 is hidden in several of the agile principles. L3 is about delaying decisions as late as possible to make the best informed decision which is a simplified version of A2. L4 and A3 both talks about fast delivery. L5 is basically what A5 states.
 
 So by looking at the principles it is safe to say that the lean and agile ideologies have several similarities. They both talk about adaptive planning, empowering the people, fast delivery, continuous improvement etcetera. The differences lies in focus and scope that becomes more apparent when reading literature about them. \gls{lsd} focuses on minimizing waste and streamlining workflow while agile development focuses on adaptivity and communication. \gls{lsd} reaches a higher range than agile software development by going all the way to talk about costumer vision, staffing and maintenance while agile development has a more strict focus on the project development phase. 
 
@@ -363,11 +384,11 @@ What is important to note is that agile and lean do not go against each other. T
 \label{sec:agile_methodologies}
 Up to this point the ideology, that is agile development, has been described. In this chapter the more common methodologies that try to adapt these ideas and mentalities will be brought up. Moreover, the methodologies described here will contain more practically applicable agile practices. What is important to note is that every agile methodology is subject to change. Most authors and advocates of the agile methodologies encourages changes in the methodology itself to suit your development team and/or company. This means that the descriptions of the methodologies can look more or less different depending on the source, especially when they have been written years apart. Another reason is that some parts of a methodology can be vague resulting in different interpretations. However this does not necessarily mean that some descriptions of the practices are wrong. The vagueness can be seen as a way of encouraging changes and alternative implementations of the methodologies which the authors advocates.
 
-The methodologies can be vast in their documentation and this report does not seek to explain each methodology in their deepest details. That would simply require too much work and be overwhelming for the readers. For the interested reader, each methodology will have recommended further reading in its introduction.
+The methodologies can be extensive in their documentation and this report does not seek to explain each methodology in their deepest details. That would simply require too much work and be overwhelming for the readers. For the interested reader, each methodology will have recommended further reading in its introduction.
 
 One thing that every agile methodology has in common is a set of practices that explain the most important components. Some methodologies refer to them as properties but they all seek to explain the core of the methodology similar to how the agile principles, in \fullref{sec:agile_principles},  relate to agile development. It was therefor suitable to use them as the base for this reports overview of the methodologies in order to ensure that the description and comparisons are based on somewhat equal grounds.
 
-A warning to the readers is that going through every practice of all four methodologies in order might be quite heavy reading. An alternative suggestion is to read the practice titles and go back to read the content when needed as the report starts investigating the practices at \fullref{sec:method_teori}.
+A warning to the reader is that going through every practice of all four methodologies in order might be quite heavy reading. An alternative suggestion is to read the practice titles and go back to read the content when needed as the report starts investigating the practices at \fullref{sec:method_teori}. Note that whenever a practice is mentioned it is capitalized as a title.
 
 \section{Scrum}
 Scrum is one of the most known and used agile methodologies today. Scrum was originally codeveloped during the early 1990s by two of the soon-to-be authors of The Agile Manifesto, Jeff Sutherland and Ken Scwaber \cite{key21}. Several other mentionable people, such as Mike Beedle, have further contributed to the development of Scrum. Since the agile methodology Scrum was conceived just a few years before The Agile Manifesto and by several of the authors, it is perhaps not that shocking that people sometimes wrongfully put an equality mark between agile development and Scrum.
@@ -385,6 +406,7 @@ The information regarding the practices of Scrum is mainly taken from the book \
  \end{figure}
 
 \subsection{Roles}
+\label{sec:roles}
 There are three distinct roles in Scrum. The Product Owner, Development Team and Scrum Master. The cooperation and relation between these roles is a key component in Scrum. The Scrum team consists of every member within these three roles.
 
 \subsubsection{Product Owner}
@@ -429,6 +451,7 @@ Deciding as a company to use a methodology and then explaining how the methodolo
 The position of the Scrum Scrum Master is normally filled by the project manager. Ken Schwaber indicates in his book, \emph{Agile Project Management with Scrum}, that a Scrum Master should be a leader figure and never act as a regular boss \cite{key21}. 
 
 \subsection{Events}
+\label{sec:scrum_events}
 In Scrum there are five so called events. However the first event called Sprint is the most important one and all the other events are basically a part of the Sprint.
 
 \subsubsection{Sprint}
@@ -666,11 +689,12 @@ The \gls{wip} limit is important for several reasons. It shows when a pull from 
 In Kanban the workflow or task flow is central so it makes sense having a practice focus on how to manage and improve it. In order to improve the workflow one must first be able to measure it somehow. Otherwise when changes are made, how do we know that it was an improvement? Some things are easier to measure and improve such as items stock piling at a certain step. An easy fix would be to add more manpower to that particular step. Some software such as \emph{Kanbanery} offer automatic tools for measuring that can give useful information about how changes affect the workflow \cite{key18}. Something important to stress out is that the more precise the estimated complexities and values for the cards/tasks the easier it gets to analyze the workflow.
 
 \subsection{Make Process Policies Explicit}
-In the practice Visualize the importance of having a clear design on the cards of the Kanban board was mentioned. This practice is about just that. Without clear rules and a common understanding of how the card system works the discussions becomes subjective and emotional instead of factual \cite{key19}. Having the process policies explicit makes them easier to understand and therefor easier to use. They help choices regarding the process become more rational and empirical and the team have an easier time reaching consensus simply because everyone is working from the same policy configuration.
+In the practice Visualize the importance of having a clear design on the cards of the Kanban board was mentioned. This practice is about just that. Without clear rules and a common understanding of how the card system works the discussions becomes subjective and emotional instead of factual \cite{key19}. Having the Process Policies explicit makes them easier to understand and therefor easier to use. They help choices regarding the process become more rational and empirical and the team have an easier time reaching consensus simply because everyone is working from the same policy configuration.
 
-The process policies are rules of the Kanban board. It can state the type and amount of data that each card should contain. It explains the flow of cards traveling across the board. It can contain default implementation details about different classes of cards. It is basically the defined structure of the Kanban board and its cards.
+The Process Policies are rules and procedures of the project, with focus on the Kanban board. It can state the type and amount of data that each card should contain. It explains the flow of cards traveling across the board. It can contain default implementation details about different classes of cards. The Process Policies basically defines the structure of the Kanban board and its cards.
 
 \subsection{Improve Collaboratively}
+\label{sec:improve_collaboratively}
 \epigraph{If you are not continually improving, but you are doing all of the other parts of the Kanban method, you are missing the point. It's a little like the concept of "doing" agile but not being agile.}{\textsc{Matthew Powell} \cite{key19}}
 
 \noindent
@@ -679,6 +703,7 @@ This practice is more social and less practically oriented than the others. When
 Kanban promotes using a scientific approach when trying to introduce new changes. That means to evaluate a situation, suggest suitable change, predict the outcome, observe the results and compare with the prediction and previous results. If the team or business have a Kaizan culture together with using the scientific approach then that can lead to spontaneous and regular local improvements to the process \cite{key16}.
 
 \section{Other Mentionable Methodologies}
+\label{other_methodologies}
 The informed reader might wonder why only these four methodologies were chosen for the report. After all there are at least a dozen more agile methodologies worth mentioning. For instance Dynamic Systems Development Method (DSDM) that is a broadly used agile methodology. 
 
 The reason for the chosen methodologies are several. First of all we must acknowledge that going through every possible agile methodology is simply not possible. Kanban was chosen since it is both broadly used and very lightweight, making it a perfect choice for testing agile methodologies in small development teams. Crystal Clear was chosen as it clearly tries to address small development teams in its definition and there are not many agile methodologies that does so. Scrum is the most popular agile methodology today and therefor deserves a spot. \gls{xp} was chosen since it is popular but still quite different from the other methodologies, making it interesting for comparison reasons. 
@@ -687,38 +712,40 @@ DSDM was skipped simply because its scope is too large, larger than Scrum for ex
 
 
 
-\mypart{Method}{The method is divided in two chapters. The first chapter theoretically evaluates the agile methodologies in how well they would suite small projects and/or development groups. The project specification is also described here. At the end of the chapter a methodology is selected for the project. The second chapter is about the project workflow. It is a diary like evaluation of the selected agile methodology and the work progress.}
+%\mypart{Method}{The method is divided in two chapters. The first chapter theoretically evaluates the agile methodologies in how well they would suite small projects and/or development groups. The project specification is also described here. At the end of the chapter a methodology is selected for the project. The second chapter is about the project workflow. It is a diary like evaluation of the selected agile methodology and the work progress.}
 
-\chapter{Theoretical Evaluation}
+\chapter{Methodology Evaluation}
 \label{sec:method_teori}
-This chapter aims to compare the four agile methodologies to each other with focus on small development teams. There is no exact definition of what a "small project" or "small team" means. For the sake of clarification we assume that a small project consists of one to five person(s). They can either all be part of the development team or one or two have other responsibilities such as being a costumer, project leader or product owner. We further assume that the small team is a newly founded IT company and not some sort of small project team within a larger company. For example, it could be a handful of friends starting an IT consulting business after getting their master's degree in computer science. So whenever a small company, small project, small team etcetera is mentioned from here on, this is the setup you should have in mind.
+This chapter aims to theoretically compare the four agile methodologies to each other with focus on small development teams. At the end one methodology is selected to be used for the project, see \fullref{sec:project_description}.
 
-\section{Methodology Walktrough}
-\subsection{The Agile Principles for Small Teams}
+There is no exact definition of what a "small project" or "small team" means. For the sake of clarification and consistency it is assumed that a small project consists of two to five member(s). They can either all be part of the development team or one or two have other responsibilities such as being a costumer, project leader or product owner. We further assume that the small team is within a small IT company and not some sort of small project team within a larger company. For example, it could be a handful of friends starting an IT consulting business after getting their master's degree in computer science. So whenever a small company, small project, small team etcetera is mentioned from here on, this is the setup to have in mind.
+
+For the reader that skipped some parts of the prior chapter, it might be interesting to read \fullref{other_methodologies} that explains how the four methodologies were selected.
+
+\section{The Agile Principles for Small Teams}
 The agile principles are the backbone of agile development. Therefor it is only natural to compare agile methodologies to these principles in order to estimate how agile they are and what their differences are. However the principles aim to satisfy big projects and big teams since after all, the bigger the project the bigger the need for a methodology. Even if it is hard valuing the agile principles, or not even meant to by the founders and followers, it does make sense to reestimate their value for small newly started IT companies. The following evaluation of the principles is just an estimation based on logical reasoning and should be read with a critical mindset. The principles are listed at \fullref{sec:agile_principles}.
 
-The first three principles regarding satisfying the customer, welcoming changing requirements and delivering software frequently feel equally important no matter the size of the project team. The fourth principle however, about business people and developers working together daily, is notably less important to satisfy since in newly started small companies they tend to be the same people. The fifth principle lowers greatly in importance since it is clearly focused on bigger companies where you can choose between different teams and people and give them projects to work with. As a newly started small company you kind of have to build the project around the hopefully motivated individuals. The only time face-to-face communication, principle 6, lowers in importance would be when you found a company or work on a project completely alone. Principle 7, 8, 9 and 10 all talk about keeping code quality high over time where the size of the project/company should not matter. Principle 11, which is about self-organizing teams, is pretty much self-fulfilling in a small new company. The last principle, number 12, is about team reflection and should be important in any sized project. 
+The first three principles regarding satisfying the customer, welcoming changing requirements and delivering software frequently feel equally important no matter the size of the project team. The fourth principle however, about business people and developers working together daily, is often naturally satisfied since in small projects they tend to be the same people. The fifth principle lowers greatly in importance since it is clearly focused on bigger companies where you can choose between different teams and people and give them projects to work with. As a newly started small company you kind of have to build the project around the hopefully motivated individuals. The only time face-to-face communication, principle 6, lowers in importance would be when you found a company or work on a project completely alone. Principle 7, 8, 9 and 10 all talk about keeping code quality high over time where the size of the project/company should not matter. Principle 11, which is about self-organizing teams, is pretty much self-fulfilling in a small new company. The last principle, number 12, is about team reflection and should be important in any sized project. 
 
-To summarize, the 9 principles 1-3, 6-10 and 12 comes out as more important to satisfy than the rest for small new companies/teams. This quick purge of a few principles will help keep a better focus when evaluating the methodologies for small independent projects.
+To summarize, the 9 principles 1-3, 6-10 and 12 comes out as more important to satisfy than the rest for small new companies/teams. This short evaluation of the agile principles will help keep a better focus when evaluating the methodologies for small independent projects.
 
-
-\subsection{Scrum}
+\section{Scrum}
 The practices of Scrum satisfy the agile principles well. You can almost match each practice in Scrum to each different agile principle and perhaps this is why Scrum is often used as the example methodology for agile development.
 The only principle that it does not address is principle 9 that talks about technical excellence and good design. Good code design is only briefly mentioned when talking about getting tasks done before the end of each Sprint and not leaving loose uncompleted ends. The methodology clearly revolves around the Sprints. It talks a lot about having short iterations with many short meetings and ensuring that the Product Backlog is kept updated at all times.
 
-Everything in Scrum goes together pretty neatly as seen in Figure \ref{fig:scrum}. Each practice is strongly connected to several of the others. Within the events, all three roles work together tightly and always have the artifacts in focus. Generally this is a good thing since it shows coherence and makes it easier to grasp the meaning of each practice. However to be able to include all practices one would at least need three people to fill the roles, which would mean a Development Team of size one to three for small companies. Another solution would be to have everyone part of the Development Team where two of these have extended roles as a Product Owner and Scrum Master. It is certainly possible to include all practices for a small project but it would also most certainly lead to lots of overhead work when so few people are involved.
+Everything in Scrum goes together pretty neatly as seen in Figure \ref{fig:scrum}. Each practice is strongly connected to several of the others. Within the events all three roles, the Scrum Master, Product Owner and Development Team described in \fullref{sec:roles}, work together tightly and always have the artifacts in focus. Generally this is a good thing since it shows coherence and makes it easier to grasp the meaning of each practice. However to be able to include all practices one would at least need three people to fill the roles. For the defined small project in this report, that would mean a Development Team of maximum three which can be a problem. An approach to get around this issue would be to have everyone part of the Development Team where two of the developers have extended roles as a Product Owner and Scrum Master. It is certainly possible to include all practices for a small project but it would also most certainly lead to lots of overhead work when so few people are involved.
 
-\subsection{Extreme Programming (XP)}
+\section{Extreme Programming (XP)}
 \gls{xp} is quite opposite of Scrum and talks quite a lot about code quality. The practices Pair Programming, \gls{tdd}, Coding Standards, Simple Design and Refactoring all emphasizes how they have a positive influence on code quality. At first glance one might believe that \gls{xp} is much more "zoomed in" than Scrum and mostly talks about how the Development Team should code. However, the practice called The Planning Game is very big and includes components that are similar to several practices in Scrum, such as iterations (Sprints), small stories (Product Backlog) and planning meetings (Sprint Planning). So one could also see \gls{xp} as a sort of huge framework where Scrum is replaced by The Planning Game. So for companies using both Scrum and \gls{xp} it's a matter of perspective weather they are using \gls{xp} on top of Scrum or Scrum on top of \gls{xp}.
 
 Since The Planning Game together with Small Releases is loosely put another version of Scrum, \gls{xp} satisfies the same practices that Scrum satisfies. The principle that Scrum did not satisfy, principle 9 regarding code quality, is quite clearly satisfied by many of the practices in \gls{xp}. Seeing how focused \gls{xp} is on code quality it is easier to understand the critique it receives regarding being called agile. After all, agile development is usually talked about in respect to cross-functional teams, short planning and regular meetings across the entire company hierarchy. 
 
-\gls{xp} as a whole is quite clearly too vast for small newly founded IT companies. But they do have many stand-alone practices that would be easy to start with and then slowly built upon, practice by practice. For example, all the quality ensuring practices mentioned. However, how agile would it be to have a bunch of practices satisfying only one agile principle? To ensure that the other parts of the agile principles are included one would have to look into the Planning Game. But instead of diving into that vast practice it would make more sense starting with Scrum where the different parts of The Planning Game are more clearly distinguished. 
+\gls{xp} as a whole is quite clearly too extensive for small projects. They do however have many stand-alone practices that would be easy to start with and then slowly built upon, practice by practice. For example, all the quality ensuring practices mentioned. On the other hand, how agile would it be to have a bunch of practices satisfying only one agile principle? To ensure that the other parts of the agile principles are included one would have to look into the Planning Game. But instead of diving into that practice it would make more sense starting with Scrum where the different parts of The Planning Game are more clearly distinguishable.
 
-\subsection{Crystal Clear}
+\section{Crystal Clear}
 Ironically the practices of Crystal Clear is the most vague of all four methodologies. They have chosen a higher abstraction on their practices, somewhere in between the agile principles and the practices of the other methodologies.  Instead of describing actual tools to achieve positive outcomes it focuses on describing positive outcomes with tools as examples. Half the practices, Osmotic Communication, Personal Safety and Focus, all talk about social behavior in group environments. The methodology revolves around building safety and trust within the team. In other terms, it has focus on the human mind instead of artifacts and processes. 
 
-Since it has this high abstraction level it is hard to say which agile principles are touched. However the practices line of argument means that the more social principles 4, 5, 6 and 8 are being satisfied or are at least are in focus.
+Since it has this high abstraction level it is hard to say which agile principles are touched. However the practices line of argument means that the more socially oriented principles 4, 5, 6 and 8 are being satisfied or are at least are in focus.
 
 Crystal Clear is clearly more lightweight than \gls{xp} and Scrum which naturally means it would be an easier methodology to follow for small companies. To try to establish a sort of trust oriented culture early in a company, Crystal Clear is certainly a good candidate to follow. However it somewhat lacks practical practices to follow so it might be a good idea to complement it using another methodology or strategy. The methodologies Frequent Delivery and Reflective Improvement is basically the Sprint and Sprint Retrospective so Scrum would be a good candidate to pair it together with. 
 
@@ -726,7 +753,7 @@ The last principle, that certainly is more practical than the others, feels a bi
 a practice within Crystal Clear.
 
 One thing you can safely say is that Crystal Clear put heavy emphasize on the part of the The Agile Manifesto that states: \emph{Individuals and interactions} over processes and tools.
-\subsection{Kanban}
+\section{Kanban}
 Kanban is the most lightweight of the four methodologies. Like Scrum has a clear focus on the Sprints, Kanban has a clear focus on the Kanban board. It is only one of the five practices that does not revolve around the Kanban board, the practice Improve Collaboratively. It is so lightweight that it is arguable that Kanban is more of an agile/lean strategy than a complete methodology. As food for thought, the practices could be simplified and replaced 
 by one practice called the Kanban Board. So it is not that strange that it is often mentioned when reading literature about Kanban that the methodology is meant to be expanded as time progresses and the project/company grows. 
 
@@ -734,56 +761,68 @@ Kanban certainly does not fully satisfy all the agile principles but the practic
 
 Kanban seems like a suitable choice to start with for a small new company looking for an agile methodology. It does a decent job covering the agile principles, it is relatively lightweight and most of the practices are easy to practically follow. However as a company/project grows it can perhaps become too lightweight and should be expanded or complemented using another methodology. An example of this is the methodology Scrum-ban which is a combination of Scrum and Kanban.
 
-\section{Chosen Methodology for the Project}
-Kanban became the chosen methodology for the project, see \fullref{sec:project_description}. There are several reasons for the methodology to be favorable for the project. The methodology covers most of the agile principles but is extremely lightweight compared to Scrum and especially \gls{xp}. For a small project this is essential since the smaller the project team the larger the overhead for a methodology. And in this particular project there will be just one developer and the owner of the project. The fact that Kanban is meant to be expanded on demand and that methodologies like Scrum-ban exists also means that it should be easy to let the methodology grow as the project/company grows.
+\section{Chosen Methodology}
+Kanban became the chosen methodology for the project, see \fullref{sec:project_description}. There are several reasons for the methodology to be favorable for the project. The methodology covers most of the agile principles but is extremely lightweight compared to Scrum and especially \gls{xp}. For a small project this is essential since the smaller the project team the larger the overhead for a methodology. And in this particular project there will be just one developer and the owner of the project. Moreover, the fact that Kanban is meant to be expanded on demand and that methodologies like Scrum-ban exists, which is a combination of Scrum and Kanban, means that it should be easy to let the methodology grow as the project/company grows.
 
-The Kanban board is easy to understand and implement. It will give value even if you are developing completely alone since it provides structure and abstraction. It also offers transparency for the project owner. The freedom of details on the Kanban board and its cards through the process policies means that it easy to start small and slowly buildup the organization of the board.
+The Kanban board is easy to understand and implement. It will give value even if you are developing completely alone since it provides structure and abstraction. It also offers transparency for the project owner. The freedom of details on the Kanban board and its cards through the Process Policies means that it easy to start small and slowly buildup the organization of the board.
 
-Regarding Crystal Clear, the focus on social environment makes it a pretty poor choice when working solo as a developer. Even if you are a handful of developers it can be hard to practically follow such abstract ideas. The methodology also does not have the same connection for its practices as the other methodologies.
+Regarding Crystal Clear, the focus on social environment makes it a pretty poor choice when working solo as a developer. Even if you are a handful of developers it can be hard to practically follow such abstract ideas. The methodology also does not have the same apparent coherency for its practices as the other methodologies which makes it feel fuzzy.
 
-\chapter{Project}
-This chapter goes through the project and specifically the workflow of the project that was and, at this time, is still being developed using Kanban. The chapter tries to keep a natural timeline but not to a full extent since many logical components of the development process were themselves developed over time. Figure \ref{fig:agile_waterfall} describes the problem pretty well. In other words, each component individually, like creating the Process Policies, follow a logical timeline.
+\chapter{The Project}
+\label{sec:the_project}
+This chapter has four sections. The first explains what the project is all about. The second section goes through the workflow of the project that has been developed using Kanban, and is at the time of this reports writing is still being developed. The third section goes through the practical results of the project. The final section is a short interview conducted with the product owner. 
 
-Since the project is a private initiative by the product owner, the developer works from his home. Tuesday at 10:00 was initially selected as a weekly meeting time to ensure that the developer and product owner regularly see each other face to face. During the course of the project extra meeting times were added, especially at the start of the project to get the ball rolling. 
 
 \section{Project Description}
 \label{sec:project_description}
-The project, to be developed using agile strategies, is a private initiative from Per-Arne Forsberg who has 25 years of successful international experience and knowledge in managing technically skilled units, products and projects around the world at Ericsson. Having been involved and engaged in change management, using the latest Lean and Agile methodology.
+This section is written in present tense to emphasize that it was the initial description for the project before any work had been conducted. Note that this was a real project and not just an experiment for this report. 
+
+The project, to be developed using agile strategies, is a private initiative from Per-Arne Forsberg who has 25 years of successful international experience and knowledge in managing technically skilled units, products and projects around the world at Ericsson. Having been involved and engaged in change management, using the latest lean and agile methodology.
 
 The project is developing a dynamic, scalable and robust interactive tutoring framework prototype for pre-academic students. Assisting students today according to the "old school" is social but also ineffective since it is usually one to one communication or one to a few in some geographical location (you have to meet at pre-determined location at pre-determined times, like classrooms). The long term goal is to assist in communication between students and teachers (tutors willing to help out with their knowledge from their preferred location) in Sweden and in turn combat the negative (knowledge) grade curve that can be seen around the country, according to international studies, PISA. 
 
-In short the idea is to create an interactive website that can be used for many to many type of communication between students and teachers. An exact specification of the project does not exist in order to encourage the agile development process.
+In short the idea is to create an interactive website that can be used for many to many type of communication between students and teachers. An exact specification of the project does not exist in order to encourage the agile development process. 
 
-\section{Using Kanban}
+\section{Working Agile}
+This section goes though how agile development techniques were utilized for the project, especially how Kanban was used. It tries to follow a natural flow but does not follow a strict timeline. This is to improve readability and since the components of the development process were themselves developed over time, as for example the Process Policies, it makes sense to go through each component one by one.
+
+\section{Timeboxing}
+\label{sec:timeboxing}
+Since the project was a private initiative by the product owner, the developer worked from his home. This was a problem since it impeded the collaboration between the two when they didn't get to see each other regularly face to face. To combat this timeboxing was used. Timeboxing is a term often used within agile development that means having fixed time periods where each period has its own budget, deadline and deliverables. Sprints in Scrum is for example a timeboxing technique, see \fullref{sec:scrum_events}.
+
+Kanban does not talk about timeboxing. Mostly because when using Kanban to its full extent, it should not be needed. Complexity and scope variables, together with prioritization, for each work item in Kanban should be enough to estimate how many items will be completed within a certain timespan. In this project however, the developer was unexperienced working on web based projects, he worked alone and the time period for the project was only a few months. Therefor it made sense to use some sort of timeboxing instead of guessing complexity variables that would likely not be good estimates until the end of the project.  
+
+The timeboxing used within the project was simple. Every tuesday at 10:00 the developer and product owner met for two to three hours and the items to be completed until next tuesday were selected. In other words, a fixed time period of one week was selected. Secondary items were also selected in case development went smoother than expected. If the goal wasn't reached this was discussed and information was added to the cards. Sometimes this led to cards being split into several items and sometimes the cards were simply moved to the next weeks deadline with the added information. Deadlines not reached were never seen as a failure, instead they were viewed as a learning experience to be able to better estimate workload in the future. This correlates well to the Kanban practice seen in \fullref{sec:improve_collaboratively}.
+
+Besides estimating a weeks worth of work, the meetings were used to iteratively update the cards on the Kanban board which is brought up in \fullref{sec:kanban_cards}. During the course of the project extra meeting times were sometimes added, especially at the start of the project to get the ball rolling. 
 
 \subsection{Process Policies}
-The first thing that was looked into, after deciding on using Kanban, was the layout of the Kanban cards, in other words the Process Polices. Typically these cards are either simply tasks and/or \glspl{us}. Since Kanban itself does not explicitly state the layout of the cards, the strategies described in Use-Case 2.0 were selected to form the basic structure \cite{key25}. This will be described further in \fullref{sec:use_case}.
+One of the first things that was looked into, after deciding on using Kanban, was the layout of the Kanban cards, in other words the Process Polices. Typically these cards are either simply tasks and/or \glspl{us}. Since Kanban itself does not explicitly state the layout of the cards, the strategies described in Use-Case 2.0 were selected to form the basic structure \cite{key25}. This will be described further in \fullref{sec:use_case}.
 
-Most of the policies are written in \appfullref{app:project_process_policies} that is a mix of process policies connected to Use-Case 2.0 and the Kanban cards. 
+Each card type got it own set of rules to follow, see figure \ref{fig:process_policy_sample}. Whenever a card was made it was checked against these rules to make sure it followed the defined structure. Moreover, the Kanban board had several rules and procedures connected to it such as that every item in the Done column waits for inspection at the next meeting. All of these rules and procedures were written in a card called "Rules / Process Policies" that can be seen in most upper left card in Figure \ref{fig:trello_kanban_board}. This ensured that they were always clearly visable.
 
-The Process Policies were not all written at one point in time. As the project grew more policies were added. Using
+All the projects Process Policies of the card are written in \appfullref{app:project_process_policies}, which is a mix of Process Policies connected to Use-Case 2.0, Kanban and more. The Process Policies were not all written at one point in time. As the project grew more policies were added. As soon as new procedures and rules were developed or discovered they were written down, some were however not written in text form for various reasons. For example the timeboxed meetings every tuesday. 
 
-
-\begin{figure}[h]
+\begin{figure}[h!]
   \centering
-    \includegraphics[width=0.7\textwidth]{img/process_policy_sample.png}
-    \caption{A sample of the projects Process Policies. This sample shows information regarding the type of cards called Use-Case Flow Cards. For a full list of the Process Policies, see \appfullref{app:project_process_policies}}
+    \includegraphics[width=0.67\textwidth]{img/process_policy_sample.png}
+    \caption{A sample of the projects Process Policies. This sample shows information regarding the type of cards called Use-Case Flow Cards. For a full list of the Process Policies, see \appfullref{app:project_process_policies}.}
     \label{fig:process_policy_sample}
 \end{figure}
 
 \subsubsection{Use-Case 2.0}
 \label{sec:use_case}
-\Glspl{us} is a common approach in agile development to represent project requirements and specifications in a easy to understand, abstract and layered structure. A use-case is a similar alternative approach. The difference is in the scope and its focus. While \glspl{us} tend to be more abstract and use everyday language to keep it open for interpretation, use-cases instead are more user-to-system goal focused and tend to use a more business oriented language. Use cases also tend to have larger scope that includes components such as \gls{uml}. It is common that project requirements are built using both \glspl{us} and use-cases techniques in some sort of combination. What's Important to know is that the definition for both of these techniques are not strict in order to have an easier time adapting them to any project type and size.
+\Glspl{us} is a common approach in agile development to represent project requirements and specifications in a easy to understand, abstract and layered structure. A use-case is a similar alternative approach. The difference is in the scope and its focus. While \glspl{us} tend to be more abstract and use everyday language to keep it open for interpretation, use-cases instead are more user-to-system goal focused and tend to use a more business oriented language. Use-cases also tend to have larger scope that includes components such as \gls{uml}. It is common that project requirements are built using both \glspl{us} and use-cases techniques in some sort of combination. What's Important to know is that the definition for both of these techniques are not strict in order to have an easier time adapting them to any project type and size.
 
-Use-Case 2.0 is a popular technique meant to be lightweight, scalable, versatile and easy to use \cite{key25}. If it delivers what it promises it sure fits the description of what you look for in a small project with few members. Also the technique is meant to be used with methodologies such as Kanban and Scrum. Without going into to much detail the technique, when used with Kanban, can be summarized as following:
+Use-Case 2.0 is a popular technique meant to be lightweight, scalable, versatile and easy to use \cite{key25}. If it delivers what it promises it sure fits the description of what to look for in a small project with few members. Also the technique is meant to be used with methodologies such as Kanban and Scrum. Without going into too much detail the technique, when used with Kanban, can be summarized as following:
 
 \begin{enumerate}
-\item Agree on the goals and scope of the system and identify all actors and ways of using the system. Repeat this every now and then as things can change as the project develops.
+\item Agree on the goals and scope of the system and identify all actors and ways of using the system. Repeat this regularly as things can change as the project develops.
 \item Each use-case represents a meaningful logical interaction between some actor and the system.
-\item Create a narrative for each use-case that explains the actors goal and interaction on an abstract level and in everyday language, similar to how \gls{us} are written.
-\item Create basic and alternative flows for each use-case that in a step-by-step manor goes through a users perspective in navigating the system to achieve the use case goal.
+\item Create a narrative for each use-case that explains the actors goal and interaction on an abstract level and in everyday language, similar to how \glspl{us} are written.
+\item Create basic and alternative flows for each use-case that in a step-by-step manor goes through a users perspective in navigating the system to achieve the use-case goal.
 \item Create basic test cases for how to check if the use-case and use-case flows are satisfied. 
-\item When development on a use case grows "near", create slices for the use-case. As the name suggests, try to create each slice so they correspond to a suitable and somewhat equally sized work. The slices are created by either splitting a use-case flow or combining multiple flows. The slice can also go deeper in detail if wanted or needed, both in terms of the use-case flow steps and test cases.
+\item When development on a use-case grows "near", as in actual implementation is soon to come, create slices for the use-case. As the name suggests, try to create each slice so they correspond to a suitable and somewhat equally sized work. The slices are created by either splitting a use-case flow or combining multiple flows. The slice can also go deeper in detail if wanted or needed, both in terms of the use-case flow steps and test cases.
 \item Work on a certain number of slices at a time (depending on the size of the project team) and when implemented, check them against the test cases.
 \item Keep updating the use-cases with information as slices are completed. 
 \end{enumerate}
@@ -791,6 +830,7 @@ Use-Case 2.0 is a popular technique meant to be lightweight, scalable, versatile
 Note that this is a simplified summarization of Use-Case 2.0 that is influenced by both Kanban and the project. Read more about how to technique works in in the e-book \emph{Use-Case 2.0, The Guide to Succeeding with Use Cases} by Ivar Jacobson, Ian Spence and Kurt Bittner \cite{key25}.
 
 \subsection{Kanban Board}
+\label{sec:kanban_board}
 \begin{figure}[h]
   \centering
     \includegraphics[width=0.9\textwidth]{img/post_its.png}
@@ -812,6 +852,7 @@ The Kanban board within Trello quickly became the center of the project and the 
 
 \newpage
 \subsubsection{Kanban Cards}
+\label{sec:kanban_cards}
 
 \begin{wrapfigure}{r}{0.45\textwidth}
 	\captionsetup{font=scriptsize,labelfont=scriptsize, singlelinecheck=false, labelfont=bf}
@@ -836,30 +877,117 @@ The Kanban board within Trello quickly became the center of the project and the 
 
 An example of the structure policies, or rules, for the cards can be seen in Figure \ref{fig:process_policy_sample}. The card types are Use-Case Cards, Use-Case Flow Cards, Use-Case Slices Cards, Task Cards and Report Cards. To understand how these exactly work it's best to look at \appfullref{app:project_process_policies}.
 
-Everything about the project was written inside the cards. Every task or idea had a card connected to it. The cards has basically three movement types after creation: It can move its way to the right on the board until it ends up in Deployed and Live. It can at some point in some category be removed, or archived as it is called in Trello, if it is found unwanted. These cards are not permanently deleted and can always be found again after removal. Finally a card can find itself to be frozen in some category, except in In Development and in Done. The cards in Deployed and Live are for instance normally frozen in place. Other examples are low priority cards in the Backlog or earlier categories that have a small value but high complexity.  
+Close to everything about the project was written inside the cards. Every task or idea had a card connected to it. The cards has basically three movement types after creation: It can move its way to the right on the board until it ends up in Deployed and Live. It can at some point in some category be removed, or archived as it is called in Trello, if it is found unwanted. These cards are not permanently deleted and can always be found again after removal. Finally a card can find itself to be frozen in some category, except in In Development and in Done. The cards in Deployed and Live are for instance normally frozen in place. Other examples are low priority cards in the Backlog or earlier categories that have a small value but high complexity.  
 
-During development new cards were continuously created and added to the board. At each meeting, more cards could be created and added. It was during the meetings that it was decided which cards should be kept or removed. Also the cards in the Done column was tested and discussed together with the cards in the In Development column. Another important part of the meetings were organizing the Backlog column so that the cards were kept arranged in priority order from top to bottom.
+At each meeting, new cards could be created or existing cards could be modified. It was during the meetings that it was decided which cards should be kept, removed or worked on for the coming week. Also the cards in the Done column were tested and discussed together with the cards in the In Development column. Another important part of the meetings were organizing the Backlog column so that the cards were kept arranged in priority order from top to bottom.
 
-The Report cards are special. They were added early since the report writer is the developer. Therefor it made sense including these cards since it gives the product owner a better overview of what is going on at every meeting. After all, one of the practices in Kanban is about having transparency, see \fullref{sec:kanban_visualize}.
+The Report cards are special. They were added early since the author of report and the developer is the same person. Therefor it made sense including these cards since it gave the product owner a better overview of what was going on at every meeting. After all, one of the practices in Kanban is about having transparency in a project, see \fullref{sec:kanban_visualize}.
 
-\section{Project Result}
+\section{Project Results}
+\label{sec:project_result}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=1.0\textwidth]{img/elevutveckling.png}
+    \caption{The home page of the website prototype showing three selectable images for school subjects. Mathematics, physics and chemistry. The mouse is hovering over physics. At the time of this reports writing the website can be found at: \url{http://elevutveckling.com/} }
+    \label{fig:elevutveckling}
+\end{figure}
+
+Drawing any conclusions regarding how much Kanban assisted the project in terms of quality is complicated, which is discussed in \fullref{sec:discussion}. However a part goal of this thesis was to develop a working prototype of the interactive website and this chapter shows where the project landed in that regard.
+
+The goals for the prototype were initially set after the projects use-cases were identified, as described in \fullref{sec:kanban_board}. However since the use-cases contents changed, as the project developed, the definition of the goals also changed. As The Agile Manifesto states, \emph{Responding to Change over Following a Plan}. Excluding the most basic features, such as having a functional navigation, the final required functionality for the website to be counted as a working prototype became these three use-cases:
+
+\begin{description}
+\item[1. Virtual room: Tutor to student] \hfill \\
+The most important use-case. For each subject, a student and a teacher must be able to enter a virtual room together containing a virtual whiteboard. The whiteboard should function as a regular whiteboard where the student and teacher can draw equations and do calculations. All three communication channels, video, voice and chat, must be available. 
+\item[2. Q\&A (Stack Overflow)] \hfill \\
+Each subject must have question and answers section, similar in functionality as the well known website called Stack Overflow. The students must be able to ask questions, find questions and answer other students questions related to the subject they are currently navigating in. 
+\item[3. Links] \hfill \\
+The least complicated of the three required use-cases. Each subject must have a range of interesting external links connected to the studying of that subject.
+\end{description}
+
+Note that these descriptions are the most basic requirements for the prototype and the actual use-cases contains more information as seen in Figure \ref{fig:use_case_card} and \ref{fig:use_case_flow_card}.
+
+\subsection{Project Components}
+This section will show the more abstract components used in the project to create the website as for example what frameworks were used.
+
+\begin{description}
+\item[Git] \hfill \\
+Of course the some sort of code management and version handling system were to be used in the project, as every project should have. Git was chosen as it is a popular and well established code management system that the developer had prior experience working with. The online Git framework Github was used to offer a better visual experience. \url{https://github.com/}
+\item[Misshosting] \hfill \\ 
+The web hotel used for the website. Used simply for having the servers in Sweden together with the fact that it uses cPanel which is a popular user friendly graphical web hosting control panel, which makes the website easier to administrate for people inexperienced in web development. MySQL was used for the database. \url{https://misshosting.se/}
+\item[Bootstrap] \hfill \\ 
+Bootstrap is a well established comprehensive design framework using \gls{css} and Javascript. It was used to let the developer, who has little experience in design, focus more on functionality. Besides giving a sleek design it is responsive in such a way that the website looks and functions well on different resolutions such as those found in phones. Because of its popularity it also has many useful plugins such as the form validation plugin called Bootstrap Validator that was used in the project. Thus utilizing Bootstrap, or similar frameworks, means avoiding reinventing the wheel. \url{http://getbootstrap.com/}
+\item[Groupworld] \hfill \\ 
+One of the earliest use-cases looked into for the project was conducting a research in order to find suitable frameworks, or platforms, to satisfy the virtual room use-case, as described in \fullref{sec:project_result}. Besides the developer doing a research, a third party company was used to help in the investigation which led to the finding of Groupworld, see \appfullref{app:virtual_room_research}.
+
+Groupworld is a highly customizable cross-platform web conference platform for online meetings using video, voice and chat. The most important feature of the platform is that it integrates smoothly to existing websites. The result of the integration can be seen in Figure \ref{fig:groupworld}. \url{http://www.groupworld.net/}
+
+\label{sec:project_result}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.8\textwidth]{img/groupworld.png}
+    \caption{Image showing the groupworld platform integrated with the website. The whiteboard in the middle can be used with features shown to the right, similar to Microsoft Paint. The plugins above offers mathematical support such as writing the sample integral equations visible in the whiteboard. The connected users can see each other, talk to each other and also chat using the chat window at the bottom. All three users is the developer himself, which is the reason for the duplicate video channels to the left.}
+    \label{fig:groupworld}
+\end{figure}
+
+\item[Question2Answer] \hfill \\ 
+A framework used to satisfy the second most important use-case requirement for the website prototype, explained briefly at \fullref{sec:project_result}. A initial research was conducted to find suitable frameworks, like with the virtual rooms, but without using a third party company. Question2Answer was the picked solution. Besides satisfying the basic requirements, it also offers support for voting, structuring, ranking system and more. It is popular and open source which both were favorable qualities for the project. Since the framework is meant to function as a stand alone website it was stripped down to the most essential components and integrated with both Bootstrap and the project website. The result of the integration can be seen in Figure \ref{fig:subject_page}. \url{http://www.question2answer.org/}
+
+\label{sec:project_result}
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.71\textwidth]{img/subject_page.png}
+    \caption{Image showing the page of a subject, mathematics to be precise, in the website prototype. Below the page title the virtual group rooms can be seen. Some are password protected while others are publicly open. Some also have a timer which shows how long the rooms stay up before they disappear. Anyone can create a new room using the "Nytt Rum" (English: New Room) icon. At the bottom the Question2Answer framework can be seen integrated with the Bootstrap layout. To the right are links to external helpful sites regarding studying mathematics. In other words, the image shows all three required components described in \fullref{sec:project_result}.}
+    \label{fig:subject_page}
+\end{figure}	
+
+\item[iHover] \hfill \\
+A image framework used for styling and effects. Used for the websites navigation images, seen in Figure \ref{fig:elevutveckling}. Integrates well with Bootstrap. \url{http://gudh.github.io/ihover/dist/}
+
+\end{description}
+
+\section{Product Owner Experience}
+\paragraph{What worked well using Kanban?} \hfill \\ 
+Getting a solid structure. I could clearly follow how the project developed over time. It was easy keeping track of the status of the development process.
+
+\paragraph{What did not work well using Kanban?} \hfill \\ 
+I thought it worked really well actually, can not think of anything directly bad or not working. Maybe that without the timeboxed meetings, that were not a part of Kanban, Kanban might have felt a bit thin.
+
+\paragraph{Did Use-Case 2.0 bring any value to using Kanban?} \hfill \\ 
+Yes, it worked well to use it together with Kanban, especially since it was hard for us to know how long time the different components would take to develop. Use-Case 2.0 made it easy to break down the components to more manageable pieces. After the break down it was easier to analyze and adapt the components to the Kanban board.
+\paragraph{Do you think Kanban was advantageous to the project?} \hfill \\ 
+Yes. I don't know any other agile methodology that could replace Kanban for this kind of work. Not any other type of methodology either for that matter. Nothing I know of would offer the same kind of transparency to a project, all the way from the early stages to delivery. Moreover, the methodology offered great flexibility which was important in this project.
+\paragraph{What are your thoughts on the collaboration between you and the developer in regards to using Kanban? Both positive and negative thoughts.} \hfill \\ 
+As I said, the transparency and structure was great and I could easily follow the work flow. We were open and clear to each other and the board helped in that regard. I could easily follow the developers progress. This made it easy to reprioritize and restructure regularly. Even the individual components progress were easy to track where they were in their development phase. Don't really have any negative thoughts.
+
+\paragraph{What would you like to have done differently, given the opportunity to redo the project?} \hfill \\ 
+Nothing, or wait. Remove all report writing. Every sentence in the report was one functionality lost in the project. 
 
 
-\section{Developer \& Product Owner Experience}
+\paragraph{What is your final verdict to using Kanban in the way it was used in the project?} \hfill \\ 
+It worked very well. As stated in the other questions, it gives transparency, structure and flexibility.
+
+\paragraph{Would you recommend this projects methodology approach for similar projects?} \hfill \\ 
+I recommend to use this methodology when designing new projects with a small group of participating people. Especially when the initial requirements leaves many unknown parameters.
+\paragraph{Any final thoughts?} \hfill \\ 
+No, just that I think the project went very well overall.
 
 
-\mypart{Discussion}{The following chapters will be discussions and final toughs regarding the results, future work, report critique and more.}
+
+%\mypart{Discussion}{The following chapters will be discussions and final toughs regarding the results, future work, report critique and more.}
 
 \chapter{Discussion}
+\label{sec:discussion}
+The first thing to mention is that it was initially planned to be three developers on the project. Three developers, or at least two, would mean that more agile practices could have been tried out since most of the practices are about communication between the project members. It would also mean that the report writer could have had a greater focus on agile development and spend less time coding.
 
-\chapter{Conclusions}
 
-\chapter{Report Critique}
-There are several reasons to be critical for the type of research conducted in this report. Some have already been mentioned briefly here and there throughout the report. First of all agile development by itself is quite vague in its definitions and the work regarding agile development and its methodologies are mostly based on expert experience. It is the results of industry experts that have seen problems, come up with ideas to fix them, had companies or themselves try them out finally evaluate  the outcome. The problem is that there are so many parameters and influences when evaluating software development methodologies that it is really hard to make sense of the result. Too be clear, the data is very noisy. For instance, you can not make a software using one methodology and then have the development team create the software again using another approach. The results of the new approach will most certainly be influenced by their first attempt. What is really needed is several development teams consisting of developers with somewhat equal experience and background. However, depending on parameters such as if the software type is a website, game or security system the results might vary. Thus most work regarding agile development and its methodologies, including this report, falls into the category of social science or soft science which is important to have in mind. All of this also means that investigating work regarding agile development, such as this report, would benefit in having a more experienced author but this is usually hard to come around when we talk about a university thesis for obvious reasons.
 
-Each agile development methodology has vast amount of information, interpretations and alternative versions going for them. To make a full theoretical analyzes and comparison is out of scope for this report. The first and easy limitation was to not include every possible agile methodology in order to have room for more depth into the chosen methodologies as well as to keep the complexity down and give the readers some focus. However, even with this limitation it would not be viable going through every aspect of each methodology since each methodology would deserve their own full report. So the practices of each methodology was chosen as a solid and common ground to be analyzed. What this means is that a lot of what defines the methodologies have potentially been "cut off" and therefore given an unfair assessment to some degree. This is also brought up in \fullref{sec:future_work}.
+\section{Conclusions}
 
-\chapter{Developers Thoughts}
+\section{Report Critique}
+There are several reasons to be critical for the type of research conducted in this report. Some have already been mentioned briefly here and there throughout the report. The first thing to note is that agile development by itself is quite vague in its definitions and the work regarding agile development and its methodologies are mostly based on expert experience. It is the results of industry experts that have seen problems, come up with ideas to fix them, had companies or themselves try them out and finally evaluate the outcome. The problem is that there are so many parameters and influences when evaluating software development methodologies that it is really hard to make sense of the result. Too be clear, the data is very noisy. For instance, you can not make a software using one methodology and then have the development team create the software again using another approach. The results of the new approach will most certainly be influenced by their first attempt. What is really needed is several development teams consisting of developers with somewhat equal experience and background. However, depending on parameters such as if the software type is a website, game or security system the results might vary. Thus most work regarding agile development and its methodologies, including this report, falls into the category of social science or soft science which is important to have in mind. All of this also means that investigating work regarding agile development, such as this report, would benefit in having a more experienced author but this is usually hard to come around when we talk about a university thesis for obvious reasons.
+
+Each agile development methodology has vast amount of information, interpretations and alternative versions going for them. To make a full theoretical analyzes and comparison is out of scope for this report. The first and easy limitation was to not include every possible agile methodology in order to have room for more depth into the chosen methodologies as well as to keep the complexity down. The reasoning behind the four chosen methodologies can be read at \fullref{other_methodologies}. However, even with this limitation it would not be viable going through every aspect of each methodology since each methodology deserves their own full report. So the practices of each methodology was chosen as a solid and common ground to be analyzed. What this means is that a lot of what defines the methodologies have potentially been "cut off" and therefore given an unfair assessment to some degree. This is also brought up in \fullref{sec:future_work}.
 
 \section{Future Work} 
 \label{sec:future_work}
@@ -1210,6 +1338,78 @@ As the report writer pleases.
 
 \end{description}
 
+\chapter{Virtual Room Research Results}
+\label{app:virtual_room_research}
+The following is the results from using a third party company to conduct research regarding finding suitable virtual room frameworks, or platforms, for the project. A platform called Groupworld offered by Group Technologies Inc became the selected platform for the website prototype, see number 7 in the included pdf on the next page.
+
+\includepdf[pages=-]{pdf/virtual_room_research_results.pdf}
+
 \end{appendices}
 
 \end{document}
+
+
+%Other mentionable Methodologies. Hänvisa till detta efter bakgrunden.
+
+%Focuses heavily* skriv om have a strong focus
+
+%Type of investigation, this type of. Skriv om
+
+%next small abstraction step, tydliggör, clarification
+
+%This section will a short illut...
+
+%called waterfall model
+
+%the waterfall model takes on logical project step -> project will go through different phases sequential.
+
+%L1, A1. Förklara vid första användated.
+
+%Newly founded => small companies
+
+%The fourth  principle, tydligör att det inte är mindre viktigt, utan att det kommer naturellt.
+
+%This quick purge, lite mildare ordval.
+
+%All three roles, 4.2. Skriv ut dom och hänvisa.
+
+%Scrum 4.2 skriv om sista delen.
+
+%Vast -> extensive
+
+%4.4 Sociallly focused agile principles
+
+%nibble -> kanske ändra
+
+%Time boxed, förklara i  Using Kanban eller passande plats. Skriv i 4.6 på slutet att andra tekniker utnyttjats tillsmannas med Kanban i chapter blabla.
+
+%5.0 ...was and, at... skriv om.
+
+%5.2 It tries to keep a natural flow but does not follow a strict timeline.
+
+%Most of the policies -> All of the poicies. Lägg till punkt efter Process Polices. 
+
+
+%Use Case 2.0 "now and then" -> on a regular basis.
+
+grows "near", fundera ut ett alternativ
+
+Kläm in demos, att vi testar produkten regelbundet. Kanske i en ny rubrik (regular meetings)
+
+% During development new cards were continuously created -> were created.
+
+% Report writer -> author of the report. at every meeting -> within the project.
+
+% 5.3 The goals for the prototype... Lägg till mening som förklarar att arbetsprocessen förändrade målen.
+
+%required componets -> required functioanlity
+
+%CSS -> förkortning
+
+%6.2 First of all
+
+%readers some focus 6.2 ta bort
+
+Time boxed meetings is not a standard practice in Kanban since it is assumed that you have a common workplace. In our project this was not the case so in order to ensure a tigher collaboration blablabal
+
+Skriv vilka praktiker som satisfieras i Kanban
