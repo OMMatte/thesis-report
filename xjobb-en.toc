@@ -93,9 +93,9 @@
 \contentsline {paragraph}{Would you recommend this projects methodology approach for similar projects?}{55}{section*.44}
 \contentsline {paragraph}{Any final thoughts?}{55}{section*.45}
 \contentsline {chapter}{\chapternumberline {6}Discussion}{57}{chapter.6}
-\contentsline {section}{\numberline {6.1}Changes to Kanban}{57}{section.6.1}
-\contentsline {section}{\numberline {6.2}Report Critique}{57}{section.6.2}
-\contentsline {section}{\numberline {6.3}Conclusions}{58}{section.6.3}
+\contentsline {section}{\numberline {6.1}Changes to Kanban}{58}{section.6.1}
+\contentsline {section}{\numberline {6.2}Report Critique}{58}{section.6.2}
+\contentsline {section}{\numberline {6.3}Conclusions}{59}{section.6.3}
 \contentsline {section}{\numberline {6.4}Future Work}{59}{section.6.4}
 \contentsline {chapter}{Glossary}{61}{section*.46}
 \contentsline {chapter}{Acronyms}{63}{section*.48}
