@@ -3,20 +3,20 @@
 \select@language {english}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Problem Statement}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Goals}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Goals}{2}{subsection.1.1.1}
 \contentsline {subsection}{\numberline {1.1.2}Target Audience}{2}{subsection.1.1.2}
 \contentsline {subsection}{\numberline {1.1.3}Limitations}{2}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}Thesis Outline \& Information}{2}{section.1.2}
+\contentsline {section}{\numberline {1.2}Thesis Outline \& Information}{3}{section.1.2}
 \contentsline {chapter}{\chapternumberline {2}Agile Development}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Component Abstraction}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}The Agile Manifesto}{7}{section.2.2}
+\contentsline {section}{\numberline {2.2}The Agile Manifesto}{6}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Individuals and Interactions over Processes and Tools}{7}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Working Software over Comprehensive Documentation}{8}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Customer Collaboration over Contract Negotiation}{8}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Responding to Change over Following a Plan}{8}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.4}Responding to Change over Following a Plan}{9}{subsection.2.2.4}
 \contentsline {section}{\numberline {2.3}The Agile Principles}{9}{section.2.3}
 \contentsline {section}{\numberline {2.4}Agile vs Waterfall}{10}{section.2.4}
-\contentsline {section}{\numberline {2.5}Agile vs Lean}{11}{section.2.5}
+\contentsline {section}{\numberline {2.5}Agile vs Lean}{12}{section.2.5}
 \contentsline {chapter}{\chapternumberline {3}Agile Methodologies}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}Scrum}{16}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Roles}{17}{subsection.3.1.1}
@@ -75,26 +75,26 @@
 \contentsline {chapter}{\chapternumberline {5}The Project}{43}{chapter.5}
 \contentsline {section}{\numberline {5.1}Project Description}{43}{section.5.1}
 \contentsline {section}{\numberline {5.2}Working Agile}{44}{section.5.2}
-\contentsline {section}{\numberline {5.3}Timeboxing}{44}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Process Policies}{45}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.2.1}Timeboxing}{44}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Process Policies}{45}{subsection.5.2.2}
 \contentsline {subsubsection}{Use-Case 2.0}{45}{section*.29}
-\contentsline {subsection}{\numberline {5.3.2}Kanban Board}{47}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.2.3}Kanban Board}{47}{subsection.5.2.3}
 \contentsline {subsubsection}{Kanban Cards}{49}{section*.32}
-\contentsline {section}{\numberline {5.4}Project Results}{50}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Project Components}{51}{subsection.5.4.1}
-\contentsline {section}{\numberline {5.5}Product Owner Experience}{53}{section.5.5}
+\contentsline {section}{\numberline {5.3}Project Results}{50}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Project Components \& Tools}{51}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Product Owner Experience}{53}{section.5.4}
 \contentsline {paragraph}{What worked well using Kanban?}{54}{section*.37}
-\contentsline {paragraph}{What did not work well using Kanban?}{54}{section*.38}
+\contentsline {paragraph}{What did not work well using Kanban?}{55}{section*.38}
 \contentsline {paragraph}{Did Use-Case 2.0 bring any value to using Kanban?}{55}{section*.39}
 \contentsline {paragraph}{Do you think Kanban was advantageous to the project?}{55}{section*.40}
 \contentsline {paragraph}{What are your thoughts on the collaboration between you and the developer in regards to using Kanban? Both positive and negative thoughts.}{55}{section*.41}
 \contentsline {paragraph}{What would you like to have done differently, given the opportunity to redo the project?}{55}{section*.42}
 \contentsline {paragraph}{What is your final verdict to using Kanban in the way it was used in the project?}{55}{section*.43}
 \contentsline {paragraph}{Would you recommend this projects methodology approach for similar projects?}{55}{section*.44}
-\contentsline {paragraph}{Any final thoughts?}{55}{section*.45}
+\contentsline {paragraph}{Any final thoughts?}{56}{section*.45}
 \contentsline {chapter}{\chapternumberline {6}Discussion}{57}{chapter.6}
 \contentsline {section}{\numberline {6.1}Changes to Kanban}{58}{section.6.1}
-\contentsline {section}{\numberline {6.2}Report Critique}{58}{section.6.2}
+\contentsline {section}{\numberline {6.2}Report Critique}{59}{section.6.2}
 \contentsline {section}{\numberline {6.3}Conclusions}{59}{section.6.3}
 \contentsline {section}{\numberline {6.4}Future Work}{60}{section.6.4}
 \contentsline {chapter}{Glossary}{61}{section*.46}
