@@ -1,6 +1,8 @@
 \changetocdepth {2}
 \select@language {english}
 \select@language {english}
+\select@language {swedish}
+\select@language {english}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Problem Statement}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Goals}{2}{subsection.1.1.1}
@@ -82,31 +84,39 @@
 \contentsline {subsubsection}{Kanban Cards}{49}{section*.32}
 \contentsline {section}{\numberline {5.3}Project Results}{50}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Project Components \& Tools}{52}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Product Owner Experience}{55}{section.5.4}
-\contentsline {paragraph}{What worked well using Kanban?}{55}{section*.38}
-\contentsline {paragraph}{What did not work well using Kanban?}{55}{section*.39}
-\contentsline {paragraph}{Did Use-Case 2.0 bring any value to using Kanban?}{55}{section*.40}
-\contentsline {paragraph}{Do you think Kanban was advantageous to the project?}{55}{section*.41}
-\contentsline {paragraph}{What are your thoughts on the collaboration between you and the developer in regards to using Kanban? Both positive and negative thoughts.}{55}{section*.42}
-\contentsline {paragraph}{What would you like to have done differently, given the opportunity to redo the project?}{56}{section*.43}
-\contentsline {paragraph}{What is your final verdict to using Kanban in the way it was used in the project?}{56}{section*.44}
-\contentsline {paragraph}{Would you recommend this projects methodology approach for similar projects?}{56}{section*.45}
-\contentsline {paragraph}{Any final thoughts?}{56}{section*.46}
-\contentsline {chapter}{\chapternumberline {6}Discussion}{57}{chapter.6}
-\contentsline {section}{\numberline {6.1}Final Methodology Used in the Project}{58}{section.6.1}
-\contentsline {section}{\numberline {6.2}Report Critique}{59}{section.6.2}
-\contentsline {section}{\numberline {6.3}Conclusions}{60}{section.6.3}
-\contentsline {section}{\numberline {6.4}Future Work}{60}{section.6.4}
-\contentsline {chapter}{Glossary}{61}{section*.47}
-\contentsline {chapter}{Acronyms}{63}{section*.49}
-\contentsline {chapter}{Bibliography}{65}{section*.52}
+\contentsline {section}{\numberline {5.4}Product Owner Experience}{57}{section.5.4}
+\contentsline {paragraph}{What worked well using Kanban?}{57}{section*.38}
+\contentsline {paragraph}{What did not work well using Kanban?}{57}{section*.39}
+\contentsline {paragraph}{Did timeboxing bring any value by using it together with Kanban?}{57}{section*.40}
+\contentsline {paragraph}{Did Use-Case 2.0 bring any value by using it together with Kanban?}{57}{section*.41}
+\contentsline {paragraph}{Do you think Kanban was advantageous to the project?}{57}{section*.42}
+\contentsline {paragraph}{What are your thoughts on the collaboration between you and the developer in regards to the methodology used? Both positive and negative thoughts.}{58}{section*.43}
+\contentsline {paragraph}{What would you like to have done differently, given the opportunity to redo the project?}{58}{section*.44}
+\contentsline {paragraph}{What is your final verdict to using Kanban in the way it was used in the project?}{58}{section*.45}
+\contentsline {paragraph}{Would you recommend this project's methodology approach for similar projects?}{58}{section*.46}
+\contentsline {paragraph}{Any final thoughts?}{58}{section*.47}
+\contentsline {chapter}{\chapternumberline {6}Discussion}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Final Methodology Used in the Project}{60}{section.6.1}
+\contentsline {section}{\numberline {6.2}Report Critique}{61}{section.6.2}
+\contentsline {section}{\numberline {6.3}Conclusions}{62}{section.6.3}
+\contentsline {section}{\numberline {6.4}Future Work}{62}{section.6.4}
+\contentsline {chapter}{Glossary}{63}{section*.48}
+\contentsline {chapter}{Acronyms}{65}{section*.50}
+\contentsline {chapter}{Bibliography}{67}{section*.53}
 \setcounter {tocdepth}{0}
-\contentsline {appendix}{\chapternumberline {A}Project Process Policies}{67}{chapter.A}
-\contentsline {section}{\numberline {A.1}Project Process Policies}{67}{section.A.1}
-\contentsline {subsection}{\numberline {A.1.1}General Kanban Board Policies}{67}{subsection.A.1.1}
-\contentsline {subsection}{\numberline {A.1.2}Use-Cases Cards}{68}{subsection.A.1.2}
-\contentsline {subsection}{\numberline {A.1.3}Use-Case Flow Cards}{69}{subsection.A.1.3}
-\contentsline {subsection}{\numberline {A.1.4}Use-Case Slices Cards}{69}{subsection.A.1.4}
-\contentsline {subsection}{\numberline {A.1.5}Task Cards}{70}{subsection.A.1.5}
-\contentsline {subsection}{\numberline {A.1.6}Report Cards}{71}{subsection.A.1.6}
-\contentsline {appendix}{\chapternumberline {B}Virtual Room Research Results}{73}{chapter.B}
+\contentsline {appendix}{\chapternumberline {A}Project Process Policies}{69}{chapter.A}
+\contentsline {section}{\numberline {A.1}Project Process Policies}{69}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}General Kanban Board Policies}{69}{subsection.A.1.1}
+\contentsline {subsection}{\numberline {A.1.2}Use-Cases Cards}{70}{subsection.A.1.2}
+\contentsline {subsection}{\numberline {A.1.3}Use-Case Flow Cards}{71}{subsection.A.1.3}
+\contentsline {subsection}{\numberline {A.1.4}Use-Case Slices Cards}{71}{subsection.A.1.4}
+\contentsline {subsection}{\numberline {A.1.5}Task Cards}{72}{subsection.A.1.5}
+\contentsline {subsection}{\numberline {A.1.6}Report Cards}{73}{subsection.A.1.6}
+\contentsline {appendix}{\chapternumberline {B}Project Technical Details}{75}{chapter.B}
+\contentsline {section}{\numberline {B.1}Overall Structure}{75}{section.B.1}
+\contentsline {subsection}{\numberline {B.1.1}Constants}{76}{subsection.B.1.1}
+\contentsline {subsection}{\numberline {B.1.2}Namespace}{76}{subsection.B.1.2}
+\contentsline {section}{\numberline {B.2}JSON}{77}{section.B.2}
+\contentsline {section}{\numberline {B.3}Groupworld}{78}{section.B.3}
+\contentsline {section}{\numberline {B.4}Question2Answer}{79}{section.B.4}
+\contentsline {appendix}{\chapternumberline {C}Virtual Room Research Results}{81}{chapter.C}
