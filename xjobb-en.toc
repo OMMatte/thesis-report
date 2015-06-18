@@ -84,17 +84,17 @@
 \contentsline {subsubsection}{Kanban Cards}{49}{section*.32}
 \contentsline {section}{\numberline {5.3}Project Results}{50}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Project Components \& Tools}{52}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Product Owner Experience}{57}{section.5.4}
-\contentsline {paragraph}{What worked well using Kanban?}{57}{section*.38}
-\contentsline {paragraph}{What did not work well using Kanban?}{57}{section*.39}
-\contentsline {paragraph}{Did timeboxing bring any value by using it together with Kanban?}{57}{section*.40}
-\contentsline {paragraph}{Did Use-Case 2.0 bring any value by using it together with Kanban?}{57}{section*.41}
-\contentsline {paragraph}{Do you think Kanban was advantageous to the project?}{57}{section*.42}
-\contentsline {paragraph}{What are your thoughts on the collaboration between you and the developer in regards to the methodology used? Both positive and negative thoughts.}{58}{section*.43}
-\contentsline {paragraph}{What would you like to have done differently, given the opportunity to redo the project?}{58}{section*.44}
-\contentsline {paragraph}{What is your final verdict to using Kanban in the way it was used in the project?}{58}{section*.45}
-\contentsline {paragraph}{Would you recommend this project's methodology approach for similar projects?}{58}{section*.46}
-\contentsline {paragraph}{Any final thoughts?}{58}{section*.47}
+\contentsline {section}{\numberline {5.4}Product Owner Experience}{56}{section.5.4}
+\contentsline {paragraph}{What worked well using Kanban?}{56}{section*.38}
+\contentsline {paragraph}{What did not work well using Kanban?}{56}{section*.39}
+\contentsline {paragraph}{Did timeboxing bring any value by using it together with Kanban?}{56}{section*.40}
+\contentsline {paragraph}{Did Use-Case 2.0 bring any value by using it together with Kanban?}{56}{section*.41}
+\contentsline {paragraph}{Do you think Kanban was advantageous to the project?}{56}{section*.42}
+\contentsline {paragraph}{What are your thoughts on the collaboration between you and the developer in regards to the methodology used? Both positive and negative thoughts.}{57}{section*.43}
+\contentsline {paragraph}{What would you like to have done differently, given the opportunity to redo the project?}{57}{section*.44}
+\contentsline {paragraph}{What is your final verdict to using Kanban in the way it was used in the project?}{57}{section*.45}
+\contentsline {paragraph}{Would you recommend this project's methodology approach for similar projects?}{57}{section*.46}
+\contentsline {paragraph}{Any final thoughts?}{57}{section*.47}
 \contentsline {chapter}{\chapternumberline {6}Discussion}{59}{chapter.6}
 \contentsline {section}{\numberline {6.1}Final Methodology Used in the Project}{60}{section.6.1}
 \contentsline {section}{\numberline {6.2}Report Critique}{61}{section.6.2}
