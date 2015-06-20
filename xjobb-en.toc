@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {2.2.4}Responding to Change over Following a Plan}{9}{subsection.2.2.4}
 \contentsline {section}{\numberline {2.3}The Agile Principles}{9}{section.2.3}
 \contentsline {section}{\numberline {2.4}Agile vs Waterfall}{10}{section.2.4}
-\contentsline {section}{\numberline {2.5}Agile vs Lean}{12}{section.2.5}
+\contentsline {section}{\numberline {2.5}Agile vs Lean}{13}{section.2.5}
 \contentsline {chapter}{\chapternumberline {3}Agile Methodologies}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}Scrum}{16}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Roles}{17}{subsection.3.1.1}
@@ -37,36 +37,36 @@
 \contentsline {subsubsection}{Product Increment}{21}{section*.14}
 \contentsline {section}{\numberline {3.2}Extreme Programming (XP)}{21}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Fine-Scale Feedback}{21}{subsection.3.2.1}
-\contentsline {subsubsection}{Pair Programming}{21}{section*.15}
+\contentsline {subsubsection}{Pair Programming}{22}{section*.15}
 \contentsline {subsubsection}{Planning Game}{22}{section*.16}
 \contentsline {subsubsection}{Test-Driven Development}{22}{section*.17}
 \contentsline {subsubsection}{Whole Team}{23}{section*.18}
 \contentsline {subsection}{\numberline {3.2.2}Continuous Process}{23}{subsection.3.2.2}
 \contentsline {subsubsection}{Continuous Integration}{23}{section*.19}
-\contentsline {subsubsection}{Refactoring}{23}{section*.20}
+\contentsline {subsubsection}{Refactoring}{24}{section*.20}
 \contentsline {subsubsection}{Small Releases}{24}{section*.21}
-\contentsline {subsection}{\numberline {3.2.3}Shared Understanding}{24}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Shared Understanding}{25}{subsection.3.2.3}
 \contentsline {subsubsection}{Coding Standards}{25}{section*.22}
 \contentsline {subsubsection}{Collective Code Ownership}{25}{section*.23}
 \contentsline {subsubsection}{Simple Design}{25}{section*.24}
 \contentsline {subsubsection}{System Metaphor}{26}{section*.25}
-\contentsline {subsection}{\numberline {3.2.4}Programmer Welfare}{26}{subsection.3.2.4}
-\contentsline {subsubsection}{Sustainable Pace}{26}{section*.26}
+\contentsline {subsection}{\numberline {3.2.4}Programmer Welfare}{27}{subsection.3.2.4}
+\contentsline {subsubsection}{Sustainable Pace}{27}{section*.26}
 \contentsline {section}{\numberline {3.3}Crystal Clear}{27}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Frequent Delivery}{27}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Frequent Delivery}{28}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Reflective Improvement}{28}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Osmotic Communication}{28}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Personal Safety}{28}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.4}Personal Safety}{29}{subsection.3.3.4}
 \contentsline {subsection}{\numberline {3.3.5}Focus}{29}{subsection.3.3.5}
 \contentsline {subsection}{\numberline {3.3.6}Easy Access to Expert Users}{30}{subsection.3.3.6}
 \contentsline {subsection}{\numberline {3.3.7}Technical Environment with Automated Tests, Configuration Management \& Frequent Integration}{31}{subsection.3.3.7}
-\contentsline {section}{\numberline {3.4}Kanban}{32}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Visualize}{33}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Limit Work-in-Progress}{33}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Manage Flow}{33}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Make Process Policies Explicit}{34}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Improve Collaboratively}{34}{subsection.3.4.5}
-\contentsline {section}{\numberline {3.5}Other Mentionable Methodologies}{34}{section.3.5}
+\contentsline {section}{\numberline {3.4}Kanban}{33}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Visualize}{34}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Limit Work-in-Progress}{34}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Manage Flow}{34}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Make Process Policies Explicit}{35}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Improve Collaboratively}{35}{subsection.3.4.5}
+\contentsline {section}{\numberline {3.5}Other Mentionable Methodologies}{35}{section.3.5}
 \contentsline {chapter}{\chapternumberline {4}Methodology Evaluation}{37}{chapter.4}
 \contentsline {section}{\numberline {4.1}The Agile Principles for Small Teams}{37}{section.4.1}
 \contentsline {section}{\numberline {4.2}Scrum}{38}{section.4.2}
@@ -84,17 +84,17 @@
 \contentsline {subsubsection}{Kanban Cards}{49}{section*.32}
 \contentsline {section}{\numberline {5.3}Project Results}{50}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Project Components \& Tools}{52}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Product Owner Experience}{56}{section.5.4}
-\contentsline {paragraph}{What worked well using Kanban?}{56}{section*.38}
-\contentsline {paragraph}{What did not work well using Kanban?}{56}{section*.39}
-\contentsline {paragraph}{Did timeboxing bring any value by using it together with Kanban?}{56}{section*.40}
-\contentsline {paragraph}{Did Use-Case 2.0 bring any value by using it together with Kanban?}{56}{section*.41}
-\contentsline {paragraph}{Do you think Kanban was advantageous to the project?}{56}{section*.42}
-\contentsline {paragraph}{What are your thoughts on the collaboration between you and the developer in regards to the methodology used? Both positive and negative thoughts.}{57}{section*.43}
-\contentsline {paragraph}{What would you like to have done differently, given the opportunity to redo the project?}{57}{section*.44}
-\contentsline {paragraph}{What is your final verdict to using Kanban in the way it was used in the project?}{57}{section*.45}
-\contentsline {paragraph}{Would you recommend this project's methodology approach for similar projects?}{57}{section*.46}
-\contentsline {paragraph}{Any final thoughts?}{57}{section*.47}
+\contentsline {section}{\numberline {5.4}Product Owner Experience}{57}{section.5.4}
+\contentsline {paragraph}{What worked well using Kanban?}{57}{section*.38}
+\contentsline {paragraph}{What did not work well using Kanban?}{57}{section*.39}
+\contentsline {paragraph}{Did timeboxing bring any value by using it together with Kanban?}{57}{section*.40}
+\contentsline {paragraph}{Did Use-Case 2.0 bring any value by using it together with Kanban?}{57}{section*.41}
+\contentsline {paragraph}{Do you think Kanban was advantageous to the project?}{57}{section*.42}
+\contentsline {paragraph}{What are your thoughts on the collaboration between you and the developer in regards to the methodology used? Both positive and negative thoughts.}{58}{section*.43}
+\contentsline {paragraph}{What would you like to have done differently, given the opportunity to redo the project?}{58}{section*.44}
+\contentsline {paragraph}{What is your final verdict to using Kanban in the way it was used in the project?}{58}{section*.45}
+\contentsline {paragraph}{Would you recommend this project's methodology approach for similar projects?}{58}{section*.46}
+\contentsline {paragraph}{Any final thoughts?}{58}{section*.47}
 \contentsline {chapter}{\chapternumberline {6}Discussion}{59}{chapter.6}
 \contentsline {section}{\numberline {6.1}Final Methodology Used in the Project}{60}{section.6.1}
 \contentsline {section}{\numberline {6.2}Report Critique}{61}{section.6.2}
@@ -119,4 +119,4 @@
 \contentsline {section}{\numberline {B.2}JSON}{77}{section.B.2}
 \contentsline {section}{\numberline {B.3}Groupworld}{78}{section.B.3}
 \contentsline {section}{\numberline {B.4}Question2Answer}{79}{section.B.4}
-\contentsline {appendix}{\chapternumberline {C}Virtual Room Research Results}{81}{chapter.C}
+\contentsline {appendix}{\chapternumberline {C}Third Party Virtual Room Research Results}{81}{chapter.C}
