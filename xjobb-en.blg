@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: xjobb-en.aux
+The style file: acm.bst
+Database file #1: mybib.bib
+Warning--entry type for "key24" isn't style-file defined
+--line 12 of file mybib.bib
+Warning--entry type for "key19" isn't style-file defined
+--line 19 of file mybib.bib
+Warning--entry type for "key15" isn't style-file defined
+--line 26 of file mybib.bib
+Warning--entry type for "key2" isn't style-file defined
+--line 33 of file mybib.bib
+Warning--entry type for "key7" isn't style-file defined
+--line 40 of file mybib.bib
+Warning--entry type for "key3" isn't style-file defined
+--line 50 of file mybib.bib
+Warning--entry type for "key25" isn't style-file defined
+--line 59 of file mybib.bib
+Warning--entry type for "key18" isn't style-file defined
+--line 96 of file mybib.bib
+You've used 18 entries,
+            2253 wiz_defined-function locations,
+            613 strings with 5965 characters,
+and the built_in function-call counts, 4240 in all, are:
+= -- 382
+> -- 163
+< -- 0
++ -- 71
+- -- 52
+* -- 231
+:= -- 691
+add.period$ -- 48
+call.type$ -- 18
+change.case$ -- 74
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 179
+empty$ -- 422
+format.name$ -- 52
+if$ -- 913
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 17
+newline$ -- 87
+num.names$ -- 30
+pop$ -- 131
+preamble$ -- 1
+purify$ -- 65
+quote$ -- 0
+skip$ -- 126
+stack$ -- 0
+substring$ -- 139
+swap$ -- 33
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 58
+warning$ -- 0
+while$ -- 33
+width$ -- 20
+write$ -- 168
+(There were 8 warnings)

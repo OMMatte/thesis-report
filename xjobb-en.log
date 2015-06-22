@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  20 JUN 2015 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.17)  22 JUN 2015 14:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -927,6 +927,13 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks42
+\minrowclearance=\skip202
+)
+\rownum=\count194
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -957,7 +964,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen182
 \caption@hangindent=\dimen183
 )
-\c@ContinuedFloat=\count194
+\c@ContinuedFloat=\count195
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -972,16 +979,16 @@ Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count195
-\calc@Bcount=\count196
+\calc@Acount=\count196
+\calc@Bcount=\count197
 \calc@Adimen=\dimen184
 \calc@Bdimen=\dimen185
-\calc@Askip=\skip202
-\calc@Bskip=\skip203
+\calc@Askip=\skip203
+\calc@Bskip=\skip204
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count197
-\calc@Cskip=\skip204
+\calc@Ccount=\count198
+\calc@Cskip=\skip205
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
@@ -990,8 +997,8 @@ Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box37
-\AM@toc@title=\toks42
-\c@AM@survey=\count198
+\AM@toc@title=\toks43
+\c@AM@survey=\count199
 \AM@templatesizebox=\box38
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/cleveref/cleveref.sty
@@ -1010,74 +1017,91 @@ LaTeX Info: Redefining \labelcref on input line 2230.
 LaTeX Info: Redefining \labelcpageref on input line 2230.
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count199
+\lst@mode=\count200
 \lst@gtempboxa=\box39
-\lst@token=\toks43
-\lst@length=\count200
+\lst@token=\toks44
+\lst@length=\count201
 \lst@currlwidth=\dimen186
-\lst@column=\count201
-\lst@pos=\count202
+\lst@column=\count202
+\lst@pos=\count203
 \lst@lostspace=\dimen187
 \lst@width=\dimen188
-\lst@newlines=\count203
-\lst@lineno=\count204
+\lst@newlines=\count204
+\lst@lineno=\count205
 \lst@maxwidth=\dimen189
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
-\c@lstnumber=\count205
-\lst@skipnumbers=\count206
+\c@lstnumber=\count206
+\lst@skipnumbers=\count207
 \lst@framebox=\box40
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
 Package: listings 2014/03/04 1.5c (Carsten Heinz)
-Package hyperref Info: Option `colorlinks' set `true' on input line 58.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/splitbib/splitbib.sty
+Package: splitbib 2005/12/22 v1.17 Splits bibliography into categories
+\c@NMSB@catlevelone=\count208
+\c@NMSB@catleveltwo=\count209
+\c@NMSB@catlevel=\count210
+\c@SBresetdepth=\count211
+\c@NMSB@ent=\count212
+\c@NMSB@maxent=\count213
+\NMSB@tok=\toks45
+\NMSB@longest=\dimen190
+\NMSB@reallylongest=\dimen191
+\NMSB@currprefixtok=\toks46
+\NMSB@currprefixlevelonetok=\toks47
+\SBabovesepwidth=\dimen192
+\SBbelowsepwidth=\dimen193
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 76.
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `xjobb-en.glo'.
 
-Package glossaries Info: Writing glossary file xjobb-en.glo on input line 89.
+Package glossaries Info: Writing glossary file xjobb-en.glo on input line 107.
 \glo@acronym@file=\write6
 \openout6 = `xjobb-en.acn'.
 
-Package glossaries Info: Writing glossary file xjobb-en.acn on input line 89.
+Package glossaries Info: Writing glossary file xjobb-en.acn on input line 107.
 
 (./xjobb-en.aux)
 \openout1 = `xjobb-en.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 193.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 193.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 211.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 211.
 
  (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 193.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 211.
+LaTeX Font Info:    ... okay on input line 211.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 211.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring ON on input line 193.
-LaTeX Info: Redefining \ref on input line 193.
-LaTeX Info: Redefining \pageref on input line 193.
-LaTeX Info: Redefining \nameref on input line 193.
+Package hyperref Info: Link coloring ON on input line 211.
+LaTeX Info: Redefining \ref on input line 211.
+LaTeX Info: Redefining \pageref on input line 211.
+LaTeX Info: Redefining \nameref on input line 211.
  (./xjobb-en.out)
 (./xjobb-en.out)
 \@outlinefile=\write7
@@ -1090,17 +1114,17 @@ Dictionary: glossaries-dictionary, Language: English
 )
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count207
-\scratchdimen=\dimen190
+\scratchcounter=\count214
+\scratchdimen=\dimen194
 \scratchbox=\box42
-\nofMPsegments=\count208
-\nofMParguments=\count209
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count210
-\MPscratchDim=\dimen191
-\MPnumerator=\count211
-\makeMPintoPDFobject=\count212
-\everyMPtoPDFconversion=\toks45
+\nofMPsegments=\count215
+\nofMParguments=\count216
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count217
+\MPscratchDim=\dimen195
+\MPnumerator=\count218
+\makeMPintoPDFobject=\count219
+\everyMPtoPDFconversion=\toks49
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1119,18 +1143,18 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count213
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 198.
+\c@lstlisting=\count220
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 216.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<kth_svv_comp_science_comm.pdf, id=52, 410.53375pt x 468.75125pt>
+<kth_svv_comp_science_comm.pdf, id=48, 410.53375pt x 468.75125pt>
 File: kth_svv_comp_science_comm.pdf Graphic file (type pdf)
 
 <use kth_svv_comp_science_comm.pdf>
-Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 198.
+Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 216.
 (pdftex.def)             Requested size: 410.53275pt x 468.75009pt.
  [1
 
@@ -1141,71 +1165,71 @@ Package pdftex.def Info: kth_svv_comp_science_comm.pdf used on input line 198.
 vv_comp_science_comm.pdf>] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 202.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 220.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 202.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 220.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 202
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 220
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 202
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 220
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 202.
+(Font)              <10.95> on input line 220.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 202.
+(Font)              <8> on input line 220.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 202.
+(Font)              <6> on input line 220.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 213.
+(Font)              <10> on input line 231.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 213.
+(Font)              <7> on input line 231.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 213.
+(Font)              <5> on input line 231.
  [3]pdfTeX warning (ext4): destination with the same identifier (name{page.}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.226 \clearpage
+l.244 \clearpage
                  [4
 
 ] (./xjobb-en.tocpdfTeX warning (ext4): destination with the same identifier (n
 ame{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 ...ess to Expert Users}{30}{subsection.3.3.6}
+l.61 ...erline {3.3.5}Focus}{29}{subsection.3.3.5}
                                                    [5
 
 ])pdfTeX warning (ext4): destination with the same identifier (name{page.}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.231 \pagestyle
+l.249 \pagestyle
                 {newchap} [6]pdfTeX warning (ext4): destination with the same i
 dentifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.231 \pagestyle
+l.249 \pagestyle
                 {newchap} [7]pdfTeX warning (ext4): destination with the same i
 dentifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.231 \pagestyle
+l.249 \pagestyle
                 {newchap} [8
 
 ]
@@ -1214,46 +1238,51 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 249.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 267.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2] [3] [4
+) [2] [3]
+Overfull \hbox (22.83733pt too wide) in paragraph at lines 308--309
+[]\T1/lmr/m/n/10.95 Research and clar-ify what de-fines Ag-ile De-vel-op-ment, 
+chap-ter [][]2[] Ag-ile Development[][][]. 
+ []
+
+[4] [5
 
 ]
-[5] <img/agile_development_abstraction.png, id=265, 1662.21pt x 1037.8775pt>
+<img/agile_development_abstraction.png, id=277, 1662.21pt x 1037.8775pt>
 File: img/agile_development_abstraction.png Graphic file (type png)
 
 <use img/agile_development_abstraction.png>
 Package pdftex.def Info: img/agile_development_abstraction.png used on input li
-ne 302.
+ne 337.
 (pdftex.def)             Requested size: 396.0pt x 247.25864pt.
  [6 <./img/agile_development_abstraction.png>] [7] [8] [9]
-<img/agile_waterfall.png, id=314, 216.5691pt x 237.0456pt>
+<img/agile_waterfall.png, id=326, 216.5691pt x 237.0456pt>
 File: img/agile_waterfall.png Graphic file (type png)
 
 <use img/agile_waterfall.png>
-Package pdftex.def Info: img/agile_waterfall.png used on input line 384.
+Package pdftex.def Info: img/agile_waterfall.png used on input line 419.
 (pdftex.def)             Requested size: 396.0pt x 433.45277pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10]
-Underfull \vbox (badness 7796) has occurred while \output is active []
-
- [11 <./img/agile_waterfall.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-[13] [14] <img/how_scrum_works.png, id=378, 1003.75pt x 718.685pt>
+ [11 <./img/agile_waterfall.png>] [12] [13] [14
+
+]
+<img/how_scrum_works.png, id=390, 1003.75pt x 718.685pt>
 File: img/how_scrum_works.png Graphic file (type png)
 
 <use img/how_scrum_works.png>
-Package pdftex.def Info: img/how_scrum_works.png used on input line 446.
+Package pdftex.def Info: img/how_scrum_works.png used on input line 483.
 (pdftex.def)             Requested size: 396.0pt x 283.54298pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 447.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 484.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -1261,9 +1290,7 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15
-
-]
+ [15]
 Underfull \vbox (badness 6236) has occurred while \output is active []
 
  [16 <./img/how_scrum_works.png>] [17] [18] [19] [20] [21] [22] [23] [24] [25]
@@ -1271,122 +1298,122 @@ Underfull \vbox (badness 2165) has occurred while \output is active []
 
  [26]
 [27] [28] [29] [30]
-Overfull \hbox (1.24185pt too wide) in paragraph at lines 710--712
+Overfull \hbox (1.24185pt too wide) in paragraph at lines 751--753
 \T1/lmr/m/n/10.95 Frequent in-te-gra-tion leads to eas-ier de-tec-tion of bugs 
 and also fewer bugs/prob-
  []
 
-[31]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32]
-<img/kanban_board.png, id=608, 360.59718pt x 161.85469pt>
+[31] <img/kanban_board.png, id=616, 360.59718pt x 161.85469pt>
 File: img/kanban_board.png Graphic file (type png)
 
 <use img/kanban_board.png>
-Package pdftex.def Info: img/kanban_board.png used on input line 732.
+Package pdftex.def Info: img/kanban_board.png used on input line 773.
 (pdftex.def)             Requested size: 396.0pt x 177.74432pt.
- [33 <./img/kanban_board.png>]
-Underfull \vbox (badness 3884) has occurred while \output is active []
+ [32 <./img/kanban_board.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-[35] [36] [37
+ [33]
+[34] [35] [36
 
-] [38] [39] [40] [41] [42
+] [37] [38] [39] [40]
+Overfull \hbox (4.49922pt too wide) in paragraph at lines 888--898
+ [] 
+ []
 
-]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+[42]
 Underfull \vbox (badness 4995) has occurred while \output is active []
 
- [43]
-<img/process_policy_sample.png, id=718, 394.47375pt x 391.4625pt>
+ [43
+
+]
+<img/process_policy_sample.png, id=733, 394.47375pt x 391.4625pt>
 File: img/process_policy_sample.png Graphic file (type png)
 
 <use img/process_policy_sample.png>
-Package pdftex.def Info: img/process_policy_sample.png used on input line 870.
+Package pdftex.def Info: img/process_policy_sample.png used on input line 939.
 (pdftex.def)             Requested size: 229.68073pt x 227.92647pt.
 
 Underfull \vbox (badness 2884) has occurred while \output is active []
 
  [44]
 [45 <./img/process_policy_sample.png>] [46]
-<img/post_its.png, id=761, 803.0pt x 712.6625pt>
+<img/post_its.png, id=777, 803.0pt x 712.6625pt>
 File: img/post_its.png Graphic file (type png)
  <use img/post_its.png>
-Package pdftex.def Info: img/post_its.png used on input line 912.
+Package pdftex.def Info: img/post_its.png used on input line 981.
 (pdftex.def)             Requested size: 376.19879pt x 333.88574pt.
 
 [47 <./img/post_its.png>]
-<img/trello_kanban_board.png, id=774, 1263.72125pt x 685.56125pt>
+<img/trello_kanban_board.png, id=789, 1263.72125pt x 685.56125pt>
 File: img/trello_kanban_board.png Graphic file (type png)
 
 <use img/trello_kanban_board.png>
-Package pdftex.def Info: img/trello_kanban_board.png used on input line 925.
+Package pdftex.def Info: img/trello_kanban_board.png used on input line 994.
 (pdftex.def)             Requested size: 396.0pt x 214.82317pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[48] <img/use_case_card.png, id=785, 387.4475pt x 377.41pt>
+[48] <img/use_case_card.png, id=800, 387.4475pt x 377.41pt>
 File: img/use_case_card.png Graphic file (type png)
 
 <use img/use_case_card.png>
-Package pdftex.def Info: img/use_case_card.png used on input line 941.
+Package pdftex.def Info: img/use_case_card.png used on input line 1010.
 (pdftex.def)             Requested size: 178.19879pt x 173.58191pt.
  [49 <./img/trello_kanban_board.png> <./img/use_case_card.png>] <img/use_case_f
-low_card.png, id=793, 390.45876pt x 484.81125pt>
+low_card.png, id=808, 390.45876pt x 484.81125pt>
 File: img/use_case_flow_card.png Graphic file (type png)
 
 <use img/use_case_flow_card.png>
-Package pdftex.def Info: img/use_case_flow_card.png used on input line 954.
+Package pdftex.def Info: img/use_case_flow_card.png used on input line 1023.
 (pdftex.def)             Requested size: 178.19879pt x 221.25525pt.
 
-<img/task_card.png, id=794, 400.49625pt x 131.49126pt>
+<img/task_card.png, id=809, 400.49625pt x 131.49126pt>
 File: img/task_card.png Graphic file (type png)
  <use img/task_card.png>
-Package pdftex.def Info: img/task_card.png used on input line 960.
+Package pdftex.def Info: img/task_card.png used on input line 1029.
 (pdftex.def)             Requested size: 178.19879pt x 58.5064pt.
 
-<img/elevutveckling.png, id=796, 1117.17375pt x 496.85625pt>
+<img/elevutveckling.png, id=811, 1117.17375pt x 496.85625pt>
 File: img/elevutveckling.png Graphic file (type png)
 
 <use img/elevutveckling.png>
-Package pdftex.def Info: img/elevutveckling.png used on input line 977.
+Package pdftex.def Info: img/elevutveckling.png used on input line 1046.
 (pdftex.def)             Requested size: 396.0pt x 176.11606pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [50 <./img/use_case_flow_card.png> <./img/task_card.png>] [51 <./img/elevutveck
-ling.png>] [52] <img/groupworld.png, id=838, 1157.32375pt x 1253.68375pt>
+ling.png>] [52] [53] <img/groupworld.png, id=867, 1157.32375pt x 1253.68375pt>
 File: img/groupworld.png Graphic file (type png)
 
 <use img/groupworld.png>
-Package pdftex.def Info: img/groupworld.png used on input line 1022.
-(pdftex.def)             Requested size: 344.51807pt x 373.20032pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53]
-[54 <./img/groupworld.png>] [55]
-<img/subject_page.png, id=861, 868.24374pt x 1097.09875pt>
+Package pdftex.def Info: img/groupworld.png used on input line 1099.
+(pdftex.def)             Requested size: 396.0pt x 428.96324pt.
+ [54 <./img/groupworld.png>]
+<img/subject_page.png, id=872, 868.24374pt x 1097.09875pt>
 File: img/subject_page.png Graphic file (type png)
 
 <use img/subject_page.png>
-Package pdftex.def Info: img/subject_page.png used on input line 1039.
+Package pdftex.def Info: img/subject_page.png used on input line 1108.
 (pdftex.def)             Requested size: 376.19879pt x 475.35919pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56 <./img/subject_page.png>] [57] [58]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [59
+ [55 <./img/subject_page.png>] [56] [57] [58
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60]
@@ -1396,614 +1423,661 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./xjobb-en.gls [62] [63
 
 
-]) (./xjobb-en.acr [64]) [65
+]) (./xjobb-en.acr [64]) (./xjobb-en.bbl [65
 
 
 ] [66
 
 ]
-bibitemlist
 
-Underfull \hbox (badness 2680) in paragraph at lines 1152--1157
-[]\T1/lmr/m/n/10.95 Agile Al-liance. 2015. The al-liance. [ [][]$\T1/lmtt/m/n/1
-0.95 http : / / www . agilealliance . org /
+Class memoir Warning: The \sc font command is deprecated. 
+(memoir)              Use \textsc{...} or {\scshape... } instead on input line 
+97.
+
+[67]
+Overfull \hbox (41.22122pt too wide) in paragraph at lines 97--97
+[]\T1/lmr/m/n/10.95 Agile Al-liance. The al-liance. 2015. [ [][]$\T1/lmtt/m/n/1
+0.95 http : / / www . agilealliance . org / the-[]alliance/$[][]
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1159--1164
-[]\T1/lmr/m/n/10.95 Crockford, C. 2007. Qual-ity. [ [][]$\T1/lmtt/m/n/10.95 htt
-ps : / / www . youtube . com / watch ? v =
- []
-
-
-Underfull \hbox (badness 4859) in paragraph at lines 1182--1187
-\T1/lmtt/m/n/10.95 talks / simon _ sinek _ why _ good _ leaders _ make _ you _ 
-feel _ safe$[][] \T1/lmr/m/n/10.95 ]. Ac-cessed
- []
-
-[67] [68] [69
+) [68] [69
 
 ]
-Overfull \hbox (9.66515pt too wide) in paragraph at lines 1335--1336
+Overfull \hbox (9.66515pt too wide) in paragraph at lines 1453--1454
 [][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / JvD4oEyF / 47-[]1-[]1-
 []connect-[]to-[]platform-[]pc-[]browser$[][] 
  []
 
 [70]
-Overfull \hbox (9.66515pt too wide) in paragraph at lines 1370--1371
+Overfull \hbox (9.66515pt too wide) in paragraph at lines 1488--1489
 [][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / JvD4oEyF / 47-[]1-[]1-
 []connect-[]to-[]platform-[]pc-[]browser$[][] 
  []
 
 
-Overfull \hbox (32.66008pt too wide) in paragraph at lines 1372--1373
+Overfull \hbox (32.66008pt too wide) in paragraph at lines 1490--1491
 [][][]$\T1/lmtt/m/n/10.95 https : / / trello . com / c / 4krVGIwA / 48-[]1-[]a-
 []connect-[]to-[]platform-[]mobile-[]browser$[][] 
  []
 
 [71] [72] [73] [74
 
-] <img/server_client.png, id=1084, 352.4367pt x 171.7617pt>
+] <img/server_client.png, id=1121, 352.4367pt x 171.7617pt>
 File: img/server_client.png Graphic file (type png)
 
 <use img/server_client.png>
-Package pdftex.def Info: img/server_client.png used on input line 1488.
+Package pdftex.def Info: img/server_client.png used on input line 1606.
 (pdftex.def)             Requested size: 356.39758pt x 173.70595pt.
  [75 <./img/server_client.png>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 1507.
+nput line 1625.
  [76]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1525.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 1643.
  [77] [78]
 [79] [80]
-<pdf/virtual_room_research_results.pdf, id=1258, 596.95016pt x 845.07718pt>
+<pdf/virtual_room_research_results.pdf, id=1295, 596.95016pt x 845.07718pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf used on input li
-ne 1646.
+ne 1764.
 (pdftex.def)             Requested size: 596.94872pt x 845.07512pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf used on input li
-ne 1646.
+ne 1764.
 (pdftex.def)             Requested size: 596.94872pt x 845.07512pt.
  [81
 
 ]
-<pdf/virtual_room_research_results.pdf, id=1265, page=1, 596.95016pt x 845.0771
+<pdf/virtual_room_research_results.pdf, id=1303, page=1, 596.95016pt x 845.0771
 8pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 1>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page1 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.94872pt x 845.07512pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 1>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page1 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 1>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page1 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 1>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page1 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 1>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page1 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [82 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1280, page=2, 596.95016pt x 845.0771
+<pdf/virtual_room_research_results.pdf, id=1318, page=2, 596.95016pt x 845.0771
 8pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 2>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page2 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 2>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page2 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 2>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page2 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [83 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1293, page=3, 596.95016pt x 845.0771
+<pdf/virtual_room_research_results.pdf, id=1331, page=3, 596.95016pt x 845.0771
 8pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 3>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page3 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 3>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page3 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 3>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page3 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [84 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1306, page=4, 596.95016pt x 845.0771
+<pdf/virtual_room_research_results.pdf, id=1343, page=4, 596.95016pt x 845.0771
 8pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 4>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page4 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 4>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page4 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 4>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page4 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [85 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1318, page=5, 596.95016pt x 845.0771
+<pdf/virtual_room_research_results.pdf, id=1355, page=5, 596.95016pt x 845.0771
 8pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 5>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page5 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 5>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page5 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 5>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page5 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [86 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1330, page=6, 596.95016pt x 845.0771
+<pdf/virtual_room_research_results.pdf, id=1367, page=6, 596.95016pt x 845.0771
 8pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 6>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page6 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 6>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page6 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 6>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page6 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [87 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1342, page=7, 596.95016pt x 845.0771
+<pdf/virtual_room_research_results.pdf, id=1379, page=7, 596.95016pt x 845.0771
 8pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 7>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page7 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 7>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page7 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 7>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page7 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [88 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1354, page=8, 596.95016pt x 845.0771
+<pdf/virtual_room_research_results.pdf, id=1391, page=8, 596.95016pt x 845.0771
 8pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 8>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page8 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 8>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page8 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 8>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page8 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [89 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1367, page=9, 596.95016pt x 845.0771
+<pdf/virtual_room_research_results.pdf, id=1404, page=9, 596.95016pt x 845.0771
 8pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 9>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page9 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 9>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page9 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 9>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page9 used on i
-nput line 1646.
+nput line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [90 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1379, page=10, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1416, page=10, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 10>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page10 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 10>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page10 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 10>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page10 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [91 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1391, page=11, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1428, page=11, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 11>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page11 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 11>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page11 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 11>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page11 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [92 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1403, page=12, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1440, page=12, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 12>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page12 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 12>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page12 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 12>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page12 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [93 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1415, page=13, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1452, page=13, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 13>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page13 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 13>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page13 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 13>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page13 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [94 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1427, page=14, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1464, page=14, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 14>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page14 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 14>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page14 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 14>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page14 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [95 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1440, page=15, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1478, page=15, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 15>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page15 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 15>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page15 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 15>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page15 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [96 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1452, page=16, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1490, page=16, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 16>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page16 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 16>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page16 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 16>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page16 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [97 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1464, page=17, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1502, page=17, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 17>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page17 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 17>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page17 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 17>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page17 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [98 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1477, page=18, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1514, page=18, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 18>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page18 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 18>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page18 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 18>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page18 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [99 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1489, page=19, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1526, page=19, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 19>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page19 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 19>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page19 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 19>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page19 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [100 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1501, page=20, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1538, page=20, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 20>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page20 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 20>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page20 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 20>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page20 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [101 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1514, page=21, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1551, page=21, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 21>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page21 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 21>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page21 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 21>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page21 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [102 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1526, page=22, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1563, page=22, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 22>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page22 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 22>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page22 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 22>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page22 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [103 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1538, page=23, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1575, page=23, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 23>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page23 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 23>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page23 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 23>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page23 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [104 <./pdf/virtual_room_research_results.pdf>]
-<pdf/virtual_room_research_results.pdf, id=1550, page=24, 596.95016pt x 845.077
+<pdf/virtual_room_research_results.pdf, id=1587, page=24, 596.95016pt x 845.077
 18pt>
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
  <use pdf/virtual_room_research_results.pdf, page 24>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page24 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 24>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page24 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
 File: pdf/virtual_room_research_results.pdf Graphic file (type pdf)
 
 <use pdf/virtual_room_research_results.pdf, page 24>
 Package pdftex.def Info: pdf/virtual_room_research_results.pdf, page24 used on 
-input line 1646.
+input line 1764.
 (pdftex.def)             Requested size: 596.97603pt x 845.1138pt.
  [105 <./pdf/virtual_room_research_results.pdf>]
 \tf@toc=\write8
 \openout8 = `xjobb-en.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1650.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1650.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1768.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1768.
  (./xjobb-en.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1650.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1650.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1768.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1768.
 
 Package rerunfilecheck Info: File `xjobb-en.out' has not changed.
-(rerunfilecheck)             Checksum: B8D21722D2C39665019C5A5ED13B8223;638.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1650.
+(rerunfilecheck)             Checksum: 6F8CCEBED88FE9A42E85345F754C4241;588.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1768.
  ) 
 Here is how much of TeX's memory you used:
- 21064 strings out of 493117
- 321932 string characters out of 6135432
- 607010 words of memory out of 5000000
- 23762 multiletter control sequences out of 15000+600000
- 89862 words of font info for 62 fonts, out of 8000000 for 9000
+ 21461 strings out of 493117
+ 327414 string characters out of 6135432
+ 615645 words of memory out of 5000000
+ 24121 multiletter control sequences out of 15000+600000
+ 99918 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,92p,1761b,2283s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2014/texmf-dist
-/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
-1/public/lm/lmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
-lm/lmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr8.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2014/texmf-dist/fonts
-/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
-ublic/lm/lmssdc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm
-/lmtk10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pf
-b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on xjobb-en.pdf (113 pages, 9431848 bytes).
+ 55i,18n,92p,1761b,2287s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{cite.key25} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key19} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key18} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key16} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key8} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key7} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key11} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key14} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key15} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key21} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key24} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key23} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key22} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key4} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key3} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.key1} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
+xlive/2014/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2014/texmf-dist/f
+onts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
+/public/lm/lmbx8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/
+lmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
+ype1/public/lm/lmss12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
+c/lm/lmssbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lms
+sdc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtk10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
+Output written on xjobb-en.pdf (113 pages, 9462691 bytes).
 PDF statistics:
- 1705 PDF objects out of 1728 (max. 8388607)
- 1426 compressed objects within 15 object streams
- 430 named destinations out of 1000 (max. 500000)
- 307 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1751 PDF objects out of 2073 (max. 8388607)
+ 1470 compressed objects within 15 object streams
+ 455 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 

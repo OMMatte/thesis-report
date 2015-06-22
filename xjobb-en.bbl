@@ -1,0 +1,97 @@
+\begin{thebibliography}{10}
+
+\bibitem{key2}
+Agile Alliance. The alliance. 2015. [
+  \url{http://www.agilealliance.org/the-alliance/} ]. Accessed Mars 5, 2015.
+
+\bibitem{key16}
+{\sc Anderson, D.~J.}
+\newblock {\em Kanban: successful evolutionary change for technology
+  organizations}.
+\newblock Blue Hole Press, 2010.
+
+\bibitem{key14}
+{\sc Beck, K., and Andres, C.}
+\newblock {\em Extreme programming explained: embrace change}, 2~ed.
+\newblock Addison-Wesley Professional, New Jersey, 2004.
+
+\bibitem{key5}
+{\sc Cockburn, A.}
+\newblock {\em Crystal clear: a human-powered methodology for small teams}.
+\newblock Addison-Wesley Professional, New Jersey, 2004.
+
+\bibitem{key3}
+{\sc Crockford, D.}
+\newblock Quality.
+\newblock 2007. [ \url{https://www.youtube.com/watch?v=t9YLtDJZtPY&t=175} ].
+  Accessed Mars 12, 2015.
+
+\bibitem{key19}
+Everyday Kanban. What is kanban. 2015. [
+  \url{http://www.everydaykanban.com/what-is-kanban/} ]. Accessed Mars 25,
+  2015.
+
+\bibitem{key24}
+{\sc Fowler, M.}
+\newblock Agile vs lean.
+\newblock 2008. [ \url{http://martinfowler.com/bliki/AgileVersusLean.html} ].
+  Accessed April 1, 2015.
+
+\bibitem{key25}
+{\sc Jacobson, I., Spence, I., and Bittner, K.}
+\newblock Use-case 2.0.
+\newblock 2011. [ \url{http://www.ivarjacobson.com/Use_Case2.0_ebook/} ].
+  Accessed Mars 8, 2015.
+
+\bibitem{key8}
+{\sc Keil, M., and Carmel, E.}
+\newblock Customer developer links in software development.
+\newblock {\em Commun ACM 38\/} (1995), 33--44.
+
+\bibitem{key18}
+{\sc Klipp, P.}
+\newblock Getting started with kanban.
+\newblock 2014. [ \url{https://kanbanery.com/ebook/} ]. Accessed Mars 20, 2015.
+
+\bibitem{key4}
+{\sc Knuth, D.~E.}
+\newblock Literate programming.
+\newblock {\em Computer J 27\/} (1984), 97--111.
+
+\bibitem{key1}
+{\sc Martin, R.~C., and Micah, M.}
+\newblock {\em Agile principles, patterns, and practices in C\#}.
+\newblock Prentice Hall, Massachusetts, 2006.
+
+\bibitem{key23}
+{\sc Poppendieck, M., and Poppendieck, T.}
+\newblock {\em Lean software development: an agile toolkit}.
+\newblock Addison-Wesley Professional, New Jersey, 2003.
+
+\bibitem{key21}
+{\sc Schwaber, K.}
+\newblock {\em Agile project management with scrum}.
+\newblock Microsoft Press, 2004.
+
+\bibitem{key15}
+Scrum Guides. The scrum guide. 2013. [
+  \url{http://www.scrumguides.org/scrum-guide.html} ]. Accessed Mars 23, 2015.
+
+\bibitem{key7}
+{\sc Sinek, S.}
+\newblock Why good leaders make you feel safe.
+\newblock 2014. [ \url{http://www.ivarjacobson.com/Use_Case2.0_ebook/} ].
+  Accessed Mars 13, 2015.
+
+\bibitem{key11}
+{\sc Williams, L., Kessler, R.~R., Cunningham, W., and Jeffries, R.}
+\newblock Strengthening the case for pair programming.
+\newblock {\em IEEE Softw 17\/} (2000), 19--25.
+
+\bibitem{key22}
+{\sc Womack, J.~P., Jones, D.~T., and Roos, D.}
+\newblock {\em The machine that changed the world: the story of lean
+  production}.
+\newblock Free Press, New York, 2007.
+
+\end{thebibliography}
